@@ -1,6 +1,8 @@
 #include "global.h"
 #include "battle.h"
 #include "battle_main.h"
+#include "battle_anim.h"
+#include "battle_terastal.h"
 #include "battle_util.h"
 #include "bg.h"
 #include "constants/rgb.h"
@@ -89,9 +91,14 @@ struct RogueTypeChartUi
     u8 pickedType;                 // タブ3で えらんでいる タイプ（表示順）
     u8 pickedType2;                // TYPE_PICK_NONE で「なし」
     u8 partyCount;
-    u8 monTypes[PARTY_SIZE][2];
+    u8 monTypes[PARTY_SIZE][3];                   // TYPE_NONE で うめる
+    u8 monPartyIndex[PARTY_SIZE];
     u8 monMoveTypes[PARTY_SIZE][MAX_MON_MOVES];   // TYPE_NONE で 攻撃わざ でない
     u8 monLabel[PARTY_SIZE][3];
+
+    bool8 fromBattle;
+    u8 opponentCount;
+    u8 opponentTypes[2][3];
 };
 
 static EWRAM_DATA struct RogueTypeChartUi *sUi = NULL;
@@ -264,15 +271,65 @@ static u8 EffLevelFromMultiplier(uq4_12_t mul)
     return EFF_QUAD;
 }
 
-// 攻撃タイプ atk が、type1/type2 の相手に どれだけ とおるか
-static uq4_12_t DefenceMultiplier(u8 atkType, u8 type1, u8 type2)
+// 攻撃タイプ atk が、types[] を持つ相手に どれだけ とおるか。
+// おなじタイプを 二重に かけないよう、出てきたものは 覚えておく。
+static uq4_12_t DefenceMultiplier(u8 atkType, const u8 *types)
 {
-    uq4_12_t mul = GetTypeModifier(atkType, type1);
+    uq4_12_t mul = UQ_4_12(1.0);
+    u8 i, j;
 
-    if (type2 != type1 && type2 < NUMBER_OF_MON_TYPES)
-        mul = uq4_12_multiply(mul, GetTypeModifier(atkType, type2));
+    for (i = 0; i < 3; ++i)
+    {
+        if (types[i] >= NUMBER_OF_MON_TYPES)
+            continue;
+
+        for (j = 0; j < i; ++j)
+        {
+            if (types[j] == types[i])
+                break;
+        }
+
+        if (j != i)
+            continue;
+
+        mul = uq4_12_multiply(mul, GetTypeModifier(atkType, types[i]));
+    }
 
     return mul;
+}
+
+// 表に出す 18タイプの なかの 何番目か
+static u8 DisplayIndexOfType(u8 type)
+{
+    u8 i;
+
+    for (i = 0; i < DISPLAY_TYPE_COUNT; ++i)
+    {
+        if (sDisplayTypes[i] == type)
+            return i;
+    }
+
+    return 0;
+}
+
+// バトル中に あいての タイプと 合っている 行か（見出しの色を 変えるため）
+static bool8 IsOpponentType(u8 type)
+{
+    u8 i, j;
+
+    if (!sUi->fromBattle)
+        return FALSE;
+
+    for (i = 0; i < sUi->opponentCount; ++i)
+    {
+        for (j = 0; j < 3; ++j)
+        {
+            if (sUi->opponentTypes[i][j] == type)
+                return TRUE;
+        }
+    }
+
+    return FALSE;
 }
 
 static void CacheParty(void)
@@ -291,6 +348,8 @@ static void CacheParty(void)
 
         sUi->monTypes[sUi->partyCount][0] = gSpeciesInfo[species].types[0];
         sUi->monTypes[sUi->partyCount][1] = gSpeciesInfo[species].types[1];
+        sUi->monTypes[sUi->partyCount][2] = TYPE_NONE;
+        sUi->monPartyIndex[sUi->partyCount] = i;
 
         for (j = 0; j < MAX_MON_MOVES; ++j)
         {
@@ -314,6 +373,61 @@ static void CacheParty(void)
         }
 
         sUi->partyCount++;
+    }
+}
+
+
+// バトル中に 開いたとき。あいての タイプと、場に出ている 味方のタイプを
+// バトル側から とる（テラスタルや タイプ変化を そのまま うつすため）。
+static void ReadBattlerTypes(u32 battler, u8 *dst)
+{
+    if (IsTerastallized(battler))
+    {
+        dst[0] = GetBattlerTeraType(battler);
+        dst[1] = TYPE_NONE;
+        dst[2] = TYPE_NONE;
+        return;
+    }
+
+    dst[0] = gBattleMons[battler].type1;
+    dst[1] = gBattleMons[battler].type2;
+    dst[2] = gBattleMons[battler].type3;
+}
+
+static void CacheBattle(void)
+{
+    static const u8 sOpponentPositions[2] = { B_POSITION_OPPONENT_LEFT, B_POSITION_OPPONENT_RIGHT };
+    u8 i, j;
+
+    sUi->opponentCount = 0;
+
+    for (i = 0; i < ARRAY_COUNT(sOpponentPositions); ++i)
+    {
+        u32 battler = GetBattlerAtPosition(sOpponentPositions[i]);
+
+        if (battler >= gBattlersCount)
+            continue;
+        if (gBattleMons[battler].species == SPECIES_NONE || !IsBattlerAlive(battler))
+            continue;
+
+        ReadBattlerTypes(battler, sUi->opponentTypes[sUi->opponentCount]);
+        sUi->opponentCount++;
+    }
+
+    // 場に出ている 味方は バトル側のタイプで 上書きする
+    for (i = 0; i < gBattlersCount; ++i)
+    {
+        if (GetBattlerSide(i) != B_SIDE_PLAYER || !IsBattlerAlive(i))
+            continue;
+
+        for (j = 0; j < sUi->partyCount; ++j)
+        {
+            if (sUi->monPartyIndex[j] == gBattlerPartyIndexes[i])
+            {
+                ReadBattlerTypes(i, sUi->monTypes[j]);
+                break;
+            }
+        }
     }
 }
 
@@ -405,7 +519,7 @@ static void DrawPartyGrid(bool8 coverage)
             u16 y = row * ROW_HEIGHT;
             u8 count = 0;
 
-            PrintOnMain(sTypeNames[index], COLUMN_X(col), y, FALSE);
+            PrintOnMain(sTypeNames[index], COLUMN_X(col), y, IsOpponentType(type));
 
             for (mon = 0; mon < sUi->partyCount; ++mon)
             {
@@ -437,7 +551,7 @@ static void DrawPartyGrid(bool8 coverage)
                 }
                 else
                 {
-                    mul = DefenceMultiplier(type, sUi->monTypes[mon][0], sUi->monTypes[mon][1]);
+                    mul = DefenceMultiplier(type, sUi->monTypes[mon]);
                     level = EffLevelFromMultiplier(mul);
 
                     if (level >= EFF_DOUBLE)
@@ -482,7 +596,14 @@ static void DrawMatchup(void)
             }
 
             // ぼうぎょ: この タイプで えらんだ タイプを 殴られたとき
-            defMul = DefenceMultiplier(type, picked, picked2 == TYPE_NONE ? picked : picked2);
+            {
+                u8 pickedTypes[3];
+
+                pickedTypes[0] = picked;
+                pickedTypes[1] = picked2;
+                pickedTypes[2] = TYPE_NONE;
+                defMul = DefenceMultiplier(type, pickedTypes);
+            }
 
             BlitCellIcon(EffLevelFromMultiplier(atkMul), MATCHUP_ATK_X(col) + 4, y + 4);
             BlitCellIcon(EffLevelFromMultiplier(defMul), MATCHUP_DEF_X(col) + 4, y + 4);
@@ -546,6 +667,22 @@ void Rogue_OpenTypeChartFromField(void)
 void Rogue_OpenTypeChartFromBattle(void)
 {
     SetupUi(NULL);
+    sUi->fromBattle = TRUE;
+    CacheBattle();
+
+    // バトル中は 知りたいのが「あいての 弱点」なので、
+    // そうせいタブを あいての タイプで 開いた 状態にしておく。
+    if (sUi->opponentCount != 0)
+    {
+        u8 *types = sUi->opponentTypes[0];
+
+        sUi->tab = TAB_TYPE_MATCHUP;
+        sUi->pickedType = DisplayIndexOfType(types[0]);
+
+        if (types[1] < NUMBER_OF_MON_TYPES && types[1] != types[0])
+            sUi->pickedType2 = DisplayIndexOfType(types[1]);
+    }
+
     SetMainCallback2(CB2_InitTypeChart);
 }
 

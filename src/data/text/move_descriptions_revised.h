@@ -159,9 +159,7 @@ static const u8 sMakeItRainDescription_Revised[] = _(
     "Harshly lowers user's Sp. Atk\n"
     "and scatters coins on field.");
 
-static const u8 sRageFistDescription_Revised[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+static const u8 sRageFistDescription_Revised[] = _("{JPN}2から 3ターン あばれて\nそのあと こんらんする。");
 
 static const u8 sIcePunchDescription_Revised[] = _(
     "An icy punch that may\n"
@@ -171,9 +169,7 @@ static const u8 sIceBeamDescription_Revised[] = _(
     "Blasts the foe with an icy\n"
     "beam. May cause frostbite.");
 
-static const u8 sBlizzardDescription_Revised[] = _(
-    "Hits the foe with an icy\n"
-    "storm. May cause frostbite.");
+static const u8 sBlizzardDescription_Revised[] = _("{JPN}こおりの あらしで こうげき。\nしもやけに することが ある。");
 
 static const u8 sFreezingGlareDescription_Revised[] = _(
     "Shoots psychic power from\n"

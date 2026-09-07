@@ -84,9 +84,7 @@ static const u8 sWrapDescription[] = _(
 
 static const u8 sTakeDownDescription[] = _("{JPN}すごい いきおいで あいてに ぶつかって\nこうげきする。");
 
-static const u8 sThrashDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+static const u8 sThrashDescription[] = _("{JPN}2から 3ターン あばれて\nそのあと こんらんする。");
 
 static const u8 sDoubleEdgeDescription[] = _("{JPN}いのちを かけて あいてに とっしんして\nこうげきする。");
 
@@ -136,9 +134,7 @@ static const u8 sSurfDescription[] = _("{JPN}おおきな なみで じぶんの
 
 static const u8 sIceBeamDescription[] = _("{JPN}こごえる ビームを あいてに はっしゃして\nこうげきする。");
 
-static const u8 sBlizzardDescription[] = _(
-    "Hits the foe with an icy\n"
-    "storm. May cause frostbite.");
+static const u8 sBlizzardDescription[] = _("{JPN}こおりの あらしで こうげき。\nしもやけに することが ある。");
 
 static const u8 sPsybeamDescription[] = _("{JPN}ふしぎな こうせんを あいてに はっしゃして\nこうげきする。 こんらん させることが ある。");
 
@@ -146,9 +142,7 @@ static const u8 sBubbleBeamDescription[] = _("{JPN}あわを いきおいよく 
 
 static const u8 sAuroraBeamDescription[] = _("{JPN}にじいろの ビームを あいてに はっしゃして\nこうげきする。 こうげきを さげる ことが ある。");
 
-static const u8 sHyperBeamDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+static const u8 sHyperBeamDescription[] = _("{JPN}いりょくは たかいが つぎの\nターンは うごけなく なる。");
 
 static const u8 sPeckDescription[] = _("{JPN}するどく とがった くちばしや つので あいてを\nつついて こうげきする。");
 
@@ -160,9 +154,7 @@ static const u8 sLowKickDescription[] = _("{JPN}あしを つよく けり あ�
 
 static const u8 sCounterDescription[] = _("{JPN}あいてから うけた ぶつり こうげきの ダメージを\n2ばいに して おなじ あいてに かえす。");
 
-static const u8 sSeismicTossDescription[] = _(
-    "Inflicts damage identical\n"
-    "to the user's level.");
+static const u8 sSeismicTossDescription[] = _("{JPN}じぶんの レベルと おなじ\nダメージを あたえる。");
 
 static const u8 sStrengthDescription[] = _("{JPN}こんしんの ちからで あいてを なぐりつけて\nこうげきする。");
 
@@ -176,9 +168,7 @@ static const u8 sGrowthDescription[] = _("{JPN}からだを いっきに おお�
 
 static const u8 sRazorLeafDescription[] = _("{JPN}はっぱを とばして あいてを きりつけて\nこうげきする。 きゅうしょに あたりやすい。");
 
-static const u8 sSolarBeamDescription[] = _(
-    "Absorbs light in one turn,\n"
-    "then attacks next turn.");
+static const u8 sSolarBeamDescription[] = _("{JPN}1ターンめに ひかりを あつめ\n2ターンめに こうげきする。");
 
 static const u8 sPoisonPowderDescription[] = _("{JPN}どくの ある こなを たくさん ふりまいて あいてを\nどく じょうたいに する。");
 
@@ -186,9 +176,7 @@ static const u8 sStunSporeDescription[] = _("{JPN}しびれる こなを たく�
 
 static const u8 sSleepPowderDescription[] = _("{JPN}ねむくなる こなを たくさん ふりまいて あいてを\nねむり じょうたいに する。");
 
-static const u8 sPetalDanceDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+static const u8 sPetalDanceDescription[] = _("{JPN}2から 3ターン あばれて\nそのあと こんらんする。");
 
 static const u8 sStringShotDescription[] = _("{JPN}くちから ふきだした いとを まきつけて あいての\nすばやさを がくっと さげる。");
 
@@ -232,9 +220,7 @@ static const u8 sRageDescription[] = _("{JPN}わざを だしたときに こう
 
 static const u8 sTeleportDescription[] = _("{JPN}ひかえの ポケモンが いるときに つかうと\nいれかわる。 やせいの ポケモンは にげてしまう。");
 
-static const u8 sNightShadeDescription[] = _(
-    "Inflicts damage identical\n"
-    "to the user's level.");
+static const u8 sNightShadeDescription[] = _("{JPN}じぶんの レベルと おなじ\nダメージを あたえる。");
 
 static const u8 sMimicDescription[] = _("{JPN}あいてが さいごに つかった わざを せんとうの\nあいだ じぶんの わざに することが できる。");
 
@@ -242,9 +228,7 @@ static const u8 sScreechDescription[] = _("{JPN}おもわず みみを ふさぎ
 
 static const u8 sDoubleTeamDescription[] = _("{JPN}すばやい うごきで ぶんしんを つくり あいてを\nまどわせて かいひりつを あげる。");
 
-static const u8 sRecoverDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+static const u8 sRecoverDescription[] = _("{JPN}さいだい HPの はんぶんまで\nたいりょくを かいふくする。");
 
 static const u8 sHardenDescription[] = _("{JPN}ぜんしんに ちからを こめて からだを かたくして\nじぶんの ぼうぎょを あげる。");
 
@@ -274,9 +258,7 @@ static const u8 sMetronomeDescription[] = _("{JPN}ゆびをふり じぶんの �
 
 static const u8 sMirrorMoveDescription[] = _("{JPN}あいての つかった わざを まねして じぶんも\nおなじ わざを つかう。");
 
-static const u8 sSelfDestructDescription[] = _(
-    "Inflicts severe damage but\n"
-    "makes the user faint.");
+static const u8 sSelfDestructDescription[] = _("{JPN}おおきな ダメージを あたえるが\nじぶんは ひんしに なる。");
 
 static const u8 sEggBombDescription[] = _("{JPN}おおきな タマゴを ちから いっぱい あいてに\nなげつけて こうげきする。");
 
@@ -308,9 +290,7 @@ static const u8 sAmnesiaDescription[] = _("{JPN}あたまを からにして い
 
 static const u8 sKinesisDescription[] = _("{JPN}スプーンを まげて ちゅういを ひき あいての\nめいちゅうりつを さげる。");
 
-static const u8 sSoftBoiledDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+static const u8 sSoftBoiledDescription[] = _("{JPN}さいだい HPの はんぶんまで\nたいりょくを かいふくする。");
 
 static const u8 sHighJumpKickDescription[] = _("{JPN}ジャンプからの ひざげりで あいてを こうげきする。\nはずすと じぶんが ダメージを うける。");
 
@@ -322,9 +302,7 @@ static const u8 sPoisonGasDescription[] = _("{JPN}どくガスを あいての �
 
 static const u8 sBarrageDescription[] = _("{JPN}まるい ものを あいてに なげつけて こうげきする。\n2ー5かいの あいだ れんぞくで だす。");
 
-static const u8 sLeechLifeDescription[] = _(
-    "An attack that steals half\n"
-    "the damage inflicted.");
+static const u8 sLeechLifeDescription[] = _("{JPN}あたえた ダメージの はんぶんを\nすいとる こうげき。");
 
 static const u8 sLovelyKissDescription[] = _("{JPN}おそろしい かおで キスを せまる。 あいてを\nねむり じょうたいに する。");
 
@@ -342,17 +320,13 @@ static const u8 sFlashDescription[] = _("{JPN}まぶしい ひかりで あい�
 
 static const u8 sPsywaveDescription[] = _("{JPN}ふしぎな ねんぱを あいてに はっしゃして\nこうげきする。 つかう たびに ダメージが かわる。");
 
-static const u8 sSplashDescription[] = _(
-    "It's just a splash...\n"
-    "Has no effect whatsoever.");
+static const u8 sSplashDescription[] = _("{JPN}ただ はねるだけ…\nなんの こうかも ない。");
 
 static const u8 sAcidArmorDescription[] = _("{JPN}さいぼうの へんかで えきじょうに なり じぶんの\nぼうぎょを ぐーんと あげる。");
 
 static const u8 sCrabhammerDescription[] = _("{JPN}おおきな ハサミを あいてに たたきつけて\nこうげきする。 きゅうしょに あたりやすい。");
 
-static const u8 sExplosionDescription[] = _(
-    "Inflicts severe damage but\n"
-    "makes the user faint.");
+static const u8 sExplosionDescription[] = _("{JPN}おおきな ダメージを あたえるが\nじぶんは ひんしに なる。");
 
 static const u8 sFurySwipesDescription[] = _("{JPN}ツメや カマなどで あいてを ひっかいて\nこうげきする。");
 
@@ -396,9 +370,7 @@ static const u8 sSnoreDescription[] = _("{JPN}じぶんが ねている とき�
 
 static const u8 sCurseDescription[] = _("{JPN}つかう ポケモンが ゴーストタイプと それいがい\nとでは こうかが かわる。");
 
-static const u8 sFlailDescription[] = _(
-    "Inflicts more damage when\n"
-    "the user's HP is down.");
+static const u8 sFlailDescription[] = _("{JPN}じぶんの HPが すくないほど\nダメージが おおきく なる。");
 
 static const u8 sConversion2Description[] = _("{JPN}あいてが さいごに つかった わざに ていこう\nできる ように じぶんの タイプを へんか させる。");
 
@@ -406,9 +378,7 @@ static const u8 sAeroblastDescription[] = _("{JPN}くうきの うずを はっ�
 
 static const u8 sCottonSporeDescription[] = _("{JPN}わたのような フワフワの ほうしを まとわり\nつかせて あいての すばやさを がくっと さげる。");
 
-static const u8 sReversalDescription[] = _(
-    "Inflicts more damage when\n"
-    "the user's HP is down.");
+static const u8 sReversalDescription[] = _("{JPN}じぶんの HPが すくないほど\nダメージが おおきく なる。");
 
 static const u8 sSpiteDescription[] = _("{JPN}あいてが さいごに つかった わざに うらみを\nいだいて そのわざの PPを 4だけ へらす。");
 
@@ -450,15 +420,11 @@ static const u8 sBoneRushDescription[] = _("{JPN}かたい ホネで あいて�
 
 static const u8 sLockOnDescription[] = _("{JPN}しょうじゅんを しっかり あわせて つぎの\nこうげきが かならず あいてに あたるように する。");
 
-static const u8 sOutrageDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+static const u8 sOutrageDescription[] = _("{JPN}2から 3ターン あばれて\nそのあと こんらんする。");
 
 static const u8 sSandstormDescription[] = _("{JPN}5ターンの あいだ すなあらしで いわ じめん\nはがねタイプ いがいに ダメージ。");
 
-static const u8 sGigaDrainDescription[] = _(
-    "An attack that steals half\n"
-    "the damage inflicted.");
+static const u8 sGigaDrainDescription[] = _("{JPN}あたえた ダメージの はんぶんを\nすいとる こうげき。");
 
 static const u8 sEndureDescription[] = _("{JPN}こうげきを うけても HPを かならず 1だけ\nのこせる。 れんぞくで だすと しっぱい しやすい。");
 
@@ -470,9 +436,7 @@ static const u8 sFalseSwipeDescription[] = _("{JPN}あいての HPが かなら�
 
 static const u8 sSwaggerDescription[] = _("{JPN}あいてを おこらせて こんらん させる。 いかりで\nあいての こうげきは ぐーんと あがってしまう。");
 
-static const u8 sMilkDrinkDescription[] = _(
-    "Recovers up to half the\n"
-    "user's maximum HP.");
+static const u8 sMilkDrinkDescription[] = _("{JPN}さいだい HPの はんぶんまで\nたいりょくを かいふくする。");
 
 static const u8 sSparkDescription[] = _("{JPN}でんきを まとい あいてに とっしんして\nこうげきする。");
 
@@ -480,9 +444,7 @@ static const u8 sFuryCutterDescription[] = _("{JPN}カマや ツメ などで �
 
 static const u8 sSteelWingDescription[] = _("{JPN}かたい つばさを あいてに たたきつけて\nこうげきする。");
 
-static const u8 sMeanLookDescription[] = _(
-    "Fixes the foe with a mean\n"
-    "look that prevents escape.");
+static const u8 sMeanLookDescription[] = _("{JPN}こわい かおで にらみつけて\nあいてを にげられなく する。");
 
 static const u8 sAttractDescription[] = _("{JPN}♂なら♀を ♀なら♂を ゆうわくして メロメロに\nする。 あいては わざが だしにくく なる。");
 
@@ -588,9 +550,7 @@ static const u8 sSwallowDescription[] = _("{JPN}たくわえた ちからを の
 
 static const u8 sHeatWaveDescription[] = _("{JPN}あつい いきを あいてに ふきつけて こうげきする。\nやけど じょうたいに することが ある。");
 
-static const u8 sHailDescription[] = _(
-    "Summons a hailstorm that\n"
-    "strikes every turn.");
+static const u8 sHailDescription[] = _("{JPN}あられを ふらせて まいターン\nダメージを あたえる。");
 
 static const u8 sTormentDescription[] = _("{JPN}あいてに いちゃもんを つけて おなじ わざを\n2かい れんぞくで だせなくする。");
 
@@ -600,9 +560,7 @@ static const u8 sWillOWispDescription[] = _("{JPN}ぶきみで あやしい ほ�
 
 static const u8 sMementoDescription[] = _("{JPN}じぶんは ひんしに なるが そのかわりに あいての\nこうげきと とくこうを がくっと さげる。");
 
-static const u8 sFacadeDescription[] = _(
-    "Boosts Attack when burned,\n"
-    "paralyzed, or poisoned.");
+static const u8 sFacadeDescription[] = _("{JPN}やけど まひ どくの ときに\nこうげきが あがる。");
 
 static const u8 sFocusPunchDescription[] = _("{JPN}せいしんを たかめて パンチを くりだす。 わざを\nだす までに こうげきを うけると しっぱい する。");
 
@@ -622,13 +580,9 @@ static const u8 sTrickDescription[] = _("{JPN}あいての すきを ついて �
 
 static const u8 sRolePlayDescription[] = _("{JPN}あいてに なりきって じぶんも あいてと おなじ\nとくせいに へんかする。");
 
-static const u8 sWishDescription[] = _(
-    "A wish that restores HP.\n"
-    "It takes time to work.");
+static const u8 sWishDescription[] = _("{JPN}HPを かいふくする ねがい。\nきくまでに じかんが かかる。");
 
-static const u8 sAssistDescription[] = _(
-    "Attacks randomly with one\n"
-    "of the partner's moves.");
+static const u8 sAssistDescription[] = _("{JPN}なかまの わざの どれかを\nランダムに つかって こうげき。");
 
 static const u8 sIngrainDescription[] = _("{JPN}だいちに ねを はり まいターン じぶんの HPを\nかいふく する。");
 
@@ -658,9 +612,7 @@ static const u8 sRefreshDescription[] = _("{JPN}からだを やすめて じぶ
 
 static const u8 sGrudgeDescription[] = _("{JPN}あいての わざで ひんしに されたとき おんねんを\nかけて そのわざの PPを 0に する。");
 
-static const u8 sSnatchDescription[] = _(
-    "Steals the effects of the\n"
-    "move the target uses next.");
+static const u8 sSnatchDescription[] = _("{JPN}あいてが つぎに つかう わざの\nこうかを よこどりする。");
 
 static const u8 sSecretPowerDescription[] = _("{JPN}つかう ばしょで ついかこうか が へんかする\nこうげき。");
 
@@ -670,9 +622,7 @@ static const u8 sArmThrustDescription[] = _("{JPN}ひらいた りょうてで �
 
 static const u8 sCamouflageDescription[] = _("{JPN}みずべや くさむら どうくつなど いる ばしょに\nあわせて じぶんの タイプを かえる。");
 
-static const u8 sTailGlowDescription[] = _(
-    "Flashes a light that sharply\n"
-    "raises Sp. Atk.");
+static const u8 sTailGlowDescription[] = _("{JPN}ひかりを はなって とくこうを\nぐーんと あげる。");
 
 static const u8 sLusterPurgeDescription[] = _("{JPN}まばゆい ひかりを ときはなって こうげきする。\nあいての とくぼうを さげることが ある。");
 
@@ -698,13 +648,9 @@ static const u8 sPoisonFangDescription[] = _("{JPN}どくの ある キバで �
 
 static const u8 sCrushClawDescription[] = _("{JPN}かたく するどい ツメで きりさいて こうげきする。\nあいての ぼうぎょを さげることが ある。");
 
-static const u8 sBlastBurnDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+static const u8 sBlastBurnDescription[] = _("{JPN}いりょくは たかいが つぎの\nターンは うごけなく なる。");
 
-static const u8 sHydroCannonDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+static const u8 sHydroCannonDescription[] = _("{JPN}いりょくは たかいが つぎの\nターンは うごけなく なる。");
 
 static const u8 sMeteorMashDescription[] = _("{JPN}すいせいの ごとく パンチを くりだして あいてを\nこうげきする。");
 
@@ -766,13 +712,9 @@ static const u8 sHowlDescription[] = _("{JPN}おおごえで ほえて きあい
 
 static const u8 sDragonClawDescription[] = _("{JPN}するどく とがった きょだいな ツメで あいてを\nきりさいて こうげきする。");
 
-static const u8 sFrenzyPlantDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+static const u8 sFrenzyPlantDescription[] = _("{JPN}いりょくは たかいが つぎの\nターンは うごけなく なる。");
 
-static const u8 sBulkUpDescription[] = _(
-    "Bulks up the body to boost\n"
-    "both Attack and Defense.");
+static const u8 sBulkUpDescription[] = _("{JPN}からだを おおきくして こうげきと\nぼうぎょを あげる。");
 
 static const u8 sBounceDescription[] = _("{JPN}そらたかく とびはねて 2ターンめに あいてを\nこうげきする。");
 
@@ -804,293 +746,149 @@ static const u8 sDoomDesireDescription[] = _("{JPN}わざを つかった 2タ�
 
 static const u8 sPsychoBoostDescription[] = _("{JPN}フルパワーで あいてを こうげきする。 つかうと\nはんどうで じぶんの とくこうが がくっと さがる。");
 
-static const u8 sRoostDescription[] = _(
-    "Restores the user's HP by\n"
-    "half of its max HP.");
-
-static const u8 sGravityDescription[] = _(
-    "Gravity is intensified\n"
-    "negating levitation.");
-
-static const u8 sMiracleEyeDescription[] = _(
-    "Negate evasiveness and\n"
-    "Dark-type's immunities.");
-
-static const u8 sWakeUpSlapDescription[] = _(
-    "Powerful against sleeping\n"
-    "foes, but also heals them.");
-
-static const u8 sHammerArmDescription[] = _(
-    "A swinging fist attack\n"
-    "that also lowers Speed.");
-
-static const u8 sGyroBallDescription[] = _(
-    "A high-speed spin that does\n"
-    "more damage to faster foes.");
-
-static const u8 sHealingWishDescription[] = _(
-    "The user faints to heal up\n"
-    "the recipient.");
-
-static const u8 sBrineDescription[] = _(
-    "Does double damage to foes\n"
-    "with half HP.");
-
-static const u8 sNaturalGiftDescription[] = _(
-    "The effectiveness varies\n"
-    "with the held Berry.");
-
-static const u8 sFeintDescription[] = _(
-    "An attack that hits foes\n"
-    "using moves like Protect.");
-
-static const u8 sPluckDescription[] = _(
-    "Eats the foe's held Berry\n"
-    "gaining its effect.");
-
-static const u8 sTailwindDescription[] = _(
-    "Whips up a turbulent breeze\n"
-    "that raises Speed.");
-
-static const u8 sAcupressureDescription[] = _(
-    "The user sharply raises\n"
-    "one of its stats.");
-
-static const u8 sMetalBurstDescription[] = _(
-    "Retaliates any hit with\n"
-    "greater power.");
-
-static const u8 sUTurnDescription[] = _(
-    "Does damage then switches\n"
-    "out the user.");
-
-static const u8 sCloseCombatDescription[] = _(
-    "A strong attack but lowers\n"
-    "the defensive stats.");
-
-static const u8 sPaybackDescription[] = _(
-    "An attack that gains power\n"
-    "if the user moves last.");
-
-static const u8 sAssuranceDescription[] = _(
-    "An attack that gains power\n"
-    "if the foe has been hurt.");
-
-static const u8 sEmbargoDescription[] = _(
-    "Prevents the foe from\n"
-    "using any items.");
-
-static const u8 sFlingDescription[] = _(
-    "The effectiveness varies\n"
-    "with the held item.");
-
-static const u8 sPsychoShiftDescription[] = _(
-    "Transfers status problems\n"
-    "to the foe.");
-
-static const u8 sTrumpCardDescription[] = _(
-    "The less PP the move has\n"
-    "the more damage it does.");
-
-static const u8 sHealBlockDescription[] = _(
-    "Prevents the foe from\n"
-    "recovering any HP.");
-
-static const u8 sWringOutDescription[] = _(
-    "The higher the foe's HP\n"
-    "the more damage caused.");
-
-static const u8 sPowerTrickDescription[] = _(
-    "The user swaps its Attack\n"
-    "and Defense stats.");
-
-static const u8 sGastroAcidDescription[] = _(
-    "Stomach acid suppresses\n"
-    "the foe's ability.");
-
-static const u8 sLuckyChantDescription[] = _(
-    "Prevents the foe from\n"
-    "landing critical hits.");
-
-static const u8 sMeFirstDescription[] = _(
-    "Executes the foe's attack\n"
-    "with greater power.");
-
-static const u8 sCopycatDescription[] = _(
-    "The user mimics the last\n"
-    "move used by a foe.");
-
-static const u8 sPowerSwapDescription[] = _(
-    "Swaps changes to Attack\n"
-    "and Sp. Atk with the foe.");
-
-static const u8 sGuardSwapDescription[] = _(
-    "Swaps changes to Defense\n"
-    "and Sp. Def with the foe.");
-
-static const u8 sPunishmentDescription[] = _(
-    "Does more damage if the\n"
-    "foe has powered up.");
-
-static const u8 sLastResortDescription[] = _(
-    "Can only be used if every\n"
-    "other move has been used.");
-
-static const u8 sWorrySeedDescription[] = _(
-    "Plants a seed on the foe\n"
-    "giving it Insomnia.");
-
-static const u8 sSuckerPunchDescription[] = _(
-    "Strikes first if the foe\n"
-    "is preparing an attack.");
-
-static const u8 sToxicSpikesDescription[] = _(
-    "Sets spikes that poison a\n"
-    "foe switching in.");
-
-static const u8 sHeartSwapDescription[] = _(
-    "Swaps any stat changes\n"
-    "with the foe.");
-
-static const u8 sAquaRingDescription[] = _(
-    "Forms a veil of water\n"
-    "that restores HP.");
-
-static const u8 sMagnetRiseDescription[] = _(
-    "The user levitates with\n"
-    "electromagnetism.");
-
-static const u8 sFlareBlitzDescription[] = _(
-    "A charge that may burn the\n"
-    "foe. Also hurts the user.");
-
-static const u8 sForcePalmDescription[] = _(
-    "A shock wave attack that\n"
-    "may paralyze the foe.");
-
-static const u8 sAuraSphereDescription[] = _(
-    "Attacks with an aura blast\n"
-    "that cannot be evaded.");
-
-static const u8 sRockPolishDescription[] = _(
-    "Polishes the body to\n"
-    "sharply raise Speed.");
-
-static const u8 sPoisonJabDescription[] = _(
-    "A stabbing attack that\n"
-    "may poison the foe.");
-
-static const u8 sDarkPulseDescription[] = _(
-    "Attacks with a horrible\n"
-    "aura. May cause flinching.");
-
-static const u8 sNightSlashDescription[] = _(
-    "Hits as soon as possible.\n"
-    "High critical-hit ratio.");
-
-static const u8 sAquaTailDescription[] = _(
-    "The user swings its tail\n"
-    "like a wave to attack.");
-
-static const u8 sSeedBombDescription[] = _(
-    "A barrage of hard seeds\n"
-    "is fired at the foe.");
-
-static const u8 sAirSlashDescription[] = _(
-    "Attacks with a blade of\n"
-    "air. May cause flinching.");
-
-static const u8 sXScissorDescription[] = _(
-    "Slashes the foe with crossed\n"
-    "scythes, claws, etc.");
-
-static const u8 sBugBuzzDescription[] = _(
-    "A damaging sound wave that\n"
-    "may lower Sp. Def.");
-
-static const u8 sDragonPulseDescription[] = _(
-    "Generates a shock wave to\n"
-    "damage the foe.");
-
-static const u8 sDragonRushDescription[] = _(
-    "Tackles the foe with menace.\n"
-    "May cause flinching.");
-
-static const u8 sPowerGemDescription[] = _(
-    "Attacks with rays of light\n"
-    "that sparkle like diamonds.");
-
-static const u8 sVacuumWaveDescription[] = _(
-    "Whirls its fists to send\n"
-    "a wave that strikes first.");
-
-static const u8 sFocusBlastDescription[] = _(
-    "Attacks at full power.\n"
-    "May lower Sp. Def.");
-
-static const u8 sEnergyBallDescription[] = _(
-    "Draws power from nature to\n"
-    "attack. May lower Sp. Def.");
-
-static const u8 sBraveBirdDescription[] = _(
-    "A low altitude charge that\n"
-    "also hurts the user.");
-
-static const u8 sEarthPowerDescription[] = _(
-    "Makes the ground erupt with\n"
-    "power. May lower Sp. Def.");
-
-static const u8 sSwitcherooDescription[] = _(
-    "Swaps items with the foe\n"
-    "faster than the eye can see.");
-
-static const u8 sNastyPlotDescription[] = _(
-    "Thinks bad thoughts to\n"
-    "sharply boost Sp. Atk.");
-
-static const u8 sBulletPunchDescription[] = _(
-    "Punches as fast as a bul-\n"
-    "let. It always hits first.");
-
-static const u8 sIceShardDescription[] = _(
-    "Hurls a chunk of ice that\n"
-    "always strike first.");
-
-static const u8 sShadowClawDescription[] = _(
-    "Strikes with a shadow claw.\n"
-    "High critical-hit ratio.");
-
-static const u8 sThunderFangDescription[] = _(
-    "May cause flinching or\n"
-    "leave the foe paralyzed.");
-
-static const u8 sIceFangDescription[] = _(
-    "May cause flinching or\n"
-    "leave the foe frozen.");
-
-static const u8 sFireFangDescription[] = _(
-    "May cause flinching or\n"
-    "leave the foe with a burn.");
-
-static const u8 sShadowSneakDescription[] = _(
-    "Extends the user's shadow\n"
-    "to strike first.");
-
-static const u8 sMudBombDescription[] = _(
-    "Throws a blob of mud to\n"
-    "damage and cut accuracy.");
-
-static const u8 sPsychoCutDescription[] = _(
-    "Tears with psychic blades.\n"
-    "High critical-hit ratio.");
-
-static const u8 sZenHeadbuttDescription[] = _(
-    "Hits with a strong head-\n"
-    "butt. May cause flinching.");
-
-static const u8 sMirrorShotDescription[] = _(
-    "Emits a flash of energy to\n"
-    "damage and cut accuracy.");
+static const u8 sRoostDescription[] = _("{JPN}さいだい HPの はんぶん\nたいりょくを かいふくする。");
+
+static const u8 sGravityDescription[] = _("{JPN}じゅうりょくを つよめて\nうかぶ ちからを うちけす。");
+
+static const u8 sMiracleEyeDescription[] = _("{JPN}かいひりつと あくタイプの\nむこうかを うちけす。");
+
+static const u8 sWakeUpSlapDescription[] = _("{JPN}ねむっている あいてに つよいが\nめを さまさせて しまう。");
+
+static const u8 sHammerArmDescription[] = _("{JPN}こぶしを ふりまわして こうげき。\nすばやさも さげる。");
+
+static const u8 sGyroBallDescription[] = _("{JPN}こうそくかいてんの こうげき。\nあいてが はやいほど つよい。");
+
+static const u8 sHealingWishDescription[] = _("{JPN}じぶんは ひんしに なるが\nこうたいする みかたを かいふく。");
+
+static const u8 sBrineDescription[] = _("{JPN}HPが はんぶん いかの あいてに\n2ばいの ダメージ。");
+
+static const u8 sNaturalGiftDescription[] = _("{JPN}もっている きのみで\nこうかが かわる。");
+
+static const u8 sFeintDescription[] = _("{JPN}まもるなどを つかっている\nあいてにも あたる こうげき。");
+
+static const u8 sPluckDescription[] = _("{JPN}あいての きのみを たべて\nそのこうかを える。");
+
+static const u8 sTailwindDescription[] = _("{JPN}はげしい かぜを おこして\nすばやさを あげる。");
+
+static const u8 sAcupressureDescription[] = _("{JPN}のうりょくの ひとつを\nぐーんと あげる。");
+
+static const u8 sMetalBurstDescription[] = _("{JPN}うけた こうげきを\nより つよく かえす。");
+
+static const u8 sUTurnDescription[] = _("{JPN}ダメージを あたえてから\nこうたいする。");
+
+static const u8 sCloseCombatDescription[] = _("{JPN}つよい こうげきだが\nぼうぎょめんが さがる。");
+
+static const u8 sPaybackDescription[] = _("{JPN}あとに うごくほど\nいりょくが あがる こうげき。");
+
+static const u8 sAssuranceDescription[] = _("{JPN}あいてが ダメージを うけていると\nいりょくが あがる こうげき。");
+
+static const u8 sEmbargoDescription[] = _("{JPN}あいてが どうぐを\nつかえなく する。");
+
+static const u8 sFlingDescription[] = _("{JPN}もっている どうぐで\nこうかが かわる。");
+
+static const u8 sPsychoShiftDescription[] = _("{JPN}じょうたい いじょうを\nあいてに うつす。");
+
+static const u8 sTrumpCardDescription[] = _("{JPN}わざの PPが すくないほど\nダメージが おおきく なる。");
+
+static const u8 sHealBlockDescription[] = _("{JPN}あいてが HPを\nかいふくできなく する。");
+
+static const u8 sWringOutDescription[] = _("{JPN}あいての HPが おおいほど\nダメージが おおきく なる。");
+
+static const u8 sPowerTrickDescription[] = _("{JPN}じぶんの こうげきと ぼうぎょを\nいれかえる。");
+
+static const u8 sGastroAcidDescription[] = _("{JPN}いえきで あいての とくせいを\nきかなく する。");
+
+static const u8 sLuckyChantDescription[] = _("{JPN}あいての きゅうしょへの\nこうげきを ふせぐ。");
+
+static const u8 sMeFirstDescription[] = _("{JPN}あいての こうげきを\nより つよく つかう。");
+
+static const u8 sCopycatDescription[] = _("{JPN}あいてが さいごに つかった\nわざを まねる。");
+
+static const u8 sPowerSwapDescription[] = _("{JPN}こうげきと とくこうの へんかを\nあいてと いれかえる。");
+
+static const u8 sGuardSwapDescription[] = _("{JPN}ぼうぎょと とくぼうの へんかを\nあいてと いれかえる。");
+
+static const u8 sPunishmentDescription[] = _("{JPN}あいての のうりょくが\nあがっているほど つよい。");
+
+static const u8 sLastResortDescription[] = _("{JPN}ほかの わざを すべて\nつかったあとにしか だせない。");
+
+static const u8 sWorrySeedDescription[] = _("{JPN}あいてに たねを うえつけて\nねむれなく する。");
+
+static const u8 sSuckerPunchDescription[] = _("{JPN}あいてが こうげきの じゅんびを\nしていると さきに あたる。");
+
+static const u8 sToxicSpikesDescription[] = _("{JPN}でてきた あいてを どくに する\nびしを ばらまく。");
+
+static const u8 sHeartSwapDescription[] = _("{JPN}のうりょくへんかを\nあいてと いれかえる。");
+
+static const u8 sAquaRingDescription[] = _("{JPN}みずの ベールを つくって\nHPを かいふくする。");
+
+static const u8 sMagnetRiseDescription[] = _("{JPN}じりょくで からだを\nうかせる。");
+
+static const u8 sFlareBlitzDescription[] = _("{JPN}やけどさせることが ある\nとつげき。じぶんも ダメージ。");
+
+static const u8 sForcePalmDescription[] = _("{JPN}しょうげきはの こうげき。\nまひさせることが ある。");
+
+static const u8 sAuraSphereDescription[] = _("{JPN}かならず あたる\nオーラの こうげき。");
+
+static const u8 sRockPolishDescription[] = _("{JPN}からだを みがいて\nすばやさを ぐーんと あげる。");
+
+static const u8 sPoisonJabDescription[] = _("{JPN}つきさす こうげき。\nどくに することが ある。");
+
+static const u8 sDarkPulseDescription[] = _("{JPN}おそろしい オーラの こうげき。\nひるませることが ある。");
+
+static const u8 sNightSlashDescription[] = _("{JPN}できるだけ はやく こうげき。\nきゅうしょに あたりやすい。");
+
+static const u8 sAquaTailDescription[] = _("{JPN}しっぽを なみのように\nふって こうげきする。");
+
+static const u8 sSeedBombDescription[] = _("{JPN}かたい たねを\nつぎつぎ うちだして こうげき。");
+
+static const u8 sAirSlashDescription[] = _("{JPN}かぜの やいばで こうげき。\nひるませることが ある。");
+
+static const u8 sXScissorDescription[] = _("{JPN}かまや つめなどを\nクロスさせて きりさく。");
+
+static const u8 sBugBuzzDescription[] = _("{JPN}おとの こうげき。\nとくぼうを さげることが ある。");
+
+static const u8 sDragonPulseDescription[] = _("{JPN}しょうげきはを おこして\nあいてに ダメージを あたえる。");
+
+static const u8 sDragonRushDescription[] = _("{JPN}おそろしい いきおいで\nとつげき。ひるませることが ある。");
+
+static const u8 sPowerGemDescription[] = _("{JPN}ダイヤのように きらめく\nひかりで こうげきする。");
+
+static const u8 sVacuumWaveDescription[] = _("{JPN}こぶしを まわして おこした\nなみで さきに こうげき。");
+
+static const u8 sFocusBlastDescription[] = _("{JPN}ぜんりょくで こうげき。\nとくぼうを さげることが ある。");
+
+static const u8 sEnergyBallDescription[] = _("{JPN}しぜんの ちからで こうげき。\nとくぼうを さげることが ある。");
+
+static const u8 sBraveBirdDescription[] = _("{JPN}ひくく とんで とつげき。\nじぶんも ダメージを うける。");
+
+static const u8 sEarthPowerDescription[] = _("{JPN}じめんを ふんしゅつさせる。\nとくぼうを さげることが ある。");
+
+static const u8 sSwitcherooDescription[] = _("{JPN}めにも とまらぬ はやさで\nあいてと どうぐを いれかえる。");
+
+static const u8 sNastyPlotDescription[] = _("{JPN}わるい ことを かんがえて\nとくこうを ぐーんと あげる。");
+
+static const u8 sBulletPunchDescription[] = _("{JPN}だんがんのような はやさの\nパンチ。かならず さきに あたる。");
+
+static const u8 sIceShardDescription[] = _("{JPN}こおりの かたまりを なげる。\nかならず さきに あたる。");
+
+static const u8 sShadowClawDescription[] = _("{JPN}かげの つめで こうげき。\nきゅうしょに あたりやすい。");
+
+static const u8 sThunderFangDescription[] = _("{JPN}ひるませたり まひさせたり\nすることが ある。");
+
+static const u8 sIceFangDescription[] = _("{JPN}ひるませたり こおらせたり\nすることが ある。");
+
+static const u8 sFireFangDescription[] = _("{JPN}ひるませたり やけどさせたり\nすることが ある。");
+
+static const u8 sShadowSneakDescription[] = _("{JPN}かげを のばして\nさきに こうげきする。");
+
+static const u8 sMudBombDescription[] = _("{JPN}どろを なげつけて\nめいちゅうりつも さげる。");
+
+static const u8 sPsychoCutDescription[] = _("{JPN}サイコの やいばで きりさく。\nきゅうしょに あたりやすい。");
+
+static const u8 sZenHeadbuttDescription[] = _("{JPN}つよい ずつきで こうげき。\nひるませることが ある。");
+
+static const u8 sMirrorShotDescription[] = _("{JPN}エネルギーの ひかりで こうげき。\nめいちゅうりつも さげる。");
 
 static const u8 sFlashCannonDescription[] = _(
     "Releases a blast of light\n"
@@ -1192,9 +990,7 @@ static const u8 sDoubleHitDescription[] = _(
     "Slams the foe with a tail\n"
     "etc. Strikes twice.");
 
-static const u8 sRoarOfTimeDescription[] = _(
-    "Powerful, but leaves the\n"
-    "user immobile the next turn.");
+static const u8 sRoarOfTimeDescription[] = _("{JPN}いりょくは たかいが つぎの\nターンは うごけなく なる。");
 
 static const u8 sSpacialRendDescription[] = _(
     "Tears the foe, and space.\n"
@@ -2339,9 +2135,7 @@ static const u8 sPsyshieldBashDescription[] = _(
     "Hits a foe with psychic\n"
     "energy. May raise Defense.");
 
-static const u8 sPowerShiftDescription[] = _(
-    "The user swaps its Attack\n"
-    "and Defense stats.");
+static const u8 sPowerShiftDescription[] = _("{JPN}じぶんの こうげきと ぼうぎょを\nいれかえる。");
 
 static const u8 sStoneAxeDescription[] = _(
     "High critical hit ratio. Sets\n"
@@ -2355,9 +2149,7 @@ static const u8 sMysticalPowerDescription[] = _(
     "A mysterious power strikes,\n"
     "raising the user's Sp. Atk.");
 
-static const u8 sRagingFuryDescription[] = _(
-    "A rampage of 2 to 3 turns\n"
-    "that confuses the user.");
+static const u8 sRagingFuryDescription[] = _("{JPN}2から 3ターン あばれて\nそのあと こんらんする。");
 
 static const u8 sWaveCrashDescription[] = _(
     "A slam shrouded in water.\n"
@@ -2575,9 +2367,7 @@ static const u8 sRageFistDescription[] = _(
     "The more the user has been\n"
     "hit, the stronger the move.");
 
-static const u8 sArmorCannonDescription[] = _(
-    "A strong attack but lowers\n"
-    "the defensive stats.");
+static const u8 sArmorCannonDescription[] = _("{JPN}つよい こうげきだが\nぼうぎょめんが さがる。");
 
 static const u8 sBitterBladeDescription[] = _("{JPN}あいてに あたえた ダメージの はんぶんの HPを\nかいふくできる。");
 

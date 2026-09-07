@@ -1,47 +1,35 @@
 gText_Birch_Welcome::
-	.string "Hello!\p"
-	.string "$"
+	.string "{JPN}やあ!\p$"
 
 gText_Birch_Pokemon::
-	.string "Welcome to POKéMON EMERALD ROGUE!\p"
-	.string "$"
+	.string "{JPN}ポケモン エメラルドローグへ ようこそ!\p$"
 
 gText_Birch_MainSpeech::
-	.string "In this game, every time you embark \n"
-	.string "on an Adventure...\p"
-	.string "the world and the POKéMON you\n"
-	.string "encounter will be different!\p"
-	.string "$"
+	.string "{JPN}この ゲームでは ぼうけんに でる\nたびに…\pせかいも であう ポケモンも\nかわって いくんだ!\p$"
 
 gText_Birch_AndYouAre::
-	.string "Now...\n"
-	.string "Time to tell me about yourself$"
-	.string "$"
+	.string "{JPN}それでは…\nきみの ことを おしえて くれ$$"
 
 gText_Birch_BoyOrGirl::
-	.string "Select an avatar$"
+	.string "{JPN}すがたを えらんで ください$"
 
 gText_Birch_AvatarStyle0::
-	.string "Select an appearance$"
+	.string "{JPN}みための タイプを えらんで ください$"
 
 gText_Birch_AvatarStyle1::
-	.string "Select clothing style$"
+	.string "{JPN}ふくそうを えらんで ください$"
 
 gText_Birch_WhatsYourName::
-	.string "Now, what is your name?$"
+	.string "{JPN}きみの なまえは?$"
 
 gText_Birch_HappyWithAvatar::
-	.string "So this is your avatar?\n(Can be changed later)$"
+	.string "{JPN}この すがたで いいかな?\n「あとで かえられるよ」$"
 
 gText_Birch_SoItsPlayer::
-	.string "So it's {PLAYER}{KUN}?$"
+	.string "{JPN}きみは {PLAYER}{KUN}だね?$"
 
 gText_Birch_YourePlayer::
-	.string "Ah, okay!\p"
-	.string "{PLAYER}{KUN}!"
-	.string "$"
+	.string "{JPN}そうか わかった!\p{PLAYER}{KUN}!$"
 
 gText_Birch_AreYouReady::
-	.string "I'll be waiting for you in my LAB!\p"
-	.string "Come and find me once you arrive.\p"
-	.string "$"
+	.string "{JPN}けんきゅうじょで まって いるよ!\pついたら たずねて きて くれ。\p$"

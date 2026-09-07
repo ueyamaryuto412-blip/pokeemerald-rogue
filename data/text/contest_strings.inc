@@ -191,7 +191,7 @@ gContestMoveTypeCoolText::
 	.string "{JPN}かっこよさ$"
 
 gContestMoveTypeBeautyText::
-	.string "BEAUTY$"
+	.string "{JPN}うつくしさ$"
 
 gContestMoveTypeCuteText::
 	.string "{JPN}かわいさ$"

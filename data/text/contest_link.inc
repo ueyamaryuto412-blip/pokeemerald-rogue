@@ -1,38 +1,34 @@
 @ With the exception of Link standby, none of the below texts are used
 
 gTest_MissedTurn::
-	.string "Missed turn$"
+	.string "{JPN}ばんを とばした$"
 
 gText_LinkStandby4::
-	.string "Link standby!$"
+	.string "{JPN}つうしん たいき!$"
 
 gText_WinnerIsPlayersMonCongrats::
-	.string "The winner is {STR_VAR_1}'s {STR_VAR_2}!\n"
-	.string "Congratulations!$"
+	.string "{JPN}ゆうしょうは {STR_VAR_1}の {STR_VAR_2}!\nおめでとう ございます!$"
 
 gText_WinnerIsPlayersMon::
-	.string "The winner is {STR_VAR_1}'s {STR_VAR_2}!{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}ゆうしょうは {STR_VAR_1}の {STR_VAR_2}!{PAUSE_UNTIL_PRESS}$"
 
 gText_PrimaryJudgingNumX::
-	.string "Primary judging: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}いちじ しんさ ナンバー {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_SecondaryJudgingNumX::
-	.string "Secondary judging: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}にじ しんさ ナンバー {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_SetEventNumX::
-	.string "Set event: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}セット イベント ナンバー {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_MoveUsedMostOften::
-	.string "The move used most often:\n"
-	.string "{STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}いちばん つかわれた わざ\n{STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_MostImpressiveMon::
-	.string "The most impressive POKéMON:\n"
-	.string "{STR_VAR_1}'s {STR_VAR_2}{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}もっとも みごとな ポケモン\n{STR_VAR_1}の {STR_VAR_2}{PAUSE_UNTIL_PRESS}$"
 
 gText_SetEventNumX2::
-	.string "Set event: No. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}セット イベント ナンバー {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_LinkTVProgramWillNotBeMadeTrainerLost::
-	.string "A link TV program will not be made\n"
-	.string "because the TRAINER lost.{PAUSE_UNTIL_PRESS}$"
+	.string "{JPN}トレーナーが まけたので つうしんの\nテレビばんぐみは つくられません。{PAUSE_UNTIL_PRESS}$"

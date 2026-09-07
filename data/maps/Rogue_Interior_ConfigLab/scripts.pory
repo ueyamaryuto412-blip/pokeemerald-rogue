@@ -186,13 +186,13 @@ script Rogue_Interior_ConfigLab_TriggerMeetPokabbie
     applymovement(OBJ_EVENT_POKABBIE, Rogue_Interior_ConfigLab_Pokabbie2)
     waitmovement(0)
 
-    msgbox(format("POKABBIE: Phew…\nAll done!\pI've got a few upgrades for you!\pFirstly, your Pokédex can now change its mode to different Regions.\pHere, take a look."))
+    msgbox(format("{JPN}ポカビー: ふう…\nできた!\pいくつか かいりょうしておいたよ!\pまず ポケモンずかんの モードを\nちほうごとに かえられるように なった。\pほら みてごらん。"))
 
     waitse
     special(Special_ViewRoguePokedex)
     waitstate
 
-    msgbox(format("If you change your Pokédex mode, when you next set off on an Adventure, you'll encounter Pokémon only present in that Pokédex mode!\pThe next thing I did was upgrade the Config Lab for you!"))
+    msgbox(format("{JPN}ずかんの モードを かえると つぎの ぼうけんでは その ずかんに いる ポケモンしか でてこなく なる!\pつぎに せっていラボも かいりょうしておいた!"))
 
     checkitem(ITEM_C_GEAR)
     if(var(VAR_RESULT) == NO)
@@ -202,16 +202,16 @@ script Rogue_Interior_ConfigLab_TriggerMeetPokabbie
         msgbox(format("{JPN}なんだって!?\nじぶんの {STR_VAR_1}を もってない?\pそれは いけない!\nこれを どうぞ!"))
         giveitem(ITEM_C_GEAR)
 
-        msgbox(format("The {STR_VAR_1} allows you to remotely access the Config Lab from wherever you are!\pYou can change your settings from wherever you are in {POKEMON_HUB}, or you can even check your settings, in the middle of an Adventure.\pAnyhow, I'm getting distracted!\pThat's not actually the thing I upgraded for you…"))
+        msgbox(format("{JPN}{STR_VAR_1}を つかうと どこからでも せっていラボを つかえる!\p{POKEMON_HUB}の どこでも せっていを かえられるし ぼうけんの とちゅうでも かくにんできる。\pおっと はなしが それた!\pかいりょうしたのは そこじゃ ないんだ…"))
     }
 
-    msgbox(format("I upgraded the Config Lab to have new settings for you.\pHere, take a look."))
+    msgbox(format("{JPN}せっていラボに あたらしい せっていを ふやしておいた。\pほら みてごらん。"))
 
     waitse
     special(Special_ViewDifficultyConfigMenu)
     waitstate
 
-    msgbox(format("Annnnddddd!\pFinally, I've added a new upgrade you may build for {POKEMON_HUB}, the Challenge Area!"))
+    msgbox(format("{JPN}そしてええええ!\pさいごに {POKEMON_HUB}に たてられる あたらしい しせつ チャレンジエリアを ついかした!"))
 
     if(var(VAR_ROGUE_INTRO_STATE) <= ROGUE_INTRO_STATE_LEARN_TO_BUILD)
     {

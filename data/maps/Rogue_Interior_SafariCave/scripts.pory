@@ -23,7 +23,7 @@ script Rogue_Interior_SafariCave_InteractLegendSummon
 
         begindynamicmultichoice
         appenddynamicmultichoice("Make Offering", 0)
-        appenddynamicmultichoice("Dismiss Pokémon", 1)
+        appenddynamicmultichoice("{JPN}ポケモンを かえす", 1)
         appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
 
         message(format("{JPN}なにを しますか?"))

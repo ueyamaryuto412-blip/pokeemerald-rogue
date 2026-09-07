@@ -73,14 +73,14 @@ script Rogue_Area_FarmingField_MakePotions
 
     turnobject(OBJ_EVENT_MART, DIR_WEST)
 
-    msgbox(format("Oh, would you like me to help you craft some potions?"))
+    msgbox(format("{JPN}おや くすりを つくるのを てつだいましょうか?"))
     
-    message("What would you like to craft?")
+    message("{JPN}なにを つくりますか?")
     waitmessage
 
     rogue_custompokemart(OranBerryShop, ITEM_ORAN_BERRY)
 
-    msgbox(format("Please let me know, if you'd like to craft anything else!"))
+    msgbox(format("{JPN}ほかにも つくりたく なったら こえを かけてね!"))
     turnobject(OBJ_EVENT_MART, DIR_SOUTH)
 
     release

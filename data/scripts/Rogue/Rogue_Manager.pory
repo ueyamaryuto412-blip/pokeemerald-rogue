@@ -792,7 +792,7 @@ script Rogue_Shop_Balls
 
     rogue_dynamicpokemart(ROGUE_SHOP_BALLS)
 
-    msgbox("Come again soon!")
+    msgbox("{JPN}また どうぞ!")
     release
 }
 
@@ -805,7 +805,7 @@ script Rogue_Shop_Medicine
 
     rogue_dynamicpokemart(ROGUE_SHOP_GENERAL)
 
-    msgbox("Come again soon!")
+    msgbox("{JPN}また どうぞ!")
     release
 }
 
@@ -818,7 +818,7 @@ script Rogue_Shop_TMs
 
     rogue_dynamicpokemart(ROGUE_SHOP_TMS)
 
-    msgbox("Come again soon!")
+    msgbox("{JPN}また どうぞ!")
     release
 }
 
@@ -831,7 +831,7 @@ script Rogue_Shop_BattleEnhancers
 
     rogue_dynamicpokemart(ROGUE_SHOP_BATTLE_ENHANCERS)
 
-    msgbox("Come again soon!")
+    msgbox("{JPN}また どうぞ!")
     release
 }
 
@@ -844,7 +844,7 @@ script Rogue_Shop_HeldItems
 
     rogue_dynamicpokemart(ROGUE_SHOP_HELD_ITEMS)
 
-    msgbox("Come again soon!")
+    msgbox("{JPN}また どうぞ!")
     release
 }
 
@@ -857,7 +857,7 @@ script Rogue_Shop_RareHeldItems
 
     rogue_dynamicpokemart(ROGUE_SHOP_RARE_HELD_ITEMS)
 
-    msgbox("Come again soon!")
+    msgbox("{JPN}また どうぞ!")
     release
 }
 
@@ -870,7 +870,7 @@ script Rogue_Shop_RarePlates
 
     rogue_dynamicpokemart(ROGUE_SHOP_QUEST_REWARDS)
 
-    msgbox("Come again soon!")
+    msgbox("{JPN}また どうぞ!")
     release
 }
 

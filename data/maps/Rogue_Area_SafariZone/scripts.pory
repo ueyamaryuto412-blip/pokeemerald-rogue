@@ -4,11 +4,11 @@ script Rogue_Area_SafariZone_TalkSign
 {
     lock
 
-    msgbox(format("It's a sign which lists all of the Pokémon that have been recently sighted in the Safari Area!"))
+    msgbox(format("{JPN}サファリエリアで さいきん みかけた ポケモンの いちらんだ!"))
     
     begindynamicmultichoice
-    appenddynamicmultichoice("View Pokémon", 0)
-    appenddynamicmultichoice("Dismiss Pokémon", 1)
+    appenddynamicmultichoice("{JPN}ポケモンを みる", 0)
+    appenddynamicmultichoice("{JPN}ポケモンを かえす", 1)
     appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
 
     message(format("{JPN}なにを しますか?"))
@@ -23,7 +23,7 @@ script Rogue_Area_SafariZone_TalkSign
             waitstate
 
         case 1:
-            msgbox(format("Are you sure you want to Dismiss all the Pokémon currently in the Safari?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}サファリの ポケモンを ぜんぶ かえしますか?"), MSGBOX_YESNO)
 
             if(var(VAR_RESULT) == YES)
             {

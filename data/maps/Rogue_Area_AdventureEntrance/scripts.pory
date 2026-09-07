@@ -166,7 +166,7 @@ script Rogue_Area_AdventureEntrance_TriggerRuinManiacEast
     applymovement(OBJ_EVENT_RUIN_MANIAC, Common_Movement_FacePlayer)
     waitmovement(0)
 
-    msgbox(format("Hold on there!\pI've heard some strange noises from over there!\pYou should stand back and let me go first!\p… … …"))
+    msgbox(format("{JPN}まって!\pむこうから へんな おとが きこえるんだ!\pさがっていて わたしが さきに いこう!\p… … …"))
     
     applymovement(OBJ_EVENT_RUIN_MANIAC, Common_Movement_FaceRight)
     waitmovement(0)
@@ -185,7 +185,7 @@ script Rogue_Area_AdventureEntrance_TriggerRuinManiacSouth
     applymovement(OBJ_EVENT_RUIN_MANIAC, Common_Movement_FacePlayer)
     waitmovement(0)
 
-    msgbox(format("Hold on there!\pI've heard some strange noises from over there!\pYou should stand back and let me go first!\p… … …"))
+    msgbox(format("{JPN}まって!\pむこうから へんな おとが きこえるんだ!\pさがっていて わたしが さきに いこう!\p… … …"))
     
     applymovement(OBJ_EVENT_RUIN_MANIAC, Common_Movement_FaceDown)
     waitmovement(0)
@@ -204,7 +204,7 @@ script Rogue_Area_AdventureEntrance_TriggerRuinManiacWest
     applymovement(OBJ_EVENT_RUIN_MANIAC, Common_Movement_FacePlayer)
     waitmovement(0)
 
-    msgbox(format("Hold on there!\pI've heard some strange noises from over there!\pYou should stand back and let me go first!\p… … …"))
+    msgbox(format("{JPN}まって!\pむこうから へんな おとが きこえるんだ!\pさがっていて わたしが さきに いこう!\p… … …"))
     
     applymovement(OBJ_EVENT_RUIN_MANIAC, Common_Movement_FaceLeft)
     waitmovement(0)
@@ -238,7 +238,7 @@ script Rogue_Area_AdventureEntrance_SpeakNurse
 
     if(var(VAR_ROGUE_INTRO_STATE) == ROGUE_INTRO_STATE_CATCH_MON)
     {
-        msgbox(format("{PLAYER}!\pThere's some strange noises coming from the clearing!\pYou must go help the Professor!"))
+        msgbox(format("{JPN}{PLAYER}!\pひろばから へんな おとが するんだ!\pはかせを たすけに いって!"))
     }
     elif (var(VAR_ROGUE_INTRO_STATE) < ROGUE_INTRO_STATE_COLLECT_QUEST_LOG)
     {
@@ -249,7 +249,7 @@ script Rogue_Area_AdventureEntrance_SpeakNurse
         msgbox(format("{JPN}やあ {PLAYER}!\pぼうけんの じゅんびは\nもう すこしみたいだね!\pでかけるまえに これを どうぞ。"))
 
         giveitem(ITEM_QUEST_LOG)
-        msgbox(format("You can use that Quest Book to accept Quests and Challenges to complete during Adventures.\pIf you would please make your way over to the Quest Board to your left, there should be some initial Quests to get you started!"))
+        msgbox(format("{JPN}その クエストブックで ぼうけんちゅうの クエストや チャレンジを うけられる。\pひだりの クエストボードに いけば さいしょの クエストが あるはずだ!"))
 
         closemessage
         playbgm(MUS_RG_FOLLOW_ME, FALSE)
@@ -267,7 +267,7 @@ script Rogue_Area_AdventureEntrance_SpeakNurse
     }
     elif(var(VAR_ROGUE_INTRO_STATE) == ROGUE_INTRO_STATE_LEARN_TO_BUILD)
     {
-        msgbox(format("Hi {PLAYER}!\pThe builder was looking for you.\pI believe he said he would wait in the Town Square for you."))
+        msgbox(format("{JPN}やあ {PLAYER}!\pだいくが きみを さがしていたよ。\pひろばで まっていると いっていた。"))
     }
     else
     {
@@ -294,7 +294,7 @@ script Rogue_Area_AdventureEntrance_SpeakNurse
             special(Rogue_HasPendingQuestRewards)
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("Hi {PLAYER}!\pOh.\pIt looks like you still have some Quest Rewards to collect.\pDo you still want to continue and set off on an Adventure?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}やあ {PLAYER}!\pおや。\pまだ うけとっていない クエストほうしゅうが あるようだ。\pそれでも ぼうけんに でかける?"), MSGBOX_YESNO)
             }
             else
             {
@@ -682,7 +682,7 @@ script Rogue_Area_AdventureEntrance_MeetPokabbie
     closemessage
     delay(30)
 
-    msgbox(format("{PLAYER}!"))
+    msgbox(format("{JPN}{PLAYER}!"))
     closemessage
 
     turnobject(OBJ_EVENT_ID_PLAYER, DIR_SOUTH)
@@ -691,12 +691,12 @@ script Rogue_Area_AdventureEntrance_MeetPokabbie
     call(Rogue_Area_AdventureEntrance_PokabbieEnterMovement)
     waitmovement(0)
 
-    msgbox(format("{PLAYER}, that was amazing!\pThat last battle was just- WOW!\pOh… sorry, I'm getting ahead of myself.\pMy name's Pokabbie.\nI'm the Developer of Emerald Rogue!"))
+    msgbox(format("{JPN}{PLAYER} すごかったよ!\pさっきの バトルはすごい!\pおっと… ごめん さきばしった。\pぼくの なまえは ポカビー。\nエメラルドローグの かいはつしゃだ!"))
 
     applymovement(OBJ_EVENT_POKABBIE, Pokabbie_Spin_FaceUp)
     waitmovement(0)
 
-    msgbox(format("POKABBIE: Ta-da!\pNow that you're the Champion, there's sooooo much more fun stuff for you!\pSpeaking of…\nCan you lend me your Pokédex for one second, please."))
+    msgbox(format("{JPN}ポカビー: じゃーん!\pチャンピオンに なったからには\nもっと たくさんの たのしみが まっている!\pそういえば…\nポケモンずかんを ちょっと かして。"))
     closemessage
 
     call(Rogue_Area_AdventureEntrance_PokabbieExitMovement)
@@ -725,13 +725,13 @@ script Rogue_Area_AdventureEntrance_MeetPokabbie
     call(Rogue_Area_AdventureEntrance_PokabbieEnterMovement)
     waitmovement(0)
 
-    msgbox(format("POKABBIE: Phew…\nAll done!\pI've got a few upgrades for you!\pFirstly, your Pokédex can now change its mode to different Regions.\pHere, take a look."))
+    msgbox(format("{JPN}ポカビー: ふう…\nできた!\pいくつか かいりょうしておいたよ!\pまず ポケモンずかんの モードを\nちほうごとに かえられるように なった。\pほら みてごらん。"))
 
     waitse
     special(Special_ViewRoguePokedex)
     waitstate
 
-    msgbox(format("If you change your Pokédex mode, when you next set off on an Adventure, you'll encounter Pokémon only present in that Pokédex mode!\pThe next thing I did was upgrade the Config Lab for you!"))
+    msgbox(format("{JPN}ずかんの モードを かえると つぎの ぼうけんでは その ずかんに いる ポケモンしか でてこなく なる!\pつぎに せっていラボも かいりょうしておいた!"))
 
     checkitem(ITEM_C_GEAR)
     if(var(VAR_RESULT) == NO)
@@ -741,23 +741,23 @@ script Rogue_Area_AdventureEntrance_MeetPokabbie
         msgbox(format("{JPN}なんだって!?\nじぶんの {STR_VAR_1}を もってない?\pそれは いけない!\nこれを どうぞ!"))
         giveitem(ITEM_C_GEAR)
 
-        msgbox(format("The {STR_VAR_1} allows you to remotely access the Config Lab from wherever you are!\pYou can change your settings from wherever you are in {POKEMON_HUB}, or you can even check your settings, in the middle of an Adventure.\pAnyhow, I'm getting distracted!\pThat's not actually the thing I upgraded for you…"))
+        msgbox(format("{JPN}{STR_VAR_1}を つかうと どこからでも せっていラボを つかえる!\p{POKEMON_HUB}の どこでも せっていを かえられるし ぼうけんの とちゅうでも かくにんできる。\pおっと はなしが それた!\pかいりょうしたのは そこじゃ ないんだ…"))
     }
 
-    msgbox(format("I upgraded the Config Lab to have new settings for you.\pHere, take a look."))
+    msgbox(format("{JPN}せっていラボに あたらしい せっていを ふやしておいた。\pほら みてごらん。"))
 
     waitse
     special(Special_ViewDifficultyConfigMenu)
     waitstate
 
-    msgbox(format("Annnnddddd!\pFinally, I've added a new upgrade you may build for {POKEMON_HUB}, the Challenge Area!"))
+    msgbox(format("{JPN}そしてええええ!\pさいごに {POKEMON_HUB}に たてられる あたらしい しせつ チャレンジエリアを ついかした!"))
 
     if(var(VAR_ROGUE_INTRO_STATE) <= ROGUE_INTRO_STATE_LEARN_TO_BUILD)
     {
-        msgbox(format("Oh, wow!\nYou haven't even learnt about upgrades yet?\pYou were really quick to enter the Hall of Fame, huh!\pNo matter. I'm sure you'll learn about it very soon."))
+        msgbox(format("{JPN}おお!\nまだ かいちくを しらないのか?\pずいぶん はやく でんどういりしたんだね!\pまあ いい。すぐに わかるよ。"))
     }
 
-    msgbox(format("I won't spoil it for you, but in the Challenge Area there is a lot of stuff that I'm sure you'll find super fun!\pNow, I must be off.\pI actually have a secret area in the Config Lab where I manage everything from.\pI'll leave the door open for you, for if you ever want to give me a visit."))
+    msgbox(format("{JPN}ネタバレは しないけど チャレンジエリアには きっと たのしいものが たくさん あるよ!\pさて そろそろ いかないと。\pじつは せっていラボに ぜんぶを かんりしている ひみつの ばしょが あるんだ。\pドアは あけておくから いつでも あそびに おいで。"))
     closemessage
 
     applymovement(OBJ_EVENT_POKABBIE, Pokabbie_Spin_FaceUp)

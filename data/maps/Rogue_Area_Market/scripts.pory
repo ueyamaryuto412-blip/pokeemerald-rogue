@@ -48,12 +48,12 @@ script Rogue_Area_Market_ShopBank
 {
     lock
     faceplayer
-    message(format("Welcome to the Bank!\pI can provide you with Coin Cases which will instantaneously convert into Pokédollars whenever you embark on an Adventure.\pWould you like to buy some Coin Cases?"))
+    message(format("{JPN}ぎんこうへ ようこそ!\pぼうけんに でると すぐに おかねに かわる コインケースを ごよういできます。\pコインケースを かいますか?"))
     waitmessage
 
     pokemart(BankMart)
 
-    msgbox("Come again soon!")
+    msgbox("{JPN}また どうぞ!")
     release
 }
 
@@ -62,7 +62,7 @@ script Rogue_Area_Market_BankSign
     hubupgradeunlocked(HUB_UPGRADE_MARKET_BANK)
     if(var(VAR_RESULT) == YES)
     {
-        msgbox(format("The Bank"), MSGBOX_SIGN)
+        msgbox(format("{JPN}ぎんこう"), MSGBOX_SIGN)
     }
 }
 
@@ -80,7 +80,7 @@ script Rogue_Area_Market_BlendPokeblockNovice
     lock
 
     // NOVICE_BERRY_COUNT
-    msgbox(format("Hello!\nI'm a {POKEBLOCK} Blending Novice.\pI can help you produce up to 10 {POKEBLOCK} per 20 berries.\pWould you like to blend some {POKEBLOCK} with me?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}こんにちは!\nわたしは {POKEBLOCK}づくりの みならいです。\pきのみ 20こで {POKEBLOCK}を 10こまで つくれます。\pいっしょに {POKEBLOCK}を つくりますか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -99,12 +99,12 @@ script Rogue_Area_Market_BlendPokeblockNovice
         }
         else
         {
-            msgbox(format("Oh.\pIt doesn't look like you have any berries to blend."))
+            msgbox(format("{JPN}あら。\pつくるための きのみが ないようです。"))
         }
     }
     else
     {
-        msgbox(format("I see.\nIf you change your mind feel free to speak with me again."))
+        msgbox(format("{JPN}そうですか。\nきが かわったら また こえを かけてください。"))
     }
 
     release
@@ -112,7 +112,7 @@ script Rogue_Area_Market_BlendPokeblockNovice
 
 script Rogue_Area_Market_BlendPokeblockNoviceLoop
 {
-    msgbox(format("Which berry would you like to blend?"))
+    msgbox(format("{JPN}どの きのみを つかいますか?"))
 
     fadescreen(FADE_TO_BLACK)
     special(Bag_ChooseBerry)
@@ -128,7 +128,7 @@ script Rogue_Area_Market_BlendPokeblockNoviceLoop
 
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("OK.\pLet's blend!"))
+                msgbox(format("{JPN}はい。\pつくりましょう!"))
 
                 waitse
                 setvar(VAR_0x8004, 1) // NUM_OPPONENTS
@@ -138,17 +138,17 @@ script Rogue_Area_Market_BlendPokeblockNoviceLoop
 
                 call(Rogue_Common_DisplayPopups)
 
-                msgbox(format("Would you like to blend more berries?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}もっと きのみを つかいますか?"), MSGBOX_YESNO)
             }
             else
             {
                 // NOVICE_BERRY_COUNT
-                msgbox(format("You don't have enough berries.\pYou need 20 berries to blend with me."))
+                msgbox(format("{JPN}きのみが たりません。\pわたしと つくるには 20こ ひつようです。"))
             }
         }
         else
         {
-            msgbox(format("I'm afraid that berry won't produce any {POKEBLOCK}.\pYou can use the Check Tag option in your Bag to see which {POKEBLOCK} a berry will produce when blended."))
+            msgbox(format("{JPN}その きのみからは {POKEBLOCK}が できません。\pバッグの タグをみるで どの {POKEBLOCK}が できるか しらべられます。"))
         }
     }
     else
@@ -164,7 +164,7 @@ script Rogue_Area_Market_BlendPokeblockMaster
     lock
 
     // MASTER_BERRY_COUNT
-    msgbox(format("Hello!\nI'm a {POKEBLOCK} Blending Master.\pI can help you produce up to 30 {POKEBLOCK} per 70 berries.\pWould you like to blend some {POKEBLOCK} with me?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}こんにちは!\nわたしは {POKEBLOCK}づくりの めいじんです。\pきのみ 70こで {POKEBLOCK}を 30こまで つくれます。\pいっしょに {POKEBLOCK}を つくりますか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -183,12 +183,12 @@ script Rogue_Area_Market_BlendPokeblockMaster
         }
         else
         {
-            msgbox(format("Oh.\pIt doesn't look like you have any berries to blend."))
+            msgbox(format("{JPN}あら。\pつくるための きのみが ないようです。"))
         }
     }
     else
     {
-        msgbox(format("I see.\nIf you change your mind feel free to speak with me again."))
+        msgbox(format("{JPN}そうですか。\nきが かわったら また こえを かけてください。"))
     }
 
     release
@@ -196,7 +196,7 @@ script Rogue_Area_Market_BlendPokeblockMaster
 
 script Rogue_Area_Market_BlendPokeblockMasterLoop
 {
-    msgbox(format("Which berry would you like to blend?"))
+    msgbox(format("{JPN}どの きのみを つかいますか?"))
 
     fadescreen(FADE_TO_BLACK)
     special(Bag_ChooseBerry)
@@ -212,7 +212,7 @@ script Rogue_Area_Market_BlendPokeblockMasterLoop
 
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("OK.\pLet's blend!"))
+                msgbox(format("{JPN}はい。\pつくりましょう!"))
 
                 waitse
                 setvar(VAR_0x8004, 1) // NUM_OPPONENTS
@@ -222,16 +222,16 @@ script Rogue_Area_Market_BlendPokeblockMasterLoop
 
                 call(Rogue_Common_DisplayPopups)
 
-                msgbox(format("Would you like to blend more berries?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}もっと きのみを つかいますか?"), MSGBOX_YESNO)
             }
             else
             {
-                msgbox(format("You don't have enough berries.\pYou need 70 berries to blend with me."))
+                msgbox(format("{JPN}きのみが たりません。\pわたしと つくるには 70こ ひつようです。"))
             }
         }
         else
         {
-            msgbox(format("I'm afraid that berry won't produce any {POKEBLOCK}.\pYou can use the Check Tag option in your Bag to see which {POKEBLOCK} a berry will produce when blended."))
+            msgbox(format("{JPN}その きのみからは {POKEBLOCK}が できません。\pバッグの タグをみるで どの {POKEBLOCK}が できるか しらべられます。"))
         }
     }
     else
@@ -243,7 +243,7 @@ script Rogue_Area_Market_BlendPokeblockMasterLoop
 script Rogue_Area_Market_TalkBerryBlender
 {
     lock
-    msgbox(format("They're intensely focusing on using the Berry Blending Machine."))
+    msgbox(format("{JPN}きのみブレンドマシンに しゅうちゅうしている。"))
     release
 }
 
@@ -251,7 +251,7 @@ script Rogue_Area_Market_TalkPokeblockHelper
 {
     lock
     faceplayer
-    msgbox(format("You look like a Trainer to me!\pI'm something of a {POKEBLOCK} Expert myself.\pI can help you learn which Berries make what kinds of {POKEBLOCK}, if you'd like."))
+    msgbox(format("{JPN}トレーナーさんだね!\pわたしは {POKEBLOCK}の せんもんかでね。\pどの きのみから どの {POKEBLOCK}が できるか おしえてあげるよ。"))
 
     setvar(VAR_RESULT, YES)
 
@@ -259,7 +259,7 @@ script Rogue_Area_Market_TalkPokeblockHelper
     {
         begindynamicmultichoice(32)
         special(Rogue_AppendMultichoicePokeblockItems)
-        message(format("Which type of {POKEBLOCK} are you interested in?"))
+        message(format("{JPN}どの しゅるいの {POKEBLOCK}が しりたい?"))
         waitmessage
         enddynamicmultichoice(19, 2, 5, TRUE)
 
@@ -271,7 +271,7 @@ script Rogue_Area_Market_TalkPokeblockHelper
 
             begindynamicmultichoice(32)
             special(Rogue_AppendMultichoiceBerriesForPokeblock)
-            message(format("These are the Berries which produce {STR_VAR_1}."))
+            message(format("{JPN}{STR_VAR_1}が できる きのみは これだ。"))
             waitmessage
             enddynamicmultichoice(19, 2, 5, TRUE)
             

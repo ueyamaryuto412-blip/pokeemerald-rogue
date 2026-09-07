@@ -340,7 +340,7 @@ script RogueHub_IntroPokabbie
         lockall
         showobjectat(NPC_POKABBIE, MAP_ROGUE_HUB)
 
-        msgbox(format("{PLAYER}!"), MSGBOX_NPC)
+        msgbox(format("{JPN}{PLAYER}!"), MSGBOX_NPC)
         turnobject(OBJ_EVENT_ID_PLAYER, DIR_SOUTH)
 
         applymovement(NPC_POKABBIE, RogueHub_Pokabbie_Enter)

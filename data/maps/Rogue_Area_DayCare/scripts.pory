@@ -65,7 +65,7 @@ script Rogue_Area_DayCare_SwapMonGender
 
     setvar(VAR_0x8004, 0)
     special(BufferMonNickname)
-    msgbox(format("Well hi there!\pI just brewed a fresh batch of Tea.\nSometimes Pokémon who drink it can change gender!\pDid you want me to share some with {STR_VAR_1}?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}いらっしゃい!\pちょうど おちゃを いれたところ。\nのむと ポケモンの せいべつが かわることが あるの!\p{STR_VAR_1}に わけて あげましょうか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -81,7 +81,7 @@ script Rogue_Area_DayCare_SwapMonGender
     }
     else
     {
-        msgbox(format("Well, I have plenty of Herbal Remedy Tea to go around, if you change your mind!"))
+        msgbox(format("{JPN}やくそうちゃは たっぷり あるから きが かわったら いつでもね!"))
     }
 
     release
@@ -92,12 +92,12 @@ script Rogue_Area_DayCare_TalkEggBreeder
     lock
     faceplayer
 
-    msgbox(format("Hello there, {PLAYER}!"))
+    msgbox(format("{JPN}こんにちは {PLAYER}!"))
 
     if(flag(FLAG_ROGUE_DAYCARE_EGG_READY))
     {
         bufferspeciesname(STR_VAR_1, VAR_ROGUE_DAYCARE_EGG_SPECIES)
-        msgbox(format("I managed to find that {STR_VAR_1} egg you were looking for!"))
+        msgbox(format("{JPN}さがしていた {STR_VAR_1}の タマゴが みつかりましたよ!"))
 
         giveegg(VAR_ROGUE_DAYCARE_EGG_SPECIES)
 
@@ -109,11 +109,11 @@ script Rogue_Area_DayCare_TalkEggBreeder
         if(var(VAR_ROGUE_DAYCARE_EGG_SPECIES) != SPECIES_NONE)
         {
             bufferspeciesname(STR_VAR_1, VAR_ROGUE_DAYCARE_EGG_SPECIES)
-            msgbox(format("I've not managed to locate a {STR_VAR_1} egg quite yet.\pWould you like for me to look for a different type of Pokémon instead?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}まだ {STR_VAR_1}の タマゴは みつかっていません。\pべつの ポケモンを さがしましょうか?"), MSGBOX_YESNO)
         }
         else
         {
-            msgbox(format("If you'd like I can attempt to acquire a Pokémon for you whilst you're out Adventuring!\pWhich Pokémon would you like an egg for?"))
+            msgbox(format("{JPN}よければ ぼうけんの あいだに ポケモンを さがしておきますよ!\pどの ポケモンの タマゴが いいですか?"))
             setvar(VAR_RESULT, YES)
         }
 
@@ -138,7 +138,7 @@ script Rogue_Area_DayCare_TalkEggBreeder
                 
                 if(var(VAR_RESULT) == SPECIES_NONE)
                 {
-                    msgbox(format("I'm not sure I would be able to locate an Egg for that Pokémon, I'm afraid."))
+                    msgbox(format("{JPN}その ポケモンの タマゴは みつけられそうに ありません。"))
                 }
                 else
                 {
@@ -147,7 +147,7 @@ script Rogue_Area_DayCare_TalkEggBreeder
                     setvar(VAR_ROGUE_DAYCARE_EGG_CYCLES, 0)
                     bufferspeciesname(STR_VAR_1, VAR_ROGUE_DAYCARE_EGG_SPECIES)
 
-                    msgbox(format("Alright!\nI'll keep my eyes out for a {STR_VAR_1} egg."))
+                    msgbox(format("{JPN}わかりました!\n{STR_VAR_1}の タマゴを さがしておきます。"))
                 }
             }
         }
@@ -162,7 +162,7 @@ script Rogue_Area_DayCare_InteractWithPhoneBooth
     if(var(VAR_RESULT) == DIR_NORTH)
     {
         lock
-        msgbox(format("It's the Day Care's phone!"))
+        msgbox(format("{JPN}そだてやの でんわだ!"))
 
         if(!flag(FLAG_ROGUE_RUN_ACTIVE))
         {
@@ -180,7 +180,7 @@ script Rogue_Area_DayCare_InteractWithPhoneBooth
 
 script Rogue_Area_DayCare_GiveDayCarePhone
 {
-    msgbox(format("Oh?\nThere's a small package with a note attached.\pIt reads…\p'Dear {PLAYER}, please accept this Pokégear.\pYou can use it to remotely make requests with the Day Care, whilst you're out on Adventures.\pBest of luck!\p - The Day Care Staff'"))
+    msgbox(format("{JPN}おや?\nメモの ついた ちいさな にもつが ある。\pこう かいてある…\p「{PLAYER}さんへ この ポケギアを どうぞ。\pぼうけんちゅうでも そだてやに いらいを だせます。\pがんばって!\p そだてや いちどう」"))
     giveitem(ITEM_DAYCARE_PHONE)
     call(Rogue_Common_DisplayPopups)
 }

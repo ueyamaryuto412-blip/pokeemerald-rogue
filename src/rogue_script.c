@@ -60,7 +60,7 @@ static const u8 sTypeNames[NUMBER_OF_MON_TYPES][10] = // alt version of gTypeNam
     [TYPE_FLYING] = _("{JPN}ひこう"),
     [TYPE_POISON] = _("{JPN}どく"),
     [TYPE_GROUND] = _("{JPN}じめん"),
-    [TYPE_ROCK] = _("{JPN}がんせき"),
+    [TYPE_ROCK] = _("{JPN}いわ"),
     [TYPE_BUG] = _("{JPN}むし"),
     [TYPE_GHOST] = _("{JPN}ゴースト"),
     [TYPE_STEEL] = _("{JPN}はがね"),
@@ -69,12 +69,12 @@ static const u8 sTypeNames[NUMBER_OF_MON_TYPES][10] = // alt version of gTypeNam
     [TYPE_WATER] = _("{JPN}みず"),
     [TYPE_GRASS] = _("{JPN}くさ"),
     [TYPE_ELECTRIC] = _("{JPN}でんき"),
-    [TYPE_PSYCHIC] = _("{JPN}サイコキネシス"),
+    [TYPE_PSYCHIC] = _("{JPN}エスパー"),
     [TYPE_ICE] = _("{JPN}こおり"),
     [TYPE_DRAGON] = _("{JPN}ドラゴン"),
-    [TYPE_DARK] = _("{JPN}ダーク"),
+    [TYPE_DARK] = _("{JPN}あく"),
 #ifdef ROGUE_EXPANSION
-    [TYPE_FAIRY] = _("{JPN}ようせい"),
+    [TYPE_FAIRY] = _("{JPN}フェアリー"),
 #endif
 };
 

@@ -316,7 +316,7 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     [TYPE_FLYING] = _("{JPN}ひこう"),
     [TYPE_POISON] = _("{JPN}どく"),
     [TYPE_GROUND] = _("{JPN}じめん"),
-    [TYPE_ROCK] = _("{JPN}がんせき"),
+    [TYPE_ROCK] = _("{JPN}いわ"),
     [TYPE_BUG] = _("{JPN}むし"),
     [TYPE_GHOST] = _("{JPN}ゴースト"),
     [TYPE_STEEL] = _("{JPN}はがね"),
@@ -328,8 +328,8 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     [TYPE_PSYCHIC] = _("{JPN}エスパー"),
     [TYPE_ICE] = _("{JPN}こおり"),
     [TYPE_DRAGON] = _("{JPN}ドラゴン"),
-    [TYPE_DARK] = _("{JPN}ダーク"),
-    [TYPE_FAIRY] = _("{JPN}ようせい"),
+    [TYPE_DARK] = _("{JPN}あく"),
+    [TYPE_FAIRY] = _("{JPN}フェアリ"),
     [TYPE_STELLAR] = _("{JPN}ステラ"),
 };
 

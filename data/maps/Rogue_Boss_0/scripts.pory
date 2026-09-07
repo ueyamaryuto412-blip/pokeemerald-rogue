@@ -123,7 +123,7 @@ script Rogue_Boss_BufferTypeHint
             bufferstring(STR_VAR_1, "{JPN}じめん")
 
         case TYPE_ROCK:
-            bufferstring(STR_VAR_1, "{JPN}がんせき")
+            bufferstring(STR_VAR_1, "{JPN}いわ")
 
         case TYPE_BUG:
             bufferstring(STR_VAR_1, "{JPN}むし")
@@ -150,7 +150,7 @@ script Rogue_Boss_BufferTypeHint
             bufferstring(STR_VAR_1, "{JPN}でんき")
 
         case TYPE_PSYCHIC:
-            bufferstring(STR_VAR_1, "{JPN}サイコキネシス")
+            bufferstring(STR_VAR_1, "{JPN}エスパー")
 
         case TYPE_ICE:
             bufferstring(STR_VAR_1, "{JPN}こおり")
@@ -159,10 +159,10 @@ script Rogue_Boss_BufferTypeHint
             bufferstring(STR_VAR_1, "{JPN}ドラゴン")
 
         case TYPE_DARK:
-            bufferstring(STR_VAR_1, "{JPN}ダーク")
+            bufferstring(STR_VAR_1, "{JPN}あく")
 
         case 18: //TYPE_FAIRY
-            bufferstring(STR_VAR_1, "{JPN}ようせい")
+            bufferstring(STR_VAR_1, "{JPN}フェアリー")
 
         default:
             bufferstring(STR_VAR_1, "???")

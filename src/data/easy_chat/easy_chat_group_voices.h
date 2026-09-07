@@ -1,7 +1,7 @@
 const u8 gEasyChatWord_Excl[] = _("!");
 const u8 gEasyChatWord_ExclExcl[] = _("!!");
 const u8 gEasyChatWord_QuesExcl[] = _("?!");
-const u8 gEasyChatWord_Ques[] = _("?");
+const u8 gEasyChatWord_Ques[] = _("{JPN}?");
 const u8 gEasyChatWord_Ellipsis[] = _("…");
 const u8 gEasyChatWord_EllipsisExcl[] = _("…!");
 const u8 gEasyChatWord_EllipsisEllipsisEllipsis[] = _("………");

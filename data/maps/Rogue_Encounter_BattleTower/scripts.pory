@@ -17,7 +17,7 @@ script Rogue_Encounter_BattleTower_TalkReward
 
     if(flag(FLAG_HAS_COLLECTED))
     {
-        msgbox(format("Good luck on your Adventure!"))
+        msgbox(format("{JPN}ぼうけん がんばって!"))
     }
     else
     {

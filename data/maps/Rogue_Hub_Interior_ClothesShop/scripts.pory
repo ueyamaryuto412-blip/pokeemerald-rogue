@@ -218,7 +218,7 @@ script Rogue_Hub_Clothes_SetStyle_Ethan
 {
     lock
 
-    msgbox(format("Change to this style?\n(WARNING UNFINISHED)"), MSGBOX_YESNO)
+    msgbox(format("{JPN}この スタイルに かえますか?\n「けいこく みかんせいです」"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)
@@ -239,7 +239,7 @@ script Rogue_Hub_Clothes_SetStyle_Lyra
 {
     lock
 
-    msgbox(format("Change to this style?\n(WARNING UNFINISHED)"), MSGBOX_YESNO)
+    msgbox(format("{JPN}この スタイルに かえますか?\n「けいこく みかんせいです」"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)

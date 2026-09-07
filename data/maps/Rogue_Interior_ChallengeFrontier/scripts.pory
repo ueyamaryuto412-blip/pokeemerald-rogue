@@ -226,7 +226,7 @@ script Rogue_Interior_ChallengeFrontier_TryWarnAboutDynamaxAndTera
                 checkitem(ITEM_TERA_ORB)
                 if(var(VAR_RESULT) == YES)
                 {
-                    msgbox(format("Warning…\pYou are holding both the Dynamax Band and the Tera Orb.\pBoth of these cannot be activated at once.\pSo, at the start of battles where they would be active, one of them of them will be randomly selected to be active and the other will be temporarily deactivated."))
+                    msgbox(format("{JPN}けいこく…\pダイマックスバンドと テラスタルオーブを りょうほう もっている。\pこの ふたつは どうじに つかえない。\pそのため バトルの はじめに どちらかが ランダムに えらばれ もう ひとつは いちじてきに つかえなく なる。"))
                 }
             }
         }
@@ -272,7 +272,7 @@ script Rogue_Interior_ChallengeFrontier_Dynamax
                         setvar(VAR_RESULT, NO)
 
                     case 2: // Info
-                        msgbox(format("Grants you and other Key Trainer's (e.g. Strong Trainers, Rivals) the ability to Dynamax or Gigantamax, if the Pokémon has a Gigantamax form available."), MSGBOX_DEFAULT)
+                        msgbox(format("{JPN}じぶんや おもな トレーナー「つよいトレーナーや ライバル」が ダイマックス できるように なる。キョダイマックスの すがたが あれば それにも なれる。"), MSGBOX_DEFAULT)
 
                     case MULTI_B_PRESSED:
                         setvar(VAR_RESULT, NO)
@@ -324,7 +324,7 @@ script Rogue_Interior_ChallengeFrontier_Tera
                         setvar(VAR_RESULT, NO)
 
                     case 2: // Info
-                        msgbox(format("Grants you and other Trainer's the ability to Terastallize.\pUnlike in Scarlet and Violet, the Tera Orb will be recharged upon entering every encounter/map, so you may Terastallize more freely."), MSGBOX_DEFAULT)
+                        msgbox(format("{JPN}じぶんも あいても テラスタル できるように なる。\pスカーレット バイオレットと ちがい エンカウントや マップに はいるたび じゅうでんされるので じゆうに つかえる。"), MSGBOX_DEFAULT)
 
                     case MULTI_B_PRESSED:
                         setvar(VAR_RESULT, NO)
@@ -367,7 +367,7 @@ script Rogue_Interior_ChallengeFrontier_HealingFlask
                 setvar(VAR_RESULT, NO)
 
             case 2: // Info
-                msgbox(format("When Adventuring with the Healing Flask, your Party will not get automatically healed after Key Battles e.g. Strong Trainers or Rival Battles.\pInstead you will be given a number of Healing charges you may use via the Healing Flask.\pThe Healing Flask will only be refilled when your Party is healed at any Nurse.\pThis will give you another Resource to manage and generally make Adventures more tedious, as you will have to be stricter with healing items."), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}かいふくフラスコを もって ぼうけんすると つよいトレーナーや ライバルとの バトルのあと てもちが じどうで かいふくしなく なる。\pかわりに フラスコで つかえる かいふくの かいすうが わたされる。\pフラスコは ナースで かいふくした ときだけ みたされる。\pかんりする ものが ふえ かいふくの どうぐを きびしく つかう ぶん ぼうけんは てまが かかるように なる。"), MSGBOX_DEFAULT)
 
             case MULTI_B_PRESSED:
                 setvar(VAR_RESULT, NO)
@@ -469,14 +469,14 @@ script Rogue_Interior_ChallengeFrontier_ScottIntroCommon
 
     if(flag(FLAG_IS_CHAMPION))
     {
-        msgbox(format("And would you look at that…\pYou already put your name in the Hall of Fame!\pYou're gonna fit in well around here!"))
+        msgbox(format("{JPN}おや みてみろ…\pもう でんどういりしているじゃないか!\pここには よく なじめそうだな!"))
     }
     else
     {
-        msgbox(format("You still look a little fresh, but I see the potential!\pI bet you could even enter the Hall of Fame, if you put your mind to it!"))
+        msgbox(format("{JPN}まだ かけだしに みえるが そざいは いい!\pその きに なれば でんどういりも できるはずだ!"))
     }
 
-    msgbox(format("You see, this Building is an area for those who want to push themselves to complete some of the toughest Challenges imaginable!\pIn fact…\nWhy don't you have a look around?\pI'm sure you'll find plenty of the things around here interesting!"))
+    msgbox(format("{JPN}この たてものは そうぞうを こえる きびしい チャレンジに いどみたい ひとの ための ばしょだ!\pそうだ…\nすこし みてまわったら どうだ?\pきっと おもしろい ものが たくさん あるぞ!"))
     
     quest_trigger(QUEST_TRIGGER_MAP_SPECIFIC_EVENT)
 }
@@ -517,7 +517,7 @@ script Rogue_Interior_ChallengeFrontier_ScottBlockExit
     else
     {
         turnobject(OBJ_EVENT_ID_PLAYER, DIR_NORTH)
-        msgbox(format("SCOTT: {PLAYER}, you can't head out just yet.\pThere's still more for you to see!"))
+        msgbox(format("{JPN}スコット: {PLAYER} まだ でていくな。\pみせたい ものが まだ あるんだ!"))
 
         closemessage
         applymovement(OBJ_EVENT_ID_PLAYER, PostGameTutorial_Player1)
@@ -546,13 +546,13 @@ script Rogue_Interior_ChallengeFrontier_TalkMasteries
 
     if(!flag(FLAG_SYS_MASTERIES_UNLOCKED))
     {
-        msgbox(format("Hello, {PLAYER}.\pI've enjoyed seeing your progress so far!\pI would like to issue you some additional Quests.\pThese Quests will prove your skill with using a variety of Pokémon.\pAs such, they are appropriately named, Pokémon Masteries.\pHere, take a look!"))
+        msgbox(format("{JPN}やあ {PLAYER}。\pここまでの あゆみを たのしく みせてもらった!\pあたらしい クエストを だそう。\pこの クエストは いろんな ポケモンを つかいこなす うでまえを ためすものだ。\pだから ポケモンマスタリーと よんでいる。\pほら みてくれ!"))
         
         special(Rogue_UnlockMasteryQuests)
         special(Rogue_ShowNewMonMasteries)
         waitstate
 
-        msgbox(format("You may also have noticed that you have access to the {PKMN} Tracker alongside the Quests I mentioned.\pThe {PKMN} Tracker keeps track of every Pokémon line you have entered into the Hall of Fame.\pDon't worry.\nYou are not required to fill the {PKMN} Tracker, in order to reach 100% Quest Completion.\pJust the Pokémon Mastery Quests listed."))
+        msgbox(format("{JPN}クエストと いっしょに {PKMN}トラッカーも つかえるように なったのに きづいたかな。\p{PKMN}トラッカーは でんどういりさせた ポケモンの けいとうを きろくする。\pあんしんして。\nクエストを すべて クリアするのに {PKMN}トラッカーを うめる ひつようは ない。\pのっている ポケモンマスタリーだけで いい。"))
         
     
         poryswitch(ROGUE_VERSION)
@@ -563,7 +563,7 @@ script Rogue_Interior_ChallengeFrontier_TalkMasteries
             }
             ROGUE_VERSION_EXPANSION
             {
-                msgbox(format("Once, you have completed any of those Quests, their Special Items may be available for purchase.\pYou may speak to me, at any time, to buy any Special Items you gain access to through completing Quests.\pI wish you the best of luck with your Pokémon Masteries, {PLAYER}!"))
+                msgbox(format("{JPN}その クエストを クリアすると とくべつな どうぐが かえるように なることが ある。\pクエストで てに はいる とくべつな どうぐは いつでも わたしから かえる。\pポケモンマスタリーの けんとうを いのるよ {PLAYER}!"))
             }
         }
     }

@@ -111,7 +111,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
         .bodyColor = BODY_COLOR_GREEN,                      \
         .speciesName = _("{JPN}ジュカイン"),                       \
         .natDexNum = NATIONAL_DEX_SCEPTILE,                 \
-        .categoryName = _("Forest"),                        \
+        .categoryName = _("{JPN}もり"),                        \
         .footprint = gMonFootprint_Sceptile,                \
         LEARNSETS(Sceptile),                                \
         .formSpeciesIdTable = sSceptileFormSpeciesIdTable,  \

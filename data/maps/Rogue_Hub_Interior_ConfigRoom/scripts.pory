@@ -863,7 +863,7 @@ script Rogue_ConfigRoom_PreEAHButtonInternal
     switch(var(VAR_FLAG_STATE))
     {
         case 0:
-            bufferstring(STR_VAR_2, format("EASY"))
+            bufferstring(STR_VAR_2, format("{JPN}やさしい"))
         case 1:
             bufferstring(STR_VAR_2, format("{JPN}ふつう"))
         case 2:

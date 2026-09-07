@@ -123,7 +123,7 @@ script Rogue_Boss_BufferTypeHint
             bufferstring(STR_VAR_1, "Ground")
 
         case TYPE_ROCK:
-            bufferstring(STR_VAR_1, "Rock")
+            bufferstring(STR_VAR_1, "{JPN}がんせき")
 
         case TYPE_BUG:
             bufferstring(STR_VAR_1, "Bug")
@@ -156,10 +156,10 @@ script Rogue_Boss_BufferTypeHint
             bufferstring(STR_VAR_1, "Ice")
 
         case TYPE_DRAGON:
-            bufferstring(STR_VAR_1, "Dragon")
+            bufferstring(STR_VAR_1, "{JPN}ドラゴン")
 
         case TYPE_DARK:
-            bufferstring(STR_VAR_1, "Dark")
+            bufferstring(STR_VAR_1, "{JPN}ダーク")
 
         case 18: //TYPE_FAIRY
             bufferstring(STR_VAR_1, "{JPN}ピッピ")

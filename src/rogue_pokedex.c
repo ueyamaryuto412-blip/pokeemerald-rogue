@@ -214,8 +214,8 @@ static const u8 sText_Abilities[] = _("ABILITIES");
 
 static const u8 sText_Total[] = _("TOTAL");
 static const u8 sText_HP[] = _("{JPN}HP");
-static const u8 sText_Attack[] = _("ATK");
-static const u8 sText_Defence[] = _("DEF");
+static const u8 sText_Attack[] = _("{JPN}こうげき");
+static const u8 sText_Defence[] = _("{JPN}ぼうぎょ");
 static const u8 sText_SpAttack[] = _("SP ATK");
 static const u8 sText_SpDefence[] = _("SP DEF");
 static const u8 sText_Speed[] = _("SPEED");
@@ -223,7 +223,7 @@ static const u8 sText_Speed[] = _("SPEED");
 static const u8 sText_Skills[] = _("SKILLS");
 static const u8 sText_SkillClimbing[] = _("CLIMBING");
 static const u8 sText_SkillSurf[] = _("SURFING");
-static const u8 sText_SkillFlying[] = _("FLYING");
+static const u8 sText_SkillFlying[] = _("{JPN}ひこう");
 static const u8 sText_SkillNone[] = _("NONE");
 
 static const u8 sText_RevisedInspect[] = _("{A_BUTTON} INSPECT");

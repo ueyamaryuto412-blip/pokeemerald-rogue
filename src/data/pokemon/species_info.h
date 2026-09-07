@@ -1,11 +1,7 @@
 #include "constants/abilities.h"
 
 // Shared Pokédex entries
-const u8 gPichuPokedexText[] = _(
-    "It is still inept at retaining electricity.\n"
-    "When it is startled, it discharges power\n"
-    "accidentally. It gets better at holding\n"
-    "power as it grows older.");
+const u8 gPichuPokedexText[] = _("{JPN}でんきを ためて おくのが まだ へた。 おどろくと\nおもわず ほうでん して しまう。 そだつに つれて\nじょうずに なって いく。");
 
 const u8 gPikachuPokedexText[] = _(
     "It stores electricity in the electric sacs\n"
@@ -97,9 +93,7 @@ const u8 gMiniorCorePokedexText[] = _(
     "may survive if it's put into a Poké Ball\n"
     "quickly enough.");
 
-const u8 gAlcremieVanillaCreamPokedexText[] = _(
-    "When it trusts a Trainer, it will treat\n"
-    "them to berries it's decorated with cream.");
+const u8 gAlcremieVanillaCreamPokedexText[] = _("{JPN}トレーナーを しんらいすると クリームで かざった きのみを\nごちそう して くれる。");
 
 const u8 gAlcremieRubyCreamPokedexText[] = _(
     "The moment it evolved, it took on a\n"
@@ -131,11 +125,7 @@ const u8 gAlcremieSaltedCreamPokedexText[] = _(
     "way its cells spontaneously shifted\n"
     "during evolution.");
 
-const u8 gAlcremieRubySwirlPokedexText[] = _(
-    "The moment it evolved, it took on a\n"
-    "mixed flavor. This is because of the\n"
-    "way its cells spontaneously shifted\n"
-    "during evolution.");
+const u8 gAlcremieRubySwirlPokedexText[] = _("{JPN}しんか した しゅんかん いろいろ まざった あじに\nなった。 さいぼうが ひとりでに かわった ためだと\nいわれて いる。");
 
 const u8 gAlcremieCaramelSwirlPokedexText[] = _(
     "The moment it evolved, it took on a\n"
@@ -166,10 +156,7 @@ const u8 gOgerponWellspringMaskPokedexText[] = _(
     "and defense. It ceaselessly unleashes\n"
     "moves like a spring gushes water.");
 
-const u8 gOgerponHearthflameMaskPokedexText[] = _(
-    "This form is the most aggressive,\n"
-    "bombarding enemies with the\n"
-    "intensity of flames blazing within a hearth.");
+const u8 gOgerponHearthflameMaskPokedexText[] = _("{JPN}もっとも こうげきてきな すがた。 いろりで もえる\nほのおの ような はげしさで あいてを せめたてる。");
 
 const u8 gOgerponCornerstoneMaskPokedexText[] = _(
     "In this form, it draws on the power\n"

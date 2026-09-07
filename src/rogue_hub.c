@@ -225,7 +225,7 @@ static u8 const* const sOptions_PathStyle[PATH_STYLE_COUNT] =
     [PATH_STYLE_MUDDY_TRACKS] = sText_PathStyle_MuddyTracks,
 };
 
-static u8 const sText_ExteriorStyle_Cave[] = _("Cave");
+static u8 const sText_ExteriorStyle_Cave[] = _("{JPN}ほらあな");
 static u8 const sText_ExteriorStyle_Trees[] = _("Trees");
 static u8 const sText_ExteriorStyle_BrickHouse[] = _("Brick House");
 static u8 const sText_ExteriorStyle_WoodHouse[] = _("Wooden House");

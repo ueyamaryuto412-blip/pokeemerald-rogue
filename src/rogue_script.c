@@ -60,7 +60,7 @@ static const u8 sTypeNames[NUMBER_OF_MON_TYPES][10] = // alt version of gTypeNam
     [TYPE_FLYING] = _("Flying"),
     [TYPE_POISON] = _("Poison"),
     [TYPE_GROUND] = _("Ground"),
-    [TYPE_ROCK] = _("Rock"),
+    [TYPE_ROCK] = _("{JPN}がんせき"),
     [TYPE_BUG] = _("Bug"),
     [TYPE_GHOST] = _("Ghost"),
     [TYPE_STEEL] = _("Steel"),
@@ -71,8 +71,8 @@ static const u8 sTypeNames[NUMBER_OF_MON_TYPES][10] = // alt version of gTypeNam
     [TYPE_ELECTRIC] = _("Electric"),
     [TYPE_PSYCHIC] = _("{JPN}サイコキネシス"),
     [TYPE_ICE] = _("Ice"),
-    [TYPE_DRAGON] = _("Dragon"),
-    [TYPE_DARK] = _("Dark"),
+    [TYPE_DRAGON] = _("{JPN}ドラゴン"),
+    [TYPE_DARK] = _("{JPN}ダーク"),
 #ifdef ROGUE_EXPANSION
     [TYPE_FAIRY] = _("{JPN}ピッピ"),
 #endif

@@ -334,7 +334,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_LEAF] =
     {
-        .name = _("Leaf"),
+        .name = _("{JPN}はっぱ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_KANTO,
         .trainerFrontPic = TRAINER_PIC_LEAF,
         .trainerBackPic = TRAINER_BACK_PIC_LEAF,
@@ -922,7 +922,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_PLASMA_GRUNT_F] =
     {
-        .name = _("Plasma"),
+        .name = _("{JPN}プラズマ"),
         .trainerFrontPic = TRAINER_PIC_PLASMA_GRUNT_F,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_MAY_SILVER,
@@ -937,7 +937,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_PLASMA_GRUNT_M] =
     {
-        .name = _("Plasma"),
+        .name = _("{JPN}プラズマ"),
         .trainerFrontPic = TRAINER_PIC_PLASMA_GRUNT_M,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_BRENDAN_SILVER,
@@ -1040,7 +1040,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_RAVEN] =
     {
-        .name = _("Raven"),
+        .name = _("{JPN}カラス"),
         .trainerFrontPic = TRAINER_PIC_GLITCH_RAVEN,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_LEAF,

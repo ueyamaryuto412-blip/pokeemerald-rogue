@@ -2361,14 +2361,14 @@ static void BufferTypeAdjective(u8 type)
     const u8 gText_AdjSteel[] = _("Sharp");
     const u8 gText_AdjFire[] = _("Warm");
     const u8 gText_AdjWater[] = _("Wet");
-    const u8 gText_AdjGrass[] = _("Verdant");
+    const u8 gText_AdjGrass[] = _("{JPN}しんりょく");
     const u8 gText_AdjElectric[] = _("Energetic");
     const u8 gText_AdjPsychic[] = _("Confusing");
     const u8 gText_AdjIce[] = _("Chilly");
     const u8 gText_AdjDragon[] = _("Fierce");
     const u8 gText_AdjDark[] = _("Gloomy");
 #ifdef ROGUE_EXPANSION
-    const u8 gText_AdjFairy[] = _("Magical");
+    const u8 gText_AdjFairy[] = _("{JPN}マジカル");
 #endif
     const u8 gText_AdjNone[] = _("???");
 

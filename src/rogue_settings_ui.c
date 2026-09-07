@@ -97,7 +97,7 @@ enum
 static u8 const sMenu_SparkleIcon[] = _("{JPN}{SPARKLE_ICON}");
 
 static u8 const sMenuName_Back[] = _("Back");
-static u8 const sMenuName_SaveAndExit[] = _("Save & Exit");
+static u8 const sMenuName_SaveAndExit[] = _("{JPN}ほぞんして おわる");
 static u8 const sMenuName_DifficultySubmenu[] = _("{JPN}なんいどを かえる");
 static u8 const sMenuName_AdventureSubmenu[] = _("{JPN}ぼうけん");
 static u8 const sMenuName_TrainersSubmenu[] = _("{JPN}トレーナー");

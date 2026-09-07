@@ -165,68 +165,68 @@ static const struct WindowTemplate sMonEntryWinTemplates[WIN_COUNT + 1] =
 #ifdef ROGUE_EXPANSION
 static const u8 sTitle_Stats[] = _("Stats");
 static const u8 sTitle_Moves[] = _("Moves");
-static const u8 sTitle_Evolutions[] = _("Evolutions");
-static const u8 sTitle_Forms[] = _("Forms");
-static const u8 sTitle_Riding[] = _("Poké Ride");
+static const u8 sTitle_Evolutions[] = _("{JPN}しんか");
+static const u8 sTitle_Forms[] = _("{JPN}すがた");
+static const u8 sTitle_Riding[] = _("{JPN}ポケットライド");
 
 static const u8 sText_Types[] = _("Types");
-static const u8 sText_Abilities[] = _("Abilities");
+static const u8 sText_Abilities[] = _("{JPN}とくせい");
 
-static const u8 sText_Total[] = _("Total");
+static const u8 sText_Total[] = _("{JPN}ごうけい");
 
-static const u8 sText_HP[] = _("{JPN}HP");
-static const u8 sText_Attack[] = _("Atk");
-static const u8 sText_Defence[] = _("Def");
-static const u8 sText_SpAttack[] = _("Sp Atk");
-static const u8 sText_SpDefence[] = _("Sp Def");
-static const u8 sText_Speed[] = _("{JPN}すばやさ");
-
-static const u8 sText_Skills[] = _("Skills");
-static const u8 sText_SkillClimbing[] = _("Climbing");
-static const u8 sText_SkillSurf[] = _("Surfing");
-static const u8 sText_SkillFlying[] = _("Flying");
-static const u8 sText_SkillNone[] = _("None");
-
-static const u8 sText_Base[] = _("{COLOR RED}{SHADOW LIGHT_RED}Base");
-static const u8 sText_Alolan[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}Alolan");
-static const u8 sText_Galarian[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}Galarian");
-static const u8 sText_Paldean[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}Paldean");
-static const u8 sText_Hisuian[] = _("{COLOR BLUE}{SHADOW LIGHT_BLUE}Hisuian");
-static const u8 sText_Mega[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Mega Evolution");
-static const u8 sText_Primal[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Primal Reversion");
-static const u8 sText_UltraBurst[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Ultra Burst");
-static const u8 sText_Gigantamax[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Gigantamax");
-static const u8 sText_TeraForm[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Tera Form");
-static const u8 sText_Debug[] = _("{COLOR RED}{SHADOW LIGHT_RED}DEBUG VIEW ONLY");
-
-static const u8 sText_NoFormData[] = _("{COLOR RED}{SHADOW LIGHT_RED}No Form data found");
-
-static const u8 sText_RevisedInspect[] = _("{A_BUTTON} Inspect");
-#else
-static const u8 sTitle_Stats[] = _("STATS");
-static const u8 sTitle_Moves[] = _("MOVES");
-static const u8 sTitle_Evolutions[] = _("EVOLUTIONS");
-static const u8 sTitle_Forms[] = _("FORMS");
-static const u8 sTitle_Riding[] = _("POKé RIDE");
-
-static const u8 sText_Types[] = _("TYPES");
-static const u8 sText_Abilities[] = _("ABILITIES");
-
-static const u8 sText_Total[] = _("TOTAL");
 static const u8 sText_HP[] = _("{JPN}HP");
 static const u8 sText_Attack[] = _("{JPN}こうげき");
 static const u8 sText_Defence[] = _("{JPN}ぼうぎょ");
-static const u8 sText_SpAttack[] = _("SP ATK");
-static const u8 sText_SpDefence[] = _("SP DEF");
-static const u8 sText_Speed[] = _("SPEED");
+static const u8 sText_SpAttack[] = _("{JPN}とくこう");
+static const u8 sText_SpDefence[] = _("{JPN}とくぼう");
+static const u8 sText_Speed[] = _("{JPN}すばやさ");
 
-static const u8 sText_Skills[] = _("SKILLS");
-static const u8 sText_SkillClimbing[] = _("CLIMBING");
-static const u8 sText_SkillSurf[] = _("SURFING");
+static const u8 sText_Skills[] = _("{JPN}わざ");
+static const u8 sText_SkillClimbing[] = _("{JPN}がけのぼり");
+static const u8 sText_SkillSurf[] = _("{JPN}なみのり");
+static const u8 sText_SkillFlying[] = _("Flying");
+static const u8 sText_SkillNone[] = _("{JPN}なし");
+
+static const u8 sText_Base[] = _("{JPN}{COLOR RED}{SHADOW LIGHT_RED}きほん");
+static const u8 sText_Alolan[] = _("{JPN}{COLOR BLUE}{SHADOW LIGHT_BLUE}アローラのすがた");
+static const u8 sText_Galarian[] = _("{JPN}{COLOR BLUE}{SHADOW LIGHT_BLUE}ガラルのすがた");
+static const u8 sText_Paldean[] = _("{JPN}{COLOR BLUE}{SHADOW LIGHT_BLUE}パルデアのすがた");
+static const u8 sText_Hisuian[] = _("{JPN}{COLOR BLUE}{SHADOW LIGHT_BLUE}ヒスイのすがた");
+static const u8 sText_Mega[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}メガシンカ");
+static const u8 sText_Primal[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ゲンシカイキ");
+static const u8 sText_UltraBurst[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ウルトラバースト");
+static const u8 sText_Gigantamax[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}キョダイマックス");
+static const u8 sText_TeraForm[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}テラスタルの すがた");
+static const u8 sText_Debug[] = _("{JPN}{COLOR RED}{SHADOW LIGHT_RED}デバッグひょうじ せんよう");
+
+static const u8 sText_NoFormData[] = _("{JPN}{COLOR RED}{SHADOW LIGHT_RED}すがたの データが ありません");
+
+static const u8 sText_RevisedInspect[] = _("{JPN}{A_BUTTON} しらべる");
+#else
+static const u8 sTitle_Stats[] = _("{JPN}のうりょく");
+static const u8 sTitle_Moves[] = _("{JPN}わざ");
+static const u8 sTitle_Evolutions[] = _("{JPN}しんか");
+static const u8 sTitle_Forms[] = _("{JPN}すがた");
+static const u8 sTitle_Riding[] = _("{JPN}ポケットライド");
+
+static const u8 sText_Types[] = _("{JPN}タイプ");
+static const u8 sText_Abilities[] = _("{JPN}とくせい");
+
+static const u8 sText_Total[] = _("{JPN}ごうけい");
+static const u8 sText_HP[] = _("{JPN}HP");
+static const u8 sText_Attack[] = _("{JPN}こうげき");
+static const u8 sText_Defence[] = _("{JPN}ぼうぎょ");
+static const u8 sText_SpAttack[] = _("{JPN}とくこう");
+static const u8 sText_SpDefence[] = _("{JPN}とくぼう");
+static const u8 sText_Speed[] = _("{JPN}すばやさ");
+
+static const u8 sText_Skills[] = _("{JPN}わざ");
+static const u8 sText_SkillClimbing[] = _("{JPN}がけのぼり");
+static const u8 sText_SkillSurf[] = _("{JPN}なみのり");
 static const u8 sText_SkillFlying[] = _("{JPN}ひこう");
 static const u8 sText_SkillNone[] = _("NONE");
 
-static const u8 sText_RevisedInspect[] = _("{A_BUTTON} INSPECT");
+static const u8 sText_RevisedInspect[] = _("{JPN}{A_BUTTON} しらべる");
 #endif
 
 static const u8 sText_FontSmallNarrow[] = _("{FONT_SMALL_NARROW}");
@@ -235,7 +235,7 @@ static const u8 sText_RevisedUp[] = _("{REVISED_EDIT}{STAT_UP}");
 static const u8 sText_RevisedDown[] = _("{REVISED_EDIT}{STAT_DOWN}");
 
 static const u8 sText_RideStar[] = _("{STAR_ICON}");
-static const u8 sText_NoDataFound[] = _("{COLOR RED}{SHADOW LIGHT_RED}No data found");
+static const u8 sText_NoDataFound[] = _("{JPN}{COLOR RED}{SHADOW LIGHT_RED}データが ありません");
 
 static const u8 sText_Add[] = _("+");
 static const u8 sText_Minus[] = _("-");

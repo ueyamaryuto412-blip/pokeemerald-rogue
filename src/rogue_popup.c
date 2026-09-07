@@ -385,7 +385,7 @@ static const u8 sText_Popup_QuestsDisabledSubtitle[] = _("{JPN}{COLOR LIGHT_BLUE
 static const u8 sText_Popup_WeatherActive[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}てんきの こうか");
 
 static const u8 sWeatherNames[22][14] = {
-    [WEATHER_NONE]               = _("None"),
+    [WEATHER_NONE]               = _("{JPN}なし"),
     [WEATHER_SUNNY_CLOUDS]       = _("{JPN}はれ"),
     [WEATHER_SUNNY]              = _("{JPN}はれ"),
     [WEATHER_RAIN]               = _("{JPN}あめ"),

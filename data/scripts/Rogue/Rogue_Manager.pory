@@ -136,7 +136,7 @@ script Rogue_Debug_SetWeather
     lock
 
     begindynamicmultichoice(24)
-    appenddynamicmultichoice("None", WEATHER_NONE)
+    appenddynamicmultichoice("{JPN}なし", WEATHER_NONE)
     appenddynamicmultichoice("{JPN}はれ", WEATHER_SUNNY)
     appenddynamicmultichoice("{JPN}ひでり", WEATHER_DROUGHT)
     appenddynamicmultichoice("{JPN}あめ", WEATHER_RAIN)

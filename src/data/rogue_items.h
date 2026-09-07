@@ -208,7 +208,7 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_DAYCARE_PHONE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Pokégear"),
+        .name = _("{JPN}ポケギア"),
 #else
         .name = _("{JPN}ポケギア"),
 #endif

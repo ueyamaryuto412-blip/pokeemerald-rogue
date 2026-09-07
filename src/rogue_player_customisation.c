@@ -255,7 +255,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 {
     [PLAYER_OUTFIT_BRENDAN] =
     {
-        .name = _("Brendan"),
+        .name = _("{JPN}ユウキ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_HOENN,
         .trainerFrontPic = TRAINER_PIC_BRENDAN,
         .trainerBackPic = TRAINER_BACK_PIC_BRENDAN,
@@ -281,7 +281,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_MAY] =
     {
-        .name = _("May"),
+        .name = _("{JPN}ハルカ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_HOENN,
         .trainerFrontPic = TRAINER_PIC_MAY,
         .trainerBackPic = TRAINER_BACK_PIC_MAY,
@@ -308,7 +308,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_RED] =
     {
-        .name = _("Red"),
+        .name = _("{JPN}レッド"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_KANTO,
         .trainerFrontPic = TRAINER_PIC_RED,
         .trainerBackPic = TRAINER_BACK_PIC_RED,
@@ -361,7 +361,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     
     [PLAYER_OUTFIT_ETHAN] =
     {
-        .name = _("Ethan"),
+        .name = _("{JPN}ヒビキ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_JOHTO,
         .trainerFrontPic = TRAINER_PIC_ETHAN,
         .trainerBackPic = TRAINER_BACK_PIC_ETHAN,
@@ -387,7 +387,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_LYRA] =
     {
-        .name = _("Lyra"),
+        .name = _("{JPN}コトネ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_JOHTO,
         .trainerFrontPic = TRAINER_PIC_LYRA,
         .trainerBackPic = TRAINER_BACK_PIC_LYRA,
@@ -414,7 +414,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_LUCAS] =
     {
-        .name = _("Lucas"),
+        .name = _("{JPN}コウキ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_SINNOH,
         .trainerFrontPic = TRAINER_PIC_LUCAS,
         .trainerBackPic = TRAINER_BACK_PIC_LUCAS,
@@ -440,7 +440,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_DAWN] =
     {
-        .name = _("Dawn"),
+        .name = _("{JPN}ヒカリ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_SINNOH,
         .trainerFrontPic = TRAINER_PIC_DAWN,
         .trainerBackPic = TRAINER_BACK_PIC_DAWN,
@@ -467,7 +467,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_HILBERT] =
     {
-        .name = _("Hilbert"),
+        .name = _("{JPN}トウヤ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_UNOVA,
         .trainerFrontPic = TRAINER_PIC_HILBERT,
         .trainerBackPic = TRAINER_BACK_PIC_HILBERT,
@@ -494,7 +494,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_HILDA] =
     {
-        .name = _("Hilda"),
+        .name = _("{JPN}トウコ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_UNOVA,
         .trainerFrontPic = TRAINER_PIC_HILDA,
         .trainerBackPic = TRAINER_BACK_PIC_HILDA,
@@ -521,7 +521,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     
     [PLAYER_OUTFIT_NATE] =
     {
-        .name = _("Nate"),
+        .name = _("{JPN}キョウヘイ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_UNOVA,
         .trainerFrontPic = TRAINER_PIC_NATE,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
@@ -547,7 +547,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_ROSA] =
     {
-        .name = _("Rosa"),
+        .name = _("{JPN}メイ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_UNOVA,
         .trainerFrontPic = TRAINER_PIC_ROSA,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
@@ -574,7 +574,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     
     [PLAYER_OUTFIT_CALEM] =
     {
-        .name = _("Calem"),
+        .name = _("{JPN}カルム"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_KALOS,
         .trainerFrontPic = TRAINER_PIC_CALEM,
         .trainerBackPic = TRAINER_BACK_PIC_CALEM,
@@ -600,7 +600,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_SERENA] =
     {
-        .name = _("Serena"),
+        .name = _("{JPN}セレナ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_KALOS,
         .trainerFrontPic = TRAINER_PIC_SERENA,
         .trainerBackPic = TRAINER_BACK_PIC_SERENA,
@@ -627,7 +627,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_ELIO] =
     {
-        .name = _("Elio"),
+        .name = _("{JPN}ヨウ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_ALOLA,
         .trainerFrontPic = TRAINER_PIC_ELIO,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
@@ -653,7 +653,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_SELENE] =
     {
-        .name = _("Selene"),
+        .name = _("{JPN}ミヅキ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_ALOLA,
         .trainerFrontPic = TRAINER_PIC_SELENE,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
@@ -680,7 +680,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_VICTOR] =
     {
-        .name = _("Victor"),
+        .name = _("{JPN}マサル"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_GALAR,
         .trainerFrontPic = TRAINER_PIC_VICTOR,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
@@ -706,7 +706,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_GLORIA] =
     {
-        .name = _("Gloria"),
+        .name = _("{JPN}ユウリ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_GALAR,
         .trainerFrontPic = TRAINER_PIC_GLORIA,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
@@ -734,7 +734,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_FLORIAN] =
     {
-        .name = _("Florian"),
+        .name = _("{JPN}ハルト"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_PALDEA,
         .trainerFrontPic = TRAINER_PIC_FLORIAN,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
@@ -760,7 +760,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_JULIANA] =
     {
-        .name = _("Juliana"),
+        .name = _("{JPN}アオイ"),
         .relatedTrainerFlags = TRAINER_FLAG_REGION_PALDEA,
         .trainerFrontPic = TRAINER_PIC_JULIANA,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
@@ -789,7 +789,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     //
     [PLAYER_OUTFIT_ROCKET_GRUNT_F] =
     {
-        .name = _("Rocket"),
+        .name = _("{JPN}ロケットだん"),
         .trainerFrontPic = TRAINER_PIC_ROCKET_GRUNT_F,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_MAY_SILVER,
@@ -804,7 +804,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_ROCKET_GRUNT_M] =
     {
-        .name = _("Rocket"),
+        .name = _("{JPN}ロケットだん"),
         .trainerFrontPic = TRAINER_PIC_ROCKET_GRUNT_M,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_BRENDAN_BLACK,
@@ -829,7 +829,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_AQUA_GRUNT_F] =
     {
-        .name = _("Aqua"),
+        .name = _("{JPN}アクアだん"),
         .trainerFrontPic = TRAINER_PIC_AQUA_GRUNT_F,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_MAY_SILVER,
@@ -844,7 +844,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_AQUA_GRUNT_M] =
     {
-        .name = _("Aqua"),
+        .name = _("{JPN}アクアだん"),
         .trainerFrontPic = TRAINER_PIC_AQUA_GRUNT_M,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_BRENDAN_SILVER,
@@ -860,7 +860,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_MAGMA_GRUNT_F] =
     {
-        .name = _("Magma"),
+        .name = _("{JPN}マグマだん"),
         .trainerFrontPic = TRAINER_PIC_MAGMA_GRUNT_F,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_MAY_BLACK,
@@ -875,7 +875,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_MAGMA_GRUNT_M] =
     {
-        .name = _("Magma"),
+        .name = _("{JPN}マグマだん"),
         .trainerFrontPic = TRAINER_PIC_MAGMA_GRUNT_M,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_RED_BLACK,
@@ -891,7 +891,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_GALACTIC_GRUNT_F] =
     {
-        .name = _("Galactic"),
+        .name = _("{JPN}ギンガだん"),
         .trainerFrontPic = TRAINER_PIC_GALACTIC_GRUNT_F,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_MAY_SILVER,
@@ -906,7 +906,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_GALACTIC_GRUNT_M] =
     {
-        .name = _("Galactic"),
+        .name = _("{JPN}ギンガだん"),
         .trainerFrontPic = TRAINER_PIC_GALACTIC_GRUNT_M,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_BRENDAN_SILVER,
@@ -960,7 +960,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_FLARE_GRUNT_F] =
     {
-        .name = _("Flare"),
+        .name = _("{JPN}フレアだん"),
         .trainerFrontPic = TRAINER_PIC_FLARE_GRUNT_F,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_RED_SILVER,
@@ -975,7 +975,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_FLARE_GRUNT_M] =
     {
-        .name = _("Flare"),
+        .name = _("{JPN}フレアだん"),
         .trainerFrontPic = TRAINER_PIC_FLARE_GRUNT_M,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_RED_SILVER,
@@ -995,7 +995,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     //
     [PLAYER_OUTFIT_POKABBIE] =
     {
-        .name = _("Pokabbie"),
+        .name = _("{JPN}ポカビー"),
         .trainerFrontPic = TRAINER_PIC_POKABBIE,
         .trainerBackPic = TRAINER_BACK_PIC_COMMUNITY_POKABBIE,
         .bagVariant = BAG_GFX_VARIANT_LEAF_PINK,
@@ -1010,7 +1010,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_KATE] =
     {
-        .name = _("Kate"),
+        .name = _("{JPN}ケイト"),
         .trainerFrontPic = TRAINER_PIC_GLITCH_KATE,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_LEAF_BLACK,
@@ -1025,7 +1025,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_ERMA] =
     {
-        .name = _("Erma"),
+        .name = _("{JPN}エルマ"),
         .trainerFrontPic = TRAINER_PIC_GLITCH_ERMA,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_BRENDAN_SILVER,
@@ -1070,7 +1070,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_ZEFA] =
     {
-        .name = _("Zefa"),
+        .name = _("{JPN}ゼファ"),
         .trainerFrontPic = TRAINER_PIC_COMMUNITY_ZEFA,
         .trainerBackPic = TRAINER_BACK_PIC_COMMUNITY_ZEFA,
         .bagVariant = BAG_GFX_VARIANT_MAY,
@@ -1100,7 +1100,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
     },
     [PLAYER_OUTFIT_NACHOLORD] =
     {
-        .name = _("Nacho"),
+        .name = _("{JPN}ナチョ"),
         .trainerFrontPic = TRAINER_PIC_COMMUNITY_NACHOLORD,
         .trainerBackPic = TRAINER_BACK_PIC_COMMUNITY_NACHOLORD,
         .bagVariant = BAG_GFX_VARIANT_BRENDAN_SILVER,
@@ -1116,7 +1116,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_LATERMANNER] =
     {
-        .name = _("Manner"),
+        .name = _("{JPN}マナー"),
         .trainerFrontPic = TRAINER_PIC_COMMUNITY_LATERMANNER,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_BRENDAN_SILVER,
@@ -1132,7 +1132,7 @@ static const struct PlayerOutfit sPlayerOutfits[PLAYER_OUTFIT_COUNT] =
 
     [PLAYER_OUTFIT_DOLPHIN] =
     {
-        .name = _("Finn"),
+        .name = _("{JPN}フィン"),
         .trainerFrontPic = TRAINER_PIC_COMMUNITY_DOLPHIN,
         .trainerBackPic = TRAINER_BACK_PIC_NONE,
         .bagVariant = BAG_GFX_VARIANT_BRENDAN_SILVER,
@@ -1160,7 +1160,7 @@ static const struct PlayerOutfitUnlock sOutfitUnlocks[OUTFIT_UNLOCK_COUNT] =
         {
             .easterEgg = 
             {
-                .name = _("ABBIE"),
+                .name = _("{JPN}アビー"),
                 .eggSpecies = SPECIES_MAREEP,
             }
         }
@@ -1172,7 +1172,7 @@ static const struct PlayerOutfitUnlock sOutfitUnlocks[OUTFIT_UNLOCK_COUNT] =
         {
             .easterEgg = 
             {
-                .name = _("KATE"),
+                .name = _("{JPN}ケイト"),
                 .eggSpecies = SPECIES_GASTLY,
             }
         }
@@ -1184,7 +1184,7 @@ static const struct PlayerOutfitUnlock sOutfitUnlocks[OUTFIT_UNLOCK_COUNT] =
         {
             .easterEgg = 
             {
-                .name = _("ERMA"),
+                .name = _("{JPN}エルマ"),
 #ifdef ROGUE_EXPANSION
                 .eggSpecies = SPECIES_FOMANTIS,
 #else
@@ -1200,7 +1200,7 @@ static const struct PlayerOutfitUnlock sOutfitUnlocks[OUTFIT_UNLOCK_COUNT] =
         {
             .easterEgg = 
             {
-                .name = _("RAVEN"),
+                .name = _("{JPN}レイブン"),
 #ifdef ROGUE_EXPANSION
                 .eggSpecies = SPECIES_GOOMY,
 #else
@@ -1228,7 +1228,7 @@ static const struct PlayerOutfitUnlock sOutfitUnlocks[OUTFIT_UNLOCK_COUNT] =
         {
             .easterEgg = 
             {
-                .name = _("ZEFA"),
+                .name = _("{JPN}ゼファ"),
                 .eggSpecies = SPECIES_TRAPINCH,
             }
         }
@@ -1252,7 +1252,7 @@ static const struct PlayerOutfitUnlock sOutfitUnlocks[OUTFIT_UNLOCK_COUNT] =
         {
             .easterEgg = 
             {
-                .name = _("NACHO"),
+                .name = _("{JPN}ナチョ"),
                 .eggSpecies = SPECIES_MUDKIP,
             }
         }
@@ -1264,7 +1264,7 @@ static const struct PlayerOutfitUnlock sOutfitUnlocks[OUTFIT_UNLOCK_COUNT] =
         {
             .easterEgg = 
             {
-                .name = _("MANNER"),
+                .name = _("{JPN}マナー"),
                 .eggSpecies = SPECIES_FARFETCHD,
             }
         }
@@ -1276,7 +1276,7 @@ static const struct PlayerOutfitUnlock sOutfitUnlocks[OUTFIT_UNLOCK_COUNT] =
         {
             .easterEgg = 
             {
-                .name = _("FINN"),
+                .name = _("{JPN}フィン"),
                 .eggSpecies = SPECIES_TRAPINCH,
             }
         }
@@ -1293,7 +1293,7 @@ static const u16 sLayerMaskColours[PLAYER_OUTFIT_STYLE_COUNT] =
 static const struct KnownColour sKnownColours_Appearance[] = 
 {
     {
-        .name = _("Custom"),
+        .name = _("{JPN}じぶんで"),
         .colour = RGB_255(0, 0, 0),
         .isCustomColour = TRUE,
     },
@@ -1331,64 +1331,64 @@ static const struct KnownColour sKnownColours_Appearance[] =
 static const struct KnownColour sKnownColours_Clothes[] = 
 {
     {
-        .name = _("Custom"),
+        .name = _("{JPN}じぶんで"),
         .colour = RGB_255(0, 0, 0),
         .isCustomColour = TRUE,
     },
     {
-        .name = _("Official"),
+        .name = _("{JPN}こうしき"),
         .colour = RGB_255(0, 0, 0) | RGB_ALPHA,
     },
 
     {
-        .name = _("Black"),
+        .name = _("{JPN}くろ"),
         .colour = RGB_UI(3, 3, 3),
     },
     {
-        .name = _("White"),
+        .name = _("{JPN}しろ"),
         .colour = RGB_UI(10, 10, 10),
     },
     {
-        .name = _("Grey"),
+        .name = _("{JPN}はいいろ"),
         .colour = RGB_UI(6, 6, 6),
     },
 
     {
-        .name = _("Red"),
+        .name = _("{JPN}レッド"),
         .colour = RGB_UI(10, 4, 4),
     },
     {
-        .name = _("Green"),
+        .name = _("{JPN}みどり"),
         .colour = RGB_UI(3, 10, 3),
     },
     {
-        .name = _("Blue"),
+        .name = _("{JPN}あお"),
         .colour = RGB_UI(4, 5, 10),
     },
 
     
     {
-        .name = _("Pink"),
+        .name = _("{JPN}ピンク"),
         .colour = RGB_UI(10, 6, 8),
     },
     {
-        .name = _("Brown"),
+        .name = _("{JPN}ちゃいろ"),
         .colour = RGB_UI(5, 3, 2),
     },
     {
-        .name = _("Purple"),
+        .name = _("{JPN}むらさき"),
         .colour = RGB_UI(8, 0, 8),
     },
     {
-        .name = _("Yellow"),
+        .name = _("{JPN}きいろ"),
         .colour = RGB_UI(10, 9, 0),
     },
     {
-        .name = _("Orange"),
+        .name = _("{JPN}オレンジ"),
         .colour = RGB_UI(10, 6, 0),
     },
     {
-        .name = _("Gold"),
+        .name = _("{JPN}きんいろ"),
         .colour = RGB_UI(9, 7, 0),
     },
 };

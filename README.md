@@ -1,3 +1,44 @@
+# Emerald Rogue 日本語版（`ja` ブランチ）
+
+Pokémon Emerald Rogue を日本語で遊ぶためのブランチ。テキストを全文かなに置きかえ、
+タイプ相性の早見画面を足してある。訳文そのものと、それを流し込む道具は
+[emerald-rogue-ja](https://github.com/ueyamaryuto412-blip/emerald-rogue-ja) で管理している。
+
+## ビルド
+
+```sh
+# 道具をそろえる（Ubuntu / WSL）
+sudo apt install build-essential binutils-arm-none-eabi gcc-arm-none-eabi \
+                 libnewlib-arm-none-eabi git libpng-dev unzip
+
+git clone -b ja https://github.com/ueyamaryuto412-blip/pokeemerald-rogue
+cd pokeemerald-rogue
+
+sh init_deps.sh                                        # 最初の1回だけ
+RELEASE=1 GITHUB_REPOSITORY_OWNER=skip make -j$(nproc)  # 初回 15〜25分
+```
+
+できた `pokeemerald.gba` を mGBA などで開く。**元の ROM は要らない**（ソースから丸ごと作る）。
+
+- `RELEASE=1` … 遊ぶ用。省くとデバッグ機能つきのビルドになる
+- `GITHUB_REPOSITORY_OWNER=skip` … 2回目以降に走る重い処理を飛ばすだけ。ROM の中身は変わらない
+- Windows は WSL、macOS は Homebrew で同じツールチェインを入れる
+
+## 足してあるもの
+
+- 全文の日本語化（16,221 メッセージ）
+- **タイプ相性の早見画面**（`R` ボタン）
+  - `じゃくてん` … てもち6匹 × 18タイプの弱点表
+  - `こうげき` … てもちの技が どのタイプに通るか
+  - `そうせい` … えらんだ1〜2タイプの攻守
+  - バトル中に開くと 相手のタイプで開き、相手のタイプの行が みどりになる
+  - `L` 前のタブ / `A` 次のタブ / `B` か `R` で閉じる
+
+くわしい手順は
+[docs/04-build.md](https://github.com/ueyamaryuto412-blip/emerald-rogue-ja/blob/claude/pokemon-roguelike-o12blt/docs/04-build.md)。
+
+---
+
 # pokeemerald-expansion
 
 ## What is pokeemerald-expansion?

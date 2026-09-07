@@ -23,13 +23,13 @@ LilycoveCity_DepartmentStore_1F_Text_NoNumbersMatched:
 	.string "{JPN}ざんねんでした。\nどの ばんごうも あいません でした。$"
 
 LilycoveCity_DepartmentStore_1F_Text_TwoDigitsMatched:
-	.string "{JPN}2けた あったので 3とうしょうです!\l{STR_VAR_1}を さしあげます!$"
+	.string "{JPN}2けた あったので 3とうしょうです!\n{STR_VAR_1}を さしあげます!$"
 
 LilycoveCity_DepartmentStore_1F_Text_ThreeDigitsMatched:
-	.string "{JPN}3けた あったので 2とうしょうです!\l{STR_VAR_1}を さしあげます!$"
+	.string "{JPN}3けた あったので 2とうしょうです!\n{STR_VAR_1}を さしあげます!$"
 
 LilycoveCity_DepartmentStore_1F_Text_FourDigitsMatched:
-	.string "{JPN}4けた あったので 1とうしょうです!\l{STR_VAR_1}を さしあげます!$"
+	.string "{JPN}4けた あったので 1とうしょうです!\n{STR_VAR_1}を さしあげます!$"
 
 LilycoveCity_DepartmentStore_1F_Text_AllFiveDigitsMatched:
 	.string "{JPN}まあ たいへん 5けた ぜんぶ\nあいました!\pとくとうしょうです!\n{STR_VAR_1}を さしあげます!$"

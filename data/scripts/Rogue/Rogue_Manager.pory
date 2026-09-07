@@ -511,7 +511,7 @@ script Rogue_EventScript_UseDayCarePhoneItem
             specialvar(VAR_RESULT, Rogue_IsCatchingContestActive)
             if(var(VAR_RESULT) == TRUE)
             {
-                msgbox(format("{JPN}なんですって?\pむしとりたいかいの とちゅうなのに\nつかまえた ポケモンを あずけたい ですって?\pそれは あまり りっぱとは いえませんね!\pずるを てつだうわけには いきません!\nたいかいを おえてから かけなおして くれれば\nよろこんで いれかえて あげますよ。"))
+                msgbox(format("{JPN}なんですって?\pむしとりたいかいの とちゅうなのに\nつかまえた ポケモンを あずけたい ですって?\pそれは あまり りっぱとは いえませんね!\pずるを てつだうわけには いきません!\nたいかいを おえてから かけなおして くれれば\lよろこんで いれかえて あげますよ。"))
                 setvar(VAR_RESULT, FALSE)
             }
             else

@@ -305,7 +305,7 @@ static const u8 *const sStartActivityTexts[][GENDER_COUNT][3] = {
     }
 };
 
-ALIGNED(4) static const u8 sText_BattleDeclinedMale[] = _("{JPN}ごめん! ポケモンの ちょうしが\lよくない みたいなんだ。\lまた こんど しょうぶ しよう。\p");
+ALIGNED(4) static const u8 sText_BattleDeclinedMale[] = _("{JPN}ごめん! ポケモンの ちょうしが\nよくない みたいなんだ。\lまた こんど しょうぶ しよう。\p");
 ALIGNED(4) static const u8 sText_BattleDeclinedFemale[] = _("{JPN}もうしわけ ありません ポケモンの\nちょうしが よくないのです…\pまた こんど しょうぶ しましょう。\p");
 
 static const u8 *const sBattleDeclinedTexts[GENDER_COUNT] = {
@@ -329,7 +329,7 @@ static const u8 *const sIfYouWantToDoSomethingTexts[GENDER_COUNT] = {
     sText_IfYouWantToDoSomethingFemale
 };
 
-ALIGNED(4) static const u8 sText_TrainerBattleBusy[] = _("{JPN}おっと! ごめん ほかに やることが\lできて しまったんだ。\lまた こんど いいかい?\p");
+ALIGNED(4) static const u8 sText_TrainerBattleBusy[] = _("{JPN}おっと! ごめん ほかに やることが\nできて しまったんだ。\lまた こんど いいかい?\p");
 ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower1[] = _("{JPN}しょうぶを するなら レベル30\nいかの ポケモンが 2ひき\lひつようだよ。\p");
 ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower2[] = _("{JPN}しょうぶには レベル30 いかの\nポケモンが 2ひき ひつようです。\p");
 
@@ -564,7 +564,7 @@ static const u8 *const sCardColorTexts[] = {
     sText_ItsGoldCard
 };
 
-ALIGNED(4) static const u8 sText_TrainerCardInfoPage1[] = _("{JPN}これは {DYNAMIC 0} {DYNAMIC 1}の\lトレーナーカード…\l{DYNAMIC 2}\pずかん {DYNAMIC 3}\nじかん  {DYNAMIC 4}:{DYNAMIC 5}\p");
+ALIGNED(4) static const u8 sText_TrainerCardInfoPage1[] = _("{JPN}これは {DYNAMIC 0} {DYNAMIC 1}の\nトレーナーカード…\l{DYNAMIC 2}\pずかん {DYNAMIC 3}\nじかん  {DYNAMIC 4}:{DYNAMIC 5}\p");
 ALIGNED(4) static const u8 sText_TrainerCardInfoPage2[] = _("{JPN}しょうぶ かち {DYNAMIC 0}  まけ {DYNAMIC 2}\nこうかん {DYNAMIC 3}\p「{DYNAMIC 4} {DYNAMIC 5}\n{DYNAMIC 6} {DYNAMIC 7}」\p");
 ALIGNED(4) static const u8 sText_GladToMeetYouMale[] = _("{JPN}{DYNAMIC 1}: あえて うれしいよ!{PAUSE 60}");
 ALIGNED(4) static const u8 sText_GladToMeetYouFemale[] = _("{JPN}{DYNAMIC 1}: はじめまして!{PAUSE 60}");

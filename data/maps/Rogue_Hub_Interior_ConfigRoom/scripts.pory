@@ -50,7 +50,7 @@ script Rogue_ConfigRoom_TalkAssistant
     faceplayer
     if(flag(FLAG_SET_SEED_ENABLED) == FALSE)
     {
-        msgbox(format("{JPN}アシスタント: こちらの せっていは\nシードモードのものです!\pシードモードでは いつも おなじ ルート\lトレーナー ポケモンが でてきます。\pつぎの ぼうけんで シードモードを\nつかいますか?"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}アシスタント: こちらの せっていは\nシードモードのものです!\pシードモードでは いつも おなじ ルート\nトレーナー ポケモンが でてきます。\pつぎの ぼうけんで シードモードを\nつかいますか?"), MSGBOX_DEFAULT)
     }
 
     clearflag(FLAG_SEED_APPLY_MOVEMENT)

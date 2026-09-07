@@ -44,6 +44,7 @@
 #include "rogue_assistant.h"
 #include "rogue_automation.h"
 #include "rogue_battlehud.h"
+#include "rogue_typechart_ui.h"
 #include "rogue_campaign.h"
 #include "rogue_charms.h"
 #include "rogue_controller.h"
@@ -260,6 +261,8 @@ static u32 GetNextBall(u32 ballId)
 }
 #endif
 
+static bool8 sOpenTypeChartFromBattle = FALSE;
+
 static void HandleInputChooseAction(u32 battler)
 {
     u16 itemId = gBattleResources->bufferA[battler][2] | (gBattleResources->bufferA[battler][3] << 8);
@@ -332,7 +335,12 @@ static void HandleInputChooseAction(u32 battler)
     {
         RogueBH_HandleStatViewUpdate(battler);
 
-        if(RogueBH_IsStatViewActive())
+        if(sOpenTypeChartFromBattle)
+        {
+            sOpenTypeChartFromBattle = FALSE;
+            Rogue_OpenTypeChartFromBattle();
+        }
+        else if(RogueBH_IsStatViewActive())
         {
             if (JOY_NEW(A_BUTTON))
             {
@@ -464,6 +472,14 @@ static void HandleInputChooseAction(u32 battler)
         PlaySE(SE_WIN_OPEN);
         RogueBH_ToggleStatView();
         PrintPlayerBattleMenu(battler);
+    }
+    // R で タイプ相性の 早見画面。バッグを開く道に 相乗りして 戻ってくる
+    else if (JOY_NEW(R_BUTTON))
+    {
+        PlaySE(SE_WIN_OPEN);
+        sOpenTypeChartFromBattle = TRUE;
+        BtlController_EmitTwoReturnValues(battler, BUFFER_B, B_ACTION_USE_ITEM, 0);
+        PlayerBufferExecCompleted(battler);
     }
 #if B_LAST_USED_BALL == TRUE && B_LAST_USED_BALL_CYCLE == FALSE
     else if (JOY_NEW(B_LAST_USED_BALL_BUTTON) && CanThrowLastUsedBall())

@@ -71,6 +71,7 @@
 #include "rogue_multiplayer.h"
 #include "rogue_player_customisation.h"
 #include "rogue_pokedex.h"
+#include "rogue_typechart_ui.h"
 #include "rogue_popup.h"
 #include "rogue_query.h"
 #include "rogue_quest.h"
@@ -420,7 +421,7 @@ static bool8 TryOverrideSpeedScale(u8 speed)
     // Tap L to toggle slow down
     if(speed > 1 && !gRogueLocal.speedupJustToggled)
     {
-        if(JOY_NEW(L_BUTTON) && !Rogue_IsViewingPokedex())
+        if(JOY_NEW(L_BUTTON) && !Rogue_IsViewingPokedex() && !Rogue_IsViewingTypeChart())
         {
             gRogueLocal.speedupToggleActive = !gRogueLocal.speedupToggleActive;
             gRogueLocal.speedupJustToggled = TRUE;

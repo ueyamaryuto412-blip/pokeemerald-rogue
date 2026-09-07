@@ -65,7 +65,7 @@ static const u8 sBeastBallDesc[] = _("{JPN}ウルトラビーストを\nつか�
 static const u8 sCherishBallDesc[] = _("{JPN}なにかの きねんに\nつくられた\nめずらしい ボール。");
 
 // Medicine
-static const u8 sPotionDesc[] = _("{JPN}ポケモン 1ひきの HPを\n20だけ かいふくする。");
+static const u8 sPotionDesc[] = _("{JPN}ポケモン 1ひきの\nHPを 20だけ\lかいふくする。");
 
 static const u8 sSuperPotionDesc[] = _(
     "Restores the HP of\n"
@@ -120,7 +120,7 @@ static const u8 sLemonadeDesc[] = _(
     "by 80 points.");
 #endif
 
-static const u8 sMoomooMilkDesc[] = _("{JPN}ポケモン 1ひきの HPを\n100だけ かいふくする。");
+static const u8 sMoomooMilkDesc[] = _("{JPN}ポケモン 1ひきの\nHPを 100だけ\lかいふくする。");
 
 static const u8 sEnergyPowderDesc[] = _(
     "A bitter powder\n"
@@ -164,7 +164,7 @@ static const u8 sElixirDesc[] = _("{JPN}4つの わざの PPを\n10ずつ かい
 
 static const u8 sMaxElixirDesc[] = _("{JPN}ポケモンが おぼえている\n4つの わざの PPを\nすべて かいふくする。");
 
-static const u8 sBerryJuiceDesc[] = _("{JPN}ポケモン 1ひきの HPを\n20だけ かいふくする。");
+static const u8 sBerryJuiceDesc[] = _("{JPN}ポケモン 1ひきの\nHPを 20だけ\lかいふくする。");
 
 static const u8 sSacredAshDesc[] = _("{JPN}ひんしの ポケモンを\nすべて まんたんで\nいきかえらせる。");
 
@@ -464,28 +464,28 @@ static const u8 sRootFossilDesc[] = _("{JPN}むかし かいていに\nすんで
 
 static const u8 sClawFossilDesc[] = _("{JPN}むかし かいていに\nすんでいた ポケモンの\nカセキ。");
 
-static const u8 sArmorFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nあたまの かけら。");
+static const u8 sArmorFossilDesc[] = _("{JPN}おおむかしの\nポケモンの あたまの\lかけら。");
 
-static const u8 sSkullFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nあたまの かけら。");
+static const u8 sSkullFossilDesc[] = _("{JPN}おおむかしの\nポケモンの あたまの\lかけら。");
 
-static const u8 sCoverFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nせなかの かけら。");
+static const u8 sCoverFossilDesc[] = _("{JPN}おおむかしの\nポケモンの せなかの\lかけら。");
 
-static const u8 sPlumeFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nつばさの かけら。");
+static const u8 sPlumeFossilDesc[] = _("{JPN}おおむかしの\nポケモンの つばさの\lかけら。");
 
 static const u8 sJawFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nおおきな あごの\nかけら。");
 
-static const u8 sSailFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nせびれの かけら。");
+static const u8 sSailFossilDesc[] = _("{JPN}おおむかしの\nポケモンの せびれの\lかけら。");
 
-static const u8 sFossilizedBirdDesc[] = _("{JPN}むかし そらを とんでいた\nポケモンの カセキ。");
+static const u8 sFossilizedBirdDesc[] = _("{JPN}むかし そらを\nとんでいた ポケモンの\lカセキ。");
 
-static const u8 sFossilizedFishDesc[] = _("{JPN}むかし うみに すんでいた\nポケモンの カセキ。");
+static const u8 sFossilizedFishDesc[] = _("{JPN}むかし うみに\nすんでいた ポケモンの\lカセキ。");
 
-static const u8 sFossilizedDrakeDesc[] = _("{JPN}むかし りくに すんでいた\nポケモンの カセキ。");
+static const u8 sFossilizedDrakeDesc[] = _("{JPN}むかし りくに\nすんでいた ポケモンの\lカセキ。");
 
-static const u8 sFossilizedDinoDesc[] = _("{JPN}むかし うみに すんでいた\nポケモンの カセキ。");
+static const u8 sFossilizedDinoDesc[] = _("{JPN}むかし うみに\nすんでいた ポケモンの\lカセキ。");
 
 // Mulch
-static const u8 sGrowthMulchDesc[] = _("{JPN}きのみの せいちょうを\nはやめる ひりょう。");
+static const u8 sGrowthMulchDesc[] = _("{JPN}きのみの\nせいちょうを\lはやめる ひりょう。");
 
 static const u8 sDampMulchDesc[] = _("{JPN}きのみの せいちょうを\nおそくする ひりょう。");
 
@@ -504,7 +504,7 @@ static const u8 sAmazeMulchDesc[] = _("{JPN}ゆたかで おどろきが\nあっ
 // Apricorns
 static const u8 sRedApricornDesc[] = _("{JPN}あかい ぼんぐり。\nつーんと はなにくる\nにおいがする。");
 
-static const u8 sBlueApricornDesc[] = _("{JPN}あおい ぼんぐり。 すこし\nあおくさい かおりがする。");
+static const u8 sBlueApricornDesc[] = _("{JPN}あおい ぼんぐり。\nすこし あおくさい\lかおりがする。");
 
 static const u8 sYellowApricornDesc[] = _("{JPN}きいろの ぼんぐり。\nさわやかな かおりが\nする。");
 
@@ -518,7 +518,7 @@ static const u8 sBlackApricornDesc[] = _("{JPN}くろい ぼんぐり。\nなん
 
 static const u8 sWishingPieceDesc[] = _("{JPN}{PKMN}の すあなに\nなげて ダイマックスの\nポケモンを よびよせる。");
 
-static const u8 sGalaricaTwigDesc[] = _("{JPN}ガラルの ガラナツと いう\nきの えだ。");
+static const u8 sGalaricaTwigDesc[] = _("{JPN}ガラルの\nガラナツと いう\lきの えだ。");
 
 static const u8 sArmoriteOreDesc[] = _("{JPN}めずらしい こうせき。\nガラルの ヨロイじまで\nみつかる。");
 
@@ -620,20 +620,20 @@ static const u8 sRibbonSweetDesc[] = _("{JPN}マホミルが\nすきな リボ�
 
 static const u8 sEverstoneDesc[] = _("{JPN}しんかを とめる\nふしぎな\lもちもの。");
 
-static const u8 sBlackAuguriteDesc[] = _("{JPN}ある ポケモンを しんか\nさせる くろい いし。");;
+static const u8 sBlackAuguriteDesc[] = _("{JPN}ある ポケモンを\nしんか させる くろい\lいし。");;
 
-static const u8 sLinkingCordDesc[] = _("{JPN}ある ポケモンを しんか\nさせる ふしぎな ひも。");
+static const u8 sLinkingCordDesc[] = _("{JPN}ある ポケモンを\nしんか させる\lふしぎな ひも。");
 
 static const u8 sPeatBlockDesc[] = _("{JPN}ある ポケモンを\nしんか させる\lかたまり。");
 
 // Nectars
-static const u8 sRedNectarDesc[] = _("{JPN}ある ポケモンの すがたを\nかえる はなの みつ。");
+static const u8 sRedNectarDesc[] = _("{JPN}ある ポケモンの\nすがたを かえる はなの\lみつ。");
 
-static const u8 sYellowNectarDesc[] = _("{JPN}ある ポケモンの すがたを\nかえる はなの みつ。");
+static const u8 sYellowNectarDesc[] = _("{JPN}ある ポケモンの\nすがたを かえる はなの\lみつ。");
 
-static const u8 sPinkNectarDesc[] = _("{JPN}ある ポケモンの すがたを\nかえる はなの みつ。");
+static const u8 sPinkNectarDesc[] = _("{JPN}ある ポケモンの\nすがたを かえる はなの\lみつ。");
 
-static const u8 sPurpleNectarDesc[] = _("{JPN}ある ポケモンの すがたを\nかえる はなの みつ。");
+static const u8 sPurpleNectarDesc[] = _("{JPN}ある ポケモンの\nすがたを かえる はなの\lみつ。");
 
 // Plates
 static const u8 sFlamePlateDesc[] = _("{JPN}ほのおタイプの\nわざを つよくする\lばん。");
@@ -680,43 +680,43 @@ static const u8 sBurnDriveDesc[] = _("{JPN}ゲノセクトの わざを\nほの�
 static const u8 sChillDriveDesc[] = _("{JPN}ゲノセクトの わざを\nこおりタイプに\lかえる。");
 
 // Memories
-static const u8 sFireMemoryDesc[] = _("{JPN}ほのおタイプの データが\nはいった ディスク。");
+static const u8 sFireMemoryDesc[] = _("{JPN}ほのおタイプの\nデータが はいった\lディスク。");
 
-static const u8 sWaterMemoryDesc[] = _("{JPN}みずタイプの データが\nはいった ディスク。");
+static const u8 sWaterMemoryDesc[] = _("{JPN}みずタイプの\nデータが はいった\lディスク。");
 
-static const u8 sElectricMemoryDesc[] = _("{JPN}でんきタイプの データが\nはいった ディスク。");
+static const u8 sElectricMemoryDesc[] = _("{JPN}でんきタイプの\nデータが はいった\lディスク。");
 
-static const u8 sGrassMemoryDesc[] = _("{JPN}くさタイプの データが\nはいった ディスク。");
+static const u8 sGrassMemoryDesc[] = _("{JPN}くさタイプの\nデータが はいった\lディスク。");
 
-static const u8 sIceMemoryDesc[] = _("{JPN}こおりタイプの データが\nはいった ディスク。");
+static const u8 sIceMemoryDesc[] = _("{JPN}こおりタイプの\nデータが はいった\lディスク。");
 
-static const u8 sFightingMemoryDesc[] = _("{JPN}かくとうタイプの データが\nはいった ディスク。");
+static const u8 sFightingMemoryDesc[] = _("{JPN}かくとうタイプの\nデータが はいった\lディスク。");
 
-static const u8 sPoisonMemoryDesc[] = _("{JPN}どくタイプの データが\nはいった ディスク。");
+static const u8 sPoisonMemoryDesc[] = _("{JPN}どくタイプの\nデータが はいった\lディスク。");
 
-static const u8 sGroundMemoryDesc[] = _("{JPN}じめんタイプの データが\nはいった ディスク。");
+static const u8 sGroundMemoryDesc[] = _("{JPN}じめんタイプの\nデータが はいった\lディスク。");
 
-static const u8 sFlyingMemoryDesc[] = _("{JPN}ひこうタイプの データが\nはいった ディスク。");
+static const u8 sFlyingMemoryDesc[] = _("{JPN}ひこうタイプの\nデータが はいった\lディスク。");
 
-static const u8 sPsychicMemoryDesc[] = _("{JPN}エスパータイプの データが\nはいった ディスク。");
+static const u8 sPsychicMemoryDesc[] = _("{JPN}エスパータイプの\nデータが はいった\lディスク。");
 
-static const u8 sBugMemoryDesc[] = _("{JPN}むしタイプの データが\nはいった ディスク。");
+static const u8 sBugMemoryDesc[] = _("{JPN}むしタイプの\nデータが はいった\lディスク。");
 
-static const u8 sRockMemoryDesc[] = _("{JPN}いわタイプの データが\nはいった ディスク。");
+static const u8 sRockMemoryDesc[] = _("{JPN}いわタイプの\nデータが はいった\lディスク。");
 
-static const u8 sGhostMemoryDesc[] = _("{JPN}ゴーストタイプの データが\nはいった ディスク。");
+static const u8 sGhostMemoryDesc[] = _("{JPN}ゴーストタイプの\nデータが はいった\lディスク。");
 
-static const u8 sDragonMemoryDesc[] = _("{JPN}ドラゴンタイプの データが\nはいった ディスク。");
+static const u8 sDragonMemoryDesc[] = _("{JPN}ドラゴンタイプの\nデータが はいった\lディスク。");
 
-static const u8 sDarkMemoryDesc[] = _("{JPN}あくタイプの データが\nはいった ディスク。");
+static const u8 sDarkMemoryDesc[] = _("{JPN}あくタイプの\nデータが はいった\lディスク。");
 
-static const u8 sSteelMemoryDesc[] = _("{JPN}はがねタイプの データが\nはいった ディスク。");
+static const u8 sSteelMemoryDesc[] = _("{JPN}はがねタイプの\nデータが はいった\lディスク。");
 
 static const u8 sFairyMemoryDesc[] = _("{JPN}フェアリータイプの\nデータが はいった\nディスク。");
 
 static const u8 sRustedSwordDesc[] = _("{JPN}さびた つるぎ。\nえいゆうが わざわいを\nとめた。");
 
-static const u8 sRustedShieldDesc[] = _("{JPN}さびた たて。 えいゆうが\nわざわいを とめた。");
+static const u8 sRustedShieldDesc[] = _("{JPN}さびた たて。\nえいゆうが わざわいを\lとめた。");
 
 // Colored Orbs
 static const u8 sRedOrbDesc[] = _("{JPN}いにしえの ちからを\nひめた あかい\lたま。");
@@ -892,11 +892,11 @@ static const u8 sFairiumZDesc[] = _("{JPN}フェアリータイプの\nわざを
 
 static const u8 sPikaniumZDesc[] = _("{JPN}ピカチュウの\nボルテッカーを Zわざに\nする。");
 
-static const u8 sEeviumZDesc[] = _("{JPN}イーブイの とっておきを\nZわざに する。");
+static const u8 sEeviumZDesc[] = _("{JPN}イーブイの\nとっておきを Zわざに\lする。");
 
 static const u8 sSnorliumZDesc[] = _("{JPN}カビゴンの\nギガインパクトを Zわざに\nする。");
 
-static const u8 sMewniumZDesc[] = _("{JPN}ミュウの サイコキネシスを\nZわざに する。");
+static const u8 sMewniumZDesc[] = _("{JPN}ミュウの\nサイコキネシスを\lZわざに する。");
 
 static const u8 sDecidiumZDesc[] = _("{JPN}ジュナイパーの\nかげぬいを Zわざに\lする。");
 
@@ -906,7 +906,7 @@ static const u8 sPrimariumZDesc[] = _("{JPN}アシレーヌの うたかたの\n
 
 static const u8 sLycaniumZDesc[] = _("{JPN}ルガルガンの\nストーンエッジを Zわざに\nする。");
 
-static const u8 sMimikiumZDesc[] = _("{JPN}ミミッキュの じゃれつくを\nZわざに する。");
+static const u8 sMimikiumZDesc[] = _("{JPN}ミミッキュの\nじゃれつくを Zわざに\lする。");
 
 static const u8 sKommoniumZDesc[] = _("{JPN}ジャラランガの\nスケイルノイズを Zわざに\nする。");
 
@@ -961,7 +961,7 @@ static const u8 sGriseousOrbDesc[] = _("{JPN}ギラティナの ドラゴンと\
 // Incenses
 static const u8 sSeaIncenseDesc[] = _("{JPN}もたせると みずタイプの\nわざの いりょくが\nあがる。");
 
-static const u8 sLaxIncenseDesc[] = _("{JPN}あいての めいちゅうりつを\nすこし さげる もちもの。");
+static const u8 sLaxIncenseDesc[] = _("{JPN}あいての\nめいちゅうりつを すこし\lさげる もちもの。");
 
 static const u8 sOddIncenseDesc[] = _("{JPN}もたせると\nエスパータイプの わざの\nいりょくが あがる。");
 
@@ -978,15 +978,15 @@ static const u8 sLuckIncenseDesc[] = _("{JPN}もつ ポケモンが\nたたか�
 static const u8 sPureIncenseDesc[] = _("{JPN}やせいの ポケモンを\nよせつけにくく する\nもちもの。");
 
 // Contest Scarves
-static const u8 sRedScarfDesc[] = _("{JPN}コンテストの かっこよさが\nあがる もちもの。");
+static const u8 sRedScarfDesc[] = _("{JPN}コンテストの\nかっこよさが あがる\lもちもの。");
 
-static const u8 sBlueScarfDesc[] = _("{JPN}コンテストの うつくしさが\nあがる もちもの。");
+static const u8 sBlueScarfDesc[] = _("{JPN}コンテストの\nうつくしさが あがる\lもちもの。");
 
-static const u8 sPinkScarfDesc[] = _("{JPN}コンテストの かわいさが\nあがる もちもの。");
+static const u8 sPinkScarfDesc[] = _("{JPN}コンテストの\nかわいさが あがる\lもちもの。");
 
-static const u8 sGreenScarfDesc[] = _("{JPN}コンテストの かしこさが\nあがる もちもの。");
+static const u8 sGreenScarfDesc[] = _("{JPN}コンテストの\nかしこさが あがる\lもちもの。");
 
-static const u8 sYellowScarfDesc[] = _("{JPN}コンテストの たくましさが\nあがる もちもの。");
+static const u8 sYellowScarfDesc[] = _("{JPN}コンテストの\nたくましさが あがる\lもちもの。");
 
 // EV Gain Modifiers
 static const u8 sMachoBraceDesc[] = _("{JPN}もたせると すばやさは\nさがるが ふつうより\nつよく そだちやすい。");
@@ -1069,13 +1069,13 @@ static const u8 sMistySeedDesc[] = _("{JPN}ミストフィールドで\n1かい�
 static const u8 sGrassySeedDesc[] = _("{JPN}グラスフィールドで\n1かいだけ ぼうぎょが\nあがる。");
 
 // Type-activated Stat Modifiers
-static const u8 sAbsorbBulbDesc[] = _("{JPN}みずの わざを うけると\nとくこうが あがる。");
+static const u8 sAbsorbBulbDesc[] = _("{JPN}みずの わざを\nうけると とくこうが\lあがる。");
 
-static const u8 sCellBatteryDesc[] = _("{JPN}でんきの わざを うけると\nこうげきが あがる。");
+static const u8 sCellBatteryDesc[] = _("{JPN}でんきの わざを\nうけると こうげきが\lあがる。");
 
-static const u8 sLuminousMossDesc[] = _("{JPN}みずの わざを うけると\nとくぼうが あがる。");
+static const u8 sLuminousMossDesc[] = _("{JPN}みずの わざを\nうけると とくぼうが\lあがる。");
 
-static const u8 sSnowballDesc[] = _("{JPN}こおりの わざを うけると\nこうげきが あがる。");
+static const u8 sSnowballDesc[] = _("{JPN}こおりの わざを\nうけると こうげきが\lあがる。");
 
 // Misc. Held Items
 static const u8 sBrightPowderDesc[] = _("{JPN}キラキラ ひかるこな。");
@@ -1121,7 +1121,7 @@ static const u8 sLeftoversDesc[] = _("{JPN}もたせると ポケモンの\nHP�
 
 static const u8 sShellBellDesc[] = _("{JPN}こうげきが あたると\nHPが かいふく する\nもちもの。");
 
-static const u8 sWideLensDesc[] = _("{JPN}わざの めいちゅうりつが\nあがる レンズ。");
+static const u8 sWideLensDesc[] = _("{JPN}わざの\nめいちゅうりつが\lあがる レンズ。");
 
 static const u8 sMuscleBandDesc[] = _("{JPN}ぶつりの わざを\nつよくする\lハチマキ。");
 
@@ -1139,7 +1139,7 @@ static const u8 sFocusSashDesc[] = _("{JPN}HPまんたんなら\nいちげきに
 
 static const u8 sZoomLensDesc[] = _("{JPN}あとから うごくと\nめいちゅうりつが\lあがる。");
 
-static const u8 sMetronomeDesc[] = _("{JPN}おなじ わざを つづけて\nつかうと つよくなる。");
+static const u8 sMetronomeDesc[] = _("{JPN}おなじ わざを\nつづけて つかうと\lつよくなる。");
 
 static const u8 sIronBallDesc[] = _("{JPN}すばやさが さがり\nひこうにも じめんが\nあたる。");
 
@@ -1155,9 +1155,9 @@ static const u8 sStickyBarbDesc[] = _("{JPN}まいターン ダメージ。\nあ
 
 static const u8 sShedShellDesc[] = _("{JPN}かならず せんとうから\nいれかわれる\lもちもの。");
 
-static const u8 sBigRootDesc[] = _("{JPN}HPを すいとる わざを\nつよくする もちもの。");
+static const u8 sBigRootDesc[] = _("{JPN}HPを すいとる\nわざを つよくする\lもちもの。");
 
-static const u8 sRazorClawDesc[] = _("{JPN}きゅうしょに あたりやすく\nなる かぎづめ。");
+static const u8 sRazorClawDesc[] = _("{JPN}きゅうしょに\nあたりやすく なる\lかぎづめ。");
 
 static const u8 sRazorFangDesc[] = _("{JPN}こうげきが あたると\nあいてが ひるむ ことが\nある。");
 
@@ -1189,9 +1189,9 @@ static const u8 sTerrainExtenderDesc[] = _("{JPN}フィールドの\nこうか�
 
 static const u8 sProtectivePadsDesc[] = _("{JPN}ふれる わざの\nついかこうかから\lまもる。");
 
-static const u8 sThroatSprayDesc[] = _("{JPN}おとの わざを つかうと\nとくこうが あがる。");
+static const u8 sThroatSprayDesc[] = _("{JPN}おとの わざを\nつかうと とくこうが\lあがる。");
 
-static const u8 sEjectPackDesc[] = _("{JPN}のうりょくが さがると\nじぶんが いれかわる。");
+static const u8 sEjectPackDesc[] = _("{JPN}のうりょくが\nさがると じぶんが\lいれかわる。");
 
 static const u8 sHeavyDutyBootsDesc[] = _("{JPN}じめんに しかけた わなの\nこうかを うけない\nブーツ。");
 
@@ -1202,11 +1202,11 @@ static const u8 sRoomServiceDesc[] = _("{JPN}トリックルームの\nあいだ
 static const u8 sUtilityUmbrellaDesc[] = _("{JPN}てんきの\nこうかから まもる\lかさ。");
 
 // Berries
-static const u8 sCheriBerryDesc[] = _("{JPN}ポケモンに もたせると\nまひを かいふくする。");
+static const u8 sCheriBerryDesc[] = _("{JPN}ポケモンに\nもたせると まひを\lかいふくする。");
 
 static const u8 sChestoBerryDesc[] = _("{JPN}ポケモンに もたせると\nねむりを\lかいふくする。");
 
-static const u8 sPechaBerryDesc[] = _("{JPN}ポケモンに もたせると\nどくを かいふくする。");
+static const u8 sPechaBerryDesc[] = _("{JPN}ポケモンに\nもたせると どくを\lかいふくする。");
 
 static const u8 sRawstBerryDesc[] = _("{JPN}ポケモンに もたせると\nやけどを\lかいふくする。");
 
@@ -1352,9 +1352,9 @@ static const u8 sTM01Desc[] = _("{JPN}ものすごい ちからを\nこめた �
 
 static const u8 sTM02Desc[] = _("{JPN}あいての からだに\nこばんを なげつけて\nこうげきする。");
 
-static const u8 sTM03Desc[] = _("{JPN}ほのおを こめた パンチで\nあいてを こうげきする。");
+static const u8 sTM03Desc[] = _("{JPN}ほのおを こめた\nパンチで あいてを\lこうげきする。");
 
-static const u8 sTM04Desc[] = _("{JPN}れいきを こめた パンチで\nあいてを こうげきする。");
+static const u8 sTM04Desc[] = _("{JPN}れいきを こめた\nパンチで あいてを\lこうげきする。");
 
 static const u8 sTM05Desc[] = _("{JPN}でんげきを こめた\nパンチで あいてを\nこうげきする。");
 
@@ -1368,7 +1368,7 @@ static const u8 sTM09Desc[] = _("{JPN}もてる ちからを すべて\nつか�
 
 static const u8 sTM10Desc[] = _("{JPN}あいてを ついせきする\nふしぎな はっぱを\nまきちらす。");
 
-static const u8 sTM11Desc[] = _("{JPN}5ターン ほのおタイプの\nわざを つよくする。");
+static const u8 sTM11Desc[] = _("{JPN}5ターン\nほのおタイプの わざを\lつよくする。");
 
 static const u8 sTM12Desc[] = _("{JPN}あいてを おこらせて\nこうげきわざしか だせなく\nする。");
 
@@ -1382,7 +1382,7 @@ static const u8 sTM16Desc[] = _("{JPN}ひかりの かべで\nとくしゅの �
 
 static const u8 sTM17Desc[] = _("{JPN}ダメージを ふせぐ。\nつづけると しっぱい\nしやすい。");
 
-static const u8 sTM18Desc[] = _("{JPN}5ターン みずタイプの\nわざを つよくする。");
+static const u8 sTM18Desc[] = _("{JPN}5ターン\nみずタイプの わざを\lつよくする。");
 
 static const u8 sTM19Desc[] = _("{JPN}あたえた ダメージの\nはんぶん HPを かいふく\nする。");
 
@@ -1390,7 +1390,7 @@ static const u8 sTM20Desc[] = _("{JPN}ばくはつを おこして\nじぶんの
 
 static const u8 sTM21Desc[] = _("{JPN}じぶんの HPと\nじょうたいいじょうを\nすべて かいふく する。");
 
-static const u8 sTM22Desc[] = _("{JPN}おおきな いわを はげしく\nぶつけて こうげきする。");
+static const u8 sTM22Desc[] = _("{JPN}おおきな いわを\nはげしく ぶつけて\lこうげきする。");
 
 static const u8 sTM23Desc[] = _("{JPN}じぶんが どうぐを\nもっている ばあいは\nぬすめない。");
 
@@ -1424,7 +1424,7 @@ static const u8 sTM37Desc[] = _("{JPN}みかた\nぜんいんで\lこうげき�
 
 static const u8 sTM38Desc[] = _("{JPN}つよい ほのお。\nやけどに することが\lある。");
 
-static const u8 sTM39Desc[] = _("{JPN}いわで うごきを とめる。\nすばやさを さげる。");
+static const u8 sTM39Desc[] = _("{JPN}いわで うごきを\nとめる。 すばやさを\lさげる。");
 
 static const u8 sTM40Desc[] = _("{JPN}ほしがたの ひかりを\nはっしゃして あいてを\nこうげきする。");
 
@@ -1624,7 +1624,7 @@ static const u8 sCatchingCharmDesc[] = _("{JPN}クリティカルほかくが\n�
 static const u8 sExpCharmDesc[] = _("{JPN}しょうぶで もらえる\nけいけんちが ふえる\nおまもり。");
 
 // Form-changing Key Items
-static const u8 sRotomCatalogDesc[] = _("{JPN}ロトムの すきな きかいが\nのっている カタログ。");
+static const u8 sRotomCatalogDesc[] = _("{JPN}ロトムの すきな\nきかいが のっている\lカタログ。");
 
 static const u8 sGracideaDesc[] = _("{JPN}かんしゃの しるしとして\nおくる はなたばに\nつかう。");
 
@@ -1645,7 +1645,7 @@ static const u8 sReinsOfUnityDesc[] = _("{JPN}バドレックスと\nあいぼ�
 // Battle Mechanic Key Items
 static const u8 sMegaRingDesc[] = _("{JPN}メガストーンを もつ\n{PKMN}が メガシンカ\nできる。");
 
-static const u8 sZPowerRingDesc[] = _("{JPN}Zわざが つかえるように\nなる ふしぎな リング。");
+static const u8 sZPowerRingDesc[] = _("{JPN}Zわざが\nつかえるように なる\lふしぎな リング。");
 
 static const u8 sDynamaxBandDesc[] = _("{JPN}ダイマックスできる\nねがいぼしの ついた\nバンド。");
 
@@ -1666,7 +1666,7 @@ static const u8 sDowsingMachineDesc[] = _("{JPN}あたまに\nつけて\lつか�
 
 static const u8 sTownMapDesc[] = _("{JPN}いつでも てがるに\nみることが できる\nべんりな ちず。");
 
-static const u8 sVsSeekerDesc[] = _("{JPN}たたかいたい トレーナーを\nおしえてくれる きかい。");
+static const u8 sVsSeekerDesc[] = _("{JPN}たたかいたい\nトレーナーを\lおしえてくれる きかい。");
 
 static const u8 sTMCaseDesc[] = _("{JPN}ー\nー\lー。");
 
@@ -1686,7 +1686,7 @@ static const u8 sPokeblockCaseDesc[] = _("{JPN}きのみブレンダーの\n{POK
 
 static const u8 sSootSackDesc[] = _("{JPN}つもった かざんばいを\nあつめるための\lふくろ。");
 
-static const u8 sPokeFluteDesc[] = _("{JPN}ポケモンの めを さます\nあまい ねいろの ふえ。");
+static const u8 sPokeFluteDesc[] = _("{JPN}ポケモンの めを\nさます あまい\lねいろの ふえ。");
 
 static const u8 sFameCheckerDesc[] = _("{JPN}ゆうめいな ひとの\nじょうほうを すぐに\nよびだせる。");
 
@@ -1759,7 +1759,7 @@ static const u8 sAbilityShieldDesc[] = _("{JPN}もつ ポケモンの\nとくせ
 
 static const u8 sClearAmuletDesc[] = _("{JPN}もつ ポケモンの\nのうりょくが さがらなく\nなる。");
 
-static const u8 sPunchingGloveDesc[] = _("{JPN}パンチの わざを つよくし\nふれない ように する。");
+static const u8 sPunchingGloveDesc[] = _("{JPN}パンチの わざを\nつよくし ふれない\lように する。");
 
 static const u8 sCovertCloakDesc[] = _("{JPN}わざの ついかこうかから\nもつ ポケモンを\lまもる。");
 
@@ -1773,9 +1773,9 @@ static const u8 sBigBambooShootDesc[] = _("{JPN}おおきくて めずらしい\
 
 static const u8 sGimmighoulCoinDesc[] = _("{JPN}コレクレーが\nあつめる ふしぎな\lコイン。");
 
-static const u8 sLeadersCrestDesc[] = _("{JPN}ふるい やいばの かけら。\nキリキザンが もつ。");
+static const u8 sLeadersCrestDesc[] = _("{JPN}ふるい やいばの\nかけら。 キリキザンが\lもつ。");
 
-static const u8 sMaliciousArmorDesc[] = _("{JPN}わるい ねんの こもった\nよろい。 しんかする。");
+static const u8 sMaliciousArmorDesc[] = _("{JPN}わるい ねんの\nこもった よろい。\lしんかする。");
 
 static const u8 sMirrorHerbDesc[] = _("{JPN}あいての\nのうりょくアップを\n1かいだけ まねる。");
 
@@ -1797,7 +1797,7 @@ static const u8 sLustrousGlobeDesc[] = _("{JPN}パルキアの すがたを\nか
 
 static const u8 sBerserkGene[] = _("{JPN}こうげきが ぐーんと\nあがるが こんらん\nしつづける。");
 
-static const u8 sFairyFeatherDesc[] = _("{JPN}フェアリータイプの わざを\nつよくする もちもの。");
+static const u8 sFairyFeatherDesc[] = _("{JPN}フェアリータイプの\nわざを つよくする\lもちもの。");
 
 static const u8 sSyrupyAppleDesc[] = _("{JPN}みつの おおい リンゴ。\nある ポケモンが しんか\nする。");
 
@@ -1805,9 +1805,9 @@ static const u8 sUnremarkableTeacupDesc[] = _("{JPN}われた ちゃわん。 �
 
 static const u8 sMasterpieceTeacupDesc[] = _("{JPN}かけた ちゃわん。 ある\nポケモンが しんか\lする。");
 
-static const u8 sCornerstoneMaskDesc[] = _("{JPN}オーガポンが いわタイプで\nたたかえる ように なる。");
+static const u8 sCornerstoneMaskDesc[] = _("{JPN}オーガポンが\nいわタイプで たたかえる\lように なる。");
 
-static const u8 sWellspringMaskDesc[] = _("{JPN}オーガポンが みずタイプで\nたたかえる ように なる。");
+static const u8 sWellspringMaskDesc[] = _("{JPN}オーガポンが\nみずタイプで たたかえる\lように なる。");
 
 static const u8 sHearthflameMaskDesc[] = _("{JPN}オーガポンが\nほのおタイプで たたかえる\nように なる。");
 
@@ -1827,4 +1827,4 @@ static const u8 sFreshStartMochiDesc[] = _("{JPN}ポケモンの きそポイン
 
 static const u8 sGlimmeringCharmDesc[] = _("{JPN}テラレイドで もらえる\nかけらが ふえる\nおまもり。");
 
-static const u8 sMetalAlloyDesc[] = _("{JPN}ふしぎな きんぞく。 ある\nポケモンが しんか する。");
+static const u8 sMetalAlloyDesc[] = _("{JPN}ふしぎな きんぞく。\nある ポケモンが しんか\lする。");

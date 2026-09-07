@@ -28,4 +28,19 @@ else
   echo "Done."
 fi
 
+echo "Include stubs for scaninc.."
+# scaninc looks in tools/agbcc/include for quoted system headers (string.h etc).
+# The modern (arm-none-eabi) build does not use agbcc, so that directory does not
+# exist and scaninc reports src/string.h as a missing dependency, which stops make.
+# Empty stubs are enough: only the dependency scanner reads them, never the compiler.
+if [ -f "tools/agbcc/include/string.h" ]
+then
+  echo "Skipping (Already exists)"
+else
+  mkdir -p tools/agbcc/include
+  touch tools/agbcc/include/string.h tools/agbcc/include/stdio.h \
+        tools/agbcc/include/stdlib.h tools/agbcc/include/math.h
+  echo "Done."
+fi
+
 echo "Gathering dependencies finished."

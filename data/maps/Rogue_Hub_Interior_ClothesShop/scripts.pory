@@ -10,7 +10,7 @@ script Rogue_Hub_Clothes_TalkAssistant
 {
     lockall
     faceplayer
-    msgbox(format("Are you feeling bored of your look?\nIf so you're in the right place!\pJust walk up to one of the statues to swap your avatar!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}いまの みために あきた?\nそれなら ここが ぴったり!\pぞうに ちかづけば すがたを かえられるよ!"), MSGBOX_DEFAULT)
     releaseall
 }
 
@@ -18,9 +18,9 @@ script Rogue_Hub_Clothes_ChangeStyle0
 {
     lock
 
-    msgbox(format("Hello!\nI can help with adjusting your appearance"))
+    msgbox(format("{JPN}こんにちは!\nみための ちょうせいを てつだうよ"))
     
-    message(format("Which appearance option would you like to swap to?"))
+    message(format("{JPN}どの みために かえますか?"))
     waitmessage
     multichoice(20, 4, MULTI_STYLE_CHOICE, NO)
 
@@ -43,7 +43,7 @@ script Rogue_Hub_Clothes_ChangeStyle0
     }
     else
     {
-        msgbox(format("Come back any time!"))
+        msgbox(format("{JPN}いつでも どうぞ!"))
     }
 
     release
@@ -53,9 +53,9 @@ script Rogue_Hub_Clothes_ChangeStyle1
 {
     lock
 
-    msgbox(format("Hello!\nI can help with adjusting your clothing style"))
+    msgbox(format("{JPN}こんにちは!\nふくそうの ちょうせいを てつだうよ"))
     
-    message(format("Which clothing style option would you like to swap to?"))
+    message(format("{JPN}どの ふくそうに かえますか?"))
     waitmessage
     multichoice(20, 2, MULTI_STYLE2_CHOICE, NO)
 
@@ -78,7 +78,7 @@ script Rogue_Hub_Clothes_ChangeStyle1
     }
     else
     {
-        msgbox(format("Come back any time!"))
+        msgbox(format("{JPN}いつでも どうぞ!"))
     }
 
     release
@@ -88,7 +88,7 @@ script Rogue_Hub_Clothes_ChangeName
 {
     lock
 
-    msgbox(format("Would you like to change your name?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}なまえを かえますか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -96,11 +96,11 @@ script Rogue_Hub_Clothes_ChangeName
         special(ChangePlayerNickname)
         waitstate
 
-        msgbox(format("{PLAYER} it is!"))
+        msgbox(format("{JPN}{PLAYER}だね!"))
     }
     else
     {
-        msgbox(format("Come back any time!"))
+        msgbox(format("{JPN}いつでも どうぞ!"))
     }
 
     release
@@ -111,7 +111,7 @@ script Rogue_Hub_Clothes_ChangePokemonHubName
 {
     lock
 
-    msgbox(format("Would you like to change the village name?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}むらの なまえを かえますか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -119,11 +119,11 @@ script Rogue_Hub_Clothes_ChangePokemonHubName
         special(ChangePokemonHubName)
         waitstate
 
-        msgbox(format("{POKEMON_HUB} it is!"))
+        msgbox(format("{JPN}{POKEMON_HUB}だね!"))
     }
     else
     {
-        msgbox(format("Come back any time!"))
+        msgbox(format("{JPN}いつでも どうぞ!"))
     }
 
     release
@@ -134,7 +134,7 @@ script Rogue_Hub_Clothes_SetStyle_Brendan
 {
     lock
 
-    msgbox(format("Change to this style?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}この スタイルに かえますか?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)
@@ -155,7 +155,7 @@ script Rogue_Hub_Clothes_SetStyle_May
 {
     lock
 
-    msgbox(format("Change to this style?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}この スタイルに かえますか?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)
@@ -176,7 +176,7 @@ script Rogue_Hub_Clothes_SetStyle_Red
 {
     lock
 
-    msgbox(format("Change to this style?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}この スタイルに かえますか?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)
@@ -197,7 +197,7 @@ script Rogue_Hub_Clothes_SetStyle_Leaf
 {
     lock
 
-    msgbox(format("Change to this style?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}この スタイルに かえますか?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         //fadescreen(FADE_TO_BLACK)

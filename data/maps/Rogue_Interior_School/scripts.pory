@@ -32,7 +32,7 @@ script Rogue_Interior_School_TalkRunningKid0
     lockall
     faceplayer
 
-    msgbox(format("I'm double tapping B to run super fast!\pSame as if you want to escape from Wild Pokémon faster!\pSo fast!"))
+    msgbox(format("{JPN}Bを 2かい おして すごく はやく はしってる!\pやせいの ポケモンから はやく にげたい ときも おなじ!\pはやい!"))
 
     releaseall
 }
@@ -42,7 +42,7 @@ script Rogue_Interior_School_TalkRunningKid1
     lockall
     faceplayer
 
-    msgbox(format("Get back here!\nB B B B B B!"))
+    msgbox(format("{JPN}もどってこい!\nB B B B B B!"))
 
     releaseall
 }

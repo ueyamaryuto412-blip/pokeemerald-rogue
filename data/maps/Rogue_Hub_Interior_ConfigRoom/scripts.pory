@@ -567,7 +567,7 @@ script Rogue_ConfigRoom_MegaBag
 
             if(var(VAR_RESULT) == NO)
             {
-                msgbox(format("Would you like to take the {STR_VAR_1}?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}{STR_VAR_1}を うけとりますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     giveitem(ITEM_MEGA_RING)
@@ -605,7 +605,7 @@ script Rogue_ConfigRoom_ZMoveBag
 
             if(var(VAR_RESULT) == NO)
             {
-                msgbox(format("Would you like to take the {STR_VAR_1}?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}{STR_VAR_1}を うけとりますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     giveitem(ITEM_Z_POWER_RING)
@@ -643,7 +643,7 @@ script Rogue_ConfigRoom_DynamaxBag
 
             if(var(VAR_RESULT) == NO)
             {
-                msgbox(format("Would you like to take the {STR_VAR_1}?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}{STR_VAR_1}を うけとりますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     giveitem(ITEM_DYNAMAX_BAND)

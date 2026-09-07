@@ -494,7 +494,7 @@ script RogueHub_SpeakBank
     {
         // Tutorial
         msgbox(format("{JPN}これは これは!\nもしや {PLAYER}さんですね?\pすばらしい!\nわたくし おかねの かんりが\lとくいでして\pあなたの ぼうけんしきんを\nつくって さしあげたいのです。"), MSGBOX_DEFAULT)
-        msgbox(format("What's an ADVENTURE FUND?\nIn essence, if you donate your HUB MONEY to myself, I will invest it on your behalf and then every time you head out on another adventure, I will give you some extra money to start with.\pSo rather than having to start with ¥0, by donating money to myself, you can start with ¥1000, ¥2000, ¥10000!\pThe sky is the limit really!\nOr rather I guess the limit would be your HUB MONEY."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}ぼうけんしきんとは?\nかんたんに いうと きょてんの おかねを あずけて いただければ わたくしが うんようし ぼうけんに でるたび さいしょの おかねを おわたしします。\p0¥から はじめる かわりに 1000¥ 2000¥ 10000¥から はじめられます!\pかぎりは ありません!\nいえ きょてんの おかねが かぎりですね。"), MSGBOX_DEFAULT)
 
         msgbox(format("{JPN}では てはじめに おくりものを。\pわたくしの ポケットマネーから\n500¥を ぼうけんしきんに\lくわえておきましょう!"), MSGBOX_DEFAULT)
         setvar(VAR_ROGUE_ADVENTURE_MONEY, 500)
@@ -527,7 +527,7 @@ script RogueHub_SpeakBank
 
             case 2: // Info
                 setvar(VAR_RESULT, NO)
-                msgbox(format("What's an ADVENTURE FUND?\nIn essence, if you donate your HUB MONEY to myself, I will invest it on your behalf and then every time you head out on another adventure, I will give you some extra money to start with.\pSo rather than having to start with ¥0, by donating money to myself, you can start with ¥1000, ¥2000, ¥10000!\pThe sky is the limit really!\nOr rather I guess the limit would be your HUB MONEY."), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}ぼうけんしきんとは?\nかんたんに いうと きょてんの おかねを あずけて いただければ わたくしが うんようし ぼうけんに でるたび さいしょの おかねを おわたしします。\p0¥から はじめる かわりに 1000¥ 2000¥ 10000¥から はじめられます!\pかぎりは ありません!\nいえ きょてんの おかねが かぎりですね。"), MSGBOX_DEFAULT)
 
             case MULTI_B_PRESSED:
                 setvar(VAR_RESULT, NO)
@@ -782,7 +782,7 @@ script RogueHub_ListSafariShinies
     setvar(VAR_0x8004, 0)
     msgbox(format("{JPN}かいてある…\pいろちがい はんしょくプログラム:"), MSGBOX_DEFAULT)
 
-    msgbox(format("THIS FEATURE IS CURRENTLY BEING REWORKED\pIf you see this text, Abbie has been a dumb dumb and forgotten to fully rework it (doh!)"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}この きのうは いま つくりなおしちゅう\pこの ぶんが みえているなら アビーが うっかりして つくりなおしを わすれています"), MSGBOX_DEFAULT)
 
     release
 }
@@ -795,11 +795,11 @@ script RogueHub_ChangeMonBall
     setvar(VAR_0x8004, 0)
     special(BufferMonNickname)
 
-    msgbox(format("Well hey there!\pI can change the POKéBALL of {STR_VAR_1} if you'd like?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}やあ!\pのぞむなら {STR_VAR_1}の ボールを かえられるよ?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
-        msgbox(format("Which type of BALL should I change it to?"))
+        msgbox(format("{JPN}どの ボールに かえる?"))
 
         fadescreen(FADE_TO_BLACK)
         special(Bag_ChooseBall)
@@ -815,7 +815,7 @@ script RogueHub_ChangeMonBall
             removeitem(VAR_ITEM_ID, 1)
             special(Rogue_ChangeMonBall)
 
-            msgbox(format("And it's done!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}はい できた!"), MSGBOX_DEFAULT)
             setvar(VAR_RESULT, YES)
         }
 
@@ -823,7 +823,7 @@ script RogueHub_ChangeMonBall
 
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("Oh... OK..."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}そう… わかった…"), MSGBOX_DEFAULT)
     }
 
     release
@@ -833,17 +833,17 @@ script RogueHub_CombineMons
 {
     lock
 
-    msgbox(format("I found a powerful artefact in the ground here...\pThe deeper I dig...\nThe more I find...\pThe artefacts I've found have the power to combine specific Pokémon together!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}ここの じめんから つよい いぶつを みつけたんだ…\pほればほるほど…\nもっと みつかる…\pみつけた いぶつには とくていの ポケモンを がったいさせる ちからが ある!"), MSGBOX_DEFAULT)
 
     specialvar(VAR_RESULT, CalculatePlayerPartyCount)
     faceplayer
     if(var(VAR_RESULT) > 1)
     {
-        msgbox(format("Would you like me to check 2 of your Pokémon?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}きみの ポケモンを 2ひき しらべようか?"), MSGBOX_YESNO)
     
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("Which Pokémon would you like me to check?"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}どの ポケモンを しらべる?"), MSGBOX_DEFAULT)
 
             // 1st mon
             special(ChoosePartyMon)
@@ -871,7 +871,7 @@ script RogueHub_CombineMons
             {
                 if(var(VAR_0x8003) == VAR_0x8004)
                 {
-                    msgbox(format("I can't combine the same Pokémon..."), MSGBOX_DEFAULT)
+                    msgbox(format("{JPN}おなじ ポケモンどうしは がったいできない…"), MSGBOX_DEFAULT)
                 }
                 else
                 {
@@ -882,8 +882,8 @@ script RogueHub_CombineMons
                         bufferitemname(STR_VAR_1, VAR_0x8005)
                         bufferspeciesname(STR_VAR_2, VAR_0x8006)
         
-                        msgbox(format("Oh yes!\nMy artefacts!\p{STR_VAR_1} is responding!\pWhat's that {STR_VAR_1}..?\pMhm..."), MSGBOX_DEFAULT)
-                        msgbox(format("I can combine those Pokémon together!\pAlthough once it's done..\nit can NEVER be undone...\pWould you like to combine those Pokémon?"), MSGBOX_YESNO)
+                        msgbox(format("{JPN}おお!\nいぶつが!\p{STR_VAR_1}が はんのうしている!\pなんだって {STR_VAR_1}…?\pふむ…"), MSGBOX_DEFAULT)
+                        msgbox(format("{JPN}その ポケモンたちは がったいできる!\pただし いちど やると…\nもとには もどせない…\pがったいさせるかい?"), MSGBOX_YESNO)
 
                         if(var(VAR_RESULT) == YES)
                         {
@@ -897,12 +897,12 @@ script RogueHub_CombineMons
 
                             fadescreen(FADE_FROM_BLACK)
     
-                            msgbox(format("{STR_VAR_2} has awakened!"), MSGBOX_DEFAULT)
+                            msgbox(format("{JPN}{STR_VAR_2}が めざめた!"), MSGBOX_DEFAULT)
                         }
                     }
                     else
                     {
-                        msgbox(format("Hmm...\nMy artefacts don't seem to be responding..."), MSGBOX_DEFAULT)
+                        msgbox(format("{JPN}ふむ…\nいぶつは はんのうしないようだ…"), MSGBOX_DEFAULT)
                         setvar(VAR_RESULT, YES)
                     }
                 }
@@ -911,12 +911,12 @@ script RogueHub_CombineMons
 
         if(var(VAR_RESULT) == NO)
         {
-            msgbox(format("That's a shame...\nThe artefacts are gonna be sad now..."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}ざんねん…\nいぶつが かなしむな…"), MSGBOX_DEFAULT)
         }
     }
     else
     {
-        msgbox(format("If you come back with 2 Pokémon I could check them... if you'd like..."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}ポケモンを 2ひき つれてくれば しらべるよ… よければ…"), MSGBOX_DEFAULT)
     }
 
     release
@@ -926,7 +926,7 @@ script RogueHub_HintQuickRun1
 {
     lockall
 
-    msgbox(format("I'm double tapping B to run super fast!\pSame as if you want to escape from Wild Pokémon faster!\pSo fast!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}Bを 2かい おして すごく はやく はしってる!\pやせいの ポケモンから はやく にげたい ときも おなじ!\pはやい!"), MSGBOX_DEFAULT)
 
     releaseall
 }
@@ -935,7 +935,7 @@ script RogueHub_HintQuickRun2
 {
     lockall
 
-    msgbox(format("Get back here!\nB B B B B B!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}もどってこい!\nB B B B B B!"), MSGBOX_DEFAULT)
 
     releaseall
 }
@@ -944,9 +944,9 @@ script RogueHub_HintHMUsage
 {
     lock
 
-    msgbox(format("If only I had a surf HM..."), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}なみのりの ひでんマシンさえ あれば…"), MSGBOX_DEFAULT)
     faceplayer
-    msgbox(format("You don't even need to teach them to your Pokémon to use them anymore!\pIF ONLY I COULD SURF!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}いまは ポケモンに おぼえさせなくても つかえるんだ!\pなみのりさえ できれば!"), MSGBOX_DEFAULT)
 
 
     release
@@ -957,14 +957,14 @@ script RogueHub_HintRouteAdjectives
     lock
     faceplayer
 
-    msgbox(format("I took me a while, but I finally figured out what the route names mean!"), MSGBOX_DEFAULT)
-    msgbox(format("Do you want me to tell you?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}じかんは かかったが やっと ルートの なまえの いみが わかった!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}おしえようか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
-        msgbox(format("Route names are split into 2 adjectives.\pThe Difficulty and the Type Hint."), MSGBOX_DEFAULT)
-        msgbox(format("There are 3 difficulties.\nCalm, Average and Tough.\pCalm routes have more wild Pokémon, fewer items and the Trainers aren't as skilled.\pTough routes have few wild Pokémon, but more items and the Trainers are more skilled.\pAverage routes are the middle ground for both of those."), MSGBOX_DEFAULT)
-        msgbox(format("The 2nd Adjective is the Type Hint, so it gives you an idea of what types of wild Pokémon might turn up on a route.\pFor example a WARM route will have chance of having wild FIRE type Pokémon.\pThough it doesn't mean that the route will always be home to that type.\pIt's just that its more likely to than the other routes."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}ルートの なまえは 2つの ことばから できている。\pなんいどと タイプの ヒントだ。"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}なんいどは 3つ。\nおだやか ふつう きびしい。\pおだやかな ルートは やせいポケモンが おおく どうぐは すくなめで トレーナーも よわい。\pきびしい ルートは やせいポケモンが すくなく どうぐは おおく トレーナーも つよい。\pふつうは その ちゅうかんだ。"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}2つめの ことばは タイプの ヒントで どんな タイプの やせいポケモンが でそうかが わかる。\pたとえば あたたかい ルートには ほのおタイプが でる かのうせいが ある。\pかならず その タイプが いる わけでは ない。\pほかの ルートより でやすい だけだ。"), MSGBOX_DEFAULT)
     }
 
     release
@@ -976,7 +976,7 @@ script RogueHub_HintHubRespawns
     lock
     faceplayer
 
-    msgbox(format("I got lost and ended up back in the HUB.\pI'm not really sure how that works, but it sure is convenient!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}まよっていたら きょてんに もどっていた。\pしくみは わからないが べんりだ!"), MSGBOX_DEFAULT)
 
     release
 }
@@ -986,7 +986,7 @@ script RogueHub_HintCampaignBattlerTower
     lock
 
     faceplayer
-    msgbox(format("There was a crazy guy who said he was from the BATTLETOWER running around in the Config Lab earlier.\pHe kept screaming NOW over and over again...\pIt was very confusing..."), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}さっき せっていラボで バトルタワーから きたという へんな ひとが はしりまわっていた。\pずっと いまだ いまだと さけんでいた…\pよく わからなかった…"), MSGBOX_DEFAULT)
 
     release
 }
@@ -996,7 +996,7 @@ script RogueHub_HintCampaignClassic
     lock
 
     faceplayer
-    msgbox(format("You youngins really have easy ADVENTURES nowadays you know...\pI like to REFLECT back on what it use to be and I sometimes miss how simple it was..."), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}さいきんの わかいもんの ぼうけんは らくだねえ…\pむかしを ふりかえると あの たんじゅんさが なつかしい…"), MSGBOX_DEFAULT)
 
     release
 }
@@ -1006,7 +1006,7 @@ script RogueHub_HintCampaignAutoBattle
     lock
 
     faceplayer
-    msgbox(format("WHAT are you going to ATTACK?!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}なにを こうげきするんだ!?"), MSGBOX_DEFAULT)
 
     release
 }
@@ -1016,7 +1016,7 @@ script RogueHub_HintCampaignLowBst
     lock
 
     faceplayer
-    msgbox(format("You know there was once a Competition to try and complete and Adventure with the weakest Pokémon possible?\pYou can join in on our own SMALL HOLIDAY if you'd like."), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}できるだけ よわい ポケモンで ぼうけんを クリアする たいかいが あったのを しってる?\pよければ うちの ちいさな おやすみに さんかできるよ。"), MSGBOX_DEFAULT)
 
     release
 }
@@ -1026,7 +1026,7 @@ script RogueHub_HintCampaignPokeballLimit
     lock
 
     faceplayer
-    msgbox(format("There's nothing worse than when I'm on and Adventure and I end up all OUT of BALLs so I can't catch any new Pokémon."), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}ぼうけんちゅうに ボールを つかいきって ポケモンを つかまえられなく なるほど つらいことは ない。"), MSGBOX_DEFAULT)
 
     release
 }
@@ -1036,7 +1036,7 @@ script RogueHub_HintCampaignOneHit
     lock
 
     faceplayer
-    msgbox(format("I've got a great new strategy for my next Adventure...\pI'm going to increase my Pokémon's evasion and keep chanting PLEASE MISS over and over.\pIt's bound to work eventually!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}つぎの ぼうけんの ための さくせんを かんがえた…\pポケモンの かいひりつを あげて はずれろと となえつづけるんだ。\pいつかは うまくいく はず!"), MSGBOX_DEFAULT)
 
     release
 }

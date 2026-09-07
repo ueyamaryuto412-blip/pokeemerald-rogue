@@ -4,16 +4,16 @@ script Rogue_Encounter_Shops_TalkVendingMachine
 {
     lock
 
-    msgbox(format("It's a Vending Machine!"))
+    msgbox(format("{JPN}じどうはんばいきだ!"))
 
     if(flag(FLAG_ROGUE_VENDING_MACHINE_USED))
     {
-        msgbox(format("I doesn't look like it has anything else inside…"))
+        msgbox(format("{JPN}なかには もう なにも なさそうだ…"))
     }
     else
     {
         showmoneybox(0, 0)
-        msgbox(format("You can't quite make out what's inside.\pDo you want to insert ¥1000?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}なかみは よく みえない。\p1000¥を いれますか?"), MSGBOX_YESNO)
 
         if(var(VAR_RESULT) == YES)
         {
@@ -23,7 +23,7 @@ script Rogue_Encounter_Shops_TalkVendingMachine
             checkitemspace(ITEM_YELLOW_SHARD, 1)
             if(var(VAR_RESULT) == NO)
             {
-                msgbox(format("You don't have enough space in your Bag."))
+                msgbox(format("{JPN}バッグに あきが ない。"))
             }
             else
             {

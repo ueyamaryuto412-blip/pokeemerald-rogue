@@ -66,7 +66,7 @@ script Rogue_Adventure_RedrawMap
 script Rogue_Adventure_ScottGiveQuestLog
 {
     giveitem(ITEM_QUEST_LOG, 1)
-    msgbox(format("That log has a lot of optional Quests for you to complete whilst you're out on an Adventure.\pCompleting Quests can give you some nice rewards too.\pOnce you complete any, come and chat to me and I'll give your rewards."))
+    msgbox(format("{JPN}その てちょうには ぼうけんちゅうに こなせる クエストが たくさん のっている。\pクエストを クリアすると いい ほうしゅうも もらえる。\pクリアしたら こえを かけてくれ ほうしゅうを わたすから。"))
 }
 
 script Rogue_Adventure_ScottIntro
@@ -210,7 +210,7 @@ movement Rogue_Adventure_ScottIntroMovement0
 script Rogue_Adventure_StatsSign
 {
     buffernumberstring(STR_VAR_1, VAR_ROGUE_FURTHEST_DIFFICULTY)
-    msgbox(format("Furthest Progress:\nGained {STR_VAR_1} BADGES...\pA note from the dev..\p-Run stats to come in a future update!"), MSGBOX_SIGN)
+    msgbox(format("{JPN}さいこう きろく:\nバッジ {STR_VAR_1}こ…\pかいはつしゃからの メモ…\pぼうけんの きろくは こんごの こうしんで ふやします!"), MSGBOX_SIGN)
 }
 
 script Rogue_Adventure_StartStandard
@@ -290,7 +290,7 @@ script Rogue_Adventure_StartRainbow
             msgbox(format("{JPN}きが かわったら いつでも こえを かけてくれ。"), MSGBOX_DEFAULT)
 
         case 2: // Info
-            msgbox(format("RAINBOW adventures are very similar to a normal adventure.\pThe main difference is that any and all types can appear for Boss fights.\pFor example Wallace could appear as the first GYM leader or ROXANNE could end up being the CHAMPION!\pYou will even encounter Boss trainers sporting types not usually seen in normal adventures.\pIn this mode trainers from all regions will be enabled.\nIn other words your settings in the Config Lab will be ignored."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}レインボーの ぼうけんは ふつうの ぼうけんと ほとんど おなじだ。\pちがうのは ボスせんに どの タイプでも あらわれること。\pたとえば ミクリが さいしょの ジムリーダーで ツツジが チャンピオンに なることも!\pふつうの ぼうけんでは みない タイプの ボスにも であう。\pこの モードでは すべての ちほうの トレーナーが でる。\nつまり せっていラボの せっていは むしされる。"), MSGBOX_DEFAULT)
 
         case MULTI_B_PRESSED:
             msgbox(format("{JPN}きが かわったら いつでも こえを かけてくれ。"), MSGBOX_DEFAULT)
@@ -460,10 +460,10 @@ script Rogue_ReturnAdventureCommon
         buffernumberstring(STR_VAR_1, VAR_ROGUE_CURRENT_ROOM_IDX)
         //buffernumberstring(STR_VAR_2, VAR_ROGUE_DIFFICULTY)
 
-        msgbox(format("Lets have a look now...\pYou managed to complete{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.\n{STR_VAR_1} routes...{PAUSE 15}"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}それでは みてみよう…\pクリアしたのは{ENG}{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{JPN}\n{STR_VAR_1}ルート…{PAUSE 15}"), MSGBOX_DEFAULT)
         
         //turnobject(NPC_INTRO_SCOTT, DIR_EAST)
-        msgbox(format("So hmm...\nYour rewards should be{PAUSE 15}.{PAUSE 15}.{PAUSE 15}."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}ふむ…\nほうしゅうは{ENG}{PAUSE 15}.{PAUSE 15}.{PAUSE 15}.{JPN}"), MSGBOX_DEFAULT)
         //turnobject(NPC_INTRO_SCOTT, DIR_SOUTH)
     }
 
@@ -505,7 +505,7 @@ script Rogue_ReturnAdventureCommon
             
             if(!flag(FLAG_ROGUE_LVL_TUTORIAL))
             {
-                msgbox(format("Ah!\nIs this the first time your party has leveled up in the HUB?\pThese LVLs don't work entirely the same as they do whilst out on Adventures.\pPOKéMON will not naturally learn moves or evolve whilst in the HUB.\pYou will need to find specialist NPCs who will be able to help out, once your Pokémon has reached the correct level.\pAny levels you gain in the HUB will be temporarily reset when you embark on Adventures.\pThe HUB level will be restored once you return."))
+                msgbox(format("{JPN}おや!\nきょてんで てもちの レベルが あがるのは はじめてかな?\pここでの レベルは ぼうけんちゅうとは すこし ちがう。\pきょてんでは ポケモンは しぜんに わざを おぼえたり しんかしたり しない。\pレベルが たりたら てつだってくれる ひとを さがす ひつようが ある。\pきょてんで あげた レベルは ぼうけんに でると いちじてきに もどる。\pもどってくれば きょてんの レベルも もどるよ。"))
                 setflag(FLAG_ROGUE_LVL_TUTORIAL)
             }
         }

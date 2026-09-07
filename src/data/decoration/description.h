@@ -4,9 +4,9 @@ const u8 DecorDesc_POKEMON_DESK[] = _("{JPN}モンスターボールの\nかた�
 
 const u8 DecorDesc_HEAVY_DESK[] = _("{JPN}はがねの おおきな\nつくえ。 かざりを\nおける。");
 
-const u8 DecorDesc_RAGGED_DESK[] = _("{JPN}きの おおきな つくえ。\nかざりを おける。");
+const u8 DecorDesc_RAGGED_DESK[] = _("{JPN}きの おおきな\nつくえ。 かざりを\lおける。");
 
-const u8 DecorDesc_COMFORT_DESK[] = _("{JPN}はの おおきな つくえ。\nかざりを おける。");
+const u8 DecorDesc_COMFORT_DESK[] = _("{JPN}はの おおきな\nつくえ。 かざりを\lおける。");
 
 const u8 DecorDesc_PRETTY_DESK[] = _("{JPN}ガラスの きょだいな\nつくえ。 かざりが\nたくさん。");
 
@@ -18,21 +18,21 @@ const u8 DecorDesc_HARD_DESK[] = _("{JPN}いわの きょだいな\nつくえ。
 
 const u8 DecorDesc_SMALL_CHAIR[] = _("{JPN}ひとりよう ちいさな\nいす。");
 
-const u8 DecorDesc_POKEMON_CHAIR[] = _("{JPN}モンスターボールの\nかたちの ちいさな いす。");
+const u8 DecorDesc_POKEMON_CHAIR[] = _("{JPN}モンスターボールの\nかたちの ちいさな\lいす。");
 
-const u8 DecorDesc_HEAVY_CHAIR[] = _("{JPN}はがねの ちいさな いす。");
+const u8 DecorDesc_HEAVY_CHAIR[] = _("{JPN}はがねの ちいさな\nいす。");
 
-const u8 DecorDesc_PRETTY_CHAIR[] = _("{JPN}ガラスの ちいさな いす。");
+const u8 DecorDesc_PRETTY_CHAIR[] = _("{JPN}ガラスの ちいさな\nいす。");
 
-const u8 DecorDesc_COMFORT_CHAIR[] = _("{JPN}はの ちいさな いす。");
+const u8 DecorDesc_COMFORT_CHAIR[] = _("{JPN}はの ちいさな\nいす。");
 
-const u8 DecorDesc_RAGGED_CHAIR[] = _("{JPN}きの ちいさな いす。");
+const u8 DecorDesc_RAGGED_CHAIR[] = _("{JPN}きの ちいさな\nいす。");
 
-const u8 DecorDesc_BRICK_CHAIR[] = _("{JPN}レンガの ちいさな いす。");
+const u8 DecorDesc_BRICK_CHAIR[] = _("{JPN}レンガの ちいさな\nいす。");
 
-const u8 DecorDesc_CAMP_CHAIR[] = _("{JPN}まるたの ちいさな いす。");
+const u8 DecorDesc_CAMP_CHAIR[] = _("{JPN}まるたの ちいさな\nいす。");
 
-const u8 DecorDesc_HARD_CHAIR[] = _("{JPN}いわの ちいさな いす。");
+const u8 DecorDesc_HARD_CHAIR[] = _("{JPN}いわの ちいさな\nいす。");
 
 const u8 DecorDesc_RED_PLANT[] = _("{JPN}あざやかな あかい\nはちうえ。");
 
@@ -40,17 +40,17 @@ const u8 DecorDesc_TROPICAL_PLANT[] = _("{JPN}はなの さく なんこくの\n
 
 const u8 DecorDesc_PRETTY_FLOWERS[] = _("{JPN}かわいい はなの\nはちうえ。");
 
-const u8 DecorDesc_COLORFUL_PLANT[] = _("{JPN}いろとりどりの はなの\nおおきな はちうえ。");
+const u8 DecorDesc_COLORFUL_PLANT[] = _("{JPN}いろとりどりの\nはなの おおきな\lはちうえ。");
 
-const u8 DecorDesc_BIG_PLANT[] = _("{JPN}かさの ような おおきな\nはちうえ。");
+const u8 DecorDesc_BIG_PLANT[] = _("{JPN}かさの ような\nおおきな\lはちうえ。");
 
 const u8 DecorDesc_GORGEOUS_PLANT[] = _("{JPN}りっぱで おおきな\nはちうえ。");
 
-const u8 DecorDesc_RED_BRICK[] = _("{JPN}あかい レンガ。 うえに\nかざりを おける。");
+const u8 DecorDesc_RED_BRICK[] = _("{JPN}あかい レンガ。\nうえに かざりを\lおける。");
 
-const u8 DecorDesc_YELLOW_BRICK[] = _("{JPN}きいろい レンガ。 うえに\nかざりを おける。");
+const u8 DecorDesc_YELLOW_BRICK[] = _("{JPN}きいろい レンガ。\nうえに かざりを\lおける。");
 
-const u8 DecorDesc_BLUE_BRICK[] = _("{JPN}あおい レンガ。 うえに\nかざりを おける。");
+const u8 DecorDesc_BLUE_BRICK[] = _("{JPN}あおい レンガ。\nうえに かざりを\lおける。");
 
 const u8 DecorDesc_RED_BALLOON[] = _("{JPN}みずの はいった あかい\nふうせん。 ふむと\nわれる。");
 
@@ -62,9 +62,9 @@ const u8 DecorDesc_RED_TENT[] = _("{JPN}おおきな あかい テント。\nな
 
 const u8 DecorDesc_BLUE_TENT[] = _("{JPN}おおきな あおい テント。\nなかに かくれられる。");
 
-const u8 DecorDesc_SOLID_BOARD[] = _("{JPN}あなに かけて\nむこうがわへ わたる。");
+const u8 DecorDesc_SOLID_BOARD[] = _("{JPN}あなに かけて\nむこうがわへ\lわたる。");
 
-const u8 DecorDesc_SLIDE[] = _("{JPN}だいから すべり\nおりる ための\nどうぐ。");
+const u8 DecorDesc_SLIDE[] = _("{JPN}だいから すべり おりる\nための どうぐ。");
 
 const u8 DecorDesc_FENCE_LENGTH[] = _("{JPN}とおれなく する ちいさな\nさく。");
 
@@ -76,9 +76,9 @@ const u8 DecorDesc_STAND[] = _("{JPN}だんの ついた おおきな\nだい。
 
 const u8 DecorDesc_MUD_BALL[] = _("{JPN}おおきな どろの\nかたまり。 ふむと\nくずれる。");
 
-const u8 DecorDesc_BREAKABLE_DOOR[] = _("{JPN}すりぬけられる ふしぎな\nとびら。");
+const u8 DecorDesc_BREAKABLE_DOOR[] = _("{JPN}すりぬけられる\nふしぎな\lとびら。");
 
-const u8 DecorDesc_SAND_ORNAMENT[] = _("{JPN}すなの かざり。 さわると\nくずれる。");
+const u8 DecorDesc_SAND_ORNAMENT[] = _("{JPN}すなの かざり。\nさわると\lくずれる。");
 
 const u8 DecorDesc_SILVER_SHIELD[] = _("{JPN}バトルタワーで\n50れんしょうした\nしょうごう。");
 
@@ -92,27 +92,27 @@ const u8 DecorDesc_ROUND_TV[] = _("{JPN}タネボーを かたどった\nおも�
 
 const u8 DecorDesc_CUTE_TV[] = _("{JPN}エネコを かたどった\nおもちゃの テレビ。");
 
-const u8 DecorDesc_GLITTER_MAT[] = _("{JPN}ふむと きらきら ひかる\nふしぎな マット。");
+const u8 DecorDesc_GLITTER_MAT[] = _("{JPN}ふむと きらきら\nひかる ふしぎな\lマット。");
 
 const u8 DecorDesc_JUMP_MAT[] = _("{JPN}ふむと とびはねる\nしかけの マット。");
 
 const u8 DecorDesc_SPIN_MAT[] = _("{JPN}ふむと まわりだす\nしかけの マット。");
 
-const u8 DecorDesc_C_LOW_NOTE_MAT[] = _("{JPN}ふむと ひくい ドの\nおとが なる マット。");
+const u8 DecorDesc_C_LOW_NOTE_MAT[] = _("{JPN}ふむと ひくい ドの\nおとが なる\lマット。");
 
-const u8 DecorDesc_D_NOTE_MAT[] = _("{JPN}ふむと レの おとが なる\nマット。");
+const u8 DecorDesc_D_NOTE_MAT[] = _("{JPN}ふむと レの\nおとが なる\lマット。");
 
-const u8 DecorDesc_E_NOTE_MAT[] = _("{JPN}ふむと ミの おとが なる\nマット。");
+const u8 DecorDesc_E_NOTE_MAT[] = _("{JPN}ふむと ミの\nおとが なる\lマット。");
 
-const u8 DecorDesc_F_NOTE_MAT[] = _("{JPN}ふむと ファの おとが\nなる マット。");
+const u8 DecorDesc_F_NOTE_MAT[] = _("{JPN}ふむと ファの\nおとが なる\lマット。");
 
-const u8 DecorDesc_G_NOTE_MAT[] = _("{JPN}ふむと ソの おとが なる\nマット。");
+const u8 DecorDesc_G_NOTE_MAT[] = _("{JPN}ふむと ソの\nおとが なる\lマット。");
 
-const u8 DecorDesc_A_NOTE_MAT[] = _("{JPN}ふむと ラの おとが なる\nマット。");
+const u8 DecorDesc_A_NOTE_MAT[] = _("{JPN}ふむと ラの\nおとが なる\lマット。");
 
-const u8 DecorDesc_B_NOTE_MAT[] = _("{JPN}ふむと シの おとが なる\nマット。");
+const u8 DecorDesc_B_NOTE_MAT[] = _("{JPN}ふむと シの\nおとが なる\lマット。");
 
-const u8 DecorDesc_C_HIGH_NOTE_MAT[] = _("{JPN}ふむと たかい ドの\nおとが なる マット。");
+const u8 DecorDesc_C_HIGH_NOTE_MAT[] = _("{JPN}ふむと たかい ドの\nおとが なる\lマット。");
 
 const u8 DecorDesc_SURF_MAT[] = _("{JPN}なみのりの えの マット。\nうえに かざりを おける。");
 
@@ -124,11 +124,11 @@ const u8 DecorDesc_POWDER_SNOW_MAT[] = _("{JPN}こなゆきの えの マット�
 
 const u8 DecorDesc_ATTRACT_MAT[] = _("{JPN}メロメロの えの マット。\nうえに かざりを おける。");
 
-const u8 DecorDesc_FISSURE_MAT[] = _("{JPN}じわれの えの マット。\nうえに かざりを おける。");
+const u8 DecorDesc_FISSURE_MAT[] = _("{JPN}じわれの えの マット。\nうえに かざりを\lおける。");
 
 const u8 DecorDesc_SPIKES_MAT[] = _("{JPN}まきびしの えの マット。\nうえに かざりを おける。");
 
-const u8 DecorDesc_BALL_POSTER[] = _("{JPN}モンスターボールの\nちいさな ポスター。");
+const u8 DecorDesc_BALL_POSTER[] = _("{JPN}モンスターボールの\nちいさな\lポスター。");
 
 const u8 DecorDesc_GREEN_POSTER[] = _("{JPN}キモリの ちいさな\nポスター。");
 

@@ -1026,7 +1026,7 @@ static const u8 sStoredPowerDescription[] = _("{JPN}じぶんの のうりょく
 
 static const u8 sQuickGuardDescription[] = _("{JPN}1ターンの あいだ せんせいの\nこうげきを かわす。");
 
-static const u8 sAllySwitchDescription[] = _("{JPN}なかまと ばしょを いれかえる。");
+static const u8 sAllySwitchDescription[] = _("{JPN}なかまと ばしょを\nいれかえる。");
 
 static const u8 sScaldDescription[] = _("{JPN}ねっとうを あびせて こうげき。\nやけどに することが ある。");
 
@@ -1054,7 +1054,7 @@ static const u8 sRetaliateDescription[] = _("{JPN}なかまが たおれてい�
 
 static const u8 sFinalGambitDescription[] = _("{JPN}じぶんが たおれて HPと おなじ\nダメージを あいてに あたえる。");
 
-static const u8 sBestowDescription[] = _("{JPN}もちものを あいてに わたす。");
+static const u8 sBestowDescription[] = _("{JPN}もちものを あいてに\nわたす。");
 
 static const u8 sInfernoDescription[] = _("{JPN}つよいが あたりにくい。 かならず\nやけどに する。");
 
@@ -1076,7 +1076,7 @@ static const u8 sWildChargeDescription[] = _("{JPN}でんきの たいあたり�
 
 static const u8 sDrillRunDescription[] = _("{JPN}ドリルのように まわる。 きゅうしょに\nあたりやすい。");
 
-static const u8 sDualChopDescription[] = _("{JPN}はげしい こうげきが 2かい あたる。");
+static const u8 sDualChopDescription[] = _("{JPN}はげしい こうげきが 2かい\nあたる。");
 
 static const u8 sHeartStampDescription[] = _("{JPN}かわいく してから ふいうち。\nひるませる ことが ある。");
 
@@ -1160,7 +1160,7 @@ static const u8 sDrainingKissDescription[] = _("{JPN}あたえた ダメージ�
 
 static const u8 sCraftyShieldDescription[] = _("{JPN}1ターンの あいだ へんかわざを\nかわす。");
 
-static const u8 sFlowerShieldDescription[] = _("{JPN}くさタイプの ぼうぎょを あげる。");
+static const u8 sFlowerShieldDescription[] = _("{JPN}くさタイプの ぼうぎょを\nあげる。");
 
 static const u8 sGrassyTerrainDescription[] = _("{JPN}5ターン じめんが くさに なり\nHPが かいふく する。");
 
@@ -1196,7 +1196,7 @@ static const u8 sMysticalFireDescription[] = _("{JPN}とくべつな あつい �
 
 static const u8 sSpikyShieldDescription[] = _("{JPN}こうげきを かわし うけたら あいてに\nダメージ。");
 
-static const u8 sAromaticMistDescription[] = _("{JPN}みかたの とくぼうを あげる。");
+static const u8 sAromaticMistDescription[] = _("{JPN}みかたの とくぼうを\nあげる。");
 
 static const u8 sEerieImpulseDescription[] = _("{JPN}はどうを あてて とくこうを がくっと\nさげる。");
 
@@ -1344,7 +1344,7 @@ static const u8 sZingZapDescription[] = _("{JPN}でんきの しょうげき。 
 
 static const u8 sNaturesMadnessDescription[] = _("{JPN}しぜんの ちからで あいての HPを\nはんぶんに する。");
 
-static const u8 sMultiAttackDescription[] = _("{JPN}メモリに よって かわる こうげき。");
+static const u8 sMultiAttackDescription[] = _("{JPN}メモリに よって かわる\nこうげき。");
 
 static const u8 sMindBlownDescription[] = _("{JPN}あたまを ばくはつ させて まわり\nぜんぶに ダメージ。");
 
@@ -1633,7 +1633,7 @@ static const u8 sChillyReceptionDescription[] =_("{JPN}へたな じょうだん
 
 static const u8 sTidyUpDescription[] = _("{JPN}わなを かたづけ こうげきと\nすばやさを あげる。");
 
-static const u8 sSnowscapeDescription[] = _("{JPN}5ターンの あいだ ゆきを ふらせる。");
+static const u8 sSnowscapeDescription[] = _("{JPN}5ターンの あいだ ゆきを\nふらせる。");
 
 static const u8 sPounceDescription[] = _("{JPN}とびかかって あいての すばやさを\nさげる。");
 

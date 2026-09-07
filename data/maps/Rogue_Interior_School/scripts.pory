@@ -22,7 +22,7 @@ script Rogue_Interior_School_ShowSetRecommendation
         hidemonpic
     }
 
-    msgbox(format("{JPN}こまったことが あったら\nいつでも きいてね!"))
+    msgbox(format("{JPN}こまったことが あったら いつでも きいてね!"))
 
     release
 }

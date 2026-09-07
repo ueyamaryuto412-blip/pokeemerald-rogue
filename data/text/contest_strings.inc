@@ -229,7 +229,7 @@ gText_ButItMessedUp::
 	.string "{JPN}しかし しくじって しまった。$"
 
 gText_WentBetterThanUsual::
-	.string "{JPN}いつもより うまく いった。$"
+	.string "{JPN}いつもより うまく\nいった。$"
 
 gText_JudgeLookedAwayForSomeReason::
 	.string "{JPN}しんさいんは なぜか\nよそを むいて いた。$"
@@ -238,10 +238,10 @@ gText_WorkedHardToBuildOnPastMistakes::
 	.string "{JPN}しっぱいを とりかえそうと\nがんばった。$"
 
 gText_CantMakeAnyMoreMoves::
-	.string "{JPN}もう わざを だせない。$"
+	.string "{JPN}もう わざを\nだせない。$"
 
 gText_WorkedFrighteninglyWell::
-	.string "{JPN}おそろしいほど うまく いった。$"
+	.string "{JPN}おそろしいほど うまく\nいった。$"
 
 gText_WorkedHardAsStandoutMon::
 	.string "{JPN}めだって いる ポケモンに\nまけないくらい がんばった。$"
@@ -357,7 +357,7 @@ gText_MonCantMakeAnAppealAfterThis::
 	.string "{JPN}{STR_VAR_1}は これいじょう\nアピール できない。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_SettledDownJustLittleBit::
-	.string "{JPN}すこしだけ おちついた。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{JPN}すこしだけ\nおちついた。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BecameObliviousToOtherMons::
 	.string "{JPN}ほかの ポケモンが\nきに ならなく なった。{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"

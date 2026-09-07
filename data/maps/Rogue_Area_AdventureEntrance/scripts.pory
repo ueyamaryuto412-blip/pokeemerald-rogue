@@ -246,7 +246,7 @@ script Rogue_Area_AdventureEntrance_SpeakNurse
     }
     elif (var(VAR_ROGUE_INTRO_STATE) == ROGUE_INTRO_STATE_COLLECT_QUEST_LOG)
     {
-        msgbox(format("{JPN}やあ {PLAYER}!\pぼうけんの じゅんびは\nもう すこしみたいだね!\pでかけるまえに これを どうぞ。"))
+        msgbox(format("{JPN}やあ {PLAYER}!\pぼうけんの じゅんびは もう すこしみたいだね!\pでかけるまえに これを どうぞ。"))
 
         giveitem(ITEM_QUEST_LOG)
         msgbox(format("{JPN}その クエストブックで ぼうけんちゅうの クエストや チャレンジを うけられる。\pひだりの クエストボードに いけば さいしょの クエストが あるはずだ!"))
@@ -351,7 +351,7 @@ script Rogue_StartAdventureInternal
         special(Rogue_IsMultiplayerAdventureJoinable)
         if(var(VAR_RESULT) == NO)
         {
-            msgbox(format("{JPN}いまは ぼうけんに でられないんだ。\p{RIVAL}が はじめるのを まって\nいっしょに いこう。"))
+            msgbox(format("{JPN}いまは ぼうけんに でられないんだ。\p{RIVAL}が はじめるのを まって いっしょに いこう。"))
             return
         }
     }
@@ -364,7 +364,7 @@ script Rogue_StartAdventureInternal
     if(var(VAR_RESULT) > VAR_0x8004)
     {
         buffernumberstring(STR_VAR_1, VAR_0x8004)
-        msgbox(format("{JPN}ポケモンが おおすぎるみたいだ。\pこのぼうけんには {STR_VAR_1}ひきまでしか\nつれていけないんだ。\pパソコンに あずけてから\nまた きてくれるかな。"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}ポケモンが おおすぎるみたいだ。\pこのぼうけんには {STR_VAR_1}ひきまでしか つれていけないんだ。\pパソコンに あずけてから また きてくれるかな。"), MSGBOX_DEFAULT)
         setvar(VAR_RESULT, NO)
     }
     else
@@ -472,7 +472,7 @@ script Rogue_ReturnAdventureInternal
 
     if(var(VAR_0x8000) != 0 || var(VAR_0x8001) != 0)
     {
-        msgbox(format("{JPN}どんなものを あつめてきたか\nみてみようか。"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}どんなものを あつめてきたか みてみようか。"), MSGBOX_DEFAULT)
 
         // Just returned from first successful adventure
         //if(var(VAR_ROGUE_INTRO_STATE) == 6)
@@ -522,7 +522,7 @@ script Rogue_ReturnAdventureInternal
     }
     else
     {
-        msgbox(format("{JPN}このぼうけんでの ほうしゅうは\nないみたいだ。"))
+        msgbox(format("{JPN}このぼうけんでの ほうしゅうは ないみたいだ。"))
     }
 
     clearflag(FLAG_ROGUE_LEFT_ON_RUN)
@@ -577,12 +577,12 @@ script Rogue_Area_AdventureEntrance_TalkPeonia
     {
         setflag(FLAG_ROGUE_MET_PEONIA)
         msgbox(format("{JPN}やあ!\nわたしは ペオニア!\pペオニア: このまえの あなたの ぼうけんを みていたわ。\pあれは…\nなかなか すごかった。\pわたしは みちを おぼえるのが とくいなの。\pだから のぞむなら むかしの ぼうけんを おぼえておいて また あそべるように できるわ。\pいってくれれば いちばん あたらしい ぼうけんを きろくしておく!\pあそびなおすときは となりの はたを あげてね。\pふつうの ぼうけんに もどりたく なったら はたを おろせばいい。\pはたは なんども あげさげ できるわ!\pただし あそびなおしのあいだ クエストは むこうに なるから じぶんの ほこりの ためね!\pそれで…"))
-        msgbox(format("{JPN}それじゃあ このまえの ぼうけんを\nおぼえておくね!"))
+        msgbox(format("{JPN}それじゃあ このまえの ぼうけんを おぼえておくね!"))
         setvar(VAR_RESULT, YES)
     }
     else
     {
-        msgbox(format("{JPN}ペオニア: やあ {PLAYER}。\pこのまえの ぼうけんを\nおぼえておこうか?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}ペオニア: やあ {PLAYER}。\pこのまえの ぼうけんを おぼえておこうか?"), MSGBOX_YESNO)
     }
 
     if(var(VAR_RESULT) == YES)
@@ -627,7 +627,7 @@ script Rogue_Area_AdventureEntrance_TalkFlag
         {
             if(flag(FLAG_ROGUE_ADVENTURE_REPLAY_ACTIVE))
             {
-                msgbox(format("{JPN}はたを おろして\nいつもどおりに もどりますか?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}はたを おろして いつもどおりに もどりますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     clearflag(FLAG_ROGUE_ADVENTURE_REPLAY_ACTIVE)

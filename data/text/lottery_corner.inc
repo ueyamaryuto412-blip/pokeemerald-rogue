@@ -62,10 +62,7 @@ LilycoveCity_DepartmentStore_1F_Text_AllFiveDigitsMatched:
 	.string "You've won the {STR_VAR_1}!$"
 
 LilycoveCity_DepartmentStore_1F_Text_NoRoomForThis:
-	.string "Oh?\n"
-	.string "You seem to have no room for this.\p"
-	.string "Please make room in your BAG and\n"
-	.string "let me know.$"
+	.string "{JPN}おや?\nいれる ばしょが ないようですね。\pバッグに あきを つくって\nおしえて ください。$"
 
 LilycoveCity_DepartmentStore_1F_Text_PrizeWeveBeenHolding:
 	.string "{PLAYER}?\n"

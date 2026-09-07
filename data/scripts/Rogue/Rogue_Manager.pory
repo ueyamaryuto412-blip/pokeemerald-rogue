@@ -558,7 +558,7 @@ script Rogue_EventScript_UseDayCarePhoneItem_TrySwapMon
 
         if(var(VAR_0x8008) == 1)
         {
-            msgbox(format("{JPN}いまは これいじょう そだてやに\nあずけられません。\pあずけると てもちが\nいなく なって しまいます!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}いまは これいじょう そだてやに あずけられません。\pあずけると てもちが いなく なって しまいます!"), MSGBOX_DEFAULT)
         }
         else
         {
@@ -1099,7 +1099,7 @@ script Rogue_SpeakDaycareLady_TrySwapMon
 
         if(var(VAR_0x8008) == 1)
         {
-            msgbox(format("{JPN}いまは これいじょう あずかれません。\pあずけると てもちが\nいなく なって しまいます!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}いまは これいじょう あずかれません。\pあずけると てもちが いなく なって しまいます!"), MSGBOX_DEFAULT)
         }
         else
         {
@@ -1364,7 +1364,7 @@ script Rogue_Heal_PreBoss
     }
     else
     {
-        msgbox(format("{JPN}いいか こぞう…\n1かいだけ ただで かいふくしてやる。\lつぎからは かねを はらえ。"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}いいか こぞう… 1かいだけ ただで\nかいふくしてやる。 つぎからは かねを はらえ。"), MSGBOX_DEFAULT)
         msgbox(format("{JPN}ただの かいふくを いま つかうか?"), MSGBOX_YESNO)
 
         if(var(VAR_RESULT) == YES)

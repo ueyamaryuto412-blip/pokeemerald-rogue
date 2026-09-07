@@ -42,7 +42,7 @@ script Rogue_Interior_Restaurant_TalkMainChef
 
     setvar(VAR_0x8004, 0)
     special(BufferMonNickname)
-    msgbox(format("{JPN}ごきげんよう!\p{STR_VAR_1}と わけられる パイを\nやきましょうか?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}ごきげんよう!\p{STR_VAR_1}と わけられる パイを やきましょうか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -269,7 +269,7 @@ script Rogue_Interior_Restaurant_TalkShinyChef
 
         setvar(VAR_0x8004, 0)
         special(BufferMonNickname)
-        msgbox(format("{JPN}{STR_VAR_1}と わけられる いろちがいパイを\nやきましょうか?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}{STR_VAR_1}と わけられる いろちがいパイを やきましょうか?"), MSGBOX_YESNO)
 
         if(var(VAR_RESULT) == YES)
         {

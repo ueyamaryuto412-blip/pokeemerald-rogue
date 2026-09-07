@@ -5,7 +5,7 @@ Route104_Text_PlantBerriesInSoilTakeThis:
 	.string "{JPN}やわらかい つちに きのみが なって いたら\nじゆうに とって いいんだよ。\pでも おなじ ばしょに きのみを うえて おく。\nそれが れいぎと いう ものだ。\pほら これを わけて あげよう。$"
 
 Route104_Text_TrainersOftenMakeMonHoldBerries:
-	.string "{JPN}その ようすだと トレーナーだね?\pトレーナーは よく ポケモンに きのみを\nもたせる ものだ。\pそだてるか つかうかは きみの じゆうだよ。$"
+	.string "{JPN}その ようすだと\nトレーナーだね?\pトレーナーは よく ポケモンに きのみを もたせる\nものだ。\pそだてるか つかうかは きみの\nじゆうだよ。$"
 
 Route111_Text_WateredPlantsEveryDayTakeBerry:
 	.string "{JPN}まいにち みずを やったの。\nたくさん はなが さいたわ。\pきのみも たくさん なったのよ。\pはい どうぞ!\nあげるわ!$"
@@ -26,7 +26,7 @@ Route114_Text_FunToThinkAboutBerries:
 	.string "{JPN}どの きのみを うえようか。\nつかうか とっておくか。\pかんがえるのが たのしいのよ。$"
 
 Route120_Text_BerriesExpressionOfLoveIsntIt:
-	.string "{JPN}きのみは ひざしを あびて そだつの。\pこまめに みずを やって そだてる。\pそれって あいじょうだと おもわない?$"
+	.string "{JPN}きのみは ひざしを あびて そだつの。\pこまめに みずを やって\nそだてる。\pそれって あいじょうだと おもわない?$"
 
 Route120_Text_YesYouUnderstand:
 	.string "{JPN}そう そう。\nわかって くれるのね。\pこれを もって いって。$"
@@ -89,10 +89,10 @@ Route104_PrettyPetalFlowerShop_Text_BerriesExplanation:
 	.string "{JPN}きのみは やわらかい つちでしか そだたない\nきに なるの。\pきのみを とったら また やわらかい つちに\n1つ うえて おいてね。\pうえた きのみは めを だし そだって\nうつくしい はなを さかせ また きのみを\lつけるのよ。\pせかいじゅうが うつくしい はなで\nみたされる ところを みたいの。\lそれが わたしの ゆめ。\p{PLAYER}{KUN} てつだってね。 きのみを うえて\nせかいに はなを ふやしましょう。$"
 
 Route104_PrettyPetalFlowerShop_Text_FlowersBringHappiness:
-	.string "{JPN}はなは ひとを しあわせに するわよね?$"
+	.string "{JPN}はなは ひとを しあわせに\nするわよね?$"
 
 Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
-	.string "{JPN}いらっしゃい!\pはなは てを かけるほど うつくしく さくの。\pあなたも はなを そだてるのが すきに なるわ。\nきっとね。 これを あげる。$"
+	.string "{JPN}いらっしゃい!\pはなは てを かけるほど うつくしく\nさくの。\pあなたも はなを そだてるのが すきに なるわ。\nきっとね。 これを あげる。$"
 
 Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
 	.string "{JPN}きのみが そだつ あいだは ジョウロで\nみずを やってね。\pそれと もう ひとつ。\pしばらく とらないで いると きのみは\nじめんに おちて しまうの。\lでも また めを だすのよ。\pすごいでしょう?\nいきようと する ちからね。$"

@@ -427,7 +427,7 @@ static u8 const sText_HardStar[] = _("{COLOR RED}{SHADOW LIGHT_GRAY}");
 static u8 const sText_BrutalStar[] = _("{COLOR RED}{SHADOW LIGHT_RED}");
 static u8 const sText_Index_Quests[] = _("{JPN}クエスト");
 
-static u8 const sText_Index_PendingRewards[] = _("{JPN}{COLOR GREEN}ごほうびを うけとれます!");
+static u8 const sText_Index_PendingRewards[] = _("{JPN}{COLOR GREEN}ごほうびを\nうけとれます!");
 
 
 EWRAM_DATA static struct QuestMenuData* sQuestMenuData = NULL;

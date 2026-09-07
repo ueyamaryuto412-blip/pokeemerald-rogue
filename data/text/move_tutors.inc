@@ -2,7 +2,7 @@ MoveTutor_Text_ThisMoveCanOnlyBeLearnedOnce:
 	.string "{JPN}この わざは いちどしか おしえられません。\nそれでも いいですか?$"
 
 MoveTutor_Text_SwaggerTeach:
-	.string "{JPN}へへっ! おれの ポケモンは さいこうだぜ!\nどの ポケモンより かっこいい!\pなんて いばって いたら かいちょうに\nしかられて しまってな。\pすっかり いばれなく なったよ。\lへこむよなあ。\pよければ きみの ポケモンに いばるを\nおしえて やろうか?$"
+	.string "{JPN}へへっ! おれの ポケモンは さいこうだぜ! どの\nポケモンより かっこいい!\pなんて いばって いたら\nかいちょうに しかられて\lしまってな。\pすっかり いばれなく なったよ。 へこむよなあ。\pよければ きみの ポケモンに いばるを おしえて\nやろうか?$"
 
 MoveTutor_Text_SwaggerDeclined:
 	.string "{JPN}なんだ ことわるのか?\nノリが わるいなあ?$"
@@ -14,7 +14,7 @@ MoveTutor_Text_SwaggerTaught:
 	.string "{JPN}これからは いばらずに ポケモンを\nほめる ことに するよ。$"
 
 MoveTutor_Text_RolloutTeach:
-	.string "{JPN}ここから あっちへ むきを かえずに\nずっと いけるのを しって いたかい?\pおれなら ころがって いけそうだ。\pきみの ポケモンも ころがりたいと\nおもわないか?\lそうだ いい ことを おもいついた。\pよければ ころがるを おしえて やるよ。$"
+	.string "{JPN}ここから あっちへ むきを かえずに\nずっと いけるのを しって\lいたかい?\pおれなら ころがって\nいけそうだ。\pきみの ポケモンも ころがりたいと おもわないか?\nそうだ いい ことを おもいついた。\pよければ ころがるを おしえて\nやるよ。$"
 
 MoveTutor_Text_RolloutDeclined:
 	.string "{JPN}えんりょ しなくて いいんだぞ。\nさあ ころがろう!$"
@@ -47,7 +47,7 @@ MoveTutor_Text_MimicWhichMon:
 	.string "{JPN}ほほう! では おしえよう!\nおしえて ほしい ポケモンを\lみせなさい。$"
 
 MoveTutor_Text_MimicTaught:
-	.string "{JPN}ものまねは おくの ふかい わざじゃ。\pわしのように みごとに つかいこなせるかな…?$"
+	.string "{JPN}ものまねは おくの ふかい わざじゃ。\pわしのように みごとに\nつかいこなせるかな…?$"
 
 MoveTutor_Text_MetronomeTeach:
 	.string "{JPN}いろいろ ほしい ものが あるの!\nでも こづかいを つかいきっちゃった…\pゆびを ふると おかねが でてくる\nまほうが あったら いいのに。\lそう おもわない?\pよければ ポケモンに ゆびをふるを\nおしえて あげる。\pおかねは でないけど ポケモンが\nゆびを ふるわよ。 いい?$"
@@ -59,7 +59,7 @@ MoveTutor_Text_MetronomeWhichMon:
 	.string "{JPN}いいわよ! おしえて あげる!\nどの ポケモンに おしえる?$"
 
 MoveTutor_Text_MetronomeTaught:
-	.string "{JPN}ポケモンが メトロノームみたいに\nゆびを ふると いろいろな\lいい ことが おきるの。\pわたしたちにも つかえたら いいのにね?$"
+	.string "{JPN}ポケモンが メトロノームみたいに ゆびを\nふると いろいろな いい ことが\lおきるの。\pわたしたちにも つかえたら\nいいのにね?$"
 
 MoveTutor_Text_SleepTalkTeach:
 	.string "{JPN}ふん! つまは ねむけを さますのに\nめざめるパワーに たよって おる。\pわしのように ひるねを して\nねごとを いえば よいのだ。\pきみの ポケモンには ねごとを\nおしえて やろう。 どうかね?$"
@@ -71,10 +71,10 @@ MoveTutor_Text_SleepTalkWhichMon:
 	.string "{JPN}おお ものわかりの よい こじゃ!\nどの ポケモンに おしえようか?$"
 
 MoveTutor_Text_SleepTalkTaught:
-	.string "{JPN}つまの コインの てじなは いちども\nうまく できた ためしが ない。\pねごとで いいから せいこう したいものだ…$"
+	.string "{JPN}つまの コインの てじなは いちども うまく できた\nためしが ない。\pねごとで いいから せいこう\nしたいものだ…$"
 
 MoveTutor_Text_SubstituteTeach:
-	.string "{JPN}やねの うえから ひろい せかいを みて いると…\pじぶんが ひとりでは なくて いろいろな\nじんせいを たのしめたら いいのにと\lおもうの。\pもちろん むりだけどね。\nうふふ…\pそうだ! ポケモンに みがわりを\nおぼえさせて みない?$"
+	.string "{JPN}やねの うえから ひろい せかいを みて\nいると…\pじぶんが ひとりでは なくて いろいろな\nじんせいを たのしめたら いいのにと\lおもうの。\pもちろん むりだけどね。\nうふふ…\pそうだ! ポケモンに みがわりを おぼえさせて\nみない?$"
 
 MoveTutor_Text_SubstituteDeclined:
 	.string "{JPN}あら ちがうの?\pポケモンが じぶんの ぶんしんを\nつくれるのよ?$"
@@ -98,7 +98,7 @@ MoveTutor_Text_DynamicPunchTaught:
 	.string "{JPN}その ばくれつパンチで トクサネジムに\nかって くれよ!$"
 
 MoveTutor_Text_DoubleEdgeTeach:
-	.string "{JPN}はあ…\pルネシティの ジムリーダーは\nほんとうに すてきな かた。\pでも それだけ ライバルも おおいの。\pすてみタックルのような みりょくが あって\nわたしなど めに とめて くれないわ。\pおねがい あなたの ポケモンに\nすてみタックルを おしえさせて!$"
+	.string "{JPN}はあ…\pルネシティの ジムリーダーは ほんとうに すてきな\nかた。\pでも それだけ ライバルも\nおおいの。\pすてみタックルのような みりょくが あって\nわたしなど めに とめて くれないわ。\pおねがい あなたの ポケモンに すてみタックルを\nおしえさせて!$"
 
 MoveTutor_Text_DoubleEdgeDeclined:
 	.string "{JPN}ああ…\nあなたにまで ことわられるなんて…$"

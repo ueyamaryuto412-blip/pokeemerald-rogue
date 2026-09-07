@@ -203,7 +203,7 @@ script Rogue_PreIntro
 
     msgbox(format("{JPN}{COLOR BLUE}エメラルドローグへ ようこそ {STR_VAR_2}\n{STR_VAR_1} {STR_VAR_3}!\pはじめる まえに いくつか…"))
 
-    msgbox(format("{JPN}{COLOR BLUE}まずは さいしょの なんいどを\nえらんで ください。\pあとで ラボで かえられます"))
+    msgbox(format("{JPN}{COLOR BLUE}まずは さいしょの なんいどを えらんで ください。\pあとで ラボで かえられます"))
     special(Special_ViewDifficultyConfigMenu)
     waitstate
 

@@ -424,13 +424,13 @@ script RogueHub_SpeakBikeShop
         if(var(VAR_0x8000) == NO)
         {
             bufferitemname(STR_VAR_1, ITEM_ACRO_BIKE)
-            msgbox(format("{JPN}おお {PLAYER}!\pずいぶん はやく なったな\nこの {STR_VAR_1}を もっていけ!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}おお {PLAYER}!\pずいぶん はやく なったな この {STR_VAR_1}を もっていけ!"), MSGBOX_DEFAULT)
             giveitem(ITEM_ACRO_BIKE)
         }
         elif(var(VAR_0x8001) == NO)
         {
             bufferitemname(STR_VAR_1, ITEM_MACH_BIKE)
-            msgbox(format("{JPN}おお {PLAYER}!\pずいぶん はやく なったな\nこの {STR_VAR_1}を もっていけ!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}おお {PLAYER}!\pずいぶん はやく なったな この {STR_VAR_1}を もっていけ!"), MSGBOX_DEFAULT)
             giveitem(ITEM_MACH_BIKE)
         }
         else
@@ -464,7 +464,7 @@ script RogueHub_SpeakBikeShop
         }
         else
         {
-            msgbox(format("{JPN}やっとか!\pうわさの {PLAYER}だな。\pおもったより おそいな…\pそうだ!\nしょぶんに こまってた\lふるい じてんしゃが あるんだ。\pもっていっていいぞ!"))
+            msgbox(format("{JPN}やっとか!\pうわさの {PLAYER}だな。\pおもったより おそいな…\pそうだ! しょぶんに こまってた ふるい\nじてんしゃが あるんだ。\pもっていっていいぞ!"))
 
             giveitem(ITEM_ACRO_BIKE)
 

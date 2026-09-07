@@ -70,7 +70,7 @@ SafariZone_EventScript_PokeblockPresent::
 	end
 
 SafariZone_Text_WouldYouLikeToExit:
-	.string "{JPN}サファリゾーンから でますか?$"
+	.string "{JPN}サファリゾーンから\nでますか?$"
 
 SafariZone_Text_TimesUp:
 	.string "{JPN}ピンポンパンポン! じかんです!\nサファリゲームは しゅうりょうです。$"
@@ -118,7 +118,7 @@ Route121_SafariZoneEntrance_Text_Received30SafariBalls:
 	.string "{JPN}{PLAYER}は サファリボールを 3こ うけとった。$"
 
 Route121_SafariZoneEntrance_Text_PleaseEnjoyYourself:
-	.string "{JPN}しゅうりょうの ときは おしらせ します。\pそれまで どうぞ ごゆっくり!\nいってらっしゃいませ!$"
+	.string "{JPN}しゅうりょうの ときは おしらせ\nします。\pそれまで どうぞ ごゆっくり!\nいってらっしゃいませ!$"
 
 Route121_SafariZoneEntrance_Text_PCIsFull:
 	.string "{JPN}おきゃくさま!\nパソコンの ボックスが いっぱいです。$"
@@ -130,7 +130,7 @@ SafariZone_South_Text_StillHaveTimeExit:
 	.string "{JPN}まだ じかんが のこって います。\nサファリゾーンから でますか?$"
 
 SafariZone_South_Text_EnjoyTheRestOfYourAdventure:
-	.string "{JPN}のこりの ぼうけんも おたのしみ ください!$"
+	.string "{JPN}のこりの ぼうけんも おたのしみ\nください!$"
 
 SafariZone_South_Text_ExitEarlyThankYouForPlaying:
 	.string "{JPN}かしこまりました。\pのこりの サファリボールは\nおあずかり します。\pごりよう ありがとう ございました。\nまた の おこしを おまち して います。$"
@@ -145,7 +145,7 @@ SafariZone_South_Text_Man:
 	.string "{JPN}もっと おくへ いきたいけど\nじてんしゃを わすれて きちゃった。\pおくの ほうには めずらしい ポケモンが\nいそうな きが するんだ。$"
 
 SafariZone_Southwest_Text_Woman:
-	.string "{JPN}ときどき {POKEBLOCK}を なげても\nポケモンに むしされるんだ。\pポケモンにも すききらいが あるのかな?$"
+	.string "{JPN}ときどき {POKEBLOCK}を なげても ポケモンに\nむしされるんだ。\pポケモンにも すききらいが\nあるのかな?$"
 
 SafariZone_Northwest_Text_Man:
 	.string "{JPN}はあ はあ…\nここまで きたけど…\pへとへとだ… ポケモンを つかまえる\nちからが のこって いないよ…$"
@@ -193,7 +193,7 @@ SafariZone_Southeast_Text_RichBoy:
 	.string "{JPN}この あたりの ポケモンは ホウエン いがいの\nちほうから きて いるみたい。$"
 
 SafariZone_Northeast_Text_Boy:
-	.string "{JPN}サファリボールが あと すこししか ない。\pなにを つかまえるか まよって しまうな。$"
+	.string "{JPN}サファリボールが あと すこししか ない。\pなにを つかまえるか まよって\nしまうな。$"
 
 SafariZone_Northeast_Text_Woman:
 	.string "{JPN}ここで ピカチュウに あえると きいたの。\nどこに いるのかしら?$"

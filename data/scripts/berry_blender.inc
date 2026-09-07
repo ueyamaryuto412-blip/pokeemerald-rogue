@@ -36,7 +36,7 @@ BerryBlender_Text_DontHaveAnyBerriesToSpare:
 	.string "{JPN}きのみが あまって おれば\nよろこんで わけて やるのだが…\pきょうは よゆうが ないのじゃ。\nまた こんどに しようかの。$"
 
 BerryBlender_Text_PokeblockCaseIsFull:
-	.string "{JPN}だが おまえさんの {POKEBLOCK}ケースは\nいっぱいじゃ。\p{POKEBLOCK}を すこし つかってから また おいで。$"
+	.string "{JPN}だが おまえさんの {POKEBLOCK}ケースは いっぱいじゃ。\p{POKEBLOCK}を すこし つかってから また\nおいで。$"
 
 BerryBlender_Text_DontHavePokeblockCase:
 	.string "{JPN}だが {POKEBLOCK}ケースを もって おらんのう。\p{POKEBLOCK}ケースを てに いれてから\nまた おいで。$"
@@ -69,7 +69,7 @@ BerryBlender_Text_DontHaveAnyBerries2:
 	.string "{JPN}おっと まてよ…\nきのみを もって いないな。\pきのみが ないと {POKEBLOCK}は\nつくれない…\pきのみを てに いれたら いつでも\nここに いるからな。$"
 
 BerryBlender_Text_PokeblockCaseIsFull2:
-	.string "{JPN}おっと まてよ…\n{POKEBLOCK}ケースが いっぱいだ。\p{POKEBLOCK}を すこし つかってから また こい。$"
+	.string "{JPN}おっと まてよ… {POKEBLOCK}ケースが\nいっぱいだ。\p{POKEBLOCK}を すこし つかってから また\nこい。$"
 
 BerryBlender_Text_DontHavePokeblockCase2:
 	.string "{JPN}おっと まてよ…\n{POKEBLOCK}ケースを もって いないな。\p{POKEBLOCK}ケースを てに いれてから\nまた こい。$"
@@ -88,16 +88,16 @@ BerryBlender_Text_KnowHowToMakePokeblocks3:
 	.string "{JPN}もちろん {POKEBLOCK}の つくりかたは\nごぞんじですよね?$"
 
 BerryBlender_Text_LetsBerryBlender3:
-	.string "{JPN}では はじめましょう!\pきのみブレンダー!$"
+	.string "{JPN}では\nはじめましょう!\pきのみブレンダー!$"
 
 BerryBlender_Text_ExplainBerryBlending3:
 	.string "{JPN}あらまあ!\pでは ていねいに せつめい しますね。\pブレンダーの やじるしが あなたの\nしるしに きたら Aボタンを おすの。\pそれだけですよ。\nかんたんでしょう?$"
 
 BerryBlender_Text_DontHaveAnyBerries3:
-	.string "{JPN}きのみを もって いませんね?\pきのみが ないと {POKEBLOCK}は つくれませんの。\pここで いつも {POKEBLOCK}を つくって\nいますから きのみを てに いれたら\lいっしょに つくりましょう。$"
+	.string "{JPN}きのみを もって\nいませんね?\pきのみが ないと {POKEBLOCK}は\nつくれませんの。\pここで いつも {POKEBLOCK}を つくって いますから\nきのみを てに いれたら いっしょに\lつくりましょう。$"
 
 BerryBlender_Text_PokeblockCaseIsFull3:
-	.string "{JPN}{POKEBLOCK}ケースが いっぱいのようですね。\p{POKEBLOCK}を すこし つかってから\nまた いらして ください。$"
+	.string "{JPN}{POKEBLOCK}ケースが\nいっぱいのようですね。\p{POKEBLOCK}を すこし つかってから また いらして\nください。$"
 
 BerryBlender_Text_DontHavePokeblockCase3:
 	.string "{JPN}まだ {POKEBLOCK}ケースを もって\nいないようですね。\p{POKEBLOCK}ケースを てに いれてから\nいらして ください。$"

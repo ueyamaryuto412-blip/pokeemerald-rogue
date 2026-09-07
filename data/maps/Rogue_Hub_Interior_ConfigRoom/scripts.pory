@@ -76,7 +76,7 @@ script Rogue_ConfigRoom_TalkAssistantInternal
 {
     if(flag(FLAG_SET_SEED_ENABLED) == TRUE)
     {
-        msgbox(format("{JPN}アシスタント: シードモードを\nやめますか?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}アシスタント: シードモードを やめますか?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == YES)
         {
             msgbox(format("{JPN}アシスタント: わかりました。\nシードモードを やめます"), MSGBOX_DEFAULT)
@@ -95,7 +95,7 @@ script Rogue_ConfigRoom_TalkAssistantInternal
         msgbox(format("{JPN}アシスタント: つぎの ぼうけんで\nシードモードを つかいますか?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("{JPN}アシスタント: シードの ことばを\nえらんでください"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}アシスタント: シードの ことばを えらんでください"), MSGBOX_DEFAULT)
             setvar(VAR_0x8004, EASY_CHAT_TYPE_ROGUE_SEED)
             call(Common_ShowEasyChatScreen)
 
@@ -106,7 +106,7 @@ script Rogue_ConfigRoom_TalkAssistantInternal
             }
             else
             {
-                msgbox(format("{JPN}アシスタント: そうですか。\nシードモードを つかいたく なったら\lこえを かけてください"), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}アシスタント: そうですか。 シードモードを\nつかいたく なったら こえを かけてください"), MSGBOX_DEFAULT)
                 if(flag(FLAG_SEED_APPLY_MOVEMENT))
                 {
                     applymovement(OBJ_EVENT_ID_PLAYER, ConfigRoom_WalkLeft)
@@ -247,7 +247,7 @@ script Rogue_ConfigRoom_Campaign_NewPhrase
         //completequest(QUEST_CampaignTease)
 
         special(Rogue_BufferCampaignName)
-        msgbox(format("{JPN}おっと!\pそれは {STR_VAR_1}キャンペーンの\nあいことばじゃないか!"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}おっと!\pそれは {STR_VAR_1}キャンペーンの あいことばじゃないか!"), MSGBOX_DEFAULT)
 
         if(var(VAR_TEMP_F) == YES)
         {
@@ -334,7 +334,7 @@ script Rogue_ConfigRoom_Campaign
 
             if(var(VAR_ROGUE_DESIRED_CAMPAIGN) == ROGUE_CAMPAIGN_NONE)
             {
-                msgbox(format("{JPN}もういちど やりたく なったら\nこえを かけてくれ。"), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}もういちど やりたく なったら こえを かけてくれ。"), MSGBOX_DEFAULT)
             }
         }
         else
@@ -456,7 +456,7 @@ script Rogue_ConfigRoom_MeetPokabbie
     }
     else
     {
-        msgbox(format("{JPN}???: なんで ここに!\pもう ひみつのラボを\nみつけてしまったのか!"))
+        msgbox(format("{JPN}???: なんで ここに!\pもう ひみつのラボを みつけてしまったのか!"))
 
         applymovement(OBJ_POKABBIE_ID, ConfigRoom_Pokabbie_FaceUp)
         waitmovement(0)
@@ -721,7 +721,7 @@ script Rogue_ConfigRoom_AdjustWildGens_Regional
             copyvar(VAR_ROGUE_ENABLED_GEN_LIMIT, VAR_RESULT) // Use the same gen limit
             
             call(Rogue_ConfigRoom_BufferRegionName)
-            msgbox(format("{JPN}これから {STR_VAR_1}ちほうの ずかんの\nポケモンが でてくる。"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}これから {STR_VAR_1}ちほうの ずかんの ポケモンが でてくる。"), MSGBOX_DEFAULT)
             setvar(VAR_RESULT, YES)
 
         case MULTI_B_PRESSED: 
@@ -761,7 +761,7 @@ script Rogue_ConfigRoom_AdjustWildGens_National
             setvar(VAR_ROGUE_REGION_DEX_LIMIT, 0) // No regional dex
 
             buffernumberstring(STR_VAR_1, VAR_ROGUE_ENABLED_GEN_LIMIT)
-            msgbox(format("{JPN}これから だい{STR_VAR_1}せだいまでの\nポケモンが でてくる。"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}これから だい{STR_VAR_1}せだいまでの ポケモンが でてくる。"), MSGBOX_DEFAULT)
             setvar(VAR_RESULT, YES)
 
         case MULTI_B_PRESSED: 
@@ -779,7 +779,7 @@ script Rogue_ConfigRoom_AdjustWildGens
     if(var(VAR_ROGUE_REGION_DEX_LIMIT) == 0)
     {
         buffernumberstring(STR_VAR_1, VAR_ROGUE_ENABLED_GEN_LIMIT)
-        msgbox(format("{JPN}いまは ぜんこくモードで\nだい{STR_VAR_1}せだいまでだ。\pかえますか?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}いまは ぜんこくモードで だい{STR_VAR_1}せだいまでだ。\pかえますか?"), MSGBOX_YESNO)
     }
     else
     {

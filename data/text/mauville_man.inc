@@ -1,63 +1,54 @@
 @ Only contains the text for the Mauville Man named Giddy. The rest is in scripts/mauville_man.inc
 GiddyText_SoPretty::
-	.string " so pretty!$"
+	.string "{JPN} とても きれい!$"
 
 GiddyText_SoDarling::
-	.string " so darling!$"
+	.string "{JPN} とても かわいい!$"
 
 GiddyText_SoRelaxed::
-	.string " so relaxed!$"
+	.string "{JPN} とても のんびり!$"
 
 GiddyText_SoSunny::
-	.string " so sunny!$"
+	.string "{JPN} とても はれやか!$"
 
 GiddyText_SoDesirable::
-	.string " so desirable!$"
+	.string "{JPN} とても すてき!$"
 
 GiddyText_SoExciting::
-	.string " so exciting!$"
+	.string "{JPN} とても わくわく!$"
 
 GiddyText_SoAmusing::
-	.string " so amusing!$"
+	.string "{JPN} とても ゆかい!$"
 
 GiddyText_SoMagical::
-	.string " so magical!$"
+	.string "{JPN} とても ふしぎ!$"
 
 GiddyText_Is::
-	.string " is$"
+	.string "{JPN}は$"
 
 GiddyText_DontYouAgree::
-	.string "\n"
-	.string "Don't you agree?$"
+	.string "{JPN}\nそう おもわない?$"
 
 GiddyText_ISoWantToGoOnAVacation::
-	.string "I so want to go on a vacation.\n"
-	.string "Would you happen to know a nice place?$"
+	.string "{JPN}りょこうに いきたいなあ。\nどこか いい ところ しらない?$"
 
 GiddyText_IBoughtCrayonsWith120Colors::
-	.string "I bought crayons with 120 colors!\n"
-	.string "Don't you think that's nice?$"
+	.string "{JPN}120いろの クレヨンを かったの!\nすてきだと おもわない?$"
 
 GiddyText_WouldntItBeNiceIfWeCouldFloat::
-	.string "Wouldn't it be nice if we could float\n"
-	.string "away on a cloud of bubbles?$"
+	.string "{JPN}あわの くもに のって ふわふわ\nとんで いけたら すてきだと おもわない?$"
 
 GiddyText_WhenYouWriteOnASandyBeach::
-	.string "When you write on a sandy beach,\n"
-	.string "they wash away. It makes me sad.$"
+	.string "{JPN}すなはまに かいた じは ながされて しまうの。\nかなしく なっちゃう。$"
 
 GiddyText_WhatsTheBottomOfTheSeaLike::
-	.string "What's the bottom of the sea like?\n"
-	.string "Just once I would so love to go!$"
+	.string "{JPN}うみの そこって どんな ところかしら?\nいちどでいいから いって みたいわ!$"
 
 GiddyText_WhenYouSeeTheSettingSunDoesIt::
-	.string "When you see the setting sun, does it\n"
-	.string "make you want to go home?$"
+	.string "{JPN}ゆうひを みると おうちに かえりたく\nならない?$"
 
 GiddyText_LyingBackInTheGreenGrass::
-	.string "Lying back in the green grass…\n"
-	.string "Oh, it's so, so nice!$"
+	.string "{JPN}みどりの くさに ねころぶと…\nああ とても とても きもちが いいの!$"
 
 GiddyText_SecretBasesAreSoWonderful::
-	.string "SECRET BASES are so wonderful!\n"
-	.string "Can't you feel the excitement?$"
+	.string "{JPN}ひみつきちって すてきよね!\nわくわく して こない?$"

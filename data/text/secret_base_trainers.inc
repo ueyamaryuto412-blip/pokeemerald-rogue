@@ -1,5 +1,5 @@
 SecretBase_Text_Trainer0Intro:
-	.string "{JPN}もう ひみつきちは つくった?\pここに きめるまで あちこち\nさがしまわったんだ。\pせっかくだから しょうぶ しない?$"
+	.string "{JPN}もう ひみつきちは つくった?\pここに きめるまで あちこち\nさがしまわったんだ。\pせっかくだから しょうぶ\nしない?$"
 
 SecretBase_Text_Trainer0AcceptBattle:
 	.string "{JPN}よし!\nいくよ!$"
@@ -35,7 +35,7 @@ SecretBase_Text_Trainer5PreChampion:
 	.string "{JPN}ひみつきちに できる ばしょは\nたくさん あるけど。\pぼくは ここが いちばん すきなんだ。\nいい ばしょだと おもわない?$"
 
 SecretBase_Text_Trainer1Intro:
-	.string "{JPN}ここは にんきの ばしょでね。\nいつも ふさがって いるんだ。\pおや! きみも ここを ねらって いたのかい?\pよし ぼくに かてたら\nこの ばしょを ゆずって あげよう。$"
+	.string "{JPN}ここは にんきの ばしょでね。 いつも ふさがって\nいるんだ。\pおや! きみも ここを ねらって\nいたのかい?\pよし ぼくに かてたら この ばしょを ゆずって\nあげよう。$"
 
 SecretBase_Text_Trainer1AcceptBattle:
 	.string "{JPN}よし!\nひみつきちを まもって みせる!$"
@@ -71,7 +71,7 @@ SecretBase_Text_Trainer6PreChampion:
 	.string "{JPN}ぼくの ポケモンラボへ ようこそ。\pここで ひそかに しょうぶの けんきゅうを\nして いるんだ。$"
 
 SecretBase_Text_Trainer2Intro:
-	.string "{JPN}おおきな やしきも いいけど\nこういう ばしょの ほうが すきなんだ。\pいろいろな ひとが たずねて くるからね。\pどうだい しょうぶ しないか?$"
+	.string "{JPN}おおきな やしきも いいけど こういう ばしょの\nほうが すきなんだ。\pいろいろな ひとが たずねて\nくるからね。\pどうだい しょうぶ しないか?$"
 
 SecretBase_Text_Trainer2AcceptBattle:
 	.string "{JPN}その いきだ!$"
@@ -86,7 +86,7 @@ SecretBase_Text_Trainer2PostBattle:
 	.string "{JPN}さて かざりや かぐを かいに\nいかないとな。\pひみつきちを みんなが たのしめる\nばしょに したいんだ。$"
 
 SecretBase_Text_Trainer2PreChampion:
-	.string "{JPN}おおきな やしきも いいけど\nこういう ばしょの ほうが すきなんだ。\pいろいろな ひとが たずねて くるからね。$"
+	.string "{JPN}おおきな やしきも いいけど こういう ばしょの\nほうが すきなんだ。\pいろいろな ひとが たずねて\nくるからね。$"
 
 SecretBase_Text_Trainer7Intro:
 	.string "{JPN}かざりや かぐの かいものが\nだいすきなの。\pポケモンを そだてるのも\nおなじくらい すきよ。\pよければ わたしの ポケモンと\nしょうぶ して くれる?$"
@@ -113,7 +113,7 @@ SecretBase_Text_Trainer3AcceptBattle:
 	.string "{JPN}かんたんには まけないわよ!$"
 
 SecretBase_Text_Trainer3DeclineBattle:
-	.string "{JPN}あら… ここを さがして つかれちゃった?$"
+	.string "{JPN}あら… ここを さがして\nつかれちゃった?$"
 
 SecretBase_Text_Trainer3Defeated::
 	.string "{JPN}まいったわ…$"
@@ -149,7 +149,7 @@ SecretBase_Text_Trainer4AcceptBattle:
 	.string "{JPN}きみの じつりょくを みせて くれ!$"
 
 SecretBase_Text_Trainer4DeclineBattle:
-	.string "{JPN}そういう きぶんじゃ ない ときも あるよね。$"
+	.string "{JPN}そういう きぶんじゃ ない ときも\nあるよね。$"
 
 SecretBase_Text_Trainer4Defeated::
 	.string "{JPN}きみの じつりょくが よく わかったよ。$"

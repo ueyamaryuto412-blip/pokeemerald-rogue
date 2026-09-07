@@ -477,7 +477,7 @@ script Rogue_Encounter_GameShow_DisplayReward
 
 script Rogue_Encounter_GameShow_CoinFlip
 {
-    msgbox(format("{JPN}コイントス!\p6ラウンド。おもてか うらかを\nあてるだけ。\pさあ…"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}コイントス!\p6ラウンド。おもてか うらかを あてるだけ。\pさあ…"), MSGBOX_DEFAULT)
 
     while(var(VAR_CURRENT_ROUND) <= 50)
     {

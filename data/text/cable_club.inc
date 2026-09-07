@@ -181,13 +181,13 @@ CableClub_Text_OhExcuseMe:
 	.string "{JPN}あら…\nしつれい しました!$"
 
 CableClub_Text_PlayerIsWaiting:
-	.string "{JPN}いま {STR_VAR_1}が あそんで いるようです。\lがんばって!$"
+	.string "{JPN}いま {STR_VAR_1}が あそんで\nいるようです。\lがんばって!$"
 
 MossdeepCity_GameCorner_1F_Text_DescribeWhichGame:
-	.string "{JPN}あそびかたを せつめい しますよ。\pどの ゲームの せつめいを しましょう?$"
+	.string "{JPN}あそびかたを せつめい\nしますよ。\pどの ゲームの せつめいを しましょう?$"
 
 MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
-	.string "{JPN}「ポケモンなわとび」\pAボタンで ポケモンに つるのムチの\nなわを とばせます。\p70センチくらいまでの ちいさな ポケモンだけ\nさんか できます。\pおよぐだけ もぐるだけ とぶだけの\nポケモンは とぶのが にがてです。\pそのため さんか できません。\pみんなの タイミングが あうと\nいい ことが おきますよ。$"
+	.string "{JPN}「ポケモンなわとび」\pAボタンで ポケモンに つるのムチの なわを\nとばせます。\p70センチくらいまでの ちいさな ポケモンだけ\nさんか できます。\pおよぐだけ もぐるだけ とぶだけの ポケモンは\nとぶのが にがてです。\pそのため さんか\nできません。\pみんなの タイミングが あうと いい ことが\nおきますよ。$"
 
 MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
 	.string "{JPN}「ドードリオの きのみどり」\pドードリオの 3つの あたまを うごかして\nおちて くる きのみを うけとめます。\p{PLUS}ボタンの みぎ うえ ひだりで\nあたまを うごかします。\pこの ゲームには ドードリオが\nひつようです。$"
@@ -205,10 +205,10 @@ MossdeepCity_GameCorner_1F_Text_AdapterNotConnected:
 	.string "{JPN}ワイヤレスアダプタが つながって おらん。\nつないでから また おいで!$"
 
 MossdeepCity_GameCorner_1F_Text_PlayWhichGame:
-	.string "{JPN}よし どの ゲームで あそびたいのかね?$"
+	.string "{JPN}よし どの ゲームで\nあそびたいのかね?$"
 
 MossdeepCity_GameCorner_1F_Text_EnterWhichPokemon:
-	.string "{JPN}どの ポケモンを ださるかね?$"
+	.string "{JPN}どの ポケモンを\nださるかね?$"
 
 MossdeepCity_GameCorner_1F_Text_AllGoodToGo:
 	.string "{JPN}よし じゅんびは できたぞ。\nほかの ものに まけるでないぞ!$"
@@ -218,10 +218,10 @@ MossdeepCity_GameCorner_1F_Text_LeavingDoComeAgain:
 	.string "{JPN}もう かえるのかね?\nまた おいで!$"
 
 MossdeepCity_GameCorner_1F_Text_ExplainRequiredMon:
-	.string "{JPN}だせる ポケモンが おらんようじゃな…\pどんな ポケモンが だせるのか\nせつめい しようかね?$"
+	.string "{JPN}だせる ポケモンが\nおらんようじゃな…\pどんな ポケモンが だせるのか せつめい\nしようかね?$"
 
 MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
-	.string "{JPN}「ポケモンなわとび」は 70センチくらいまでの\nポケモンが さんか できる。\pだせないのは とべない ポケモンじゃ。\pほれ およぐだけ もぐるだけ\nとぶだけの ポケモンじゃな。\pそれだけ わかって おれば よい。$"
+	.string "{JPN}「ポケモンなわとび」は 70センチくらいまでの\nポケモンが さんか できる。\pだせないのは とべない\nポケモンじゃ。\pほれ およぐだけ もぐるだけ とぶだけの\nポケモンじゃな。\pそれだけ わかって おれば よい。$"
 
 MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed:
 	.string "{JPN}ドードリオの きのみどりは ドードリオだけが\nさんか できる ゲームじゃ。$"
@@ -231,22 +231,22 @@ MossdeepCity_GameCorner_1F_Text_RetryPlease:
 	.string "{JPN}もういちど はじめから やりなおして\nくれるかね?$"
 
 CableClub_Text_WelcomeWhichDirectCornerRoom:
-	.string "{JPN}ポケモンワイヤレスクラブの\nダイレクトコーナーへ ようこそ。\pここでは ともだちと ちょくせつ\nやりとり できます。\pどの へやに はいりますか?$"
+	.string "{JPN}ポケモンワイヤレスクラブの ダイレクトコーナーへ\nようこそ。\pここでは ともだちと ちょくせつ やりとり\nできます。\pどの へやに\nはいりますか?$"
 
 CableClub_Text_TradePokemon:
 	.string "{JPN}ポケモンを こうかん しますか?$"
 
 CableClub_Text_PlayWhichBattleMode:
-	.string "{JPN}どの バトルモードで あそびますか?$"
+	.string "{JPN}どの バトルモードで\nあそびますか?$"
 
 CableClub_Text_AccessRecordCorner:
-	.string "{JPN}きろくコーナーを つかいますか?$"
+	.string "{JPN}きろくコーナーを\nつかいますか?$"
 
 CableClub_Text_UseBerryCrush:
-	.string "{JPN}きのみクラッシュを つかいますか?$"
+	.string "{JPN}きのみクラッシュを\nつかいますか?$"
 
 CableClub_Text_ExplainBattleModes:
-	.string "{JPN}バトルモードは 3しゅるい あります。\pシングルバトルは ポケモンを 1ぴき いじょう\nもった 2にんで あそびます。\pそれぞれ 1ぴきずつ しょうぶに だします。\pダブルバトルは ポケモンを 2ひき いじょう\nもった 2にんで あそびます。\pそれぞれ 2ひきずつ しょうぶに だします。\pマルチバトルは ポケモンを 1ぴき いじょう\nもった 4にんで あそびます。\pそれぞれ 1ぴきずつ しょうぶに だします。$"
+	.string "{JPN}バトルモードは 3しゅるい あります。\pシングルバトルは ポケモンを 1ぴき いじょう\nもった 2にんで あそびます。\pそれぞれ 1ぴきずつ しょうぶに\nだします。\pダブルバトルは ポケモンを 2ひき いじょう もった\n2にんで あそびます。\pそれぞれ 2ひきずつ しょうぶに\nだします。\pマルチバトルは ポケモンを 1ぴき いじょう もった\n4にんで あそびます。\pそれぞれ 1ぴきずつ しょうぶに\nだします。$"
 
 CableClub_Text_ChooseGroupLeaderOfTwo:
 	.string "{JPN}ふたりの どちらが リーダーに なるか\nきめて ください。\pもう ひとりは「なかまに はいる」を\nえらんで ください。$"
@@ -264,10 +264,10 @@ CableClub_Text_UnionRoomInfo:
 	.string "{JPN}ユニオンルームの トレーナーは\nおなじく はいって いる まわりの\lかたたちです。\pあいさつを かわしたり いろいろな\nことが できます。\pレベル30までの ポケモンを 2ひき だして\n1たい1の しょうぶが できます。\p2にんから 5にんで チャットも\nできます。\pこうかんに だす ポケモンを\nとうろく する ことも できます。\pおへやに はいりますか?$"
 
 CableClub_Text_EnjoyUnionRoom:
-	.string "{JPN}ユニオンルームを おたのしみ ください。$"
+	.string "{JPN}ユニオンルームを おたのしみ\nください。$"
 
 CableClub_Text_FirstTimeRightThisWay:
-	.string "{JPN}こんにちは!\nわたしは ティーラと もうします。\pこちらは はじめてですね。\pワイヤレスつうしんの しくみを\nごあんない します。\pまずは この ポケモンセンターの\nフロアの ごあんないから。\pこちらへ どうぞ。$"
+	.string "{JPN}こんにちは! わたしは ティーラと\nもうします。\pこちらは\nはじめてですね。\pワイヤレスつうしんの しくみを ごあんない\nします。\pまずは この ポケモンセンターの フロアの\nごあんないから。\pこちらへ どうぞ。$"
 
 CableClub_Text_ExplainWirelessClubFirstTime:
 	.string "{JPN}さいじょうかいには おへやが\n2つ あります。\pまず ひだりの おへや。\nユニオンルームです。\pおなじく ユニオンルームに はいって\nいる まわりの トレーナーと\lつながる ことが できます。\pチャットや しょうぶ こうかんなどが\nできます。\pつぎに みぎの おへやは\nダイレクトコーナーです。\pここでは ともだちと ポケモンの\nこうかんや しょうぶが できます。\pワイヤレスアダプタが なくても\nつうしんケーブルを つかえば\lつながる ことが できます。\pその ばあいは ダイレクトコーナーへ\nおこし ください。\pワイヤレスつうしんを\nおたのしみ ください。$"

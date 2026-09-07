@@ -145,18 +145,11 @@ const u8 gToxtricityGigantamaxPokedexText[] = _(
     "across the land in a rampage,\n"
     "contaminating the earth with toxic sweat.");
 
-const u8 gOgerponTealMaskPokedexText[] = _(
-    "This Pokémon's type changes based on\n"
-    "which mask it's wearing. It confounds\n"
-    "its enemies with nimble movements\n"
-    "and kicks.");
+const u8 gOgerponTealMaskPokedexText[] = _("{JPN}つけて いる めんに よって\nタイプが かわる。 かるい\lみのこなしで あいてを\lまどわせる。");
 
-const u8 gOgerponWellspringMaskPokedexText[] = _(
-    "This form excels in both attack\n"
-    "and defense. It ceaselessly unleashes\n"
-    "moves like a spring gushes water.");
+const u8 gOgerponWellspringMaskPokedexText[] = _("{JPN}こうげきも まもりも すぐれた すがた。\nわきでる いずみの ように わざを\lくりだしつづける。");
 
-const u8 gOgerponHearthflameMaskPokedexText[] = _("{JPN}もっとも こうげきてきな すがた。 いろりで もえる\nほのおの ような はげしさで あいてを せめたてる。");
+const u8 gOgerponHearthflameMaskPokedexText[] = _("{JPN}もっとも こうげきてきな すがた。 いろりで\nもえる ほのおの ような はげしさで あいてを\lせめたてる。");
 
 const u8 gOgerponCornerstoneMaskPokedexText[] = _(
     "In this form, it draws on the power\n"

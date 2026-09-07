@@ -26,7 +26,7 @@ Route102_Text_AllenIntro:
 	.string "{JPN}トレーナーに なったばかり?\nおたがい しんまいだね!$"
 
 Route102_Text_AllenDefeated:
-	.string "{JPN}かてると おもって よんだのに…$"
+	.string "{JPN}かてると おもって\nよんだのに…$"
 
 Route102_Text_AllenPostBattle:
 	.string "{JPN}まだ 1かいも かって いない…\nそろそろ かちたいなあ…$"
@@ -146,7 +146,7 @@ Route103_Text_PeteDefeated:
 	.string "{JPN}やるじゃない!$"
 
 Route103_Text_PetePostBattle:
-	.string "{JPN}ああ きみの きもちが わかったわ。\pそんなに たよれる ポケモンが いたら\nわたしも なみのり したく なるもの!$"
+	.string "{JPN}ああ きみの きもちが\nわかったわ。\pそんなに たよれる ポケモンが いたら わたしも\nなみのり したく なるもの!$"
 
 Route103_Text_IsabelleIntro:
 	.string "{JPN}まえを みて!\nぶつかっちゃう!$"
@@ -164,7 +164,7 @@ Route103_Text_RhettDefeated:
 	.string "{JPN}うわっ!\nこの こ やるな!$"
 
 Route103_Text_RhettPostBattle:
-	.string "{JPN}こういう せまい ところが すきなのか?$"
+	.string "{JPN}こういう せまい ところが\nすきなのか?$"
 
 Route103_Text_MarcosIntro:
 	.string "{JPN}おれの ギターの ねに ひかれたか?$"
@@ -176,7 +176,7 @@ Route103_Text_MarcosPostBattle:
 	.string "{JPN}ひとの すくない ところで ひいて いたのに\nファンが たくさん あつまって きた。\lうれしいね。\pふふん プロに なろうかな。$"
 
 Route104_Text_GinaIntro:
-	.string "{JPN}ジナ: さあ ポケモンで しょうぶよ!$"
+	.string "{JPN}ジナ: さあ ポケモンで\nしょうぶよ!$"
 
 Route104_Text_GinaDefeat:
 	.string "{JPN}ジナ: まけるのは くやしい!$"
@@ -197,7 +197,7 @@ Route104_Text_MiaPostBattle:
 	.string "{JPN}ミア: もっと ポケモンを きたえて\nあなたみたいに つよく なるわ。$"
 
 Route104_Text_MiaNotEnoughMons:
-	.string "{JPN}ミア: わたしたちと しょうぶ したいの?\pポケモンが 2ひき いないと だめよ。\lわたしたちのほうが つよいもの!$"
+	.string "{JPN}ミア: わたしたちと しょうぶ したいの?\pポケモンが 2ひき いないと\nだめよ。 わたしたちのほうが\lつよいもの!$"
 
 Route104_Text_IvanIntro:
 	.string "{JPN}かくす ことは ない。\nおれは みずポケモンの めいじんだ!\pん?\nおれを しらないのか?$"
@@ -278,7 +278,7 @@ Route104_Text_CindyRegister1:
 	.string "{JPN}こんにちは また あったわね。\pひかれあって いるみたい。 おたがいの\nポケナビに とうろく しましょう。$"
 
 Route104_Text_CindyRegister2:
-	.string "{JPN}ひかれあって いる きねんに\pおたがいの ポケナビに\nとうろく しましょう。$"
+	.string "{JPN}ひかれあって いる\nきねんに\pおたがいの ポケナビに とうろく\nしましょう。$"
 
 Route104_Text_CindyRematchIntro:
 	.string "{JPN}こんにちは また あったわね。\nしょうぶを おねがい できるかしら?$"
@@ -296,7 +296,7 @@ Route104_Text_DarianDefeat:
 	.string "{JPN}なんだと…$"
 
 Route104_Text_DarianPostBattle:
-	.string "{JPN}おい コイキング なまえまけ して いるぞ?$"
+	.string "{JPN}おい コイキング なまえまけ して\nいるぞ?$"
 
 Route105_Text_FosterIntro:
 	.string "{JPN}この あたりに ふしぎな いわが\nあるらしいんだ。\lなにか しらないか?$"
@@ -362,7 +362,7 @@ Route105_Text_AndresRematchDefeated:
 	.string "{JPN}ええ…\nかてるとは おもって いなかったわ。$"
 
 Route105_Text_AndresRematchPostBattle:
-	.string "{JPN}しょうぶは よわくても たんけんへの\nじょうねつは まけないわ。\pせかいじゅうの うみを たびするの!$"
+	.string "{JPN}しょうぶは よわくても たんけんへの じょうねつは\nまけないわ。\pせかいじゅうの うみを\nたびするの!$"
 
 Route105_Text_JosueIntro:
 	.string "{JPN}およいで つかれた。\nなれて いないんだ。\pきぶんてんかんに しょうぶ しよう!$"
@@ -374,7 +374,7 @@ Route105_Text_JosuePostBattle:
 	.string "{JPN}うん ぼくには うみより そらの ほうが\nあって いる みたいだ。$"
 
 Route106_Text_ElliotIntro:
-	.string "{JPN}つりは うみと かわ どちらが すき?$"
+	.string "{JPN}つりは うみと かわ どちらが\nすき?$"
 
 Route106_Text_ElliotDefeated:
 	.string "{JPN}ふかうみの つりの ように\nみごとに まけたよ!$"
@@ -398,10 +398,10 @@ Route106_Text_NedIntro:
 	.string "{JPN}トイレに いきたく なったら\nみんな どう するんだ?\pトイレの あいだに おおものが かかったら\nこまる。 だから いけないんだ…$"
 
 Route106_Text_NedDefeated:
-	.string "{JPN}トイレを がまん して いたから まけた…$"
+	.string "{JPN}トイレを がまん して いたから\nまけた…$"
 
 Route106_Text_NedPostBattle:
-	.string "{JPN}まずい! おおものが かかる きが する!$"
+	.string "{JPN}まずい! おおものが かかる きが\nする!$"
 
 Route106_Text_DouglasIntro:
 	.string "{JPN}はははっ! はしるのは にがてだが\nみずの なかなら つかまらないぞ!$"
@@ -416,7 +416,7 @@ Route106_Text_KylaIntro:
 	.string "{JPN}うみは おれの にわだ。 こどもだからと\nてかげんは しないぞ!$"
 
 Route106_Text_KylaDefeated:
-	.string "{JPN}もしかして てかげん したのか?$"
+	.string "{JPN}もしかして てかげん\nしたのか?$"
 
 Route106_Text_KylaPostBattle:
 	.string "{JPN}なみに ゆられて ただよう…\nすきなの! あなたも やってみたら?$"
@@ -437,7 +437,7 @@ Route107_Text_TonyDefeated:
 	.string "{JPN}ホームで まけるなんて…\nショックだわ!$"
 
 Route107_Text_TonyPostBattle:
-	.string "{JPN}ゆめを むねに うみを およぐ…\pうたよ!\nさて もう ひとおよぎ してくるわ。$"
+	.string "{JPN}ゆめを むねに うみを\nおよぐ…\pうたよ! さて もう ひとおよぎ\nしてくるわ。$"
 
 Route107_Text_TonyRegister:
 	.string "{JPN}ほねの ずいまで おどろいたわ!\nわすれられない ように…$"
@@ -485,7 +485,7 @@ Route107_Text_RayIntro:
 	.string "{JPN}レイ: ねえさんと いつも ポケモンで\nしょうぶ してるんだ。\pいつも まけるけど ふたりなら\nきみに かてる!$"
 
 Route107_Text_RayDefeated:
-	.string "{JPN}レイ: うわあ ぼくらより ずっと うえだ!$"
+	.string "{JPN}レイ: うわあ ぼくらより ずっと\nうえだ!$"
 
 Route107_Text_RayPostBattle:
 	.string "{JPN}レイ: この ポケモンは ねえさんに\nもらったんだ。 そだてて いまでは\lたいせつな あいぼうだよ!$"
@@ -506,7 +506,7 @@ Route108_Text_JeromeIntro:
 	.string "{JPN}せかいの ななつの うみを およぐのが\nゆめなの!$"
 
 Route108_Text_JeromeDefeated:
-	.string "{JPN}これじゃ ななつの うみは およげないわ…$"
+	.string "{JPN}これじゃ ななつの うみは\nおよげないわ…$"
 
 Route108_Text_JeromePostBattle:
 	.string "{JPN}うみの ポケモンと あそぶのも\nすいえいの たのしみ!$"
@@ -533,7 +533,7 @@ Route108_Text_MissyIntro:
 	.string "{JPN}うみが だいすき!\nおよぐと なやみを わすれられるの!$"
 
 Route108_Text_MissyDefeated:
-	.string "{JPN}しょうぶに まけると ストレスが たまる!$"
+	.string "{JPN}しょうぶに まけると ストレスが\nたまる!$"
 
 Route108_Text_MissyPostBattle:
 	.string "{JPN}ストレスは およいで はっさん!\nけんこうに いいのよ!$"
@@ -551,7 +551,7 @@ Route108_Text_CoryRegister:
 	.string "{JPN}つよい トレーナーも だいすき!\nポケナビに とうろく して!$"
 
 Route108_Text_CoryRematchIntro:
-	.string "{JPN}かっても まけても うみでの しょうぶは\nだいすき!$"
+	.string "{JPN}かっても まけても うみでの しょうぶは だいすき!$"
 
 Route108_Text_CoryRematchDefeated:
 	.string "{JPN}わあん! また まけた!\nわあん! わあん!$"
@@ -578,7 +578,7 @@ Route109_Text_DavidPostBattle:
 	.string "{JPN}ふん!\pきたえた ふっきんと ポケモンの しょうぶは\nかんけいが なかったか!$"
 
 Route109_Text_AliceIntro:
-	.string "{JPN}ひやけどめは ちゃんと ぬって いる?$"
+	.string "{JPN}ひやけどめは ちゃんと ぬって\nいる?$"
 
 Route109_Text_AliceDefeated:
 	.string "{JPN}いたた いたた!$"
@@ -650,7 +650,7 @@ Route109_Text_AustinaIntro:
 	.string "{JPN}うきわが ないと およげないけど\nポケモンでは まけないわ!$"
 
 Route109_Text_AustinaDefeated:
-	.string "{JPN}うきわが あるから まけたのかしら?$"
+	.string "{JPN}うきわが あるから\nまけたのかしら?$"
 
 Route109_Text_AustinaPostBattle:
 	.string "{JPN}うきわは おしゃれの ひとつ。\nこれが ないと でられないの。$"
@@ -704,10 +704,10 @@ Route109_Text_ChandlerDefeated:
 	.string "{JPN}ああ ああ!\nざんねん!$"
 
 Route109_Text_ChandlerPostBattle:
-	.string "{JPN}まんまるの うきわを みせて あげたのに…$"
+	.string "{JPN}まんまるの うきわを みせて\nあげたのに…$"
 
 Route109_Text_HaileyIntro:
-	.string "{JPN}およげないから およぐ まねを して いるの。$"
+	.string "{JPN}およげないから およぐ まねを して\nいるの。$"
 
 Route109_Text_HaileyDefeated:
 	.string "{JPN}やっぱり!\nかてるとは おもって いなかったわ。$"
@@ -809,19 +809,19 @@ Route110_Text_JaclynDefeated:
 	.string "{JPN}ふしぎと まけて しまったわ!$"
 
 Route110_Text_JaclynPostBattle:
-	.string "{JPN}かてたのは ふしぎな ちからの おかげよ!\lいつも かてると おもわない ことね!$"
+	.string "{JPN}かてたのは ふしぎな ちからの\nおかげよ! いつも かてると おもわない\lことね!$"
 
 Route110_Text_EdwinIntro:
 	.string "{JPN}あなたの ポケモンを みせて くれる?\nひとめだけで いいの!$"
 
 Route110_Text_EdwinDefeated:
-	.string "{JPN}コレクションを かんせい させたかったのに…$"
+	.string "{JPN}コレクションを かんせい\nさせたかったのに…$"
 
 Route110_Text_EdwinPostBattle:
 	.string "{JPN}しらない ポケモンを みると\nあつめたい きもちに ひが つくの!$"
 
 Route110_Text_EdwinRegister:
-	.string "{JPN}れんらくさきを あつめるのも すきなの…$"
+	.string "{JPN}れんらくさきを あつめるのも\nすきなの…$"
 
 Route110_Text_EdwinRematchIntro:
 	.string "{JPN}やあ あたらしい ポケモンは つかまえた?\pあなたの ポケモンを みせて くれる?\nひとめだけで いいの!$"
@@ -851,7 +851,7 @@ Route110_Text_IsabelPostBattle:
 	.string "{JPN}しょうぶより ファンクラブで ポケモンを\nみせびらかす ほうが いいかしら。$"
 
 Route110_Text_IsabelRegister:
-	.string "{JPN}ポケモンを みせびらかすには\nぜんぜん たりなかったわ。\pできるだけ たくさん みて もらうわよ!$"
+	.string "{JPN}ポケモンを みせびらかすには ぜんぜん\nたりなかったわ。\pできるだけ たくさん みて\nもらうわよ!$"
 
 Route110_Text_IsabelRematchIntro:
 	.string "{JPN}あははは! いくらでも わたしの ポケモンを\nみせて あげるわ!$"
@@ -872,7 +872,7 @@ Route110_Text_TimmyPostBattle:
 	.string "{JPN}つかまえたばかりの ポケモンで\nたたかうのは むずかしいな。$"
 
 Route110_Text_AlyssaIntro:
-	.string "{JPN}じてんしゃロードから おちて しまった…\pはずかしさを しょうぶで まぎらわせるぞ!$"
+	.string "{JPN}じてんしゃロードから おちて しまった…\pはずかしさを しょうぶで\nまぎらわせるぞ!$"
 
 Route110_Text_AlyssaDefeated:
 	.string "{JPN}おっと!\nまけて しまった!$"
@@ -896,13 +896,13 @@ Route110_Text_KalebDefeated:
 	.string "{JPN}なさけも あわれみも ないのね?$"
 
 Route110_Text_KalebPostBattle:
-	.string "{JPN}はいはい よく がんばったわ かわいい こたち。$"
+	.string "{JPN}はいはい よく がんばったわ かわいい\nこたち。$"
 
 Route111_Text_DrewIntro:
-	.string "{JPN}あら! その ゴーグル にあうわね。\nでも わたしの ほうが にあうと おもうの。\pどちらが にあうか しょうぶで きめましょう!$"
+	.string "{JPN}あら! その ゴーグル にあうわね。 でも わたしの\nほうが にあうと おもうの。\pどちらが にあうか しょうぶで\nきめましょう!$"
 
 Route111_Text_DrewDefeat:
-	.string "{JPN}ゴーグルの せいで よこが みえなかったわ。$"
+	.string "{JPN}ゴーグルの せいで よこが\nみえなかったわ。$"
 
 Route111_Text_DrewPostBattle:
 	.string "{JPN}ゴーグルが あれば すなあらしも\nとおれるのよ。\lうれしいわ!$"
@@ -914,7 +914,7 @@ Route111_Text_HeidiDefeat:
 	.string "{JPN}ああ! いじわる!$"
 
 Route111_Text_HeidiPostBattle:
-	.string "{JPN}すなあらしの なかで たたかう ときは\nポケモンの HPに きを つけてね。\pみて いないと ひんしに なって しまうわ!$"
+	.string "{JPN}すなあらしの なかで たたかう ときは ポケモンの\nHPに きを つけてね。\pみて いないと ひんしに なって\nしまうわ!$"
 
 Route111_Text_BeauIntro:
 	.string "{JPN}この ゴーグルを つけると ヒーローに\nなった きぶんだ。\lいまの おれには だれも かてない!$"
@@ -941,19 +941,19 @@ Route111_Text_DustyDefeat:
 	.string "{JPN}いせきは さがして きたが\nつよい ポケモンは さがして いなかった。$"
 
 Route111_Text_DustyPostBattle:
-	.string "{JPN}30ねんかん いせきを さがして きた!\pいや まてよ 40ねん だったか?\nどっち だったかな?$"
+	.string "{JPN}30ねんかん いせきを さがして\nきた!\pいや まてよ 40ねん だったか? どっち\nだったかな?$"
 
 Route111_Text_DustyRegister:
-	.string "{JPN}つよい ポケモンは さがして いない。\pだが なぜか ポケナビは すきなんだ。$"
+	.string "{JPN}つよい ポケモンは さがして\nいない。\pだが なぜか ポケナビは\nすきなんだ。$"
 
 Route111_Text_DustyRematchIntro:
-	.string "{JPN}30ねんかん いせきを さがして きた!\pいや まてよ 40ねん だったか?\nともかく しょうぶを いどむのか?$"
+	.string "{JPN}30ねんかん いせきを さがして\nきた!\pいや まてよ 40ねん だったか? ともかく\nしょうぶを いどむのか?$"
 
 Route111_Text_DustyRematchDefeat:
 	.string "{JPN}いせきも みつからず つよい ポケモンも\nみつからず…$"
 
 Route111_Text_DustyPostRematch:
-	.string "{JPN}30ねんかん いせきを さがして きた!\pいや まてよ 40ねん だったか?\pうーむ 50ねんかも しれん…\nどれだけ さがして いるのだろう?$"
+	.string "{JPN}30ねんかん いせきを さがして\nきた!\pいや まてよ 40ねん\nだったか?\pうーむ 50ねんかも しれん… どれだけ さがして\nいるのだろう?$"
 
 Route111_Text_TravisIntro:
 	.string "{JPN}げんきいっぱい!\nポケモンも げんきいっぱい!$"
@@ -986,13 +986,13 @@ Route111_Text_WiltonIntro:
 	.string "{JPN}どれだけ ポケモンを きたえたか\nみせて もらおう。$"
 
 Route111_Text_WiltonDefeat:
-	.string "{JPN}なるほど かなり きたえて あるな。$"
+	.string "{JPN}なるほど かなり きたえて\nあるな。$"
 
 Route111_Text_WiltonPostBattle:
-	.string "{JPN}ポケモンも トレーナーも しょうぶから\nおおくを まなぶ。\pだいじなのは まけても あきらめない ことだ。$"
+	.string "{JPN}ポケモンも トレーナーも しょうぶから おおくを\nまなぶ。\pだいじなのは まけても あきらめない\nことだ。$"
 
 Route111_Text_WiltonRegister:
-	.string "{JPN}きみの きたえかたには まなぶ ことが おおい。\pよければ また しょうぶ して ほしい。$"
+	.string "{JPN}きみの きたえかたには まなぶ ことが\nおおい。\pよければ また しょうぶ して\nほしい。$"
 
 Route111_Text_WiltonRematchIntro:
 	.string "{JPN}つぎの だんかいへ すすむために\nここで きたえて いる。\lきみも いっしょに どうだ!$"
@@ -1058,7 +1058,7 @@ Route111_Text_TyronDefeat:
 	.string "{JPN}まって!\nおれの ポケモンを よく みたか?$"
 
 Route111_Text_TyronPostBattle:
-	.string "{JPN}しょうぶの ときは ポケモンを\nみせびらかせるのが うれしいんだ。\pみんな そう おもって いるはずだ!$"
+	.string "{JPN}しょうぶの ときは ポケモンを みせびらかせるのが\nうれしいんだ。\pみんな そう おもって\nいるはずだ!$"
 
 Route111_Text_CelinaIntro:
 	.string "{JPN}わたしの まいにちに すこし\nどきどきを ください。$"
@@ -1097,7 +1097,7 @@ Route112_Text_BricePostBattle:
 	.string "{JPN}はははは! はなに なにか はいった!\nははは はっくしょん!$"
 
 Route112_Text_TrentIntro:
-	.string "{JPN}やまを のぼりおりして あしは\nがちがちだ。\pそう かんたんには へこたれないぞ!$"
+	.string "{JPN}やまを のぼりおりして あしは\nがちがちだ。\pそう かんたんには\nへこたれないぞ!$"
 
 Route112_Text_TrentDefeat:
 	.string "{JPN}いてっ! あしが つった!$"
@@ -1115,7 +1115,7 @@ Route112_Text_TrentRematchDefeat:
 	.string "{JPN}ちからで まけたのか?$"
 
 Route112_Text_TrentRematchPostBattle:
-	.string "{JPN}えんとつやまの うえに とんでもなく\nつよい トレーナーが いるらしい。\pのぼって いって しょうぶを いどむぞ!$"
+	.string "{JPN}えんとつやまの うえに とんでもなく つよい\nトレーナーが いるらしい。\pのぼって いって しょうぶを\nいどむぞ!$"
 
 Route112_Text_LarryIntro:
 	.string "{JPN}ぼくは つよいんだ。\nまけても なかないぞ。$"
@@ -1280,7 +1280,7 @@ Route113_Text_WyattDefeat:
 	.string "{JPN}か かって うれしいの?\nわたし あいてなのに?$"
 
 Route113_Text_WyattPostBattle:
-	.string "{JPN}まけた ものに なにか いうつもり?\pずいぶん えらそうね?\nふん!$"
+	.string "{JPN}まけた ものに なにか\nいうつもり?\pずいぶん えらそうね?\nふん!$"
 
 Route114_Text_LennyIntro:
 	.string "{JPN}ヤッホー!\p… …\pここは やまびこが かえらないから\nじぶんで「ヤッホー」って\lいわないと だめなの!$"
@@ -1301,7 +1301,7 @@ Route114_Text_LucasPostBattle:
 	.string "{JPN}ふゆの やまは ふぶきや なだれで\nいのちに かかわるんだ。$"
 
 Route114_Text_ShaneIntro:
-	.string "{JPN}キャンプは たのしい! つりも できるし\nこわい はなしも できる!\pでも いちばんは ポケモンの しょうぶだ!$"
+	.string "{JPN}キャンプは たのしい! つりも できるし こわい\nはなしも できる!\pでも いちばんは ポケモンの\nしょうぶだ!$"
 
 Route114_Text_ShaneDefeat:
 	.string "{JPN}つよすぎる!$"
@@ -1346,7 +1346,7 @@ Route114_Text_BernieDefeat:
 	.string "{JPN}ひを けして くれて ありがとう!$"
 
 Route114_Text_BerniePostBattle:
-	.string "{JPN}もりの なかでは ひの あつかいに\nじゅうぶん きを つけないと いけない。\pひの ちからを あなどっては いけないよ。$"
+	.string "{JPN}もりの なかでは ひの あつかいに じゅうぶん きを\nつけないと いけない。\pひの ちからを あなどっては\nいけないよ。$"
 
 Route114_Text_BernieRegister:
 	.string "{JPN}きみに こころを もやされたよ。\nおたがい とうろく しよう!$"
@@ -1358,7 +1358,7 @@ Route114_Text_BernieRematchDefeat:
 	.string "{JPN}もえあがる まえに みずを\nかけられた かんじだな。$"
 
 Route114_Text_BerniePostRematch:
-	.string "{JPN}もりの なかでは ひの あつかいに\nじゅうぶん きを つけないと いけない。\pひの ちからを あなどっては いけないよ。$"
+	.string "{JPN}もりの なかでは ひの あつかいに じゅうぶん きを\nつけないと いけない。\pひの ちからを あなどっては\nいけないよ。$"
 
 Route114_Text_ClaudeIntro:
 	.string "{JPN}つりなら きみに まける きは しない。\nだから ポケモンで\lしょうぶ しようじゃないか!$"
@@ -1370,7 +1370,7 @@ Route114_Text_ClaudePostBattle:
 	.string "{JPN}りゅうせいのたきで おおものを\nねらって みるかな。\pあそこには かならず なにか いる。\nそんな きが するんだ。$"
 
 Route114_Text_NolanIntro:
-	.string "{JPN}つりも すきだが しょうぶも すきだ!\pだれかに いどまれたら つりの とちゅうでも\nうけて たつぞ。$"
+	.string "{JPN}つりも すきだが しょうぶも\nすきだ!\pだれかに いどまれたら つりの とちゅうでも うけて\nたつぞ。$"
 
 Route114_Text_NolanDefeat:
 	.string "{JPN}しょうぶは すきだが\nじょうずとは かぎらないな…$"
@@ -1418,10 +1418,10 @@ Route114_Text_CharlotteDefeat:
 	.string "{JPN}ぜんぜん かわいく なかったわ!$"
 
 Route114_Text_CharlottePostBattle:
-	.string "{JPN}かわいいだけの ポケモンは いらないの。\pすこし かわった ところが ある\nかわいい こが すきなの!$"
+	.string "{JPN}かわいいだけの ポケモンは\nいらないの。\pすこし かわった ところが ある かわいい こが\nすきなの!$"
 
 Route114_Text_AngelinaIntro:
-	.string "{JPN}ポケモンを しんかさせて いる?$"
+	.string "{JPN}ポケモンを しんかさせて\nいる?$"
 
 Route114_Text_AngelinaDefeat:
 	.string "{JPN}あら そうなの。\nいい ことを きいたわ。$"
@@ -1433,22 +1433,22 @@ Route115_Text_TimothyIntro:
 	.string "{JPN}ふむ…\nなかなか できるようだな…\lあいてを して やろう!$"
 
 Route115_Text_TimothyDefeat:
-	.string "{JPN}おもって いたより ずっと つよいな!$"
+	.string "{JPN}おもって いたより ずっと\nつよいな!$"
 
 Route115_Text_TimothyPostBattle:
 	.string "{JPN}うまれつきの てんさいなど いない。\nすべては どりょくしだい!\lわたしは そう しんじて いる…$"
 
 Route115_Text_TimothyRegister:
-	.string "{JPN}うむ… ここまで みごとに まけたのは\nひさしぶりだ。\pよければ また しょうぶを して ほしい。$"
+	.string "{JPN}うむ… ここまで みごとに まけたのは\nひさしぶりだ。\pよければ また しょうぶを して\nほしい。$"
 
 Route115_Text_TimothyRematchIntro:
-	.string "{JPN}ふむ あいかわらず みのこなしが いいな。\lさあ あいてを して くれ!$"
+	.string "{JPN}ふむ あいかわらず みのこなしが\nいいな。 さあ あいてを して\lくれ!$"
 
 Route115_Text_TimothyRematchDefeat:
 	.string "{JPN}あいかわらず つよいな!$"
 
 Route115_Text_TimothyPostRematch:
-	.string "{JPN}すべては どりょくだ!\pどりょくが たりなかったから まけたのだ!$"
+	.string "{JPN}すべては どりょくだ!\pどりょくが たりなかったから\nまけたのだ!$"
 
 Route115_Text_KoichiIntro:
 	.string "{JPN}きみ!\pおれの ワンリキーが!\pしょうぶを のぞんで いる!$"
@@ -1460,7 +1460,7 @@ Route115_Text_KoichiPostBattle:
 	.string "{JPN}おれの ワンリキーたち!\pちからを もとめる かぎり\nおれも ともに つよく なる!$"
 
 Route115_Text_NobIntro:
-	.string "{JPN}とくいわざは ひたいで かわらわりだ!$"
+	.string "{JPN}とくいわざは ひたいで\nかわらわりだ!$"
 
 Route115_Text_NobDefeat:
 	.string "{JPN}ぐわあああ!\nあたまが われる!$"
@@ -1499,7 +1499,7 @@ Route115_Text_CyndyRematchDefeat:
 	.string "{JPN}おれは たたかえるが ポケモンが…$"
 
 Route115_Text_CyndyPostRematch:
-	.string "{JPN}まけても どこか たのしいんだ。\lポケモンが すきだからだろうな。$"
+	.string "{JPN}まけても どこか\nたのしいんだ。 ポケモンが\lすきだからだろうな。$"
 
 Route115_Text_HectorIntro:
 	.string "{JPN}めずらしい ポケモンを もって いるんだ!\nみせて あげようか?$"
@@ -1742,10 +1742,10 @@ Route117_Text_MariaIntro:
 	.string "{JPN}ポケモンと トライアスロンの れんしゅうを\nして いるから はやさには じしんが ある。$"
 
 Route117_Text_MariaDefeat:
-	.string "{JPN}もっと れんしゅうが ひつようだな。$"
+	.string "{JPN}もっと れんしゅうが\nひつようだな。$"
 
 Route117_Text_MariaPostBattle:
-	.string "{JPN}れんしゅうは つづけてこそ いみが ある。\pよし れんしゅうを さいかいだ!\nあしたから!$"
+	.string "{JPN}れんしゅうは つづけてこそ いみが\nある。\pよし れんしゅうを さいかいだ!\nあしたから!$"
 
 Route117_Text_MariaRegister:
 	.string "{JPN}ちゃんと きたえて いるようだな…\nよければ あとで しょうぶ しよう!$"
@@ -1754,16 +1754,16 @@ Route117_Text_MariaRematchIntro:
 	.string "{JPN}れんしゅうは つづけて いるか?\nおれは つづけて いるぞ!\lその しょうこを みせて やる!$"
 
 Route117_Text_MariaRematchDefeat:
-	.string "{JPN}もっと れんしゅうが ひつようだな。$"
+	.string "{JPN}もっと れんしゅうが\nひつようだな。$"
 
 Route117_Text_MariaPostRematch:
 	.string "{JPN}れんしゅうは あしたから さいかいだ。\nまた いつか しょうぶ しよう!$"
 
 Route117_Text_DerekIntro:
-	.string "{JPN}むかしは むしとりしょうねん!\nいまは むしマニア!\pだが ポケモンへの あいは かわらない!$"
+	.string "{JPN}むかしは むしとりしょうねん! いまは\nむしマニア!\pだが ポケモンへの あいは\nかわらない!$"
 
 Route117_Text_DerekDefeat:
-	.string "{JPN}へたなのも かわらないな…$"
+	.string "{JPN}へたなのも\nかわらないな…$"
 
 Route117_Text_DerekPostBattle:
 	.string "{JPN}すきな ことを つづけて いたら\nむしマニアと よばれる ように なった…\pまあ むしポケモンの めいじんだから\nむしマニアと よばれるのも\lとうぜんの ことだな。$"
@@ -1790,7 +1790,7 @@ Route117_Text_MegDefeat:
 	.string "{JPN}メグ: ああ そんな!\nごめんね アンナせんぱい わたしの せいで…$"
 
 Route117_Text_MegPostBattle:
-	.string "{JPN}メグ: わたしが アンナせんぱいの\nあしを ひっぱったの…\lそうでなければ かって いたのに!$"
+	.string "{JPN}メグ: わたしが アンナせんぱいの あしを\nひっぱったの… そうでなければ かって いたのに!$"
 
 Route117_Text_MegNotEnoughMons:
 	.string "{JPN}メグ: ポケモンは 1ぴきだけ?\nそれでは しょうぶ できないわ。\pわたしたちは 2たい2で たたかいたいの。$"
@@ -1859,7 +1859,7 @@ Route118_Text_RoseRegister:
 	.string "{JPN}くんくん… この かおりは ポケナビ!\nおたがい とうろく しましょう!$"
 
 Route118_Text_RoseRematchIntro:
-	.string "{JPN}あまい かおりに ひかれて きたの?$"
+	.string "{JPN}あまい かおりに ひかれて\nきたの?$"
 
 Route118_Text_RoseRematchDefeat:
 	.string "{JPN}かおりの ちからも\nあまり きかなかったわね。$"
@@ -1991,7 +1991,7 @@ Route119_Text_JacksonIntro:
 	.string "{JPN}いきのこる ちしきと ぎじゅつを\nもって いるのは だれか?\pポケモンレンジャーさ!$"
 
 Route119_Text_JacksonDefeat:
-	.string "{JPN}ポケモンの ちしきが たりなかった…$"
+	.string "{JPN}ポケモンの ちしきが\nたりなかった…$"
 
 Route119_Text_JacksonPostBattle:
 	.string "{JPN}まちを はなれ うちなる やせいの こころを\nめざめさせる!\pそれが おれたちの めざす ものだ。$"
@@ -2015,13 +2015,13 @@ Route119_Text_CatherineDefeat:
 	.string "{JPN}じゅんびが たりないと\nじこが おきるものだぞ!$"
 
 Route119_Text_CatherinePostBattle:
-	.string "{JPN}みがるだが ひつような ものは\nそろって いるな。\pこころも からだも しっかり して いる。$"
+	.string "{JPN}みがるだが ひつような ものは そろって\nいるな。\pこころも からだも しっかり して\nいる。$"
 
 Route119_Text_CatherineRegister:
 	.string "{JPN}ポケナビは もって いるか?\nトレーナーには かかせない どうぐだ。\pおお もって いるのか!\nでは とうろく しあおう!$"
 
 Route119_Text_CatherineRematchIntro:
-	.string "{JPN}ポケモンとの たびは どうだい?$"
+	.string "{JPN}ポケモンとの たびは\nどうだい?$"
 
 Route119_Text_CatherineRematchDefeat:
 	.string "{JPN}まだ なにかが たりないな…$"
@@ -2054,16 +2054,16 @@ Route119_Text_YasuDefeat:
 	.string "{JPN}まけを みとめよう!$"
 
 Route119_Text_YasuPostBattle:
-	.string "{JPN}やぶれた ものは しずかに かげへ かえる。\lそれもまた さだめ…$"
+	.string "{JPN}やぶれた ものは しずかに\nかげへ かえる。 それもまた\lさだめ…$"
 
 Route119_Text_TakashiIntro:
-	.string "{JPN}ゆだんして いると いたい めを みるぞ!$"
+	.string "{JPN}ゆだんして いると いたい めを\nみるぞ!$"
 
 Route119_Text_TakashiDefeat:
 	.string "{JPN}おどろく ほど つよいな!$"
 
 Route119_Text_TakashiPostBattle:
-	.string "{JPN}ふいうちは しっぱいに おわった…$"
+	.string "{JPN}ふいうちは しっぱいに\nおわった…$"
 
 Route119_Text_HideoIntro:
 	.string "{JPN}きを かくすなら もりの なか!$"
@@ -2072,7 +2072,7 @@ Route119_Text_HideoDefeat:
 	.string "{JPN}きみの ほうが うえだ みとめよう。$"
 
 Route119_Text_HideoPostBattle:
-	.string "{JPN}きを かくすなら もりの なか!\nポケモンを かくすなら ポケモンの なか!\pふかい いみは とくに ない。$"
+	.string "{JPN}きを かくすなら もりの なか! ポケモンを\nかくすなら ポケモンの なか!\pふかい いみは とくに\nない。$"
 
 Route119_Text_ChrisIntro:
 	.string "{JPN}はなしかけて きたな…\nつまり しょうぶを のぞむのだな!\pいいだろう! なみのりの とちゅうで\nつかまえた ポケモンを ためして やる!$"
@@ -2147,7 +2147,7 @@ Route120_Text_LorenzoDefeat:
 	.string "{JPN}それだけ つよい ポケモンが いれば\nきゅうじょは いらないわね!$"
 
 Route120_Text_LorenzoPostBattle:
-	.string "{JPN}ポケモンと ともに いきたい ところへ いく…\lそれが トレーナーの よろこびよ。$"
+	.string "{JPN}ポケモンと ともに いきたい ところへ\nいく… それが トレーナーの\lよろこびよ。$"
 
 Route120_Text_JennaIntro:
 	.string "{JPN}たいりょくは ある?\nたいりょくが ないと いざと いう ときに\lこまるわよ。$"
@@ -2210,10 +2210,10 @@ Route120_Text_AngelicaIntro:
 	.string "{JPN}わたしと ポケモンと ひがさ…\pどれが かけても\nうつくしい えは できないの。$"
 
 Route120_Text_AngelicaDefeat:
-	.string "{JPN}わたしの うつくしさが\nすっかり だいなしね…$"
+	.string "{JPN}わたしの うつくしさが すっかり だいなしね…$"
 
 Route120_Text_AngelicaPostBattle:
-	.string "{JPN}あなたには ひがさは にあわないわ。\pこんな ものは じゃまに なるだけよ。$"
+	.string "{JPN}あなたには ひがさは にあわないわ。\pこんな ものは じゃまに\nなるだけよ。$"
 
 Route120_Text_KeigoIntro:
 	.string "{JPN}ポケモンの うごきを とりいれて\nあたらしい にんぽうを つくるのだ。$"
@@ -2231,7 +2231,7 @@ Route120_Text_RileyDefeat:
 	.string "{JPN}まけた!\nはずかしさを かくさねば!$"
 
 Route120_Text_RileyPostBattle:
-	.string "{JPN}かくれみのは すべて てづくりなのだ。$"
+	.string "{JPN}かくれみのは すべて\nてづくりなのだ。$"
 
 Route120_Text_CallieIntro:
 	.string "{JPN}きを つけて いないと\nけがを するぞ!$"
@@ -2294,7 +2294,7 @@ Route121_Text_KateIntro:
 	.string "{JPN}ケイト: ふたりなら こわい ものなし!\nつよさを みせて あげるわ!$"
 
 Route121_Text_KateDefeat:
-	.string "{JPN}ケイト: こうはいの まえで しくじったわ…$"
+	.string "{JPN}ケイト: こうはいの まえで\nしくじったわ…$"
 
 Route121_Text_KatePostBattle:
 	.string "{JPN}ケイト: たよりに されると\nかっこよく みせたく なって\lしまうのよね…$"
@@ -2357,13 +2357,13 @@ Route121_Text_CristinPostRematch:
 	.string "{JPN}どうしても かてない あいて…\nぐすん…\lこんな ことが あるなんて…$"
 
 Route121_Text_CaleIntro:
-	.string "{JPN}こんなに にもつを もって いるのが\nみえないの?\pそれでも しょうぶ しろと いうの?$"
+	.string "{JPN}こんなに にもつを もって いるのが\nみえないの?\pそれでも しょうぶ しろと\nいうの?$"
 
 Route121_Text_CaleDefeat:
 	.string "{JPN}まけて とうぜんよ!\nりょうてが ふさがって いるもの!$"
 
 Route121_Text_CalePostBattle:
-	.string "{JPN}ミナモデパートで かいすぎて しまったの。\pこの さきに あるのよ。\nあなたのような バッグが ほしいわ。$"
+	.string "{JPN}ミナモデパートで かいすぎて\nしまったの。\pこの さきに あるのよ。 あなたのような バッグが\nほしいわ。$"
 
 Route121_Text_MylesIntro:
 	.string "{JPN}ひとの ポケモンを みるのが\nなにより すきなの!$"
@@ -2408,7 +2408,7 @@ Route123_Text_BraxtonDefeat:
 	.string "{JPN}うむ ふさわしい!$"
 
 Route123_Text_BraxtonPostBattle:
-	.string "{JPN}バッジに はじない しょうぶ だったぞ!$"
+	.string "{JPN}バッジに はじない しょうぶ\nだったぞ!$"
 
 Route123_Text_VioletIntro:
 	.string "{JPN}たのしい ときは いい かおりで\nみちて いると いうわ。$"
@@ -2504,7 +2504,7 @@ Route123_Text_FernandoPostBattle:
 	.string "{JPN}きみは しっかり して いるな。\nきみの ことを きょくに したいくらいだ。$"
 
 Route123_Text_FernandoRegister:
-	.string "{JPN}こんどは さいごまで きいて くれよ?$"
+	.string "{JPN}こんどは さいごまで きいて\nくれよ?$"
 
 Route123_Text_FernandoRematchIntro:
 	.string "{JPN}きょうこそ やって みせる!\nうたいおわる まえに きみを\lしずめて みせるぜ!$"
@@ -2531,7 +2531,7 @@ Route123_Text_JazmynDefeat:
 	.string "{JPN}じしんが なくなった…$"
 
 Route123_Text_JazmynPostBattle:
-	.string "{JPN}ひとは みかけで はんだん できないと いう。\pだが みかけは あんがい ただしい ものだ…$"
+	.string "{JPN}ひとは みかけで はんだん できないと\nいう。\pだが みかけは あんがい ただしい ものだ…$"
 
 Route123_Text_FrederickIntro:
 	.string "{JPN}やあ ぼうや!\nすこし じかんは あるかね?$"
@@ -2549,7 +2549,7 @@ Route123_Text_AlbertoDefeat:
 	.string "{JPN}まけても とりポケモンは かっこいい!$"
 
 Route123_Text_AlbertoPostBattle:
-	.string "{JPN}しょうぶで ちる とりポケモンの はねを\nあつめて いるんだ。\pとりポケモンの はねで ぼうしを つくるのさ。$"
+	.string "{JPN}しょうぶで ちる とりポケモンの はねを あつめて\nいるんだ。\pとりポケモンの はねで ぼうしを\nつくるのさ。$"
 
 Route123_Text_EdIntro:
 	.string "{JPN}トレーナーが いない ときは ポケモンどうしを\nたたかわせて いるんだ。\lそれを ながめて いる。$"
@@ -2573,7 +2573,7 @@ Route123_Text_KayleyIntro:
 	.string "{JPN}この ひがさ かったばかりなの。\nかわいさが 3わり ましね!$"
 
 Route123_Text_KayleyDefeat:
-	.string "{JPN}あなたは わたしの 5ばい つよいわ!$"
+	.string "{JPN}あなたは わたしの 5ばい\nつよいわ!$"
 
 Route123_Text_KayleyPostBattle:
 	.string "{JPN}かざりを うまく つかうのが\nおしゃれの ひけつなの。$"
@@ -2603,7 +2603,7 @@ Route124_Text_JennyDefeat:
 	.string "{JPN}あら いやだ。\nまけちゃったわ。$"
 
 Route124_Text_JennyPostBattle:
-	.string "{JPN}およいで いると こうげきして くる\nポケモンも みて いるだけの ポケモンも いるの。\pポケモンにも せいかくが あるのね。$"
+	.string "{JPN}およいで いると こうげきして くる ポケモンも\nみて いるだけの ポケモンも いるの。\pポケモンにも せいかくが\nあるのね。$"
 
 Route124_Text_JennyRegister:
 	.string "{JPN}きまぐれだけど ポケナビに\nとうろく して もらおうかしら。$"
@@ -2621,7 +2621,7 @@ Route124_Text_GraceIntro:
 	.string "{JPN}およぐのに あきて きたわ…\nしょうぶでも しない?$"
 
 Route124_Text_GraceDefeat:
-	.string "{JPN}こんなに つよいなんて おもわなかった!$"
+	.string "{JPN}こんなに つよいなんて\nおもわなかった!$"
 
 Route124_Text_GracePostBattle:
 	.string "{JPN}つみかさねた どりょくが\nあなたを つよく したのね。$"
@@ -2633,7 +2633,7 @@ Route124_Text_ChadDefeat:
 	.string "{JPN}ごぼ ごぼ ごぼ…\nしずんで いく…$"
 
 Route124_Text_ChadPostBattle:
-	.string "{JPN}この あたりに ダイビングの ばしょが\nあると たしかな すじから きいた。\pまた もぐりたく なって きたぞ…$"
+	.string "{JPN}この あたりに ダイビングの ばしょが あると\nたしかな すじから きいた。\pまた もぐりたく なって\nきたぞ…$"
 
 Route124_Text_LilaIntro:
 	.string "{JPN}リラ: はあ…\pせっかく うみに きたのに となりに\nいるのは おとうとだけ!\pいやな ことを わすれるために\nしょうぶ しましょう!$"
@@ -2654,7 +2654,7 @@ Route124_Text_RoyDefeat:
 	.string "{JPN}ロイ: あーあ…\nおねえちゃんに おこられる…$"
 
 Route124_Text_RoyPostBattle:
-	.string "{JPN}ロイ: おねえちゃんは おこると\nほんとうに こわいんだ。\pだから かれしが できないんだよ。$"
+	.string "{JPN}ロイ: おねえちゃんは おこると ほんとうに\nこわいんだ。\pだから かれしが\nできないんだよ。$"
 
 Route124_Text_LilaRoyRegister:
 	.string "{JPN}ロイ: また しょうぶ して くれる?\nつぎは てかげん して ね?$"
@@ -2792,7 +2792,7 @@ Route125_Text_PresleyDefeat:
 	.string "{JPN}よし。\nわけを おしえて やろう。$"
 
 Route125_Text_PresleyPostBattle:
-	.string "{JPN}ビンに てがみを いれて うみに ながしたんだ。\pきっと およぎが とくいな おんなのこが\nみつけて くれるはずさ!$"
+	.string "{JPN}ビンに てがみを いれて うみに\nながしたんだ。\pきっと およぎが とくいな おんなのこが みつけて\nくれるはずさ!$"
 
 Route125_Text_AuronIntro:
 	.string "{JPN}おい! うみに ごみを すてたのは\nおまえか?$"
@@ -2879,7 +2879,7 @@ Route126_Text_IsobelPostBattle:
 	.string "{JPN}ああ みずを のんで しまった!\nにがい! しょっぱい!$"
 
 Route126_Text_SiennaIntro:
-	.string "{JPN}こころを こめて たたかうわ!$"
+	.string "{JPN}こころを こめて\nたたかうわ!$"
 
 Route126_Text_SiennaDefeat:
 	.string "{JPN}あなたの ほうが こころが つよかったわ!$"
@@ -2963,19 +2963,19 @@ Route127_Text_KojiPostRematch:
 	.string "{JPN}すこし はだしに なって みないか?\nかわりに ランニングシューズを ためしたい。$"
 
 Route127_Text_AthenaIntro:
-	.string "{JPN}ゆっくり じっくり しょうぶ しよう。$"
+	.string "{JPN}ゆっくり じっくり しょうぶ\nしよう。$"
 
 Route127_Text_AthenaDefeat:
-	.string "{JPN}さくせんを かんがえる ひまも なかった。$"
+	.string "{JPN}さくせんを かんがえる ひまも\nなかった。$"
 
 Route127_Text_AthenaPostBattle:
 	.string "{JPN}あおい うみと そらに かこまれて いると\nときが ゆっくり ながれる きが する。$"
 
 Route128_Text_IsaiahIntro:
-	.string "{JPN}サイユウシティは まだまだ さきだ…$"
+	.string "{JPN}サイユウシティは まだまだ\nさきだ…$"
 
 Route128_Text_IsaiahDefeat:
-	.string "{JPN}はじめての しょうりも まだまだ さきだな…$"
+	.string "{JPN}はじめての しょうりも まだまだ\nさきだな…$"
 
 Route128_Text_IsaiahPostBattle:
 	.string "{JPN}まけてばかりの じんせいだけど\nぜったいに あきらめないぞ!$"
@@ -3047,13 +3047,13 @@ Route128_Text_HarrisonDefeat:
 	.string "{JPN}いたた!\nやっぱり むりだったのね。$"
 
 Route128_Text_HarrisonPostBattle:
-	.string "{JPN}サイユウの あたりには つよい トレーナーが\nたくさん いるわ。\pわたしには ばあいちがいかしら?$"
+	.string "{JPN}サイユウの あたりには つよい トレーナーが\nたくさん いるわ。\pわたしには\nばあいちがいかしら?$"
 
 Route128_Text_CarleeIntro:
-	.string "{JPN}この あたりは ひざしが きつい みたいね。$"
+	.string "{JPN}この あたりは ひざしが きつい\nみたいね。$"
 
 Route128_Text_CarleeDefeat:
-	.string "{JPN}ひざしが まぶしくて よく みえなかったわ。$"
+	.string "{JPN}ひざしが まぶしくて よく\nみえなかったわ。$"
 
 Route128_Text_CarleePostBattle:
 	.string "{JPN}そろそろ もどらないと。\nひやけどめを ぬりなおさなくちゃ。$"
@@ -3137,7 +3137,7 @@ Route131_Text_RichardDefeat:
 	.string "{JPN}トレーナーに そだてられた ポケモンは\nとんでもなく つよいな…$"
 
 Route131_Text_RichardPostBattle:
-	.string "{JPN}はあ はあ…\nへとへとだ…\pいきは よいよい かえりは こわい。\pかえりの ちからは のこって いるかな?$"
+	.string "{JPN}はあ はあ…\nへとへとだ…\pいきは よいよい かえりは\nこわい。\pかえりの ちからは のこって\nいるかな?$"
 
 Route131_Text_HermanIntro:
 	.string "{JPN}うみ うみ うみ…\nみわたす かぎり うみ!\lうみは もう うんざりだ!$"
@@ -3152,7 +3152,7 @@ Route131_Text_SusieIntro:
 	.string "{JPN}ちょっと まって かわいこちゃん!\nわたしと しょうぶ しましょう!$"
 
 Route131_Text_SusieDefeat:
-	.string "{JPN}みかけに よらず つよいのね!$"
+	.string "{JPN}みかけに よらず\nつよいのね!$"
 
 Route131_Text_SusiePostBattle:
 	.string "{JPN}むこうで うみに あきたと ぼやいて いる\nおとこの ひとを みた?\pあれは くちだけよ。\nどうしようもなく うみが すきなの!$"
@@ -3200,7 +3200,7 @@ Route131_Text_TaliaPostBattle:
 	.string "{JPN}この ちかくに かわった ばしょが ある。\nおおきな とうが たって いるんだ。\lいって みると いい。$"
 
 Route131_Text_KevinIntro:
-	.string "{JPN}キナギの ひとは おだやかなんだ。\pけっして おこらない。\nおれも そうだ。$"
+	.string "{JPN}キナギの ひとは\nおだやかなんだ。\pけっして おこらない。 おれも\nそうだ。$"
 
 Route131_Text_KevinDefeat:
 	.string "{JPN}おっと!$"

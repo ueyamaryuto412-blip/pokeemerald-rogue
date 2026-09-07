@@ -47,7 +47,7 @@ text gText_PokeblockHasNoEffect
 
 text gText_PokeblockWouldHaveNoEffect
 {
-    format("{JPN}ここに まいても {POKEBLOCK}は\nこうかが ないだろう。{PAUSE_UNTIL_PRESS}")
+    format("{JPN}ここに まいても {POKEBLOCK}は こうかが ないだろう。{PAUSE_UNTIL_PRESS}")
 }
 
 text gText_PokeblockWouldHaveNoEffectHoneyTree
@@ -57,5 +57,5 @@ text gText_PokeblockWouldHaveNoEffectHoneyTree
 
 text gText_PokeblockAlreadyScattered
 {
-    format("{JPN}ここには すでに {POKEBLOCK}が\nまかれて いる。{PAUSE_UNTIL_PRESS}")
+    format("{JPN}ここには すでに {POKEBLOCK}が まかれて いる。{PAUSE_UNTIL_PRESS}")
 }

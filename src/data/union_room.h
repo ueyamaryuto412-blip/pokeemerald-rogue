@@ -218,10 +218,10 @@ static const u8 *const sAwaitingResponseTexts[] = {
 };
 
 ALIGNED(4) static const u8 sText_ShowTrainerCard[] = _("{JPN}あいての トレーナーが トレーナーカードを\nみせて くれました。\pあなたも トレーナーカードを\nみせますか?");
-ALIGNED(4) static const u8 sText_BattleChallenge[] = _("{JPN}あいての トレーナーが しょうぶを\nいどんで きました。\pしょうぶを うけますか?");
-ALIGNED(4) static const u8 sText_ChatInvitation[] = _("{JPN}あいての トレーナーが チャットに\nさそって います。\pチャットに さんか しますか?");
+ALIGNED(4) static const u8 sText_BattleChallenge[] = _("{JPN}あいての トレーナーが しょうぶを いどんで\nきました。\pしょうぶを\nうけますか?");
+ALIGNED(4) static const u8 sText_ChatInvitation[] = _("{JPN}あいての トレーナーが チャットに さそって\nいます。\pチャットに さんか\nしますか?");
 ALIGNED(4) static const u8 sText_OfferToTradeMon[] = _("{JPN}とうろくした レベル{DYNAMIC 0}の {DYNAMIC 1}と\pレベル{DYNAMIC 2}の {DYNAMIC 3}を\pこうかんしたいと いって います。\pこの こうかんを うけますか?");
-ALIGNED(4) static const u8 sText_OfferToTradeEgg[] = _("{JPN}とうろくした タマゴを こうかん\lしたいと いって います。 うけますか?");
+ALIGNED(4) static const u8 sText_OfferToTradeEgg[] = _("{JPN}とうろくした タマゴを こうかん\nしたいと いって います。\lうけますか?");
 ALIGNED(4) static const u8 sText_ChatDropped[] = _("{JPN}チャットが きれました。\p");
 ALIGNED(4) static const u8 sText_OfferDeclined1[] = _("{JPN}ことわりました。\p");
 ALIGNED(4) static const u8 sText_OfferDeclined2[] = _("{JPN}ことわりました。\p");
@@ -330,7 +330,7 @@ static const u8 *const sIfYouWantToDoSomethingTexts[GENDER_COUNT] = {
 };
 
 ALIGNED(4) static const u8 sText_TrainerBattleBusy[] = _("{JPN}おっと! ごめん ほかに やることが\lできて しまったんだ。\lまた こんど いいかい?\p");
-ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower1[] = _("{JPN}しょうぶを するなら レベル30 いかの\lポケモンが 2ひき ひつようだよ。\p");
+ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower1[] = _("{JPN}しょうぶを するなら レベル30\nいかの ポケモンが 2ひき\lひつようだよ。\p");
 ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower2[] = _("{JPN}しょうぶには レベル30 いかの\nポケモンが 2ひき ひつようです。\p");
 
 ALIGNED(4) static const u8 sText_DeclineChatMale[] = _("{JPN}そうか わかった。\nいつでも きてくれよ?\p");

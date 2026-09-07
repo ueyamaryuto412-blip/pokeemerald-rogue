@@ -270,10 +270,10 @@ script Rogue_Area_RideTraining_OfferNextUpgrade
 
 script Rogue_Area_RideTraining_GiveFieldMoves
 {
-    msgbox(format("{JPN}やあ {PLAYER}!\pぼくと ポケモンは この こうえんで\nあそぶのが だいすきなんだ!\lつくってくれて ありがとう!"))
+    msgbox(format("{JPN}やあ {PLAYER}!\pぼくと ポケモンは この こうえんで あそぶのが\nだいすきなんだ! つくってくれて ありがとう!"))
     msgbox(format("{JPN}そうだ おれいに ぼうけんで やくだつ\nわざを おしえてあげるよ!"))
 
-    msgbox(format("{JPN}そうだな…\nまずは ひでんわざの つかいかたから\lはじめようか?"))
+    msgbox(format("{JPN}そうだな… まずは ひでんわざの つかいかたから\nはじめようか?"))
 
     message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は ひでんわざの つかいかたを おぼえた!"))
     waitmessage

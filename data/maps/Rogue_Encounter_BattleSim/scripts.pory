@@ -171,7 +171,7 @@ script Rogue_Encounter_BattleSim_ChooseWager_Items
 
 
     bufferitemnameplural(STR_VAR_1, VAR_WAGER_PARAM0, VAR_WAGER_PARAM1)
-    msgbox(format("{JPN}どうぐ?\nいいよ!\pまけたら バッグから どうぐを\nすこし もらう。\pかったら {STR_VAR_1}を あげる。どう?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}どうぐ?\nいいよ!\pまけたら バッグから どうぐを すこし もらう。\pかったら {STR_VAR_1}を あげる。どう?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {

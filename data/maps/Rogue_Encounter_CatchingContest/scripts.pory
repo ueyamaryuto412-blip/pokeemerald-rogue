@@ -43,7 +43,7 @@ script Rogue_Encounter_CatchingContest_TalkHost
 script Rogue_Encounter_CatchingContest_StartContest 
 {
     special(Rogue_BufferContestMode)
-    msgbox(format("{JPN}きょうは {STR_VAR_1}の\nポケモンとり コンテストです。"))
+    msgbox(format("{JPN}きょうは {STR_VAR_1}の ポケモンとり コンテストです。"))
 
     setvar(VAR_RESULT, 2)
     while(var(VAR_RESULT) == 2)
@@ -180,7 +180,7 @@ script Rogue_Encounter_CatchingContest_EndContest
             waitfanfare
             waitmessage
 
-            msgbox(format("{JPN}きょう いちばん たかかったのは\n{STR_VAR_2}でした。"))
+            msgbox(format("{JPN}きょう いちばん たかかったのは {STR_VAR_2}でした。"))
         }
 
         // Check if we actually caught a mon and attempt to add it to team

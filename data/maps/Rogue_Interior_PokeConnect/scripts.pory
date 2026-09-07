@@ -24,7 +24,7 @@ script Rogue_Interior_PokeConnect_TalkMultiplayer
     special(Rogue_IsMultiplayerActive)
     if(var(VAR_RESULT) == TRUE)
     {
-        msgbox(format("{JPN}やあ {PLAYER}!\pマルチプレイの ぼうけんを\nたのしめているかな!"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}やあ {PLAYER}!\pマルチプレイの ぼうけんを たのしめているかな!"), MSGBOX_DEFAULT)
     
         special(Rogue_IsMultiplayerHost)
         if(var(VAR_RESULT) == TRUE)
@@ -39,7 +39,7 @@ script Rogue_Interior_PokeConnect_TalkMultiplayer
         if(var(VAR_RESULT) == TRUE)
         {
             special(Rogue_CloseMultiplayer)
-            msgbox(format("{JPN}おかえり!\pマルチプレイの ぼうけんは\nたのしめたかな!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}おかえり!\pマルチプレイの ぼうけんは たのしめたかな!"), MSGBOX_DEFAULT)
         }
     }
     else
@@ -104,19 +104,19 @@ script Rogue_Interior_PokeConnect_TalkMultiplayer
                     {
                         ROGUE_VERSION_VANILLA
                         {
-                            msgbox(format("{JPN}ごめんね。\nあいてが つうじょうばんでは ないので\lつなげられないんだ。"))
+                            msgbox(format("{JPN}ごめんね。 あいてが つうじょうばんでは ないので\nつなげられないんだ。"))
                         }
                         ROGUE_VERSION_EXPANSION
                         {
-                            msgbox(format("{JPN}ごめんね。\nあいてが EXばんでは ないので\lつなげられないんだ。"))
+                            msgbox(format("{JPN}ごめんね。 あいてが EXばんでは ないので\nつなげられないんだ。"))
                         }
                     }
 
                 case 2: // CONN_ERR_WRONG_SAVE_VERSION
-                    msgbox(format("{JPN}ごめんね。\nあいてと バージョンが ちがうので\lつなげられないんだ。"))
+                    msgbox(format("{JPN}ごめんね。 あいてと バージョンが ちがうので\nつなげられないんだ。"))
 
                 case 3: // CONN_ERR_WRONG_REVISED_MODE
-                    msgbox(format("{JPN}ごめんね。\nせっていラボの リビジョンモードが\lあわないので つなげられないんだ。"))
+                    msgbox(format("{JPN}ごめんね。 せっていラボの リビジョンモードが\nあわないので つなげられないんだ。"))
 
                 default: // CONN_ERR_NONE
                     msgbox(format("{JPN}きが かわったら また こえを かけてね。"))

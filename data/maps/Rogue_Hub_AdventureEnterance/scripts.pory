@@ -92,7 +92,7 @@ script Rogue_Adventure_ScottOldSaveQuestLog
     applymovement(NPC_INTRO_SCOTT, Rogue_Adventure_ScottIntroMovement0)
     waitmovement(0)
 
-    msgbox(format("{JPN}スコット: やあ {PLAYER}!\pつぎの ぼうけんに でるまえに\nこれを もっていけ。"))
+    msgbox(format("{JPN}スコット: やあ {PLAYER}!\pつぎの ぼうけんに でるまえに これを もっていけ。"))
 
     call(Rogue_Adventure_ScottGiveQuestLog)
 
@@ -110,7 +110,7 @@ script Rogue_Adventure_ScottGift
     waitmovement(0)
 
     // Give extra key items
-    msgbox(format("{JPN}スコット: おお {PLAYER}!\nポカビーが あたらしい モードを\lここに ふやして いったぞ!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}スコット: おお {PLAYER}! ポカビーが あたらしい\nモードを ここに ふやして いったぞ!"), MSGBOX_DEFAULT)
 
     checkitem(ITEM_QUEST_LOG)
     if(var(VAR_RESULT) == NO)
@@ -136,7 +136,7 @@ script Rogue_Adventure_SpeakScott
     checkitem(ITEM_QUEST_LOG)
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("{JPN}スコット: やあ {PLAYER}!\pつぎの ぼうけんに でるまえに\nこれも もっていけ。"))
+        msgbox(format("{JPN}スコット: やあ {PLAYER}!\pつぎの ぼうけんに でるまえに これも もっていけ。"))
         call(Rogue_Adventure_ScottGiveQuestLog)
 
         msgbox(format("{JPN}じゅんびは できたようだな!"))
@@ -341,7 +341,7 @@ script Rogue_StartAdventureCommon
     {
         if(var(VAR_RESULT) > 1)
         {
-            msgbox(format("{JPN}ポケモンが おおすぎるようだ。\pこのモードには 1ぴきしか\nつれていけない。\lパソコンに あずけてから また きてくれ。"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}ポケモンが おおすぎるようだ。\pこのモードには 1ぴきしか つれていけない。\nパソコンに あずけてから また きてくれ。"), MSGBOX_DEFAULT)
             setvar(VAR_RESULT, NO)
         }
         else
@@ -512,7 +512,7 @@ script Rogue_ReturnAdventureCommon
     }
     else
     {
-        msgbox(format("{JPN}このぼうけんでの ほうしゅうは\nないみたいだ。"))
+        msgbox(format("{JPN}このぼうけんでの ほうしゅうは ないみたいだ。"))
     }
 
     clearflag(FLAG_ROGUE_LEFT_ON_RUN)

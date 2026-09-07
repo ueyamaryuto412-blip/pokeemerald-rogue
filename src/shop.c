@@ -2245,7 +2245,7 @@ void CreateCustomPokemartMenu(const u16 * buffer, u16 currency)
 // Item type callbacks
 //
 
-static u8 const sString_NewItemIndicator[] = _("{SPARKLE_ICON}");
+static u8 const sString_NewItemIndicator[] = _("{JPN}{SPARKLE_ICON}");
 
 static void CopyShopItemName(u16 item, u8* name)
 {

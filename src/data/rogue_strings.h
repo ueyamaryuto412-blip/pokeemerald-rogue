@@ -107,7 +107,7 @@ const u8 gText_DifficultyOverworldMons[] = _("Visible Wild {PKMN}");
 const u8 gText_DifficultyBagWipe[] = _("Fresh Start");
 const u8 gText_DifficultySwitchMode[] = _("Switch Mode");
 
-const u8 gText_DifficultyTrainers[] = _("Trainers");
+const u8 gText_DifficultyTrainers[] = _("{JPN}トレーナー");
 const u8 gText_DifficultyItems[] = _("{JPN}どうぐ");
 const u8 gText_DifficultyLegendaries[] = _("Legendaries");
 

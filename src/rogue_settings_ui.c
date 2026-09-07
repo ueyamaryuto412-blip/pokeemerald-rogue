@@ -94,72 +94,53 @@ enum
 };
 
 
-static u8 const sMenu_SparkleIcon[] = _("{SPARKLE_ICON}");
+static u8 const sMenu_SparkleIcon[] = _("{JPN}{SPARKLE_ICON}");
 
 static u8 const sMenuName_Back[] = _("Back");
 static u8 const sMenuName_SaveAndExit[] = _("Save & Exit");
-static u8 const sMenuName_DifficultySubmenu[] = _("Edit Difficulty");
-static u8 const sMenuName_AdventureSubmenu[] = _("Adventure");
-static u8 const sMenuName_TrainersSubmenu[] = _("Trainers");
-static u8 const sMenuName_GameModesSubmenu[] = _("Game Modes");
+static u8 const sMenuName_DifficultySubmenu[] = _("{JPN}なんいどを かえる");
+static u8 const sMenuName_AdventureSubmenu[] = _("{JPN}ぼうけん");
+static u8 const sMenuName_TrainersSubmenu[] = _("{JPN}トレーナー");
+static u8 const sMenuName_GameModesSubmenu[] = _("{JPN}あそびかた");
 
-static u8 const sMenuName_BattleFormat[] = _("Battle Format");
-static u8 const sMenuName_BattleFormatSingles[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Singles");
-static u8 const sMenuName_BattleFormatDoubles[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Doubles");
-static u8 const sMenuName_BattleFormatMixed[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Mixed");
+static u8 const sMenuName_BattleFormat[] = _("{JPN}しょうぶの かたち");
+static u8 const sMenuName_BattleFormatSingles[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}シングル");
+static u8 const sMenuName_BattleFormatDoubles[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ダブル");
+static u8 const sMenuName_BattleFormatMixed[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}まぜる");
 
-static u8 const sMenuName_TrainerOrder[] = _("Trainer Order");
-static u8 const sMenuName_TrainerOrderDefault[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Default");
-static u8 const sMenuName_TrainerOrderRainbow[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Rainbow");
-static u8 const sMenuName_TrainerOrderOfficial[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Official");
+static u8 const sMenuName_TrainerOrder[] = _("{JPN}トレーナーの じゅんばん");
+static u8 const sMenuName_TrainerOrderDefault[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ふつう");
+static u8 const sMenuName_TrainerOrderRainbow[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}レインボー");
+static u8 const sMenuName_TrainerOrderOfficial[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}こうしき");
 
-static u8 const sMenuName_GameMode_Standard[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Classic");
-static u8 const sMenuName_GameMode_Gauntlet[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Gauntlet");
-static u8 const sMenuName_GameMode_FastPath[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Fast Path");
+static u8 const sMenuName_GameMode_Standard[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}クラシック");
+static u8 const sMenuName_GameMode_Gauntlet[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}れんぞくしょうぶ");
+static u8 const sMenuName_GameMode_FastPath[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}はやみち");
 
-static u8 const sMenuName_Affection[] = _("Affection FX");
-static u8 const sMenuName_ReleaseMons[] = _("Release Fainted {PKMN}");
-static u8 const sMenuName_TrainerDiversity[] = _("Diverse Trainer {PKMN}");
+static u8 const sMenuName_Affection[] = _("{JPN}なつきの こうか");
+static u8 const sMenuName_ReleaseMons[] = _("{JPN}ひんしの {PKMN}を にがす");
+static u8 const sMenuName_TrainerDiversity[] = _("{JPN}トレーナーの {PKMN}を ばらけさせる");
 
 static u8 const sMenuName_TrainerRogue[] = _("{JPN}バルキー");
-static u8 const sMenuName_TrainerKanto[] = _("Kanto");
-static u8 const sMenuName_TrainerJohto[] = _("Johto");
-static u8 const sMenuName_TrainerHoenn[] = _("Hoenn");
+static u8 const sMenuName_TrainerKanto[] = _("{JPN}カントー");
+static u8 const sMenuName_TrainerJohto[] = _("{JPN}ジョウト");
+static u8 const sMenuName_TrainerHoenn[] = _("{JPN}ホウエン");
 #ifdef ROGUE_EXPANSION
-static u8 const sMenuName_TrainerSinnoh[] = _("Sinnoh");
-static u8 const sMenuName_TrainerUnova[] = _("Unova");
-static u8 const sMenuName_TrainerKalos[] = _("Kalos");
-static u8 const sMenuName_TrainerAlola[] = _("Alola");
-static u8 const sMenuName_TrainerGalar[] = _("Galar");
-static u8 const sMenuName_TrainerPaldea[] = _("Paldea");
+static u8 const sMenuName_TrainerSinnoh[] = _("{JPN}シンオウ");
+static u8 const sMenuName_TrainerUnova[] = _("{JPN}イッシュ");
+static u8 const sMenuName_TrainerKalos[] = _("{JPN}カロス");
+static u8 const sMenuName_TrainerAlola[] = _("{JPN}アローラ");
+static u8 const sMenuName_TrainerGalar[] = _("{JPN}ガラル");
+static u8 const sMenuName_TrainerPaldea[] = _("{JPN}パルデア");
 #endif
 
-static u8 const sText_ErrorInvalidSelection[] = _("Error: {COLOR GREEN}{SHADOW LIGHT_GREEN}Invalid selection.");
+static u8 const sText_ErrorInvalidSelection[] = _("{JPN}エラー {COLOR GREEN}{SHADOW LIGHT_GREEN}えらべません。");
 
-const u8 sMenuNameDesc_PresetDescription_Easy[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "For those who want a casual experience,\n"
-    "comparable to modern {PKMN} games."
-);
-const u8 sMenuNameDesc_PresetDescription_Average[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Recommended for those who have good {PKMN}\n"
-    "knowledge and enjoy a challenge."
-);
-const u8 sMenuNameDesc_PresetDescription_Hard[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "A punishing experience intended for\n"
-    "those who enjoy increased difficulty."
-);
-const u8 sMenuNameDesc_PresetDescription_Brutal[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "An even more punishing experience than\n"
-    "Hard, for those who want to suffer."
-);
-const u8 sMenuNameDesc_PresetDescription_Custom[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Your rules, your way!"
-);
+const u8 sMenuNameDesc_PresetDescription_Easy[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}いまどきの {PKMN}と おなじくらいの\nきがるな あそびごこちが よい ひとに。");
+const u8 sMenuNameDesc_PresetDescription_Average[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PKMN}に くわしく てごたえを たのしみたい\nひとに おすすめ。");
+const u8 sMenuNameDesc_PresetDescription_Hard[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}きびしさを たのしみたい ひとに むけた\nようしゃの ない あそびごこち。");
+const u8 sMenuNameDesc_PresetDescription_Brutal[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}むずかしいより さらに きびしい。\nくるしみたい ひとの ために。");
+const u8 sMenuNameDesc_PresetDescription_Custom[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}あなたの ルールで あなたの すきなように!");
 static u8 const* const sMenuNameDesc_PresetDescription[] = 
 {
     [DIFFICULTY_LEVEL_EASY] = sMenuNameDesc_PresetDescription_Easy,
@@ -170,47 +151,21 @@ static u8 const* const sMenuNameDesc_PresetDescription[] =
 };
 
 
-const u8 sMenuNameDesc_DifficultyOverLvlOff[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "{PKMN} will stop gaining lvls once they\n"
-    "reach the Level Cap."
-);
-const u8 sMenuNameDesc_DifficultyOverLvlOn[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "{PKMN} can gain levels over the Level Cap.\n"
-    "(After the Level Cap, will Level slowly)"
-);
+const u8 sMenuNameDesc_DifficultyOverLvlOff[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PKMN}は レベルの うわげんに とどくと\nそれ いじょう あがらなく なります。");
+const u8 sMenuNameDesc_DifficultyOverLvlOn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PKMN}は うわげんを こえても あがります。\nこえた あとは ゆっくり あがります。");
 static u8 const* const sMenuNameDesc_DifficultyOverLvl[] = 
 {
     sMenuNameDesc_DifficultyOverLvlOff,
     sMenuNameDesc_DifficultyOverLvlOn,
 };
 
-static u8 const sMenuNameDesc_TrainersSubmenu[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enable or Disable groups of Trainers that\n"
-    "you would like to encounter."
-);
+static u8 const sMenuNameDesc_TrainersSubmenu[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}であいたい トレーナーの グループを\nオンオフ できます。");
 
-static u8 const sMenuNameDesc_GameModesSubmenu[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Choose custom rule sets or scenarios\n"
-    "you to play with."
-);
+static u8 const sMenuNameDesc_GameModesSubmenu[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}あそびたい ルールや シナリオを\nえらべます。");
 
-static u8 const sMenuNameDesc_BattleFormatSingles[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainer Battles will always be 1v1."
-);
-static u8 const sMenuNameDesc_BattleFormatDoubles[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainer Battles will always be 2v2."
-);
-static u8 const sMenuNameDesc_BattleFormatMixed[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainer Battles will randomly be 1v1 or\n"
-    "2v2. (Equal chance for both)"
-);
+static u8 const sMenuNameDesc_BattleFormatSingles[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}トレーナーとの しょうぶは つねに 1たい1。");
+static u8 const sMenuNameDesc_BattleFormatDoubles[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}トレーナーとの しょうぶは つねに 2たい2。");
+static u8 const sMenuNameDesc_BattleFormatMixed[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}トレーナーとの しょうぶは 1たい1か 2たい2に\nランダムで なります。 かくりつは はんぶん。");
 static u8 const* const sMenuNameDesc_BattleFormat[] = 
 {
     [BATTLE_FORMAT_SINGLES] = sMenuNameDesc_BattleFormatSingles,
@@ -218,21 +173,9 @@ static u8 const* const sMenuNameDesc_BattleFormat[] =
     [BATTLE_FORMAT_MIXED] = sMenuNameDesc_BattleFormatMixed,
 };
 
-static u8 const sMenuNameDesc_TrainerOrderDefault[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainers appear somewhat randomly\n"
-    "based on their Trainer Class."
-);
-static u8 const sMenuNameDesc_TrainerOrderDoubles[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainers appear randomly without\n"
-    "repeating types e.g. E4 can be Gyms."
-);
-static u8 const sMenuNameDesc_TrainerOrderOfficial[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainers appear in the order they appear\n"
-    "in official games. (Disables Challenges)"
-);
+static u8 const sMenuNameDesc_TrainerOrderDefault[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}トレーナーは その しゅるいに あわせて\nだいたい ランダムに あらわれます。");
+static u8 const sMenuNameDesc_TrainerOrderDoubles[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}おなじ しゅるいが つづかない ように\nランダムに あらわれます。");
+static u8 const sMenuNameDesc_TrainerOrderOfficial[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}こうしきの ゲームと おなじ じゅんばんで\nあらわれます。 チャレンジは つかえません。");
 
 static u8 const* const sMenuNameDesc_TrainerOrder[] = 
 {
@@ -241,128 +184,54 @@ static u8 const* const sMenuNameDesc_TrainerOrder[] =
     [TRAINER_ORDER_OFFICIAL] = sMenuNameDesc_TrainerOrderOfficial,
 };
 
-const u8 sMenuNameDesc_Affection[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "{PKMN} with high friendship may have special\n"
-    "effects e.g. enduring, extra crits etc."
-);
+const u8 sMenuNameDesc_Affection[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}なつきどの たかい {PKMN}は こらえたり\nきゅうしょに あたりやすく なったり します。");
 
-const u8 sMenuNameDesc_ReleaseMonsOn[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "When {PKMN} faint, they will be released.\n"
-    "from your party."
-);
+const u8 sMenuNameDesc_ReleaseMonsOn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PKMN}は ひんしに なると\nてもちから にげて いきます。");
 
-const u8 sMenuNameDesc_ReleaseMonsOff[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Fainted {PKMN} will remain in your party, but\n"
-    "can only be revived by Nurses or Revives."
-);
+const u8 sMenuNameDesc_ReleaseMonsOff[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ひんしの {PKMN}も てもちに のこりますが\nジョーイさんか げんきのかけらで なおします。");
 static u8 const* const sMenuNameDesc_ReleaseMons[] = 
 {
     sMenuNameDesc_ReleaseMonsOff,
     sMenuNameDesc_ReleaseMonsOn,
 };
 
-const u8 sMenuNameDesc_TrainerDiversityOff[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainers will mostly stick to their type\n"
-    "specialties e.g. Brock has Rock"
-);
-const u8 sMenuNameDesc_TrainerDiversityOn[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Trainers can have wider type specialties\n"
-    "e.g. Brock has a mix of Rock & Steel"
-);
+const u8 sMenuNameDesc_TrainerDiversityOff[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}トレーナーは とくいな タイプで そろえます。\nたとえば タケシは いわタイプ。");
+const u8 sMenuNameDesc_TrainerDiversityOn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}とくいな タイプが ひろく なります。\nたとえば タケシは いわと はがね。");
 static u8 const* const sMenuNameDesc_TrainerDiversity[] = 
 {
     sMenuNameDesc_TrainerDiversityOff,
     sMenuNameDesc_TrainerDiversityOn,
 };
 
-static u8 const sMenuNameDesc_Rogue[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the… Rogue\n"
-    "region? (Rainbow mode not supported)\n"
-);
+static u8 const sMenuNameDesc_Rogue[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ローグちほう?の トレーナーが でます。\nレインボーには たいおう して いません。\n");
 
-static u8 const sMenuNameDesc_Kanto[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Kanto region.\n"
-);
+static u8 const sMenuNameDesc_Kanto[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}カントーちほうの トレーナーが でます。\n");
 
-static u8 const sMenuNameDesc_Johto[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Johto region.\n"
-);
+static u8 const sMenuNameDesc_Johto[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ジョウトちほうの トレーナーが でます。\n");
 
-static u8 const sMenuNameDesc_Hoenn[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Hoenn region.\n"
-);
+static u8 const sMenuNameDesc_Hoenn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ホウエンちほうの トレーナーが でます。\n");
 
 #ifdef ROGUE_EXPANSION
-static u8 const sMenuNameDesc_Sinnoh[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Sinnoh region.\n"
-);
+static u8 const sMenuNameDesc_Sinnoh[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}シンオウちほうの トレーナーが でます。\n");
 
-static u8 const sMenuNameDesc_Unova[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Unova region.\n"
-);
+static u8 const sMenuNameDesc_Unova[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}イッシュちほうの トレーナーが でます。\n");
 
-static u8 const sMenuNameDesc_Kalos[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Kalos region.\n"
-);
+static u8 const sMenuNameDesc_Kalos[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}カロスちほうの トレーナーが でます。\n");
 
-static u8 const sMenuNameDesc_Alola[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Alola region.\n"
-);
+static u8 const sMenuNameDesc_Alola[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}アローラちほうの トレーナーが でます。\n");
 
-static u8 const sMenuNameDesc_Galar[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Galar region.\n"
-);
+static u8 const sMenuNameDesc_Galar[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ガラルちほうの トレーナーが でます。\n");
 
-static u8 const sMenuNameDesc_Paldea[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enables trainers from the Paldea region.\n"
-);
+static u8 const sMenuNameDesc_Paldea[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}パルデアちほうの トレーナーが でます。\n");
 #endif
 
-static u8 const sMenuNameDesc_GameMode_Standard[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Standard Adventure with with slow\n"
-    "pacing. Provides decent Encounters,\n"
-    "Items and {PKMN} at the cost of slower Runs."
-);
-static u8 const sMenuNameDesc_GameMode_Gauntlet[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Prepare your team and then fight Mighty\n"
-    "Trainers back to back without a chance\n"
-    "to catch any {PKMN}. (Disables Challenges)"
-);
-static u8 const sMenuNameDesc_GameMode_FastPath[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Standard Adventure with with fast\n"
-    "pacing. Provides fast Runs at the cost\n"
-    "of fewer Encounters, Items and {PKMN}."
-);
+static u8 const sMenuNameDesc_GameMode_Standard[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ゆっくり すすむ ふつうの ぼうけん。\nときかんは かかりますが であいも どうぐも\n{PKMN}も しっかり てに はいります。");
+static u8 const sMenuNameDesc_GameMode_Gauntlet[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}てもちを ととのえてから つよい トレーナーと\nつづけて しょうぶ。 とちゅうで {PKMN}は\nつかまえられません。 チャレンジも つかえません。");
+static u8 const sMenuNameDesc_GameMode_FastPath[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}はやく すすむ ふつうの ぼうけん。\nはやく おわりますが であいも どうぐも\n{PKMN}も すくなく なります。");
 
 
-static const u8 sText_DifficultyExpAllDescOff[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Only {PKMN} send into battle will be awarded\n"
-    "Exp. (Not recommended)"
-);
-static const u8 sText_DifficultyExpAllDescOn[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "All {PKMN} in the party will be awarded Exp.\n"
-    "even if they didn't enter the battle."
-);
+static const u8 sText_DifficultyExpAllDescOff[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}しょうぶに でた {PKMN}だけが けいけんちを\nもらいます。 おすすめ しません。");
+static const u8 sText_DifficultyExpAllDescOn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}しょうぶに でて いなくても てもちの {PKMN}\nぜんいんが けいけんちを もらいます。");
 static u8 const* const sText_DifficultyExpAllDesc[] = 
 {
     sText_DifficultyExpAllDescOff,
@@ -370,16 +239,8 @@ static u8 const* const sText_DifficultyExpAllDesc[] =
 };
 
 
-static const u8 sText_DifficultyOverworldMonsDescOff[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Wild {PKMN} will spawn randomly as you move.\n"
-    "(Classic {PKMN} Game style encounters)"
-);
-static const u8 sText_DifficultyOverworldMonsDescOn[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Wild {PKMN} can be encounted and interacted\n"
-    "with in the overworld."
-);
+static const u8 sText_DifficultyOverworldMonsDescOff[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}あるくと やせいの {PKMN}が ランダムに でます。\nむかしの {PKMN}と おなじ であいかたです。");
+static const u8 sText_DifficultyOverworldMonsDescOn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}やせいの {PKMN}が マップに あらわれて\nはなしかけられる ように なります。");
 static u8 const* const sText_DifficultyOverworldMonsDesc[] = 
 {
     sText_DifficultyOverworldMonsDescOff,
@@ -387,15 +248,8 @@ static u8 const* const sText_DifficultyOverworldMonsDesc[] =
 };
 
 
-const u8 sText_DifficultyEVGainDescOff[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "All {PKMN} will never have EVs."
-);
-const u8 sText_DifficultyEVGainDescOn[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "{PKMN} gain EVs from Trainer battles based\n"
-    "on their nature.(Trainers never have EVs)"
-);
+const u8 sText_DifficultyEVGainDescOff[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}どの {PKMN}にも どりょくちが つきません。");
+const u8 sText_DifficultyEVGainDescOn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}トレーナーとの しょうぶで {PKMN}に せいかくに\nおうじた どりょくちが つきます。 あいてには つきません。");
 static u8 const* const sText_DifficultyEVGainDesc[] = 
 {
     sText_DifficultyEVGainDescOff,
@@ -403,16 +257,8 @@ static u8 const* const sText_DifficultyEVGainDesc[] =
 };
 
 
-const u8 sText_DifficultySwitchModeDescOff[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "After fainting an opposing {PKMN}, you will\n"
-    "not be able to switch out until your turn."
-);
-const u8 sText_DifficultySwitchModeDescOn[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "After fainting an opposing {PKMN} you will be\n"
-    "given a chance to switch out immediately."
-);
+const u8 sText_DifficultySwitchModeDescOff[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}あいての {PKMN}を たおしても じぶんの\nターンまで いれかえられません。");
+const u8 sText_DifficultySwitchModeDescOn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}あいての {PKMN}を たおすと すぐに\nいれかえる ことが できます。");
 static u8 const* const sText_DifficultySwitchModeDesc[] = 
 {
     sText_DifficultySwitchModeDescOff,
@@ -420,85 +266,55 @@ static u8 const* const sText_DifficultySwitchModeDesc[] =
 };
 
 
-const u8 sText_DifficultyBagWipeDescOff[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "You can take all Meta-Progression\n"
-    "into Adventures. (e.g. Items, Day Care)"
-);
-const u8 sText_DifficultyBagWipeDescOn[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Only your Partner {PKMN} and Key Items will\n"
-    "be taken into runs."
-);
+const u8 sText_DifficultyBagWipeDescOff[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ためた ものを すべて ぼうけんに もっていけます。\nたとえば どうぐや あずかりや。");
+const u8 sText_DifficultyBagWipeDescOn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}あいぼうの {PKMN}と だいじな どうぐだけを\nもっていけます。");
 static u8 const* const sText_DifficultyBagWipeDesc[] = 
 {
     sText_DifficultyBagWipeDescOff,
     sText_DifficultyBagWipeDescOn,
 };
 
-static u8 const sMenuName_RevisionMode[] = _("Revised Mode");
-static u8 const sMenuName_RevisionModeNever[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Disabled");
-static u8 const sMenuName_RevisionModeInRun[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Enabled in Runs");
-static u8 const sMenuName_RevisionModeAlwaysOn[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Enabled Always");
-static u8 const sMenuName_RevisionModeYes[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Yes");
+static u8 const sMenuName_RevisionMode[] = _("{JPN}かいてい モード");
+static u8 const sMenuName_RevisionModeNever[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}つかわない");
+static u8 const sMenuName_RevisionModeInRun[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ぼうけんちゅうだけ");
+static u8 const sMenuName_RevisionModeAlwaysOn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}いつも つかう");
+static u8 const sMenuName_RevisionModeYes[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}はい");
 //static u8 const sMenuName_RevisionModeNo[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}No");
 
-const u8 sText_RevisionModeDesc[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Enable {PKMN} edits, indicated by {FONT_SMALL_NARROW}{REVISED_EDIT}{FONT_NORMAL} icon.\n"
-    "Revised Typings, Abilities, Moves etc."
-);
+const u8 sText_RevisionModeDesc[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{FONT_SMALL_NARROW}{REVISED_EDIT}{FONT_NORMAL}の しるしが つく {PKMN}の てなおしを つかう。\nタイプ とくせい わざ などが かわります。");
 
-const u8 sText_RevisionModeNeverDesc[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "No changes active.\n"
-);
+const u8 sText_RevisionModeNeverDesc[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}なにも かわりません。\n");
 
-const u8 sText_RevisionModeInRunDesc[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Changes are only active while on an\n"
-    "Adventure.\n"
-    "(Can be viewed in the Pokédex)"
-);
+const u8 sText_RevisionModeInRunDesc[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ぼうけんちゅうだけ かわります。\nずかんで かくにん できます。\n");
 
-const u8 sText_RevisionModeAlwaysOnDesc[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Changes are always active.\n"
-    "This cannot be turned off once Enabled.\n"
-    "(Can be viewed in the Pokédex)"
-);
+const u8 sText_RevisionModeAlwaysOnDesc[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}いつも かわります。\nいちど つかうと もどせません。\nずかんで かくにん できます。");
 
-const u8 sText_RevisionModeYesDesc[] = _(
-    "Are you sure?\n"
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Your save file will be permanently\n"
-    "locked to this setting."
-);
+const u8 sText_RevisionModeYesDesc[] = _("{JPN}よろしいですか?\n{COLOR GREEN}{SHADOW LIGHT_GREEN}セーブデータは この せっていで\nずっと こていされます。");
 
 
 #ifdef ROGUE_DEBUG
-static u8 const sMenuName_Debug[] = _("DEBUG");
+static u8 const sMenuName_Debug[] = _("{JPN}デバッグ");
 
-static u8 const sMenuName_DebugToggleInfoPanel[] = _("INFO PANEL");
-static u8 const sMenuName_DebugToggleStealTeam[] = _("STEAL TEAM");
-static u8 const sMenuName_DebugToggleLvl5[] = _("TRAINER LVL5");
-static u8 const sMenuName_DebugToggleAllowSaveScum[] = _("ALLOW SAVE SCUM");
-static u8 const sMenuName_DebugToggleInstantCapture[] = _("INSTANT CATCH");
-static u8 const sMenuName_DebugToggleTodTintUsePlayerColour[] = _("PLAYER TOD TINT");
-static u8 const sMenuName_DebugToggleDebugShops[] = _("DEBUG SHOPS");
-static u8 const sMenuName_DebugToggleDebugLegends[] = _("DEBUG LEGENDS");
-static u8 const sMenuName_DebugToggleDebugMonQuery[] = _("Dump Mon Query");
-static u8 const sMenuName_DebugToggleDebugItemQuery[] = _("Dump Item Query");
-static u8 const sMenuName_DebugToggleHideFollower[] = _("Hide Follower");
-static u8 const sMenuName_DebugToggleStopWildSpawning[] = _("Stop Wild Spawn");
-static u8 const sMenuName_DebugToggleDisableAssistantTimeout[] = _("Disable Assist Timeout");
-static u8 const sMenuName_DebugToggleFullBattleHud[] = _("Full Battle HUD");
-static u8 const sMenuName_DebugToggleSpriteLayers[] = _("Sprite Layers");
-static u8 const sMenuName_DebugToggleAllOutfits[] = _("All outfits");
+static u8 const sMenuName_DebugToggleInfoPanel[] = _("{JPN}じょうほうパネル");
+static u8 const sMenuName_DebugToggleStealTeam[] = _("{JPN}チームを うばう");
+static u8 const sMenuName_DebugToggleLvl5[] = _("{JPN}トレーナー レベル5");
+static u8 const sMenuName_DebugToggleAllowSaveScum[] = _("{JPN}セーブやりなおし ゆるす");
+static u8 const sMenuName_DebugToggleInstantCapture[] = _("{JPN}すぐ つかまえる");
+static u8 const sMenuName_DebugToggleTodTintUsePlayerColour[] = _("{JPN}プレイヤーの ひかげ");
+static u8 const sMenuName_DebugToggleDebugShops[] = _("{JPN}デバッグ ショップ");
+static u8 const sMenuName_DebugToggleDebugLegends[] = _("{JPN}デバッグ でんせつ");
+static u8 const sMenuName_DebugToggleDebugMonQuery[] = _("{JPN}ポケモンの といあわせを だす");
+static u8 const sMenuName_DebugToggleDebugItemQuery[] = _("{JPN}どうぐの といあわせを だす");
+static u8 const sMenuName_DebugToggleHideFollower[] = _("{JPN}ついてくる ポケモンを かくす");
+static u8 const sMenuName_DebugToggleStopWildSpawning[] = _("{JPN}やせいの しゅつげんを とめる");
+static u8 const sMenuName_DebugToggleDisableAssistantTimeout[] = _("{JPN}アシストの じかんぎれを なくす");
+static u8 const sMenuName_DebugToggleFullBattleHud[] = _("{JPN}しょうぶの ひょうじを ぜんぶ だす");
+static u8 const sMenuName_DebugToggleSpriteLayers[] = _("{JPN}スプライトの そう");
+static u8 const sMenuName_DebugToggleAllOutfits[] = _("{JPN}すべての ふくそう");
 
-static u8 const sMenuName_DebugRangeStartDifficulty[] = _("START DIFFICULTY");
-static u8 const sMenuName_DebugRangeForcedRoute[] = _("FORCED ROUTE");
-static u8 const sMenuName_DebugRangeForcedEvilTeam[] = _("FORCED TEAM");
+static u8 const sMenuName_DebugRangeStartDifficulty[] = _("{JPN}さいしょの なんいど");
+static u8 const sMenuName_DebugRangeForcedRoute[] = _("{JPN}ルートを こていする");
+static u8 const sMenuName_DebugRangeForcedEvilTeam[] = _("{JPN}チームを こていする");
 #endif
 
 // Menu items

@@ -13842,7 +13842,7 @@ const u16 sRogueDexRegion_ROGUE[] =
 	POKEDEX_VARIANT_ROGUE_CLASSICPLUS,
 };
 
-const u8 sRogueDexRegionName_KANTO[] = _("Kanto");
+const u8 sRogueDexRegionName_KANTO[] = _("{JPN}カントー");
 
 const u16 sRogueDexRegion_KANTO[] = 
 {
@@ -13850,7 +13850,7 @@ const u16 sRogueDexRegion_KANTO[] =
 	POKEDEX_VARIANT_KANTO_LETSGO,
 };
 
-const u8 sRogueDexRegionName_JOHTO[] = _("Johto");
+const u8 sRogueDexRegionName_JOHTO[] = _("{JPN}ジョウト");
 
 const u16 sRogueDexRegion_JOHTO[] = 
 {
@@ -13858,7 +13858,7 @@ const u16 sRogueDexRegion_JOHTO[] =
 	POKEDEX_VARIANT_JOHTO_HGSS,
 };
 
-const u8 sRogueDexRegionName_HOENN[] = _("Hoenn");
+const u8 sRogueDexRegionName_HOENN[] = _("{JPN}ホウエン");
 
 const u16 sRogueDexRegion_HOENN[] = 
 {
@@ -13866,7 +13866,7 @@ const u16 sRogueDexRegion_HOENN[] =
 	POKEDEX_VARIANT_HOENN_ORAS,
 };
 
-const u8 sRogueDexRegionName_SINNOH[] = _("Sinnoh");
+const u8 sRogueDexRegionName_SINNOH[] = _("{JPN}シンオウ");
 
 const u16 sRogueDexRegion_SINNOH[] = 
 {
@@ -13874,7 +13874,7 @@ const u16 sRogueDexRegion_SINNOH[] =
 	POKEDEX_VARIANT_SINNOH_PL,
 };
 
-const u8 sRogueDexRegionName_UNOVA[] = _("Unova");
+const u8 sRogueDexRegionName_UNOVA[] = _("{JPN}イッシュ");
 
 const u16 sRogueDexRegion_UNOVA[] = 
 {
@@ -13882,14 +13882,14 @@ const u16 sRogueDexRegion_UNOVA[] =
 	POKEDEX_VARIANT_UNOVA_BW2,
 };
 
-const u8 sRogueDexRegionName_KALOS[] = _("Kalos");
+const u8 sRogueDexRegionName_KALOS[] = _("{JPN}カロス");
 
 const u16 sRogueDexRegion_KALOS[] = 
 {
 	POKEDEX_VARIANT_KALOS,
 };
 
-const u8 sRogueDexRegionName_ALOLA[] = _("Alola");
+const u8 sRogueDexRegionName_ALOLA[] = _("{JPN}アローラ");
 
 const u16 sRogueDexRegion_ALOLA[] = 
 {
@@ -13897,7 +13897,7 @@ const u16 sRogueDexRegion_ALOLA[] =
 	POKEDEX_VARIANT_ALOLA_USUM,
 };
 
-const u8 sRogueDexRegionName_GALAR[] = _("Galar");
+const u8 sRogueDexRegionName_GALAR[] = _("{JPN}ガラル");
 
 const u16 sRogueDexRegion_GALAR[] = 
 {
@@ -13907,7 +13907,7 @@ const u16 sRogueDexRegion_GALAR[] =
 	POKEDEX_VARIANT_GALAR_FULLDLC,
 };
 
-const u8 sRogueDexRegionName_PALDEA[] = _("Paldea");
+const u8 sRogueDexRegionName_PALDEA[] = _("{JPN}パルデア");
 
 const u16 sRogueDexRegion_PALDEA[] = 
 {

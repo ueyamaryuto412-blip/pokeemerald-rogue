@@ -121,7 +121,7 @@ static u8 const sMenuName_Affection[] = _("Affection FX");
 static u8 const sMenuName_ReleaseMons[] = _("Release Fainted {PKMN}");
 static u8 const sMenuName_TrainerDiversity[] = _("Diverse Trainer {PKMN}");
 
-static u8 const sMenuName_TrainerRogue[] = _("Rogue");
+static u8 const sMenuName_TrainerRogue[] = _("{JPN}バルキー");
 static u8 const sMenuName_TrainerKanto[] = _("Kanto");
 static u8 const sMenuName_TrainerJohto[] = _("Johto");
 static u8 const sMenuName_TrainerHoenn[] = _("Hoenn");

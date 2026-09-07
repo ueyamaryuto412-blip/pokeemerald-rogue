@@ -69,12 +69,12 @@ static const u8 sTypeNames[NUMBER_OF_MON_TYPES][10] = // alt version of gTypeNam
     [TYPE_WATER] = _("Water"),
     [TYPE_GRASS] = _("Grass"),
     [TYPE_ELECTRIC] = _("Electric"),
-    [TYPE_PSYCHIC] = _("Psychic"),
+    [TYPE_PSYCHIC] = _("{JPN}サイコキネシス"),
     [TYPE_ICE] = _("Ice"),
     [TYPE_DRAGON] = _("Dragon"),
     [TYPE_DARK] = _("Dark"),
 #ifdef ROGUE_EXPANSION
-    [TYPE_FAIRY] = _("Fairy"),
+    [TYPE_FAIRY] = _("{JPN}ピッピ"),
 #endif
 };
 

@@ -399,10 +399,10 @@ static const u8 sWeatherNames[22][14] = {
     [WEATHER_MISTY_FOG]          = _("Fog"),
 #endif
     [WEATHER_VOLCANIC_ASH]       = _("Ash"),
-    [WEATHER_SANDSTORM]          = _("Sandstorm"),
+    [WEATHER_SANDSTORM]          = _("{JPN}すなあらし"),
     [WEATHER_UNDERWATER]         = _("Underwater"),
     [WEATHER_SHADE]              = _("Shade"),
-    [WEATHER_DROUGHT]            = _("Drought"),
+    [WEATHER_DROUGHT]            = _("{JPN}ひでり"),
     [WEATHER_DOWNPOUR]           = _("Downpour"),
     [WEATHER_UNDERWATER_BUBBLES] = _("Bubbles"),
     [WEATHER_ABNORMAL]           = _("Abnormal"),

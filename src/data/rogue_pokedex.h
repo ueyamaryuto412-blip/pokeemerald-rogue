@@ -7307,7 +7307,7 @@ const u16 sRogueDexVariant_EXTRAS_CONQUEST[] =
 	SPECIES_RAYQUAZA,
 };
 
-const u8 sRogueDexVariantName_LEGENDS_ARCEUS[] = _("Arceus");
+const u8 sRogueDexVariantName_LEGENDS_ARCEUS[] = _("{JPN}アルセウス");
 
 const u16 sRogueDexVariant_LEGENDS_ARCEUS[] = 
 {
@@ -13834,7 +13834,7 @@ const u16 sRogueDexVariant_EXTRAS_COLOSSEUM[] =
 	SPECIES_DRAGONITE,
 };
 
-const u8 sRogueDexRegionName_ROGUE[] = _("Rogue");
+const u8 sRogueDexRegionName_ROGUE[] = _("{JPN}バルキー");
 
 const u16 sRogueDexRegion_ROGUE[] = 
 {

@@ -47,7 +47,7 @@ const u8 gText_MoveShortNotVeryEffective[] = _("{COLOR WHITE}{SHADOW DYNAMIC_COL
 
 // Trainers
 //
-const u8 gText_TrainerName_Default[] = _("Rogue");
+const u8 gText_TrainerName_Default[] = _("{JPN}バルキー");
 
 const u8 gText_TrainerName_Brendan[] = _("BRENDAN");
 const u8 gText_TrainerName_May[] = _("MAY");

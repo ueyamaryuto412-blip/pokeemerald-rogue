@@ -150,7 +150,7 @@ script Rogue_Boss_BufferTypeHint
             bufferstring(STR_VAR_1, "Electric")
 
         case TYPE_PSYCHIC:
-            bufferstring(STR_VAR_1, "Psychic")
+            bufferstring(STR_VAR_1, "{JPN}サイコキネシス")
 
         case TYPE_ICE:
             bufferstring(STR_VAR_1, "Ice")
@@ -162,7 +162,7 @@ script Rogue_Boss_BufferTypeHint
             bufferstring(STR_VAR_1, "Dark")
 
         case 18: //TYPE_FAIRY
-            bufferstring(STR_VAR_1, "Fairy")
+            bufferstring(STR_VAR_1, "{JPN}ピッピ")
 
         default:
             bufferstring(STR_VAR_1, "???")

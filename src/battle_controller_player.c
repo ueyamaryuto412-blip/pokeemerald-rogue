@@ -267,6 +267,10 @@ static void HandleInputChooseAction(u32 battler)
 {
     u16 itemId = gBattleResources->bufferA[battler][2] | (gBattleResources->bufferA[battler][3] << 8);
 
+    // R を押したときの目印。アイテムを使えない場面では 拾われずに残るので、
+    // 行動選択に もどってくるたびに 消しておく。
+    sOpenTypeChartFromBattle = FALSE;
+
     DoBounceEffect(battler, BOUNCE_HEALTHBOX, 7, 1);
     DoBounceEffect(battler, BOUNCE_MON, 7, 1);
 
@@ -335,12 +339,7 @@ static void HandleInputChooseAction(u32 battler)
     {
         RogueBH_HandleStatViewUpdate(battler);
 
-        if(sOpenTypeChartFromBattle)
-        {
-            sOpenTypeChartFromBattle = FALSE;
-            Rogue_OpenTypeChartFromBattle();
-        }
-        else if(RogueBH_IsStatViewActive())
+        if(RogueBH_IsStatViewActive())
         {
             if (JOY_NEW(A_BUTTON))
             {
@@ -1712,7 +1711,12 @@ static void OpenBagAndChooseItem(u32 battler)
         FreeAllWindowBuffers();
 
         // Hook into this behaviour, if we are pressing A, open pokedex on mon
-        if(RogueBH_IsStatViewActive())
+        if(sOpenTypeChartFromBattle)
+        {
+            sOpenTypeChartFromBattle = FALSE;
+            Rogue_OpenTypeChartFromBattle();
+        }
+        else if(RogueBH_IsStatViewActive())
         {
             Rogue_ShowPokedexFromBattle();
         }

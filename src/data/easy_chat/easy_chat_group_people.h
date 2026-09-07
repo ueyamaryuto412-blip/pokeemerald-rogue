@@ -1,4 +1,4 @@
-const u8 gEasyChatWord_Opponent[] = _("OPPONENT");
+const u8 gEasyChatWord_Opponent[] = _("{JPN}あいて");
 const u8 gEasyChatWord_I[] = _("I");
 const u8 gEasyChatWord_You[] = _("YOU");
 const u8 gEasyChatWord_Yours[] = _("YOURS");

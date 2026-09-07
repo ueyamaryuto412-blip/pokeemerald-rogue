@@ -13834,7 +13834,7 @@ const u16 sRogueDexVariant_EXTRAS_COLOSSEUM[] =
 	SPECIES_DRAGONITE,
 };
 
-const u8 sRogueDexRegionName_ROGUE[] = _("{JPN}バルキー");
+const u8 sRogueDexRegionName_ROGUE[] = _("{JPN}ローグ");
 
 const u16 sRogueDexRegion_ROGUE[] = 
 {

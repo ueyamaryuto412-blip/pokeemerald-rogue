@@ -1350,7 +1350,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .speciesName = _("{JPN}カジリガメ"),                                                    \
         .cryId = CRY_DREDNAW,                                                           \
         .natDexNum = NATIONAL_DEX_DREDNAW,                                              \
-        .categoryName = _("{JPN}かみつく"),                                                      \
+        .categoryName = _("{JPN}かみつき"),                                                      \
         .footprint = gMonFootprint_Drednaw,                                             \
         LEARNSETS(Drednaw),                                                             \
         .formSpeciesIdTable = sDrednawFormSpeciesIdTable,                               \
@@ -2652,7 +2652,7 @@ const struct SpeciesInfo gSpeciesInfoGen8[] =
         .speciesName = _("{JPN}タタッコ"),
         .cryId = CRY_CLOBBOPUS,
         .natDexNum = NATIONAL_DEX_CLOBBOPUS,
-        .categoryName = _("{JPN}ガチゴラス"),
+        .categoryName = _("{JPN}だだっこ"),
         .height = 6,
         .weight = 40,
         .description = POKEDEX_DESC_STRING(

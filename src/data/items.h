@@ -6672,7 +6672,7 @@ const struct Item gItems[] =
 
     [ITEM_METRONOME] =
     {
-        .name = _("{JPN}ゆびをふる"),
+        .name = _("{JPN}メトロノーム"),
         .price = 4000,
         .holdEffect = HOLD_EFFECT_METRONOME,
         .holdEffectParam = 20,

@@ -121,7 +121,7 @@ static u8 const sMenuName_Affection[] = _("{JPN}なつきの こうか");
 static u8 const sMenuName_ReleaseMons[] = _("{JPN}ひんしの {PKMN}を にがす");
 static u8 const sMenuName_TrainerDiversity[] = _("{JPN}トレーナーの {PKMN}を ばらけさせる");
 
-static u8 const sMenuName_TrainerRogue[] = _("{JPN}バルキー");
+static u8 const sMenuName_TrainerRogue[] = _("{JPN}ローグ");
 static u8 const sMenuName_TrainerKanto[] = _("{JPN}カントー");
 static u8 const sMenuName_TrainerJohto[] = _("{JPN}ジョウト");
 static u8 const sMenuName_TrainerHoenn[] = _("{JPN}ホウエン");

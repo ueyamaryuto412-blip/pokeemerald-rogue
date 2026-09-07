@@ -47,7 +47,7 @@ const u8 gText_MoveShortNotVeryEffective[] = _("{JPN}{COLOR WHITE}{SHADOW DYNAMI
 
 // Trainers
 //
-const u8 gText_TrainerName_Default[] = _("{JPN}バルキー");
+const u8 gText_TrainerName_Default[] = _("{JPN}ローグ");
 
 const u8 gText_TrainerName_Brendan[] = _("{JPN}ユウキ");
 const u8 gText_TrainerName_May[] = _("{JPN}ハルカ");

@@ -5997,7 +5997,7 @@ void Task_MaxMushroom(u8 taskId)
 {
     static const u8 askText[] = _("{JPN}{STR_VAR_1}に キョダイマックスの\nいんしを あたえますか?");
     static const u8 doneText[] = _("{JPN}{STR_VAR_1}は キョダイマックスの いんしを えた!{PAUSE_UNTIL_PRESS}");
-    static const u8 failText[] = _("{JPN}{STR_VAR_1}は すでに キョダイマックスの いんしを もっている。{PAUSE_UNTIL_PRESS}");
+    static const u8 failText[] = _("{JPN}{STR_VAR_1}は キョダイマックスの いんしを もっている。{PAUSE_UNTIL_PRESS}");
 
     s16 *data = gTasks[taskId].data;
     struct Pokemon *mon = &gPlayerParty[tMonId];

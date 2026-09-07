@@ -119,7 +119,7 @@ ProfileMan_Text_EvenBetterThanLastProfile:
 	.string "{JPN}やった! ありがとう!\pまえに みせて もらった ものより\nもっと すてきだと いいな。$"
 
 ProfileMan_Text_LikeProfileWayItIs:
-	.string "{JPN}おや いまの じこしょうかいが きに いってるんだね。\pむりも ないよ いまのままでも\nじゅうぶん すてきだもの。$"
+	.string "{JPN}おや いまの じこしょうかいが きに いってるのね。\pむりも ないよ いまのままでも\nじゅうぶん すてきだもの。$"
 
 ProfileMan_Text_FantasticProfile:
 	.string "{JPN}す すごい!\pきみの じこしょうかい さいこうだ!\nきみらしさが よく でて いるよ。\pこれを きいたら だれだって\nきみに ひきつけられる はずさ!\pありがとう!$"

@@ -249,7 +249,7 @@ static u8 const* const sText_DifficultyOverworldMonsDesc[] =
 
 
 const u8 sText_DifficultyEVGainDescOff[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}どの {PKMN}にも どりょくちが つきません。");
-const u8 sText_DifficultyEVGainDescOn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}トレーナーとの しょうぶで {PKMN}に せいかくに\nおうじた どりょくちが つきます。 あいてには つきません。");
+const u8 sText_DifficultyEVGainDescOn[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}トレーナーとの しょうぶで {PKMN}に せいかくに\nおうじた どりょくちが つきます。あいてには つきません。");
 static u8 const* const sText_DifficultyEVGainDesc[] = 
 {
     sText_DifficultyEVGainDescOff,

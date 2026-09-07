@@ -271,30 +271,15 @@ static const u8 sRareCandyDesc[] = _("{JPN}あたえると ポケモン\n1ひき
 
 static const u8 sExpCandyXSDesc[] = _("{JPN}ポケモン 1ぴきに\nごく すこしの\nけいけんちを あげる。");
 
-static const u8 sExpCandySDesc[] = _(
-    "Gives a small\n"
-    "amount of Exp. to\n"
-    "a single Pokémon.");
+static const u8 sExpCandySDesc[] = _("{JPN}ポケモン 1ぴきに\nすこしの けいけんちを\nあげる。");
 
-static const u8 sExpCandyMDesc[] = _(
-    "Gives a moderate\n"
-    "amount of Exp. to\n"
-    "a single Pokémon.");
+static const u8 sExpCandyMDesc[] = _("{JPN}ポケモン 1ぴきに\nそこそこの けいけんちを\nあげる。");
 
-static const u8 sExpCandyLDesc[] = _(
-    "Gives a large\n"
-    "amount of Exp. to\n"
-    "a single Pokémon.");
+static const u8 sExpCandyLDesc[] = _("{JPN}ポケモン 1ぴきに\nおおくの けいけんちを\nあげる。");
 
-static const u8 sExpCandyXLDesc[] = _(
-    "Gives a very large\n"
-    "amount of Exp. to\n"
-    "a single Pokémon.");
+static const u8 sExpCandyXLDesc[] = _("{JPN}ポケモン 1ぴきに\nとても おおくの\nけいけんちを あげる。");
 
-static const u8 sDynamaxCandyDesc[] = _(
-    "Raises the Dynamax\n"
-    "Level of a single\n"
-    "Pokémon by one.");
+static const u8 sDynamaxCandyDesc[] = _("{JPN}ポケモン 1ぴきの\nダイマックスレベルを\n1つ あげる。");
 
 // Medicinal Flutes
 static const u8 sBlueFluteDesc[] = _("{JPN}ねむり じょうたいを\nかいふくする。");
@@ -309,29 +294,17 @@ static const u8 sBlackFluteDesc[] = _("{JPN}つかった ばしょで\nつよい
 static const u8 sWhiteFluteDesc[] = _("{JPN}つかった ばしょで\nよわいポケモンと そうぐう\nしやすくなる。");
 
 // Encounter Modifiers
-static const u8 sRepelDesc[] = _(
-    "Repels weak wild\n"
-    "Pokémon for 100\n"
-    "steps.");
+static const u8 sRepelDesc[] = _("{JPN}100ぽの あいだ\nよわい やせいポケモンを\nよせつけない。");
 
 static const u8 sSuperRepelDesc[] = _("{JPN}よわい やせいの\nポケモンが まったく でて\nこなくなる。");
 
 static const u8 sMaxRepelDesc[] = _("{JPN}よわい やせいの\nポケモンが まったく でて\nこなくなる。");
 
-static const u8 sLureDesc[] = _(
-    "Makes Pokémon more\n"
-    "likely to appear\n"
-    "for 100 steps.");
+static const u8 sLureDesc[] = _("{JPN}100ぽの あいだ\nポケモンが でやすく\nなる。");
 
-static const u8 sSuperLureDesc[] = _(
-    "Makes Pokémon more\n"
-    "likely to appear\n"
-    "for 200 steps.");
+static const u8 sSuperLureDesc[] = _("{JPN}200ぽの あいだ\nポケモンが でやすく\nなる。");
 
-static const u8 sMaxLureDesc[] = _(
-    "Makes Pokémon more\n"
-    "likely to appear\n"
-    "for 250 steps.");
+static const u8 sMaxLureDesc[] = _("{JPN}250ぽの あいだ\nポケモンが でやすく\nなる。");
 
 static const u8 sEscapeRopeDesc[] = _("{JPN}どうくつや ダンジョンから\nぬけだすことが できる。\nなんどでも つかえる。");
 
@@ -404,10 +377,7 @@ static const u8 sXAccuracyDesc[] = _(
 
 static const u8 sDireHitDesc[] = _("{JPN}きゅうしょりつが おおきく\nあがる。 いちどしか\nつかうことが できない。");
 
-static const u8 sGuardSpecDesc[] = _(
-    "Prevents stat\n"
-    "reduction when\n"
-    "used in battle.");
+static const u8 sGuardSpecDesc[] = _("{JPN}バトルで つかうと\nのうりょくが さがるのを\nふせぐ。");
 
 // Escape Items
 static const u8 sPokeDollDesc[] = _("{JPN}やせいポケモンとの\nせんとうから ぜったいに\nにげられる。");
@@ -416,28 +386,16 @@ static const u8 sFluffyTailDesc[] = _("{JPN}やせいポケモンとの\nせん�
 
 static const u8 sPokeToyDesc[] = _("{JPN}やせいポケモンとの\nせんとうから ぜったいに\nにげられる。");
 
-static const u8 sMaxMushroomsDesc[] = _(
-    "Raises every stat\n"
-    "during one battle\n"
-    "by one stage.");
+static const u8 sMaxMushroomsDesc[] = _("{JPN}1かいの バトルで\nすべての のうりょくを\n1だんかい あげる。");
 
 // Treasures
-static const u8 sBottleCapDesc[] = _(
-    "A beautiful bottle\n"
-    "cap that gives off\n"
-    "a silver gleam.");
+static const u8 sBottleCapDesc[] = _("{JPN}ぎんいろに かがやく\nうつくしい\nおうかん。");
 
-static const u8 sGoldBottleCapDesc[] = _(
-    "A beautiful bottle\n"
-    "cap that gives off\n"
-    "a golden gleam.");
+static const u8 sGoldBottleCapDesc[] = _("{JPN}きんいろに かがやく\nうつくしい\nおうかん。");
 
 static const u8 sNuggetDesc[] = _("{JPN}キラキラと きんいろに\nひかる じゅんきん せいの\nたま。");
 
-static const u8 sBigNuggetDesc[] = _(
-    "A big nugget made\n"
-    "of gold, sellable\n"
-    "at a high price.");
+static const u8 sBigNuggetDesc[] = _("{JPN}きんの おおきな\nかたまり。たかく\nうれる。");
 
 static const u8 sTinyMushroomDesc[] = _("{JPN}いちぶの マニアの\nあいだでは けっこう\nにんきが たかい。");
 
@@ -449,105 +407,51 @@ static const u8 sPearlDesc[] = _("{JPN}きれいな ぎんいろに\nひかる �
 
 static const u8 sBigPearlDesc[] = _("{JPN}きれいな ぎんいろに\nひかる かなり おおつぶの\nしんじゅ。");
 
-static const u8 sPearlStringDesc[] = _(
-    "Very large pearls\n"
-    "that would sell at a\n"
-    "high price.");
+static const u8 sPearlStringDesc[] = _("{JPN}とても おおきな\nしんじゅ。たかく\nうれる。");
 
 static const u8 sStardustDesc[] = _("{JPN}てざわりが サラサラの\nあかくて きれいな すな。");
 
 static const u8 sStarPieceDesc[] = _("{JPN}キラキラと あかく ひかる\nきれいな ほうせきの\nかけら。");
 
-static const u8 sCometShardDesc[] = _(
-    "A comet's shard.\n"
-    "It would sell for a\n"
-    "high price.");
+static const u8 sCometShardDesc[] = _("{JPN}すいせいの かけら。\nたかく うれる。");
 
 static const u8 sShoalSaltDesc[] = _("{JPN}あさせのほらあなで\nみつけた しお。");
 
 static const u8 sShoalShellDesc[] = _("{JPN}あさせのほらあなで\nみつけた かいがら。");
 
-static const u8 sRedShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+static const u8 sRedShardDesc[] = _("{JPN}むかしの どうぐの\nかけら。やすく\nうれる。");
 
-static const u8 sBlueShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+static const u8 sBlueShardDesc[] = _("{JPN}むかしの どうぐの\nかけら。やすく\nうれる。");
 
-static const u8 sYellowShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+static const u8 sYellowShardDesc[] = _("{JPN}むかしの どうぐの\nかけら。やすく\nうれる。");
 
-static const u8 sGreenShardDesc[] = _(
-    "A shard from an\n"
-    "ancient item. Can\n"
-    "be sold cheaply.");
+static const u8 sGreenShardDesc[] = _("{JPN}むかしの どうぐの\nかけら。やすく\nうれる。");
 
 static const u8 sHeartScaleDesc[] = _("{JPN}きれいな ハートの\nかたちの とても\nめずらしい ウロコ。");
 
-static const u8 sHoneyDesc[] = _(
-    "Sweet honey that\n"
-    "attracts wild\n"
-    "Pokémon when used.");
+static const u8 sHoneyDesc[] = _("{JPN}つかうと やせいの\nポケモンを よびよせる\nあまい ミツ。");
 
-static const u8 sRareBoneDesc[] = _(
-    "A very rare bone.\n"
-    "It can be sold at\n"
-    "a high price.");
+static const u8 sRareBoneDesc[] = _("{JPN}とても めずらしい\nほね。たかく うれる。");
 
-static const u8 sOddKeystoneDesc[] = _(
-    "Voices can be heard\n"
-    "from this odd stone\n"
-    "occasionally.");
+static const u8 sOddKeystoneDesc[] = _("{JPN}ときどき こえが\nきこえる ふしぎな\nいし。");
 
-static const u8 sPrettyFeatherDesc[] = _(
-    "A beautiful yet\n"
-    "plain feather that\n"
-    "does nothing.");
+static const u8 sPrettyFeatherDesc[] = _("{JPN}うつくしいが なんの\nこうかも ない\nはね。");
 
-static const u8 sRelicCopperDesc[] = _(
-    "A copper coin used\n"
-    "long ago. It sells\n"
-    "at a high price.");
+static const u8 sRelicCopperDesc[] = _("{JPN}むかし つかわれた\nどうかへい。たかく\nうれる。");
 
-static const u8 sRelicSilverDesc[] = _(
-    "A silver coin used\n"
-    "long ago. It sells\n"
-    "at a high price.");
+static const u8 sRelicSilverDesc[] = _("{JPN}むかし つかわれた\nぎんかへい。たかく\nうれる。");
 
-static const u8 sRelicGoldDesc[] = _(
-    "A gold coin used\n"
-    "long ago. It sells\n"
-    "at a high price.");
+static const u8 sRelicGoldDesc[] = _("{JPN}むかし つかわれた\nきんかへい。たかく\nうれる。");
 
-static const u8 sRelicVaseDesc[] = _(
-    "A vase made long\n"
-    "ago. It sells at\n"
-    "a high price.");
+static const u8 sRelicVaseDesc[] = _("{JPN}むかし つくられた\nつぼ。たかく うれる。");
 
-static const u8 sRelicBandDesc[] = _(
-    "An old bracelet.\n"
-    "It sells at a\n"
-    "high price.");
+static const u8 sRelicBandDesc[] = _("{JPN}ふるい うでわ。\nたかく うれる。");
 
-static const u8 sRelicStatueDesc[] = _(
-    "An old statue.\n"
-    "It sells at a\n"
-    "high price.");
+static const u8 sRelicStatueDesc[] = _("{JPN}ふるい ぞう。\nたかく うれる。");
 
-static const u8 sRelicCrownDesc[] = _(
-    "An old crown.\n"
-    "It sells at a\n"
-    "high price.");
+static const u8 sRelicCrownDesc[] = _("{JPN}ふるい おうかん。\nたかく うれる。");
 
-static const u8 sStrangeSouvenirDesc[] = _(
-    "An ornament that\n"
-    "depicts a Pokémon\n"
-    "from Alola.");
+static const u8 sStrangeSouvenirDesc[] = _("{JPN}アローラの ポケモンを\nかたどった\nかざり。");
 
 // Fossils
 static const u8 sHelixFossilDesc[] = _("{JPN}おおむかし うみに\nすんでいた こだい\nポケモンの カセキ。");
@@ -556,106 +460,46 @@ static const u8 sDomeFossilDesc[] = _("{JPN}おおむかし うみに\nすんで
 
 static const u8 sOldAmberDesc[] = _("{JPN}あかみを おびて\nすけている。");
 
-static const u8 sRootFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling Pokémon.");
+static const u8 sRootFossilDesc[] = _("{JPN}むかし かいていに\nすんでいた ポケモンの\nカセキ。");
 
-static const u8 sClawFossilDesc[] = _(
-    "A fossil of an\n"
-    "ancient, seafloor-\n"
-    "dwelling Pokémon.");
+static const u8 sClawFossilDesc[] = _("{JPN}むかし かいていに\nすんでいた ポケモンの\nカセキ。");
 
-static const u8 sArmorFossilDesc[] = _(
-    "A piece of a\n"
-    "prehistoric Poké-\n"
-    "mon's head.");
+static const u8 sArmorFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nあたまの かけら。");
 
-static const u8 sSkullFossilDesc[] = _(
-    "A piece of a\n"
-    "prehistoric Poké-\n"
-    "mon's head.");
+static const u8 sSkullFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nあたまの かけら。");
 
-static const u8 sCoverFossilDesc[] = _(
-    "A piece of a\n"
-    "prehistoric Poké-\n"
-    "mon's back.");
+static const u8 sCoverFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nせなかの かけら。");
 
-static const u8 sPlumeFossilDesc[] = _(
-    "A piece of a\n"
-    "prehistoric Poké-\n"
-    "mon's wing.");
+static const u8 sPlumeFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nつばさの かけら。");
 
-static const u8 sJawFossilDesc[] = _(
-    "A piece of a prehis-\n"
-    "toric Pokémon's\n"
-    "large jaw.");
+static const u8 sJawFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nおおきな あごの\nかけら。");
 
-static const u8 sSailFossilDesc[] = _(
-    "A piece of a prehis-\n"
-    "toric Pokémon's\n"
-    "skin sail.");
+static const u8 sSailFossilDesc[] = _("{JPN}おおむかしの ポケモンの\nせびれの かけら。");
 
-static const u8 sFossilizedBirdDesc[] = _(
-    "A fossil of an\n"
-    "ancient, sky-\n"
-    "soaring Pokémon.");
+static const u8 sFossilizedBirdDesc[] = _("{JPN}むかし そらを とんでいた\nポケモンの カセキ。");
 
-static const u8 sFossilizedFishDesc[] = _(
-    "A fossil of an\n"
-    "ancient, sea-\n"
-    "dwelling Pokémon.");
+static const u8 sFossilizedFishDesc[] = _("{JPN}むかし うみに すんでいた\nポケモンの カセキ。");
 
-static const u8 sFossilizedDrakeDesc[] = _(
-    "A fossil of an\n"
-    "ancient, land-\n"
-    "roaming Pokémon.");
+static const u8 sFossilizedDrakeDesc[] = _("{JPN}むかし りくに すんでいた\nポケモンの カセキ。");
 
-static const u8 sFossilizedDinoDesc[] = _(
-    "A fossil of an\n"
-    "ancient, sea-\n"
-    "dwelling Pokémon.");
+static const u8 sFossilizedDinoDesc[] = _("{JPN}むかし うみに すんでいた\nポケモンの カセキ。");
 
 // Mulch
-static const u8 sGrowthMulchDesc[] = _(
-    "A fertilizer that\n"
-    "accelerates the\n"
-    "growth of Berries.");
+static const u8 sGrowthMulchDesc[] = _("{JPN}きのみの せいちょうを\nはやめる ひりょう。");
 
-static const u8 sDampMulchDesc[] = _(
-    "A fertilizer that\n"
-    "decelerates the\n"
-    "growth of Berries.");
+static const u8 sDampMulchDesc[] = _("{JPN}きのみの せいちょうを\nおそくする ひりょう。");
 
-static const u8 sStableMulchDesc[] = _(
-    "A fertilizer that\n"
-    "ups the life time\n"
-    "of Berry trees.");
+static const u8 sStableMulchDesc[] = _("{JPN}きのみの きの\nじゅみょうを のばす\nひりょう。");
 
-static const u8 sGooeyMulchDesc[] = _(
-    "A fertilizer that\n"
-    "makes more Berries\n"
-    "regrow after fall.");
+static const u8 sGooeyMulchDesc[] = _("{JPN}おちたあとに きのみが\nおおく はえなおる\nひりょう。");
 
-static const u8 sRichMulchDesc[] = _(
-    "A fertilizer that\n"
-    "ups the number of\n"
-    "Berries harvested.");
+static const u8 sRichMulchDesc[] = _("{JPN}とれる きのみの\nかずが ふえる\nひりょう。");
 
-static const u8 sSurpriseMulchDesc[] = _(
-    "A fertilizer that\n"
-    "ups the chance of\n"
-    "Berry mutations.");
+static const u8 sSurpriseMulchDesc[] = _("{JPN}きのみが へんいする\nかくりつが あがる\nひりょう。");
 
-static const u8 sBoostMulchDesc[] = _(
-    "A fertilizer that\n"
-    "ups the dry speed\n"
-    "of soft soil.");
+static const u8 sBoostMulchDesc[] = _("{JPN}やわらかい つちが\nかわく はやさを\nあげる ひりょう。");
 
-static const u8 sAmazeMulchDesc[] = _(
-    "A fertilizer Rich\n"
-    "Surprising and\n"
-    "Boosting as well.");
+static const u8 sAmazeMulchDesc[] = _("{JPN}ゆたかで おどろきが\nあって そだちも よい\nひりょう。");
 
 // Apricorns
 static const u8 sRedApricornDesc[] = _("{JPN}あかい ぼんぐり。\nつーんと はなにくる\nにおいがする。");
@@ -664,10 +508,7 @@ static const u8 sBlueApricornDesc[] = _("{JPN}あおい ぼんぐり。 すこ�
 
 static const u8 sYellowApricornDesc[] = _("{JPN}きいろの ぼんぐり。\nさわやかな かおりが\nする。");
 
-static const u8 sGreenApricornDesc[] = _(
-    "A green apricorn.\n"
-    "It has a strange,\n"
-    "aromatic scent.");
+static const u8 sGreenApricornDesc[] = _("{JPN}みどりの ぼんぐり。\nふしぎな かおりが\nする。");
 
 static const u8 sPinkApricornDesc[] = _("{JPN}ももいろの ぼんぐり。\nあまそうな いい\nにおいがする。");
 
@@ -675,226 +516,97 @@ static const u8 sWhiteApricornDesc[] = _("{JPN}しろい ぼんぐり。 なん�
 
 static const u8 sBlackApricornDesc[] = _("{JPN}くろい ぼんぐり。\nなんともいえない\nにおいがする。");
 
-static const u8 sWishingPieceDesc[] = _(
-    "Throw into a\n"
-    "{PKMN} Den to attract\n"
-    "Dynamax Pokémon.");
+static const u8 sWishingPieceDesc[] = _("{JPN}{PKMN}の すあなに\nなげて ダイマックスの\nポケモンを よびよせる。");
 
-static const u8 sGalaricaTwigDesc[] = _(
-    "A twig from a tree\n"
-    "in Galar called\n"
-    "Galarica.");
+static const u8 sGalaricaTwigDesc[] = _("{JPN}ガラルの ガラナツと\nいう きの えだ。");
 
-static const u8 sArmoriteOreDesc[] = _(
-    "A rare ore. Can be\n"
-    "found in the Isle\n"
-    "of Armor at Galar.");
+static const u8 sArmoriteOreDesc[] = _("{JPN}めずらしい こうせき。\nガラルの ヨロイじまで\nみつかる。");
 
-static const u8 sDyniteOreDesc[] = _(
-    "A mysterious ore.\n"
-    "It can be found in\n"
-    "Galar's Max Lair.");
+static const u8 sDyniteOreDesc[] = _("{JPN}ふしぎな こうせき。\nガラルの マックスラボで\nみつかる。");
 
 // Mail
-static const u8 sOrangeMailDesc[] = _(
-    "A Zigzagoon-print\n"
-    "Mail to be held by\n"
-    "a Pokémon.");
+static const u8 sOrangeMailDesc[] = _("{JPN}ポケモンに もたせる\nジグザグマの もようの\nてがみ。");
 
-static const u8 sHarborMailDesc[] = _(
-    "A Wingull-print\n"
-    "Mail to be held by\n"
-    "a Pokémon.");
+static const u8 sHarborMailDesc[] = _("{JPN}ポケモンに もたせる\nキャモメの もようの\nてがみ。");
 
-static const u8 sGlitterMailDesc[] = _(
-    "A Pikachu-print\n"
-    "Mail to be held by\n"
-    "a Pokémon.");
+static const u8 sGlitterMailDesc[] = _("{JPN}ポケモンに もたせる\nピカチュウの もようの\nてがみ。");
 
-static const u8 sMechMailDesc[] = _(
-    "A Magnemite-print\n"
-    "Mail to be held by\n"
-    "a Pokémon.");
+static const u8 sMechMailDesc[] = _("{JPN}ポケモンに もたせる\nコイルの もようの\nてがみ。");
 
-static const u8 sWoodMailDesc[] = _(
-    "A Slakoth-print\n"
-    "Mail to be held by\n"
-    "a Pokémon.");
+static const u8 sWoodMailDesc[] = _("{JPN}ポケモンに もたせる\nナマケロの もようの\nてがみ。");
 
-static const u8 sWaveMailDesc[] = _(
-    "A Wailmer-print\n"
-    "Mail to be held by\n"
-    "a Pokémon.");
+static const u8 sWaveMailDesc[] = _("{JPN}ポケモンに もたせる\nホエルコの もようの\nてがみ。");
 
-static const u8 sBeadMailDesc[] = _(
-    "Mail featuring a\n"
-    "sketch of the\n"
-    "holding Pokémon.");
+static const u8 sBeadMailDesc[] = _("{JPN}もっている ポケモンの\nえが かかれた\nてがみ。");
 
-static const u8 sShadowMailDesc[] = _(
-    "A Duskull-print\n"
-    "Mail to be held by\n"
-    "a Pokémon.");
+static const u8 sShadowMailDesc[] = _("{JPN}ポケモンに もたせる\nヨマワルの もようの\nてがみ。");
 
-static const u8 sTropicMailDesc[] = _(
-    "A Bellossom-print\n"
-    "Mail to be held by\n"
-    "a Pokémon.");
+static const u8 sTropicMailDesc[] = _("{JPN}ポケモンに もたせる\nキレイハナの もようの\nてがみ。");
 
-static const u8 sDreamMailDesc[] = _(
-    "Mail featuring a\n"
-    "sketch of the\n"
-    "holding Pokémon.");
+static const u8 sDreamMailDesc[] = _("{JPN}もっている ポケモンの\nえが かかれた\nてがみ。");
 
-static const u8 sFabMailDesc[] = _(
-    "A gorgeous-print\n"
-    "Mail to be held\n"
-    "by a Pokémon.");
+static const u8 sFabMailDesc[] = _("{JPN}ポケモンに もたせる\nごうかな もようの\nてがみ。");
 
-static const u8 sRetroMailDesc[] = _(
-    "Mail featuring the\n"
-    "drawings of three\n"
-    "Pokémon.");
+static const u8 sRetroMailDesc[] = _("{JPN}3びきの ポケモンの\nえが かかれた\nてがみ。");
 
 // Evolution Items
-static const u8 sFireStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+static const u8 sFireStoneDesc[] = _("{JPN}とくていの ポケモンを\nしんかさせる。");
 
-static const u8 sWaterStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+static const u8 sWaterStoneDesc[] = _("{JPN}とくていの ポケモンを\nしんかさせる。");
 
-static const u8 sThunderStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+static const u8 sThunderStoneDesc[] = _("{JPN}とくていの ポケモンを\nしんかさせる。");
 
-static const u8 sLeafStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+static const u8 sLeafStoneDesc[] = _("{JPN}とくていの ポケモンを\nしんかさせる。");
 
-static const u8 sIceStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+static const u8 sIceStoneDesc[] = _("{JPN}とくていの ポケモンを\nしんかさせる。");
 
-static const u8 sSunStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+static const u8 sSunStoneDesc[] = _("{JPN}とくていの ポケモンを\nしんかさせる。");
 
-static const u8 sMoonStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+static const u8 sMoonStoneDesc[] = _("{JPN}とくていの ポケモンを\nしんかさせる。");
 
-static const u8 sShinyStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+static const u8 sShinyStoneDesc[] = _("{JPN}とくていの ポケモンを\nしんかさせる。");
 
-static const u8 sDuskStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+static const u8 sDuskStoneDesc[] = _("{JPN}とくていの ポケモンを\nしんかさせる。");
 
-static const u8 sDawnStoneDesc[] = _(
-    "Makes certain\n"
-    "species of Pokémon\n"
-    "evolve.");
+static const u8 sDawnStoneDesc[] = _("{JPN}とくていの ポケモンを\nしんかさせる。");
 
-static const u8 sSweetAppleDesc[] = _(
-    "A very sweet apple\n"
-    "that makes certain\n"
-    "Pokémon evolve.");
+static const u8 sSweetAppleDesc[] = _("{JPN}とても あまい りんご。\nとくていの ポケモンを\nしんかさせる。");
 
-static const u8 sTartAppleDesc[] = _(
-    "A very tart apple\n"
-    "that makes certain\n"
-    "Pokémon evolve.");
+static const u8 sTartAppleDesc[] = _("{JPN}とても すっぱい りんご。\nとくていの ポケモンを\nしんかさせる。");
 
-static const u8 sCrackedPotDesc[] = _(
-    "A cracked teapot\n"
-    "that makes certain\n"
-    "Pokémon evolve.");
+static const u8 sCrackedPotDesc[] = _("{JPN}われた きゅうす。\nとくていの ポケモンを\nしんかさせる。");
 
-static const u8 sChippedPotDesc[] = _(
-    "A chipped teapot\n"
-    "that makes certain\n"
-    "Pokémon evolve.");
+static const u8 sChippedPotDesc[] = _("{JPN}かけた きゅうす。\nとくていの ポケモンを\nしんかさせる。");
 
-static const u8 sGalaricaCuffDesc[] = _(
-    "A cuff from Galar\n"
-    "that makes certain\n"
-    "Pokémon evolve.");
+static const u8 sGalaricaCuffDesc[] = _("{JPN}ガラルの うでわ。\nとくていの ポケモンを\nしんかさせる。");
 
-static const u8 sGalaricaWreathDesc[] = _(
-    "A wreath made in\n"
-    "Galar. Makes some\n"
-    "Pokémon evolve.");
+static const u8 sGalaricaWreathDesc[] = _("{JPN}ガラルの はなわ。\nとくていの ポケモンを\nしんかさせる。");
 
 static const u8 sDragonScaleDesc[] = _("{JPN}ドラゴンタイプの\nポケモンが\nもっていることが ある。");
 
 static const u8 sUpgradeDesc[] = _("{JPN}なかに いろんな\nじょうほうが つまった\nとうめいな きかい。");
 
-static const u8 sProtectorDesc[] = _(
-    "Loved by a certain\n"
-    "Pokémon. It's stiff\n"
-    "and heavy.");
+static const u8 sProtectorDesc[] = _("{JPN}とくていの ポケモンが\nこのむ かたくて\nおもい もの。");
 
-static const u8 sElectirizerDesc[] = _(
-    "Loved by a certain\n"
-    "Pokémon. It's full\n"
-    "of electric energy.");
+static const u8 sElectirizerDesc[] = _("{JPN}とくていの ポケモンが\nこのむ でんきの\nエネルギーの かたまり。");
 
-static const u8 sMagmarizerDesc[] = _(
-    "Loved by a certain\n"
-    "Pokémon. It's full\n"
-    "of magma energy.");
+static const u8 sMagmarizerDesc[] = _("{JPN}とくていの ポケモンが\nこのむ マグマの\nエネルギーの かたまり。");
 
-static const u8 sDubiousDiscDesc[] = _(
-    "A transparent device\n"
-    "overflowing with\n"
-    "dubious data.");
+static const u8 sDubiousDiscDesc[] = _("{JPN}あやしい データが\nあふれた とうめいな\nそうち。");
 
-static const u8 sReaperClothDesc[] = _(
-    "Loved by a certain\n"
-    "Pokémon. Imbued with\n"
-    "spiritual energy.");
+static const u8 sReaperClothDesc[] = _("{JPN}とくていの ポケモンが\nこのむ れいてきな\nちからの こもった もの。");
 
-static const u8 sPrismScaleDesc[] = _(
-    "A mysterious scale\n"
-    "that evolves certain\n"
-    "Pokémon. It shines.");
+static const u8 sPrismScaleDesc[] = _("{JPN}かがやく ふしぎな\nウロコ。とくていの\nポケモンを しんかさせる。");
 
-static const u8 sWhippedDreamDesc[] = _(
-    "A soft and sweet\n"
-    "treat loved by\n"
-    "a certain Pokémon.");
+static const u8 sWhippedDreamDesc[] = _("{JPN}とくていの ポケモンが\nこのむ やわらかくて\nあまい おかし。");
 
-static const u8 sSachetDesc[] = _(
-    "A sachet filled with\n"
-    "perfumes loved by\n"
-    "a certain Pokémon.");
+static const u8 sSachetDesc[] = _("{JPN}とくていの ポケモンが\nこのむ かおりの\nつまった ふくろ。");
 
-static const u8 sOvalStoneDesc[] = _(
-    "Makes a certain\n"
-    "Pokémon evolve. It's\n"
-    "shaped like an egg.");
+static const u8 sOvalStoneDesc[] = _("{JPN}タマゴのような かたち。\nとくていの ポケモンを\nしんかさせる。");
 
-static const u8 sStrawberrySweetDesc[] = _(
-    "Strawberry-shaped\n"
-    "sweet loved by\n"
-    "Milcery.");
+static const u8 sStrawberrySweetDesc[] = _("{JPN}マホミルが このむ\nイチゴのかたちの\nおかし。");
 
-static const u8 sLoveSweetDesc[] = _(
-    "A heart-shaped\n"
-    "sweet loved by\n"
-    "Milcery.");
+static const u8 sLoveSweetDesc[] = _("{JPN}マホミルが このむ\nハートのかたちの\nおかし。");
 
 static const u8 sBerrySweetDesc[] = _(
     "A berry-shaped\n"

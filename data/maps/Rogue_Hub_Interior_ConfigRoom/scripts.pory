@@ -865,9 +865,9 @@ script Rogue_ConfigRoom_PreEAHButtonInternal
         case 0:
             bufferstring(STR_VAR_2, format("EASY"))
         case 1:
-            bufferstring(STR_VAR_2, format("AVERAGE"))
+            bufferstring(STR_VAR_2, format("{JPN}ふつう"))
         case 2:
-            bufferstring(STR_VAR_2, format("HARD"))
+            bufferstring(STR_VAR_2, format("{JPN}きびしい"))
         default:
             bufferstring(STR_VAR_2, format("???"))
     }

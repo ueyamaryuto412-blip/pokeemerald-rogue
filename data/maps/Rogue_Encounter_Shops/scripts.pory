@@ -88,7 +88,7 @@ script Rogue_Encounter_Shops_TalkVendingMachine
                 }
                 else
                 {
-                    msgbox(format("You don't have enough money."))
+                    msgbox(format("{JPN}おかねが たりません。"))
                 }
             }
         }

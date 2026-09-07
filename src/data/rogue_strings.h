@@ -8,7 +8,7 @@ const u8 gText_RogueVersion[] = _("v2.2.0");
 #ifdef ROGUE_EXPANSION
 const u8 gText_RogueVersionPrefix[] = _("EX");
 #else
-const u8 gText_RogueVersionPrefix[] = _("Vanilla");
+const u8 gText_RogueVersionPrefix[] = _("{JPN}バニラ");
 #endif
 
 #if defined(ROGUE_FEATURE_AUTOMATION)
@@ -23,26 +23,26 @@ const u8 gText_RogueVersionSuffix[] = _("Revised Mode + Z-A pt.2");
 
 // UI String
 //
-const u8 gText_StatusRoute[] = _("Route: {STR_VAR_1}\n");
-const u8 gText_StatusBadges[] = _("Badges: {STR_VAR_1}\n");
-const u8 gText_StatusScore[] = _("Score: {STR_VAR_1}\n");
-const u8 gText_StatusTimer[] = _("Timer: {STR_VAR_1}:{STR_VAR_2}\n");
+const u8 gText_StatusRoute[] = _("{JPN}ルート {STR_VAR_1}\n");
+const u8 gText_StatusBadges[] = _("{JPN}バッジ {STR_VAR_1}\n");
+const u8 gText_StatusScore[] = _("{JPN}スコア {STR_VAR_1}\n");
+const u8 gText_StatusTimer[] = _("{JPN}タイマー {STR_VAR_1}:{STR_VAR_2}\n");
 const u8 gText_StatusClock[] = _("{STR_VAR_1}:{STR_VAR_2}\n");
-const u8 gText_StatusSeasonSpring[] = _("·Spring·");
-const u8 gText_StatusSeasonSummer[] = _("·Summer·");
-const u8 gText_StatusSeasonAutumn[] = _("·Autumn·");
-const u8 gText_StatusSeasonWinter[] = _("·Winter·");
+const u8 gText_StatusSeasonSpring[] = _("{JPN}·はる·");
+const u8 gText_StatusSeasonSummer[] = _("{JPN}·なつ·");
+const u8 gText_StatusSeasonAutumn[] = _("{JPN}·あき·");
+const u8 gText_StatusSeasonWinter[] = _("{JPN}·ふゆ·");
 
 // Colours aren't exact as they'll be used in battle UI
-const u8 gText_MoveEffective[] = _("{COLOR BLUE}{SHADOW DYNAMIC_COLOR6}Neutral");
-const u8 gText_MoveNoEffect[] = _("{COLOR TRANSPARENT}{SHADOW BLUE}No Effect…");
-const u8 gText_MoveSuperEffective[] = _("{COLOR GREEN}{SHADOW DYNAMIC_COLOR6}Effective!");
-const u8 gText_MoveNotVeryEffective[] = _("{COLOR WHITE}{SHADOW DYNAMIC_COLOR6}Not Effective");
+const u8 gText_MoveEffective[] = _("{JPN}{COLOR BLUE}{SHADOW DYNAMIC_COLOR6}ふつう");
+const u8 gText_MoveNoEffect[] = _("{JPN}{COLOR TRANSPARENT}{SHADOW BLUE}こうかなし…");
+const u8 gText_MoveSuperEffective[] = _("{JPN}{COLOR GREEN}{SHADOW DYNAMIC_COLOR6}ばつぐん!");
+const u8 gText_MoveNotVeryEffective[] = _("{JPN}{COLOR WHITE}{SHADOW DYNAMIC_COLOR6}いまひとつ");
 const u8 gText_MoveSlash[] = _("{COLOR BLUE}{SHADOW DYNAMIC_COLOR6}·");
-const u8 gText_MoveShortEffective[] = _("{COLOR BLUE}{SHADOW DYNAMIC_COLOR6}Neutrl");
-const u8 gText_MoveShortNoEffect[] = _("{COLOR TRANSPARENT}{SHADOW BLUE}No Efct");
-const u8 gText_MoveShortSuperEffective[] = _("{COLOR GREEN}{SHADOW DYNAMIC_COLOR6}Effect");
-const u8 gText_MoveShortNotVeryEffective[] = _("{COLOR WHITE}{SHADOW DYNAMIC_COLOR6}NtEfct");
+const u8 gText_MoveShortEffective[] = _("{JPN}{COLOR BLUE}{SHADOW DYNAMIC_COLOR6}ふつう");
+const u8 gText_MoveShortNoEffect[] = _("{JPN}{COLOR TRANSPARENT}{SHADOW BLUE}なし");
+const u8 gText_MoveShortSuperEffective[] = _("{JPN}{COLOR GREEN}{SHADOW DYNAMIC_COLOR6}ばつぐん");
+const u8 gText_MoveShortNotVeryEffective[] = _("{JPN}{COLOR WHITE}{SHADOW DYNAMIC_COLOR6}いまひとつ");
 
 
 // Trainers
@@ -53,15 +53,12 @@ const u8 gText_TrainerName_Brendan[] = _("{JPN}ユウキ");
 const u8 gText_TrainerName_May[] = _("{JPN}ハルカ");
 const u8 gText_TrainerName_Red[] = _("{JPN}レッド");
 const u8 gText_TrainerName_Leaf[] = _("{JPN}リーフ");
-const u8 gText_TrainerName_Ethan[] = _("ETHAN");
-const u8 gText_TrainerName_Lyra[] = _("LYRA");
+const u8 gText_TrainerName_Ethan[] = _("{JPN}ヒビキ");
+const u8 gText_TrainerName_Lyra[] = _("{JPN}コトネ");
 
 // Items
 //
-const u8 gText_EscapeRopeDesc[] = _(
-    "Use to escape\n"
-    "instantly from\n"
-    "most encounters.");
+const u8 gText_EscapeRopeDesc[] = _("{JPN}つかうと たいていの\nであいから すぐに\nにげられる。");
 
 // Difficulty/Config lab settings
 //
@@ -73,14 +70,14 @@ const u8 gText_EscapeRopeDesc[] = _(
 const u8 gText_16Spaces[] = _("                ");
 const u8 gText_32Spaces[] = _("                                ");
 
-const u8 gText_DifficultySettings[] = _("Difficulty Settings");
+const u8 gText_DifficultySettings[] = _("{JPN}なんいどの せってい");
 const u8 gText_DifficultyArrowLeft[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}{LEFT_ARROW}");
 const u8 gText_DifficultyArrowRight[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}{RIGHT_ARROW}");
 
-const u8 gText_DifficultyDoesntAffectReward[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}(rewards unaffected)");
-const u8 gText_DifficultyRewardLevel[] = _("{FONT_SMALL}{COLOR GREEN}{SHADOW LIGHT_GREEN}Reward Level: ");
+const u8 gText_DifficultyDoesntAffectReward[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ごほうびは かわりません");
+const u8 gText_DifficultyRewardLevel[] = _("{JPN}{FONT_SMALL}{COLOR GREEN}{SHADOW LIGHT_GREEN}ごほうびの レベル ");
 
-const u8 gText_DifficultyPreset[] = _("Difficulty");
+const u8 gText_DifficultyPreset[] = _("{JPN}なんいど");
 
 // Colours on the Settings Screen are out of order and wild
 //LIGHT_BLUE = green
@@ -90,68 +87,49 @@ const u8 gText_DifficultyPreset[] = _("Difficulty");
 //DARK_GRAY = light yellow
 //LIGHT_GRAY = dark yellow
 //LIGHT_GREEN = light grey
-const u8 gText_DifficultyPresetEasy[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Easy");
-const u8 gText_DifficultyPresetMedium[] = _("{COLOR LIGHT_BLUE}{SHADOW LIGHT_GREEN}Average");
-const u8 gText_DifficultyPresetHard[] = _("{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}Hard");
-const u8 gText_DifficultyPresetBrutal[] = _("{COLOR LIGHT_RED}{SHADOW RED}Brutal");
-const u8 gText_DifficultyPresetCustom[] = _("{COLOR DARK_GRAY}{SHADOW LIGHT_GREEN}Custom");
+const u8 gText_DifficultyPresetEasy[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}やさしい");
+const u8 gText_DifficultyPresetMedium[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW LIGHT_GREEN}ふつう");
+const u8 gText_DifficultyPresetHard[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}むずかしい");
+const u8 gText_DifficultyPresetBrutal[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}ようしゃなし");
+const u8 gText_DifficultyPresetCustom[] = _("{JPN}{COLOR DARK_GRAY}{SHADOW LIGHT_GREEN}じぶんで");
 
-const u8 gText_DifficultyEnabled[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Enabled  ");
+const u8 gText_DifficultyEnabled[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}オン  ");
 const u8 gText_DifficultyDisabled[] = _("{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}Disabled");
-const u8 gText_DifficultyModeActive[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Active!");
+const u8 gText_DifficultyModeActive[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}はつどうちゅう!");
 
-const u8 gText_DifficultyExpAll[] = _("Exp. All");
-const u8 gText_DifficultyOverLvl[] = _("Over Level");
-const u8 gText_DifficultyEVGain[] = _("EV Gain");
-const u8 gText_DifficultyOverworldMons[] = _("Visible Wild {PKMN}");
-const u8 gText_DifficultyBagWipe[] = _("Fresh Start");
-const u8 gText_DifficultySwitchMode[] = _("Switch Mode");
+const u8 gText_DifficultyExpAll[] = _("{JPN}がくしゅうそうち");
+const u8 gText_DifficultyOverLvl[] = _("{JPN}レベルの うわげん");
+const u8 gText_DifficultyEVGain[] = _("{JPN}どりょくち");
+const u8 gText_DifficultyOverworldMons[] = _("{JPN}みえる やせいの {PKMN}");
+const u8 gText_DifficultyBagWipe[] = _("{JPN}やりなおし");
+const u8 gText_DifficultySwitchMode[] = _("{JPN}いれかえの ルール");
 
 const u8 gText_DifficultyTrainers[] = _("{JPN}トレーナー");
 const u8 gText_DifficultyItems[] = _("{JPN}どうぐ");
-const u8 gText_DifficultyLegendaries[] = _("Legendaries");
+const u8 gText_DifficultyLegendaries[] = _("{JPN}でんせつの ポケモン");
 
-const u8 gText_DifficultyCustomDesc[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Edit individual controls and tune the\n"
-    "difficulty to your liking."
-);
+const u8 gText_DifficultyCustomDesc[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ひとつずつ いじって なんいどを\nこのみに あわせられます。");
 
-const u8 gText_AdventureCustomDesc[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Edit individual controls and tune the\n"
-    "adventure to your liking."
-);
+const u8 gText_AdventureCustomDesc[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}ひとつずつ いじって ぼうけんを\nこのみに あわせられます。");
 
-const u8 gText_DifficultyTrainersDesc[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Adjusts quality, quantity and strength\n"
-    "of all Trainer's {PKMN}."
-);
+const u8 gText_DifficultyTrainersDesc[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}トレーナーの {PKMN}の しつ かず つよさを\nまとめて かえます。");
 
-const u8 gText_DifficultyItemsDesc[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "TODO. This needs a rework..."
-);
+const u8 gText_DifficultyItemsDesc[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}これから なおす ところです…");
 
-const u8 gText_DifficultyLegendariesDesc[] = _(
-    "{COLOR GREEN}{SHADOW LIGHT_GREEN}"
-    "Decreases quality and quantity of\n"
-    "Legendary {PKMN} encounters."
-);
+const u8 gText_DifficultyLegendariesDesc[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}でんせつの {PKMN}の しつと かずを\nへらします。");
 
 // Campaigns
 //
 const u8 gText_CampaignHofTitle[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}{STR_VAR_1}");
 
 const u8 gText_Campaign_None[] = _("???");
-const u8 gText_Campaign_LowBST[] = _("BST CUP");
-const u8 gText_Campaign_Classic[] = _("Classic Mode");
-const u8 gText_Campaign_MiniBossBattler[] = _("Battle Addict");
-const u8 gText_Campaign_AutoBattler[] = _("Auto Battler");
-const u8 gText_Campaign_LaterManner[] = _("LaterManner Mode");
-const u8 gText_Campaign_PokeballLimit[] = _("Limited Capture");
-const u8 gText_Campaign_OneHp[] = _("One Hit Mode");
+const u8 gText_Campaign_LowBST[] = _("{JPN}しゅぞくちカップ");
+const u8 gText_Campaign_Classic[] = _("{JPN}クラシックモード");
+const u8 gText_Campaign_MiniBossBattler[] = _("{JPN}しょうぶ ちゅうどく");
+const u8 gText_Campaign_AutoBattler[] = _("{JPN}じどう しょうぶ");
+const u8 gText_Campaign_LaterManner[] = _("{JPN}あとまわし モード");
+const u8 gText_Campaign_PokeballLimit[] = _("{JPN}ほかく せいげん");
+const u8 gText_Campaign_OneHp[] = _("{JPN}いちげき モード");
 
 // Debug
 //

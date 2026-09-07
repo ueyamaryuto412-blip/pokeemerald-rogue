@@ -286,126 +286,126 @@ static EWRAM_DATA struct PopupManager sRoguePopups = { 0 };
 
 extern const u8 gText_Space[];
 
-static const u8 sText_Popup_QuestComplete[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Quest Completed!");
-static const u8 sText_Popup_QuestFail[] = _("{COLOR LIGHT_RED}{SHADOW RED}Quest Failed");
-static const u8 sText_Popup_QuestUnlocked[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Quest Unlocked!");
-static const u8 sText_Popup_LegendaryClause[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Clause Activated!");
-static const u8 sText_Popup_RoamerLegendary[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Started Roaming!");
-static const u8 sText_Popup_GiftPokemon[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Gift Pokémon!");
-static const u8 sText_Popup_GiftShinyPokemon[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Gift Shiny {PKMN}!");
-static const u8 sText_Popup_GiftCustomPokemon[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Gift Unique {PKMN}!");
-static const u8 sText_Popup_DaycarePokemon[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Pokémon Egg");
-static const u8 sText_Popup_UniquePokemon[] = _("Unique Pokémon");
-static const u8 sText_Popup_UniquePokemonSubtitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Detected nearby!");
+static const u8 sText_Popup_QuestComplete[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}クエスト たっせい!");
+static const u8 sText_Popup_QuestFail[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}クエスト しっぱい");
+static const u8 sText_Popup_QuestUnlocked[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}クエスト かいほう!");
+static const u8 sText_Popup_LegendaryClause[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}ルール はつどう!");
+static const u8 sText_Popup_RoamerLegendary[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}はいかいを はじめた!");
+static const u8 sText_Popup_GiftPokemon[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}ポケモンを もらった!");
+static const u8 sText_Popup_GiftShinyPokemon[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}いろちがいの {PKMN}!");
+static const u8 sText_Popup_GiftCustomPokemon[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}とくべつな {PKMN}!");
+static const u8 sText_Popup_DaycarePokemon[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}ポケモンの タマゴ");
+static const u8 sText_Popup_UniquePokemon[] = _("{JPN}とくべつな ポケモン");
+static const u8 sText_Popup_UniquePokemonSubtitle[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}ちかくで みつけた!");
 static const u8 sText_Popup_None[] = _("");
 
-static const u8 sText_Popup_NewMoves[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}New Moves!");
-static const u8 sText_Popup_NewEvolution[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}New Evolution!");
+static const u8 sText_Popup_NewMoves[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}あたらしい わざ!");
+static const u8 sText_Popup_NewEvolution[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}あたらしい しんか!");
 
-static const u8 sText_Popup_PokemonChain[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}{STR_VAR_1} Chain");
-static const u8 sText_Popup_PokemonChainBroke[] = _("{COLOR LIGHT_RED}{SHADOW RED}Broken Chain");
+static const u8 sText_Popup_PokemonChain[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}{STR_VAR_1} れんぞく");
+static const u8 sText_Popup_PokemonChainBroke[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}れんぞく とぎれた");
 
-static const u8 sText_Popup_BagFull[] = _("{COLOR LIGHT_RED}{SHADOW RED}Bag too full.");
+static const u8 sText_Popup_BagFull[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}バッグが いっぱい。");
 static const u8 sText_Popup_SingleItem[] = _("{STR_VAR_1}");
-static const u8 sText_Popup_MultipleItem[] = _("{STR_VAR_1} {COLOR LIGHT_GREEN}{SHADOW GREEN}x{STR_VAR_2}");
+static const u8 sText_Popup_MultipleItem[] = _("{JPN}{STR_VAR_1} {COLOR LIGHT_GREEN}{SHADOW GREEN}x{STR_VAR_2}");
 static const u8 sText_Popup_Money[] = _("¥{STR_VAR_1}");
-static const u8 sText_Popup_LostItem[] = _("{COLOR LIGHT_RED}{SHADOW RED}Lost Item.");
-static const u8 sText_Popup_LostMoney[] = _("{COLOR LIGHT_RED}{SHADOW RED}Lost Money.");
-static const u8 sText_Popup_UnlockedInShops[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Can now be bought!");
-static const u8 sText_Popup_UnlockedDecor[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Decor Unlocked!");
-static const u8 sText_Popup_TypePlateItem[] = _("Type Plates");
-static const u8 sText_Popup_TypeMemoryItem[] = _("Type Memories");
+static const u8 sText_Popup_LostItem[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}どうぐを うしなった。");
+static const u8 sText_Popup_LostMoney[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}おかねを うしなった。");
+static const u8 sText_Popup_UnlockedInShops[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}かえるように なった!");
+static const u8 sText_Popup_UnlockedDecor[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}かざりが ふえた!");
+static const u8 sText_Popup_TypePlateItem[] = _("{JPN}タイプの ばん");
+static const u8 sText_Popup_TypeMemoryItem[] = _("{JPN}タイプの メモリ");
 
-static const u8 sText_Popup_BerriesRequipSuccess[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Re-equipped");
-static const u8 sText_Popup_BerriesRequipSuccessSubtitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Taken from Bag");
+static const u8 sText_Popup_BerriesRequipSuccess[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}もちなおした");
+static const u8 sText_Popup_BerriesRequipSuccessSubtitle[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}バッグから とった");
 
-static const u8 sText_Popup_BerriesRequipFail[] = _("Re-equip Fail");
-static const u8 sText_Popup_BerriesRequipFailSubtitle[] = _("{COLOR LIGHT_RED}{SHADOW RED}None in Bag");
+static const u8 sText_Popup_BerriesRequipFail[] = _("{JPN}もちなおし しっぱい");
+static const u8 sText_Popup_BerriesRequipFailSubtitle[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}バッグに ない");
 
-static const u8 sText_Popup_WeakLegendaryClause[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Basic Legend");
-static const u8 sText_Popup_StrongLegendaryClause[] = _("{COLOR LIGHT_RED}{SHADOW RED}Strong Legend");
+static const u8 sText_Popup_WeakLegendaryClause[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}でんせつ");
+static const u8 sText_Popup_StrongLegendaryClause[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}つよい でんせつ");
 
-static const u8 sText_Popup_CampaignNoneScore[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Campaign Active!");
-static const u8 sText_Popup_CampaignHighScore[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Aim for High Score!");
-static const u8 sText_Popup_CampaignLowScore[] = _("{COLOR RED}{SHADOW LIGHT_RED}Aim for Low Score!");
+static const u8 sText_Popup_CampaignNoneScore[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}キャンペーンちゅう!");
+static const u8 sText_Popup_CampaignHighScore[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}たかい スコアを ねらえ!");
+static const u8 sText_Popup_CampaignLowScore[] = _("{JPN}{COLOR RED}{SHADOW LIGHT_RED}ひくい スコアを ねらえ!");
 
-static const u8 sText_Popup_SafariArea[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Safari Area");
+static const u8 sText_Popup_SafariArea[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}サファリゾーン");
 
-static const u8 sText_Popup_StarterWarning[] = _("{COLOR LIGHT_RED}{SHADOW RED}Evos. Disabled");
-static const u8 sText_Popup_GotWeaker[] = _("{COLOR LIGHT_RED}{SHADOW RED}Got Weaker.");
-static const u8 sText_Popup_GotStronger[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Got Stronger!");
-static const u8 sText_Popup_LostShiny[] = _("{COLOR LIGHT_RED}{SHADOW RED}Lost Shininess.");
-static const u8 sText_Popup_GotShiny[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Became Shiny!");
-static const u8 sText_Popup_BecameMale[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Became Male!");
-static const u8 sText_Popup_BecameFemale[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Became Female!");
+static const u8 sText_Popup_StarterWarning[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}しんか きんし");
+static const u8 sText_Popup_GotWeaker[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}よわく なった。");
+static const u8 sText_Popup_GotStronger[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}つよく なった!");
+static const u8 sText_Popup_LostShiny[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}いろちがいでは なくなった。");
+static const u8 sText_Popup_GotShiny[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}いろちがいに なった!");
+static const u8 sText_Popup_BecameMale[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}オスに なった!");
+static const u8 sText_Popup_BecameFemale[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}メスに なった!");
 
-static const u8 sText_Popup_EncounterChain[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Encounter Chain");
-static const u8 sText_Popup_EncounterChainEnd[] = _("{COLOR RED}{SHADOW LIGHT_RED}Chain Lost");
+static const u8 sText_Popup_EncounterChain[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}であい れんぞく");
+static const u8 sText_Popup_EncounterChainEnd[] = _("{JPN}{COLOR RED}{SHADOW LIGHT_RED}れんぞく とぎれた");
 
-static const u8 sText_Popup_PokedexUnlock[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Received Pokedex!");
-static const u8 sText_Popup_PokedexUpgrade[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Pokedex Upgraded!");
+static const u8 sText_Popup_PokedexUnlock[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}ずかんを もらった!");
+static const u8 sText_Popup_PokedexUpgrade[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}ずかんが つよく なった!");
 
-static const u8 sText_Popup_SpeedupEnabled[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Speedup Enabled");
-static const u8 sText_Popup_SpeedupDisabled[] = _("{COLOR LIGHT_RED}{SHADOW RED}Speedup Disabled");
-static const u8 sText_Popup_SpeedupTip[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}{L_BUTTON} to toggle");
+static const u8 sText_Popup_SpeedupEnabled[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}はやおくり オン");
+static const u8 sText_Popup_SpeedupDisabled[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}はやおくり オフ");
+static const u8 sText_Popup_SpeedupTip[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}{L_BUTTON}で きりかえ");
 
-static const u8 sText_Popup_BagUpdate[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Bag Upgraded!");
-static const u8 sText_Popup_UpgradeSlots[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}+{STR_VAR_1} ({STR_VAR_2}) slots"); // assuming ITEM_BAG_SLOTS_PER_UPGRADE value
+static const u8 sText_Popup_BagUpdate[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}バッグが おおきく なった!");
+static const u8 sText_Popup_UpgradeSlots[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}{PLUS}{STR_VAR_1} ぜんぶで {STR_VAR_2}"); // assuming ITEM_BAG_SLOTS_PER_UPGRADE value
 
 
-static const u8 sText_Popup_RogueAssistant[] = _("Rogue Assistant");
-static const u8 sText_Popup_Connected[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Connected!");
-static const u8 sText_Popup_Disconnected[] = _("{COLOR RED}{SHADOW LIGHT_RED}Disconnected.");
+static const u8 sText_Popup_RogueAssistant[] = _("{JPN}ローグ アシスタント");
+static const u8 sText_Popup_Connected[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}つながった!");
+static const u8 sText_Popup_Disconnected[] = _("{JPN}{COLOR RED}{SHADOW LIGHT_RED}きれました。");
 
-static const u8 sText_Popup_OutfitUnlocked[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Outfit Unlocked!");
-static const u8 sText_Popup_ItsASecret[] = _("Shh… its a secret");
+static const u8 sText_Popup_OutfitUnlocked[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}ふくそうが ふえた!");
+static const u8 sText_Popup_ItsASecret[] = _("{JPN}しーっ… ないしょだよ");
 
-static const u8 sText_Popup_ExtraLifeTitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Extra Life!");
-static const u8 sText_Popup_ExtraLifeSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Sacred Ash used");
+static const u8 sText_Popup_ExtraLifeTitle[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}のこりきが ふえた!");
+static const u8 sText_Popup_ExtraLifeSubtitle[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}せいなるはいを つかった");
 
-static const u8 sText_Popup_HealingFlaskRefilled[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Flask Refilled!");
+static const u8 sText_Popup_HealingFlaskRefilled[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}ビンを みたした!");
 
 static const u8 sText_Popup_ChargeRemaining[] = _("{STR_VAR_1} / {STR_VAR_2}");
-static const u8 sText_Popup_FlightChargeSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Flight Charges");
-static const u8 sText_Popup_DaycarePhoneChargeSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Pokégear Charges");
+static const u8 sText_Popup_FlightChargeSubtitle[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}そらとぶ かいすう");
+static const u8 sText_Popup_DaycarePhoneChargeSubtitle[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}ポケギアの かいすう");
 
-static const u8 sText_Popup_GymBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Gym Badge {STR_VAR_1}");
-static const u8 sText_Popup_EliteBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Elite Badge {STR_VAR_1}");
-static const u8 sText_Popup_ChampBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Champion Badge");
-static const u8 sText_Popup_VictoryLapGymBadge[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Victory Badge {STR_VAR_1}");
-static const u8 sText_Popup_EarnBadge[] = _("Received badge!");
+static const u8 sText_Popup_GymBadge[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}ジムバッジ {STR_VAR_1}");
+static const u8 sText_Popup_EliteBadge[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}してんのうバッジ {STR_VAR_1}");
+static const u8 sText_Popup_ChampBadge[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}チャンピオンバッジ");
+static const u8 sText_Popup_VictoryLapGymBadge[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}しょうりバッジ {STR_VAR_1}");
+static const u8 sText_Popup_EarnBadge[] = _("{JPN}バッジを もらった!");
 
-static const u8 sText_Popup_AdventureReplay[] = _("Adventure Replay");
-static const u8 sText_Popup_AdventureReplaySubtitle[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Active");
+static const u8 sText_Popup_AdventureReplay[] = _("{JPN}ぼうけんの ふりかえり");
+static const u8 sText_Popup_AdventureReplaySubtitle[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}ゆうこう");
 
-static const u8 sText_Popup_QuestsDisabled[] = _("{COLOR LIGHT_RED}{SHADOW RED}Quests Inactive");
-static const u8 sText_Popup_ChallengesDisabled[] = _("{COLOR LIGHT_RED}{SHADOW RED}Challenge Inactiv");
-static const u8 sText_Popup_QuestsDisabledSubtitle[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Current Mode");
+static const u8 sText_Popup_QuestsDisabled[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}クエスト むこう");
+static const u8 sText_Popup_ChallengesDisabled[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}チャレンジ むこう");
+static const u8 sText_Popup_QuestsDisabledSubtitle[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}いまの モード");
 
-static const u8 sText_Popup_WeatherActive[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Weather Active");
+static const u8 sText_Popup_WeatherActive[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}てんきの こうか");
 
 static const u8 sWeatherNames[22][14] = {
     [WEATHER_NONE]               = _("None"),
-    [WEATHER_SUNNY_CLOUDS]       = _("Sunny"),
-    [WEATHER_SUNNY]              = _("Sunny"),
-    [WEATHER_RAIN]               = _("Rain"),
-    [WEATHER_SNOW]               = _("Snow"),
-    [WEATHER_RAIN_THUNDERSTORM]  = _("Thunderstorm"),
+    [WEATHER_SUNNY_CLOUDS]       = _("{JPN}はれ"),
+    [WEATHER_SUNNY]              = _("{JPN}はれ"),
+    [WEATHER_RAIN]               = _("{JPN}あめ"),
+    [WEATHER_SNOW]               = _("{JPN}ゆき"),
+    [WEATHER_RAIN_THUNDERSTORM]  = _("{JPN}かみなり"),
 #ifdef ROGUE_EXPANSION
-    [WEATHER_PSYCHIC_FOG]        = _("Psychic Fog"),
-    [WEATHER_MISTY_FOG]          = _("Misty Fog"),
+    [WEATHER_PSYCHIC_FOG]        = _("{JPN}サイコな きり"),
+    [WEATHER_MISTY_FOG]          = _("{JPN}ミストの きり"),
 #else
-    [WEATHER_PSYCHIC_FOG]        = _("Fog"),
-    [WEATHER_MISTY_FOG]          = _("Fog"),
+    [WEATHER_PSYCHIC_FOG]        = _("{JPN}きり"),
+    [WEATHER_MISTY_FOG]          = _("{JPN}きり"),
 #endif
-    [WEATHER_VOLCANIC_ASH]       = _("Ash"),
+    [WEATHER_VOLCANIC_ASH]       = _("{JPN}かざんばい"),
     [WEATHER_SANDSTORM]          = _("{JPN}すなあらし"),
-    [WEATHER_UNDERWATER]         = _("Underwater"),
-    [WEATHER_SHADE]              = _("Shade"),
+    [WEATHER_UNDERWATER]         = _("{JPN}すいちゅう"),
+    [WEATHER_SHADE]              = _("{JPN}ひかげ"),
     [WEATHER_DROUGHT]            = _("{JPN}ひでり"),
-    [WEATHER_DOWNPOUR]           = _("Downpour"),
-    [WEATHER_UNDERWATER_BUBBLES] = _("Bubbles"),
-    [WEATHER_ABNORMAL]           = _("Abnormal"),
+    [WEATHER_DOWNPOUR]           = _("{JPN}どしゃぶり"),
+    [WEATHER_UNDERWATER_BUBBLES] = _("{JPN}あわ"),
+    [WEATHER_ABNORMAL]           = _("{JPN}いじょう"),
     [WEATHER_ROUTE119_CYCLE]     = _("???"),
     [WEATHER_ROUTE123_CYCLE]     = _("???"),
 };

@@ -360,50 +360,50 @@ static const struct WindowTemplate sQuestWinTemplates[WIN_COUNT + 1] =
     [WIN_COUNT] = DUMMY_WIN_TEMPLATE,
 };
 
-static u8 const sText_EarlyGameTodo[] = _("·{COLOR BLUE}To-Do");
-static u8 const sText_EarlyGameComplete[] = _("·{COLOR GREEN}Done");
-static u8 const sText_EarlyGameActive[] = _("·{COLOR BLUE}Active");
-static u8 const sText_EarlyGameInactive[] = _("·{COLOR RED}Inactive");
+static u8 const sText_EarlyGameTodo[] = _("{JPN}·{COLOR BLUE}これから");
+static u8 const sText_EarlyGameComplete[] = _("{JPN}·{COLOR GREEN}すみ");
+static u8 const sText_EarlyGameActive[] = _("{JPN}·{COLOR BLUE}ゆうこう");
+static u8 const sText_EarlyGameInactive[] = _("{JPN}·{COLOR RED}むこう");
 
-static u8 const sText_QuestsTodo[] = _("Main·{FONT_SMALL_NARROW}{COLOR BLUE}To-Do");
-static u8 const sText_QuestsComplete[] = _("Main·{FONT_SMALL_NARROW}{COLOR GREEN}Done");
-static u8 const sText_QuestsActive[] = _("Main·{FONT_SMALL_NARROW}{COLOR BLUE}Active");
-static u8 const sText_QuestsInactive[] = _("Main·{FONT_SMALL_NARROW}{COLOR RED}Inactive");
+static u8 const sText_QuestsTodo[] = _("{JPN}メイン·{FONT_SMALL_NARROW}{COLOR BLUE}これから");
+static u8 const sText_QuestsComplete[] = _("{JPN}メイン·{FONT_SMALL_NARROW}{COLOR GREEN}すみ");
+static u8 const sText_QuestsActive[] = _("{JPN}メイン·{FONT_SMALL_NARROW}{COLOR BLUE}ゆうこう");
+static u8 const sText_QuestsInactive[] = _("{JPN}メイン·{FONT_SMALL_NARROW}{COLOR RED}むこう");
 
-static u8 const sText_ChallengesTodo[] = _("Challenge·{FONT_SMALL_NARROW}{COLOR BLUE}To-Do");
-static u8 const sText_ChallengesComplete[] = _("Challenge·{FONT_SMALL_NARROW}{COLOR GREEN}Done");
-static u8 const sText_ChallengesActive[] = _("Challenge·{FONT_SMALL_NARROW}{COLOR BLUE}Active");
-static u8 const sText_ChallengesInactive[] = _("Challenge·{FONT_SMALL_NARROW}{COLOR RED}Inactiv");
+static u8 const sText_ChallengesTodo[] = _("{JPN}チャレンジ·{FONT_SMALL_NARROW}{COLOR BLUE}これから");
+static u8 const sText_ChallengesComplete[] = _("{JPN}チャレンジ·{FONT_SMALL_NARROW}{COLOR GREEN}すみ");
+static u8 const sText_ChallengesActive[] = _("{JPN}チャレンジ·{FONT_SMALL_NARROW}{COLOR BLUE}ゆうこう");
+static u8 const sText_ChallengesInactive[] = _("{JPN}チャレンジ·{FONT_SMALL_NARROW}{COLOR RED}むこう");
 
-static u8 const sText_MonMastery[] = _("{PKMN} Mastery");
-static u8 const sText_MonMasteryTracker[] = _("{PKMN} Tracker");
-static u8 const sText_MonMasteryTodo[] = _("Quests·{FONT_SMALL_NARROW}{COLOR BLUE}To-Do");
-static u8 const sText_MonMasteryComplete[] = _("Quests·{FONT_SMALL_NARROW}{COLOR GREEN}Done");
-static u8 const sText_MonMasteryActive[] = _("Mastery·{FONT_SMALL_NARROW}{COLOR BLUE}Active");
-static u8 const sText_MonMasteryInactive[] = _("Mastery·{FONT_SMALL_NARROW}{COLOR RED}Inactive");
+static u8 const sText_MonMastery[] = _("{JPN}{PKMN}マスター");
+static u8 const sText_MonMasteryTracker[] = _("{JPN}{PKMN}きろく");
+static u8 const sText_MonMasteryTodo[] = _("{JPN}クエスト·{FONT_SMALL_NARROW}{COLOR BLUE}これから");
+static u8 const sText_MonMasteryComplete[] = _("{JPN}クエスト·{FONT_SMALL_NARROW}{COLOR GREEN}すみ");
+static u8 const sText_MonMasteryActive[] = _("{JPN}マスター·{FONT_SMALL_NARROW}{COLOR BLUE}ゆうこう");
+static u8 const sText_MonMasteryInactive[] = _("{JPN}マスター·{FONT_SMALL_NARROW}{COLOR RED}むこう");
 
-static u8 const sText_Stats[] = _("{FONT_SMALL_NARROW}Adventure Stats");
+static u8 const sText_Stats[] = _("{JPN}{FONT_SMALL_NARROW}ぼうけんの きろく");
 
-static u8 const sText_Pinned[] = _("·Pinned Quests·");
-static u8 const sText_InProgress[] = _("In Progress…");
-static u8 const sText_Inactive[] = _("Inactive");
-static u8 const sText_Todo[] = _("To-do");
-static u8 const sText_Complete[] = _("Complete");
+static u8 const sText_Pinned[] = _("{JPN}·えらんだ クエスト·");
+static u8 const sText_InProgress[] = _("{JPN}すすめて いる…");
+static u8 const sText_Inactive[] = _("{JPN}むこう");
+static u8 const sText_Todo[] = _("{JPN}これから");
+static u8 const sText_Complete[] = _("{JPN}たっせい");
 static u8 const sText_Back[] = _("Back");
-static u8 const sText_Progress[] = _("Progress");
-static u8 const sText_AButtonPin[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}{A_BUTTON} Pin  {SELECT_BUTTON} Sort");
+static u8 const sText_Progress[] = _("{JPN}すすみぐあい");
+static u8 const sText_AButtonPin[] = _("{JPN}{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}{A_BUTTON} えらぶ  {SELECT_BUTTON} ならびかえ");
 
-static u8 const sText_MarkerInProgress[] = _("{COLOR BLUE}·In Progress·");
-static u8 const sText_MarkerInactive[] = _("{COLOR RED}·Inactive·");
-static u8 const sText_MarkerPendingRewards[] = _("{COLOR GREEN}·Ready to Collect!·");
-static u8 const sText_MarkerComplete[] = _("{COLOR GREEN}·Complete·");
-static u8 const sText_MarkerCompleteEasy[] = _("{COLOR GREEN}·Complete {COLOR GREEN}{SHADOW LIGHT_GREEN}Easy{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
-static u8 const sText_MarkerCompleteAverage[] = _("{COLOR GREEN}·Complete {COLOR GREEN}{SHADOW LIGHT_GRAY}Average{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
-static u8 const sText_MarkerCompleteHard[] = _("{COLOR GREEN}·Complete {COLOR RED}{SHADOW LIGHT_GRAY}Hard{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
-static u8 const sText_MarkerCompleteBrutal[] = _("{COLOR GREEN}·Complete {COLOR RED}{SHADOW LIGHT_RED}Brutal{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
-static u8 const sText_MarkerRewards[] = _("{COLOR DARK_GRAY}Rewards");
+static u8 const sText_MarkerInProgress[] = _("{JPN}{COLOR BLUE}·すすめて いる·");
+static u8 const sText_MarkerInactive[] = _("{JPN}{COLOR RED}·むこう·");
+static u8 const sText_MarkerPendingRewards[] = _("{JPN}{COLOR GREEN}·うけとれます!·");
+static u8 const sText_MarkerComplete[] = _("{JPN}{COLOR GREEN}·たっせい·");
+static u8 const sText_MarkerCompleteEasy[] = _("{JPN}{COLOR GREEN}·たっせい {COLOR GREEN}{SHADOW LIGHT_GREEN}やさしい{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
+static u8 const sText_MarkerCompleteAverage[] = _("{JPN}{COLOR GREEN}·たっせい {COLOR GREEN}{SHADOW LIGHT_GRAY}ふつう{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
+static u8 const sText_MarkerCompleteHard[] = _("{JPN}{COLOR GREEN}·たっせい {COLOR RED}{SHADOW LIGHT_GRAY}むずかしい{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
+static u8 const sText_MarkerCompleteBrutal[] = _("{JPN}{COLOR GREEN}·たっせい {COLOR RED}{SHADOW LIGHT_RED}ようしゃなし{COLOR GREEN}{SHADOW LIGHT_GRAY}·");
+static u8 const sText_MarkerRewards[] = _("{JPN}{COLOR DARK_GRAY}ごほうび");
 
-static u8 const sText_PkmnMastery[] = _("{PKMN} Mastery");
+static u8 const sText_PkmnMastery[] = _("{JPN}{PKMN}マスター");
 
 // Index Page
 static u8 const sText_Index_InProgressPerc[] = _("{COLOR BLUE}{STR_VAR_1}%");
@@ -411,23 +411,23 @@ static u8 const sText_Index_FinishedPerc[] = _("{COLOR GREEN}{STR_VAR_1}%");
 static u8 const sText_Index_ActiveCount[] = _("{COLOR BLUE}{STR_VAR_1} / {STR_VAR_2}");
 static u8 const sText_Index_NoneActiveCount[] = _("{COLOR RED}{STR_VAR_1} / {STR_VAR_2}");
 
-static u8 const sText_Index_Main[] = _("Main");
-static u8 const sText_Index_Challenge[] = _("Challenge");
-static u8 const sText_Index_Mastery[] = _("Mastery");
+static u8 const sText_Index_Main[] = _("{JPN}メイン");
+static u8 const sText_Index_Challenge[] = _("{JPN}チャレンジ");
+static u8 const sText_Index_Mastery[] = _("{JPN}マスター");
 static u8 const sText_Index_Total[] = _("Total");
-static u8 const sText_Index_ActiveQuests[] = _("Active Quests");
-static u8 const sText_Index_ChallengeDifficulty[] = _("Challenges");
-static u8 const sText_Index_Easy[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Easy");
-static u8 const sText_Index_Average[] = _("{COLOR GREEN}{SHADOW LIGHT_GRAY}Average");
-static u8 const sText_Index_Hard[] = _("{COLOR RED}{SHADOW LIGHT_GRAY}Hard");
-static u8 const sText_Index_Brutal[] = _("{COLOR RED}{SHADOW LIGHT_RED}Brutal");
+static u8 const sText_Index_ActiveQuests[] = _("{JPN}すすめて いる クエスト");
+static u8 const sText_Index_ChallengeDifficulty[] = _("{JPN}チャレンジ");
+static u8 const sText_Index_Easy[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}やさしい");
+static u8 const sText_Index_Average[] = _("{JPN}{COLOR GREEN}{SHADOW LIGHT_GRAY}ふつう");
+static u8 const sText_Index_Hard[] = _("{JPN}{COLOR RED}{SHADOW LIGHT_GRAY}むずかしい");
+static u8 const sText_Index_Brutal[] = _("{JPN}{COLOR RED}{SHADOW LIGHT_RED}ようしゃなし");
 static u8 const sText_EasyStar[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}");
 static u8 const sText_AverageStar[] = _("{COLOR GREEN}{SHADOW LIGHT_GRAY}");
 static u8 const sText_HardStar[] = _("{COLOR RED}{SHADOW LIGHT_GRAY}");
 static u8 const sText_BrutalStar[] = _("{COLOR RED}{SHADOW LIGHT_RED}");
-static u8 const sText_Index_Quests[] = _("Quests");
+static u8 const sText_Index_Quests[] = _("{JPN}クエスト");
 
-static u8 const sText_Index_PendingRewards[] = _("{COLOR GREEN}Rewards ready to\nbe Collected!");
+static u8 const sText_Index_PendingRewards[] = _("{JPN}{COLOR GREEN}ごほうびを うけとれます!");
 
 
 EWRAM_DATA static struct QuestMenuData* sQuestMenuData = NULL;
@@ -1975,7 +1975,7 @@ static void HandleInput_MasteryLandingPage(u8 taskId)
 }
 
 
-static u8 const sText_Mastery_LandingDesc[] = _("Enter the Hall of\nFame with any {PKMN}\nfrom it's Evolution\nline to Complete\nit's Mastery!\n\nSpecific {PKMN} have\nRewards/Quests\nassociated with\nthem.");
+static u8 const sText_Mastery_LandingDesc[] = _("{JPN}その しんかの すじの {PKMN}\nどれかで えいえんの\nでんどういりを すると\nマスターに なります!\n\nとくていの {PKMN}には\nごほうびや クエストが\nついて います。");
 
 static void Draw_MasteryLandingPage()
 {
@@ -2070,8 +2070,8 @@ static void HandleInput_MasteryTrackerPage(u8 taskId)
 extern const u16 gRogueBake_EggSpecies[];
 
 static u8 const sText_PageMarker[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}");
-static u8 const sText_ChangePageLeft[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}{DPAD_LEFT} back");
-static u8 const sText_ChangePageRight[] = _("{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}next {DPAD_RIGHT}");
+static u8 const sText_ChangePageLeft[] = _("{JPN}{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}{DPAD_LEFT} もどる");
+static u8 const sText_ChangePageRight[] = _("{JPN}{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}つぎ {DPAD_RIGHT}");
 
 static void Draw_MasteryTrackerPage()
 {
@@ -2184,40 +2184,40 @@ struct DisplayStat
     u8 statId;
 };
 
-static u8 const sStatName_TotalRuns[] = _("Total Adventures");
-static u8 const sStatName_TotalWins[] = _("Wins");
-static u8 const sStatName_TotalCurrentWinStreak[] = _("Current Win Streak");
-static u8 const sStatName_TotalLongestWinStreak[] = _("Longest Win Streak");
-static u8 const sStatName_TotalLosses[] = _("Wipes");
-static u8 const sStatName_TotalCurrentLossStreak[] = _("Current Wipe Streak");
-static u8 const sStatName_TotalLongestLossStreak[] = _("Longest Wipe Streak");
+static u8 const sStatName_TotalRuns[] = _("{JPN}ぼうけんの かいすう");
+static u8 const sStatName_TotalWins[] = _("{JPN}かち");
+static u8 const sStatName_TotalCurrentWinStreak[] = _("{JPN}いまの れんしょう");
+static u8 const sStatName_TotalLongestWinStreak[] = _("{JPN}さいこう れんしょう");
+static u8 const sStatName_TotalLosses[] = _("{JPN}ぜんめつ");
+static u8 const sStatName_TotalCurrentLossStreak[] = _("{JPN}いまの れんぱい");
+static u8 const sStatName_TotalLongestLossStreak[] = _("{JPN}さいこう れんぱい");
 
-static u8 const sStatName_FirstHoF[] = _("First HoF Time");
-static u8 const sStatName_FastestHoF[] = _("Fastest HoF Time");
-static u8 const sStatName_SlowestHoF[] = _("Slowest HoF Time");
+static u8 const sStatName_FirstHoF[] = _("{JPN}はじめての でんどういり");
+static u8 const sStatName_FastestHoF[] = _("{JPN}さいたん でんどういり");
+static u8 const sStatName_SlowestHoF[] = _("{JPN}さいちょう でんどういり");
 
-static u8 const sStatName_TotalBadges[] = _("Total Badges");
-static u8 const sStatName_GymBadges[] = _("Gym Badges");
-static u8 const sStatName_EliteBadges[] = _("Elite Badges");
-static u8 const sStatName_ChampionBadges[] = _("Champion Badges");
+static u8 const sStatName_TotalBadges[] = _("{JPN}バッジの かず");
+static u8 const sStatName_GymBadges[] = _("{JPN}ジムバッジ");
+static u8 const sStatName_EliteBadges[] = _("{JPN}してんのうバッジ");
+static u8 const sStatName_ChampionBadges[] = _("{JPN}チャンピオンバッジ");
 
-static u8 const sStatName_TotalBattles[] = _("Total Battles");
-static u8 const sStatName_WildBattles[] = _("Wild Battles");
-static u8 const sStatName_TrainerBattles[] = _("Trainer Battles");
-static u8 const sStatName_RivalBattles[] = _("Rival Battles");
+static u8 const sStatName_TotalBattles[] = _("{JPN}しょうぶの かず");
+static u8 const sStatName_WildBattles[] = _("{JPN}やせいとの しょうぶ");
+static u8 const sStatName_TrainerBattles[] = _("{JPN}トレーナーとの しょうぶ");
+static u8 const sStatName_RivalBattles[] = _("{JPN}ライバルとの しょうぶ");
 
-static u8 const sStatName_PokemonCaught[] = _("Pokémon Caught");
-static u8 const sStatName_ShinyCaught[] = _("Shinies Caught");
-static u8 const sStatName_LegendsCaught[] = _("Legends Caught");
-static u8 const sStatName_RoamersCaught[] = _("Roamers Caught");
+static u8 const sStatName_PokemonCaught[] = _("{JPN}つかまえた ポケモン");
+static u8 const sStatName_ShinyCaught[] = _("{JPN}つかまえた いろちがい");
+static u8 const sStatName_LegendsCaught[] = _("{JPN}つかまえた でんせつ");
+static u8 const sStatName_RoamersCaught[] = _("{JPN}つかまえた はいかい");
 
-static u8 const sStatName_RandoTradeTotal[] = _("Randoman {PKMN}");
-static u8 const sStatName_RandoTradeParty[] = _("Party Trades");
-static u8 const sStatName_RandoTradeSingle[] = _("Single Trades");
+static u8 const sStatName_RandoTradeTotal[] = _("{JPN}ランダムマンの {PKMN}");
+static u8 const sStatName_RandoTradeParty[] = _("{JPN}てもち こうかん");
+static u8 const sStatName_RandoTradeSingle[] = _("{JPN}1ぴき こうかん");
 
-static u8 const sStatName_ReleasedPokemon[] = _("Pokémon Released");
-static u8 const sStatName_FaintedPokemon[] = _("Pokémon Fainted");
-static u8 const sStatName_EvolvedPokemon[] = _("Pokémon Evolved");
+static u8 const sStatName_ReleasedPokemon[] = _("{JPN}にがした ポケモン");
+static u8 const sStatName_FaintedPokemon[] = _("{JPN}ひんしに なった ポケモン");
+static u8 const sStatName_EvolvedPokemon[] = _("{JPN}しんか した ポケモン");
 
 static u8 const sStatFormat_HofTime[] = _("{STR_VAR_1}:{STR_VAR_2}:{STR_VAR_3}");
 

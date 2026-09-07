@@ -337,6 +337,16 @@ TALL_PLUS   = FC 0C FB
 'ー' = AE
 '⋯' = B0
 
+@ Japanese aliases for punctuation glyphs that already exist in the font.
+@ These bytes render as Latin punctuation in {ENG} mode and as the Japanese
+@ forms below in {JPN} mode; only the Japanese spellings were missing here.
+'、' = B8
+'・' = AF
+'「' = B3
+'」' = B4
+'『' = B1
+'』' = B2
+
 STRING = FD
 
 @ string placeholders

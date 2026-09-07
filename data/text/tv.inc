@@ -1197,7 +1197,7 @@ gTVTodaysRivalTrainerText10::
 	.string "{STR_VAR_1} has so far registered\n"
 	.string "{STR_VAR_2} POKéMON in the POKéDEX.$"
 
-	.string "$"
+	.string "{JPN}$"
 
 gTVTodaysRivalTrainerText01::
 	.string "And how many BADGES does our rival\n"

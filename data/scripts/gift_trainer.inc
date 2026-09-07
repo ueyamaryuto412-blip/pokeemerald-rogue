@@ -20,29 +20,7 @@ MysteryGiftScript_VisitingTrainerArrived:
 	end
 
 sText_MysteryGiftVisitingTrainerInstructions:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "By holding this WONDER CARD, you\n"
-	.string "may take part in a survey at a\l"
-	.string "POKéMON MART.\p"
-	.string "Use these surveys to invite\n"
-	.string "TRAINERS to SOOTOPOLIS CITY.\p"
-	.string "…Let me give you a secret\n"
-	.string "password for a survey:\p"
-	.string "“GIVE ME\n"
-	.string "AWESOME TRAINER”\p"
-	.string "Write that in on a survey and send\n"
-	.string "it to the WIRELESS\l"
-	.string "COMMUNICATION SYSTEM.$"
+	.string "{JPN}ふしぎなおくりものシステムを\nごりよう ありがとう ございます。\pこの ふしぎなカードを もって いると\nフレンドリィショップの アンケートに\lさんか できます。\pアンケートで ルネシティに\nトレーナーを よべます。\p…アンケートの あいことばを\nおしえましょう。\p{ENG}“GIVE ME\nAWESOME TRAINER”{JPN}\pアンケートに かいて ワイヤレス\nつうしんシステムに おくって\lください。$"
 
 sText_MysteryGiftVisitingTrainerArrived:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "A TRAINER has arrived in\n"
-	.string "SOOTOPOLIS CITY looking for you.\p"
-	.string "We hope you will enjoy\n"
-	.string "battling the visiting TRAINER.\p"
-	.string "You may invite other TRAINERS by\n"
-	.string "entering other passwords.\p"
-	.string "Try looking for other passwords\n"
-	.string "that may work.$"
+	.string "{JPN}ふしぎなおくりものシステムを\nごりよう ありがとう ございます。\pルネシティに あなたを さがす\nトレーナーが やってきました。\pぜひ その トレーナーとの バトルを\nたのしんで ください。\pほかの あいことばを いれれば\nべつの トレーナーも よべます。\pいろいろな あいことばを\nさがして みて ください。$"

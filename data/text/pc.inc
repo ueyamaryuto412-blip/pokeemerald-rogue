@@ -1,5 +1,5 @@
 Text_BootUpPC:
-	.string "{PLAYER} booted up the PC.$"
+	.string "{JPN}{PLAYER}は パソコンを きどうした。$"
 
 gText_WhichPCShouldBeAccessed::
 	.string "Which PC should be accessed?$"

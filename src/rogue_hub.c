@@ -210,11 +210,11 @@ enum
     INTERIOR_STYLE_COUNT,
 };
 
-static u8 const sText_PathStyle_Grass[] = _("Grass");
-static u8 const sText_PathStyle_Sand[] = _("Sand");
-static u8 const sText_PathStyle_Stone[] = _("Stone");
-static u8 const sText_PathStyle_Pebbles[] = _("Pebbles");
-static u8 const sText_PathStyle_MuddyTracks[] = _("Muddy Tracks");
+static u8 const sText_PathStyle_Grass[] = _("{JPN}くさ");
+static u8 const sText_PathStyle_Sand[] = _("{JPN}すな");
+static u8 const sText_PathStyle_Stone[] = _("{JPN}いし");
+static u8 const sText_PathStyle_Pebbles[] = _("{JPN}じゃり");
+static u8 const sText_PathStyle_MuddyTracks[] = _("{JPN}どろの みち");
 
 static u8 const* const sOptions_PathStyle[PATH_STYLE_COUNT] =
 {
@@ -226,10 +226,10 @@ static u8 const* const sOptions_PathStyle[PATH_STYLE_COUNT] =
 };
 
 static u8 const sText_ExteriorStyle_Cave[] = _("{JPN}ほらあな");
-static u8 const sText_ExteriorStyle_Trees[] = _("Trees");
-static u8 const sText_ExteriorStyle_BrickHouse[] = _("Brick House");
-static u8 const sText_ExteriorStyle_WoodHouse[] = _("Wooden House");
-static u8 const sText_ExteriorStyle_Gym[] = _("Gym Building");
+static u8 const sText_ExteriorStyle_Trees[] = _("{JPN}きぎ");
+static u8 const sText_ExteriorStyle_BrickHouse[] = _("{JPN}レンガの いえ");
+static u8 const sText_ExteriorStyle_WoodHouse[] = _("{JPN}きの いえ");
+static u8 const sText_ExteriorStyle_Gym[] = _("{JPN}ジムの たてもの");
 
 static u8 const* const sOptions_ExteriorStyle[EXTERIOR_STYLE_COUNT] =
 {
@@ -240,12 +240,12 @@ static u8 const* const sOptions_ExteriorStyle[EXTERIOR_STYLE_COUNT] =
     [EXTERIOR_STYLE_GYM_BUILDING] = sText_ExteriorStyle_Gym,
 };
 
-static u8 const sText_InteriorStyle_BlueCave[] = _("Blue Cave");
-static u8 const sText_InteriorStyle_BrownCave[] = _("Brown Cave");
-static u8 const sText_InteriorStyle_RedCave[] = _("Red Cave");
-static u8 const sText_InteriorStyle_DesertCave[] = _("Desert Cave");
-static u8 const sText_InteriorStyle_Shrub[] = _("Shrub");
-static u8 const sText_InteriorStyle_Tree[] = _("Tree");
+static u8 const sText_InteriorStyle_BlueCave[] = _("{JPN}あおい どうくつ");
+static u8 const sText_InteriorStyle_BrownCave[] = _("{JPN}ちゃいろの どうくつ");
+static u8 const sText_InteriorStyle_RedCave[] = _("{JPN}あかい どうくつ");
+static u8 const sText_InteriorStyle_DesertCave[] = _("{JPN}さばくの どうくつ");
+static u8 const sText_InteriorStyle_Shrub[] = _("{JPN}しげみ");
+static u8 const sText_InteriorStyle_Tree[] = _("{JPN}き");
 
 static u8 const* const sOptions_InteriorStyle[INTERIOR_STYLE_COUNT] =
 {
@@ -2208,8 +2208,8 @@ enum
 #define VAR_PLACE_X                     VAR_TEMP_A
 #define VAR_PLACE_Y                     VAR_TEMP_9
 
-static u8 const sText_Exit[] = _("Exit");
-static u8 const sText_Back[] = _("Back");
+static u8 const sText_Exit[] = _("{JPN}やめる");
+static u8 const sText_Back[] = _("{JPN}もどる");
 
 
 const u8* RogueHub_GetDecoratingScriptFor(u16 layoutId, struct MapPosition *position, u16 metatileBehavior, u8 direction, u8 const* existingScript)

@@ -207,7 +207,7 @@ static const struct RoguePlayerUIEntry sRoguePlayerUIEntries[UI_ENTRY_COUNT] =
 {
     [UI_ENTRY_BACK] = 
     {
-        .text = _("Back"),
+        .text = _("{JPN}もどる"),
         .processInput = NULL,
         .drawChoices = NULL,
     },

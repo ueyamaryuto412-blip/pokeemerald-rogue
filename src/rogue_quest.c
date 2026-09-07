@@ -1148,8 +1148,8 @@ void RogueDebug_FillMonMasteries()
 #endif
 }
 
-static const u8 sText_Popup_QuestUnlocked[] = _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Quest Added");
-static const u8 sText_Popup_QuestReset[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Quest Reset");
+static const u8 sText_Popup_QuestUnlocked[] = _("{JPN}{COLOR LIGHT_GREEN}{SHADOW GREEN}クエスト ついか");
+static const u8 sText_Popup_QuestReset[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}クエスト リセット");
 
 static void TryCollectAddedSaveVersionRewards(u16 questId, u16 fromVersion, u16 toVersion)
 {

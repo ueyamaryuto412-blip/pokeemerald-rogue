@@ -178,67 +178,58 @@ BerryTree_EventScript_PlantBerry::
 	return
 
 BerryTree_Text_ItsSoftLoamySoil:
-	.string "It's soft, loamy soil.$"
+	.string "{JPN}やわらかい つちだ。$"
 
 BerryTree_Text_WantToPlant:
-	.string "It's soft, loamy soil.\n"
-	.string "Want to plant a Berry?$"
+	.string "{JPN}やわらかい つちだ。\nきのみを うえますか?$"
 
 BerryTree_Text_PlantedOneBerry:
-	.string "{PLAYER} planted {STR_VAR_1} in\n"
-	.string "the soft, loamy soil.$"
+	.string "{JPN}{PLAYER}は やわらかい つちに\n{STR_VAR_1}を うえた。$"
 
 BerryTree_Text_BerryGrowthStage1:
-	.string "{STR_VAR_1} was planted here.$"
+	.string "{JPN}{STR_VAR_1}を うえた ところだ。$"
 
 BerryTree_Text_BerryGrowthStage2:
-	.string "{STR_VAR_1} has sprouted.$"
+	.string "{JPN}{STR_VAR_1}の めが でた。$"
 
 BerryTree_Text_BerryGrowthStage3:
-	.string "This {STR_VAR_1} plant is growing taller.$"
+	.string "{JPN}{STR_VAR_1}の めが おおきく なった。$"
 
 BerryTree_Text_BerryGrowthStage4:
-	.string "These {STR_VAR_1} flowers are blooming\n"
-	.string "{STR_VAR_2}.$"
+	.string "{JPN}{STR_VAR_1}の はなが\n{STR_VAR_2} さいて いる。$"
 
 BerryTree_Text_CareAdverbGreat:
-	.string "very beautifully$"
+	.string "{JPN}とても きれいに$"
 
 BerryTree_Text_CareAdverbPoor:
-	.string "cutely$"
+	.string "{JPN}かわいく$"
 
 BerryTree_Text_CareAdverbGood:
-	.string "prettily$"
+	.string "{JPN}きれいに$"
 
 BerryTree_Text_WantToPick:
-	.string "You found {STR_VAR_2} {STR_VAR_1}!\p"
-	.string "Do you want to pick the\n"
-	.string "{STR_VAR_1}?$"
+	.string "{JPN}{STR_VAR_2}この {STR_VAR_1}が みのって いる!\p{STR_VAR_1}を とりますか?$"
 
 BerryTree_Text_PickedTheBerry:
-	.string "{PLAYER} picked the {STR_VAR_2} {STR_VAR_1}.$"
+	.string "{JPN}{PLAYER}は {STR_VAR_1}を\n{STR_VAR_2}こ てにいれた。$"
 
 BerryTree_Text_PutAwayBerry:
-	.string "{PLAYER} put away the {STR_VAR_1}\n"
-	.string "in the BAG's BERRIES POCKET.$"
+	.string "{JPN}{PLAYER}は {STR_VAR_1}を\nバッグの きのみポケットに しまった。$"
 
 BerryTree_Text_BerryPocketFull:
-	.string "The BAG is too full to take the\n"
-	.string "{STR_VAR_1}.$"
+	.string "{JPN}バッグが いっぱいで {STR_VAR_1}を\nうけとれない。$"
 
 BerryTree_Text_BerryLeftUnpicked:
-	.string "{PLAYER} left the {STR_VAR_1}\n"
-	.string "unpicked.$"
+	.string "{JPN}{PLAYER}は {STR_VAR_1}を\nとらずに おいた。$"
 
 BerryTree_Text_WantToWater:
-	.string "Want to water the {STR_VAR_1} with the\n"
-	.string "WAILMER PAIL?$"
+	.string "{JPN}ジョウロで {STR_VAR_1}に\nみずを あげますか?$"
 
 BerryTree_Text_WateredTheBerry:
-	.string "{PLAYER} watered the {STR_VAR_1}.$"
+	.string "{JPN}{PLAYER}は {STR_VAR_1}に\nみずを あげた。$"
 
 BerryTree_Text_PlantIsDelighted:
-	.string "The plant seems to be delighted.$"
+	.string "{JPN}うれしそうに して いる。$"
 
 BerryTree_Text_ExclamationPoint:
 	.string "!$"

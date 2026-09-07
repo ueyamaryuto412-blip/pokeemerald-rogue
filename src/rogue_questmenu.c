@@ -389,7 +389,7 @@ static u8 const sText_InProgress[] = _("{JPN}すすめて いる…");
 static u8 const sText_Inactive[] = _("{JPN}むこう");
 static u8 const sText_Todo[] = _("{JPN}これから");
 static u8 const sText_Complete[] = _("{JPN}たっせい");
-static u8 const sText_Back[] = _("Back");
+static u8 const sText_Back[] = _("{JPN}もどる");
 static u8 const sText_Progress[] = _("{JPN}すすみぐあい");
 static u8 const sText_AButtonPin[] = _("{JPN}{COLOR LIGHT_GRAY}{SHADOW DARK_GRAY}{A_BUTTON} えらぶ  {SELECT_BUTTON} ならびかえ");
 

@@ -86,7 +86,7 @@ script Rogue_Area_Home_InteractWithWorkbench
             }
 
             appenddynamicmultichoice("{JPN}かざりを すべて けす", 3)
-            appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+            appenddynamicmultichoice("{JPN}やめる", MULTI_B_PRESSED)
 
 
             message(format("{JPN}なにを しますか?"))
@@ -135,7 +135,7 @@ script Rogue_Area_Home_EditStyles
     appenddynamicmultichoice("{JPN}みち", 0)
     appenddynamicmultichoice("{JPN}きょてんの そとがわ", 1)
     appenddynamicmultichoice("{JPN}きょてんの なか", 2)
-    appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+    appenddynamicmultichoice("{JPN}やめる", MULTI_B_PRESSED)
 
     message(format("{JPN}どの みためを かえますか?"))
     waitmessage
@@ -158,7 +158,7 @@ script Rogue_Area_Home_EditPathStyles
 {
     begindynamicmultichoice
     special(RogueHub_AppendChangeStyle_Paths)
-    appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+    appenddynamicmultichoice("{JPN}やめる", MULTI_B_PRESSED)
 
     message(format("{JPN}どの みために しますか?"))
     waitmessage
@@ -179,7 +179,7 @@ script Rogue_Area_Home_EditExteriorStyles
 {
     begindynamicmultichoice
     special(RogueHub_AppendChangeStyle_Exterior)
-    appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+    appenddynamicmultichoice("{JPN}やめる", MULTI_B_PRESSED)
 
     message(format("{JPN}どの みために しますか?"))
     waitmessage
@@ -201,7 +201,7 @@ script Rogue_Area_Home_EditInteriorStyles
 {
     begindynamicmultichoice
     special(RogueHub_AppendChangeStyle_Interior)
-    appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+    appenddynamicmultichoice("{JPN}やめる", MULTI_B_PRESSED)
 
     message(format("{JPN}どの みために しますか?"))
     waitmessage
@@ -267,7 +267,7 @@ script Rogue_Area_Home_PlaceDecoration
     {
         begindynamicmultichoice
         appenddynamicmultichoice("{JPN}かざりを かえる", 1)
-        appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+        appenddynamicmultichoice("{JPN}やめる", MULTI_B_PRESSED)
 
         if(var(VAR_PREVIOUS_DECOR_INDEX) == HOME_DECOR_TOO_MANY_OF_TYPE)
         {
@@ -311,7 +311,7 @@ script Rogue_Area_Home_PlaceDecoration
             if(var(VAR_PREVIOUS_DECOR_INDEX) == HOME_DECOR_CANNOT_REMOVE)
             {
                 appenddynamicmultichoice("{JPN}かざりを かえる", 1)
-                appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+                appenddynamicmultichoice("{JPN}やめる", MULTI_B_PRESSED)
 
                 message(format("{JPN}ここには とりのぞく ものが ありません。\nどうしますか?"))
                 waitmessage
@@ -322,7 +322,7 @@ script Rogue_Area_Home_PlaceDecoration
             {
                 appenddynamicmultichoice("{JPN}これを とりのぞく", 0)
                 appenddynamicmultichoice("{JPN}かざりを かえる", 1)
-                appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+                appenddynamicmultichoice("{JPN}やめる", MULTI_B_PRESSED)
 
                 message(format("{JPN}この かざりを とりのぞきますか?"))
                 waitmessage
@@ -334,7 +334,7 @@ script Rogue_Area_Home_PlaceDecoration
         {
             appenddynamicmultichoice("{JPN}ここに おく", 0)
             appenddynamicmultichoice("{JPN}かざりを かえる", 1)
-            appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+            appenddynamicmultichoice("{JPN}やめる", MULTI_B_PRESSED)
 
             message(format("{JPN}ここに おきますか?"))
             waitmessage

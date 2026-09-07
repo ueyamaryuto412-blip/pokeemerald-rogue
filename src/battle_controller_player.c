@@ -2253,7 +2253,7 @@ static void HandleChooseActionAfterDma3(u32 battler)
             gBattleStruct->aiDelayTimer = 0;
             #if DEBUG_AI_DELAY_TIMER
             {
-                static const u8 sText_AIDelay[] = _("AI delay:\n{B_BUFF1} frames");
+                static const u8 sText_AIDelay[] = _("{JPN}AI ちえん:\n{B_BUFF1} フレーム");
                 PREPARE_HWORD_NUMBER_BUFFER(gBattleTextBuff1, 3, gBattleStruct->aiDelayFrames);
                 BattleStringExpandPlaceholdersToDisplayedString(sText_AIDelay);
                 BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_ACTION_PROMPT);

@@ -94,7 +94,7 @@ const u8 gText_DifficultyPresetBrutal[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW RED}�
 const u8 gText_DifficultyPresetCustom[] = _("{JPN}{COLOR DARK_GRAY}{SHADOW LIGHT_GREEN}じぶんで");
 
 const u8 gText_DifficultyEnabled[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}オン  ");
-const u8 gText_DifficultyDisabled[] = _("{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}Disabled");
+const u8 gText_DifficultyDisabled[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}つかわない");
 const u8 gText_DifficultyModeActive[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}はつどうちゅう!");
 
 const u8 gText_DifficultyExpAll[] = _("{JPN}がくしゅうそうち");

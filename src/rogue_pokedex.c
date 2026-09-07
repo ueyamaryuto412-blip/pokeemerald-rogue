@@ -184,7 +184,7 @@ static const u8 sText_Speed[] = _("{JPN}すばやさ");
 static const u8 sText_Skills[] = _("{JPN}わざ");
 static const u8 sText_SkillClimbing[] = _("{JPN}がけのぼり");
 static const u8 sText_SkillSurf[] = _("{JPN}なみのり");
-static const u8 sText_SkillFlying[] = _("Flying");
+static const u8 sText_SkillFlying[] = _("{JPN}ひこう");
 static const u8 sText_SkillNone[] = _("{JPN}なし");
 
 static const u8 sText_Base[] = _("{JPN}{COLOR RED}{SHADOW LIGHT_RED}きほん");

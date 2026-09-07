@@ -1,22 +1,22 @@
-const u8 gRibbonDescriptionPart1_Champion[] = _("CHAMPION-beating, HALL");
-const u8 gRibbonDescriptionPart2_Champion[] = _("OF FAME Member RIBBON");
+const u8 gRibbonDescriptionPart1_Champion[] = _("{JPN}チャンピオンを たおし");
+const u8 gRibbonDescriptionPart2_Champion[] = _("{JPN}でんどういりした リボン");
 const u8 gRibbonDescriptionPart1_CoolContest[] = _("{JPN}かっこよさコンテスト");
 const u8 gRibbonDescriptionPart1_BeautyContest[] = _("{JPN}うつくしさ コンテスト");
 const u8 gRibbonDescriptionPart1_CuteContest[] = _("{JPN}かわいさコンテスト");
 const u8 gRibbonDescriptionPart1_SmartContest[] = _("{JPN}かしこさコンテスト");
 const u8 gRibbonDescriptionPart1_ToughContest[] = _("{JPN}たくましさコンテスト");
-const u8 gRibbonDescriptionPart2_NormalRank[] = _("Normal Rank winner!");
-const u8 gRibbonDescriptionPart2_SuperRank[] = _("Super Rank winner!");
-const u8 gRibbonDescriptionPart2_HyperRank[] = _("Hyper Rank winner!");
-const u8 gRibbonDescriptionPart2_MasterRank[] = _("Master Rank winner!");
-const u8 gRibbonDescriptionPart1_Winning[] = _("For clearing LV50");
-const u8 gRibbonDescriptionPart2_Winning[] = _("at the BATTLE TOWER.");
-const u8 gRibbonDescriptionPart1_Victory[] = _("For clearing Open Level");
-const u8 gRibbonDescriptionPart2_Victory[] = _("at the BATTLE TOWER.");
-const u8 gRibbonDescriptionPart1_Artist[] = _("RIBBON for being chosen");
-const u8 gRibbonDescriptionPart2_Artist[] = _("as a super sketch model.");
-const u8 gRibbonDescriptionPart1_Effort[] = _("RIBBON given to");
-const u8 gRibbonDescriptionPart2_Effort[] = _("PARTNER POKéMON.");
+const u8 gRibbonDescriptionPart2_NormalRank[] = _("{JPN}ノーマルランク ゆうしょう!");
+const u8 gRibbonDescriptionPart2_SuperRank[] = _("{JPN}スーパーランク ゆうしょう!");
+const u8 gRibbonDescriptionPart2_HyperRank[] = _("{JPN}ハイパーランク ゆうしょう!");
+const u8 gRibbonDescriptionPart2_MasterRank[] = _("{JPN}マスターランク ゆうしょう!");
+const u8 gRibbonDescriptionPart1_Winning[] = _("{JPN}レベル50を クリアした");
+const u8 gRibbonDescriptionPart2_Winning[] = _("{JPN}バトルタワーの あかし。");
+const u8 gRibbonDescriptionPart1_Victory[] = _("{JPN}オープンレベルを クリアした");
+const u8 gRibbonDescriptionPart2_Victory[] = _("{JPN}バトルタワーの あかし。");
+const u8 gRibbonDescriptionPart1_Artist[] = _("{JPN}すてきな えの モデルに");
+const u8 gRibbonDescriptionPart2_Artist[] = _("{JPN}えらばれた リボン。");
+const u8 gRibbonDescriptionPart1_Effort[] = _("{JPN}パートナー ポケモンに");
+const u8 gRibbonDescriptionPart2_Effort[] = _("{JPN}おくられた リボン。");
 
 const u8 *const gRibbonDescriptionPointers[][2] =
 {

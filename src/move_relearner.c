@@ -1306,15 +1306,9 @@ static u8 const* MoveRelearnerItemNameCallback(s32 chosenMove, u8 const* moveNam
     return gStringVar4;
 }
 
-static const u8 sUnavaliableDescription_Run[] = _(
-    "Earn Badges with this {PKMN} in\n"
-    "your Party, to unlock\n"
-    "additional moves.");
+static const u8 sUnavaliableDescription_Run[] = _("{JPN}この {PKMN}を てもちに いれて\nバッジを あつめると\nおぼえる わざが ふえる");
 
-static const u8 sUnavaliableDescription_Hub[] = _(
-    "Complete Adventures,\n"
-    "starting with this {PKMN},\n"
-    "to unlock additional moves.");
+static const u8 sUnavaliableDescription_Hub[] = _("{JPN}この {PKMN}で ぼうけんを\nクリアすると おぼえる\nわざが ふえる");
 
 static void MoveRelearnerLoadBattleMoveDescription(u32 chosenMove)
 {

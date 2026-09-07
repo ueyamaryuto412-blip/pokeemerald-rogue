@@ -3422,7 +3422,7 @@ static void Task_PrintInfoPage(u8 taskId)
     data[0]++;
 }
 
-static u8 const sText_UniqueMon[] = _("Unique {PKMN}");
+static u8 const sText_UniqueMon[] = _("{JPN}ユニーク{PKMN}");
 
 static void PrintMonOTName(void)
 {

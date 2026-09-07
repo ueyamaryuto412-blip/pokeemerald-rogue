@@ -10,44 +10,41 @@ Roulette_EventScript_Play::
 	end
 
 Roulette_Text_PlayMinimumWagerIsX::
-	.string "The minimum wager at this table\n"
-	.string "is {STR_VAR_1}. Do you want to play?$"
+	.string "{JPN}この だいの さいてい かけきんは\n{STR_VAR_1}です。あそびますか?$"
 
 Roulette_Text_NotEnoughCoins::
-	.string "You don't have enough COINS.$"
+	.string "{JPN}コインが たりません。$"
 
 Roulette_Text_SpecialRateTable::
-	.string "Special rate table right now!$"
+	.string "{JPN}いまなら とくべつレートです!$"
 
 Roulette_Text_ControlsInstruction::
-	.string "Place your wager with the + Control\n"
-	.string "Pad, then press the A Button.$"
+	.string "{JPN}じゅうじキーで かける ばしょを きめて\nAボタンを おして ください。$"
 
 Roulette_Text_ItsAHit::
-	.string "It's a hit!$"
+	.string "{JPN}あたり!$"
 
 Roulette_Text_Jackpot::
-	.string "Jackpot!$"
+	.string "{JPN}おおあたり!$"
 
 Roulette_Text_NothingDoing::
-	.string "Nothing doing!$"
+	.string "{JPN}はずれ!$"
 
 Roulette_Text_YouveWonXCoins::
-	.string "You've won {STR_VAR_1} COINS!$"
+	.string "{JPN}{STR_VAR_1}コイン ゲット!$"
 
 Roulette_Text_NoCoinsLeft::
-	.string "No COINS left…$"
+	.string "{JPN}コインが なくなった…$"
 
 Roulette_Text_KeepPlaying::
-	.string "Keep playing?$"
+	.string "{JPN}まだ あそびますか?$"
 
 Roulette_Text_BoardWillBeCleared::
-	.string "The ROULETTE board will be cleared.$"
+	.string "{JPN}ルーレットの ばんめんを リセットします。$"
 
 @ Unused
 Roulette_Text_YouDontHaveACoinCase::
-	.string "You don't have a COIN CASE.$"
+	.string "{JPN}コインケースを もって いません。$"
 
 Roulette_Text_CoinCaseIsFull::
-	.string "Your COIN CASE is full!\n"
-	.string "Coins can be exchanged for prizes.$"
+	.string "{JPN}コインケースが いっぱいです!\nコインは けいひんと こうかん できます。$"

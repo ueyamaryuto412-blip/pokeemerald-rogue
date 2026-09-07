@@ -409,7 +409,7 @@ const u16 sRogueDexVariant_ROGUE_MODERN[] =
 	SPECIES_ZARUDE,
 };
 
-const u8 sRogueDexVariantName_ROGUE_CLASSICPLUS[] = _("Classic Plus");
+const u8 sRogueDexVariantName_ROGUE_CLASSICPLUS[] = _("{JPN}クラシックプラス");
 
 const u16 sRogueDexVariant_ROGUE_CLASSICPLUS[] = 
 {
@@ -845,7 +845,7 @@ const u16 sRogueDexVariant_ROGUE_CLASSICPLUS[] =
 	SPECIES_DEOXYS,
 };
 
-const u8 sRogueDexVariantName_KANTO_RBY[] = _("Red/Blue/Yellow");
+const u8 sRogueDexVariantName_KANTO_RBY[] = _("{JPN}あか・あお・ピカチュウ");
 
 const u16 sRogueDexVariant_KANTO_RBY[] = 
 {
@@ -1002,7 +1002,7 @@ const u16 sRogueDexVariant_KANTO_RBY[] =
 	SPECIES_MEW,
 };
 
-const u8 sRogueDexVariantName_KANTO_LETSGO[] = _("Let'sGo");
+const u8 sRogueDexVariantName_KANTO_LETSGO[] = _("{JPN}レッツゴー");
 
 const u16 sRogueDexVariant_KANTO_LETSGO[] = 
 {
@@ -1161,7 +1161,7 @@ const u16 sRogueDexVariant_KANTO_LETSGO[] =
 	SPECIES_MELMETAL,
 };
 
-const u8 sRogueDexVariantName_JOHTO_GSC[] = _("Gold/Silver/Crystal");
+const u8 sRogueDexVariantName_JOHTO_GSC[] = _("{JPN}きん・ぎん・クリスタル");
 
 const u16 sRogueDexVariant_JOHTO_GSC[] = 
 {
@@ -1418,7 +1418,7 @@ const u16 sRogueDexVariant_JOHTO_GSC[] =
 	SPECIES_CELEBI,
 };
 
-const u8 sRogueDexVariantName_JOHTO_HGSS[] = _("HeartGold/SoulSilver");
+const u8 sRogueDexVariantName_JOHTO_HGSS[] = _("{JPN}ハートゴールド ソウルシルバー");
 
 const u16 sRogueDexVariant_JOHTO_HGSS[] = 
 {
@@ -1691,7 +1691,7 @@ const u16 sRogueDexVariant_JOHTO_HGSS[] =
 	SPECIES_CELEBI,
 };
 
-const u8 sRogueDexVariantName_HOENN_RSE[] = _("Ruby/Sapphire/Emerald");
+const u8 sRogueDexVariantName_HOENN_RSE[] = _("{JPN}ルビー・サファイア・エメラルド");
 
 const u16 sRogueDexVariant_HOENN_RSE[] = 
 {
@@ -1899,7 +1899,7 @@ const u16 sRogueDexVariant_HOENN_RSE[] =
 	SPECIES_DEOXYS,
 };
 
-const u8 sRogueDexVariantName_HOENN_ORAS[] = _("OmegaRuby/AlphaSapphire");
+const u8 sRogueDexVariantName_HOENN_ORAS[] = _("{JPN}オメガルビー・アルファサファイア");
 
 const u16 sRogueDexVariant_HOENN_ORAS[] = 
 {
@@ -2116,7 +2116,7 @@ const u16 sRogueDexVariant_HOENN_ORAS[] =
 	SPECIES_DEOXYS,
 };
 
-const u8 sRogueDexVariantName_SINNOH_DP[] = _("Diamond/Pearl");
+const u8 sRogueDexVariantName_SINNOH_DP[] = _("{JPN}ダイヤモンド・パール");
 
 const u16 sRogueDexVariant_SINNOH_DP[] = 
 {
@@ -2273,7 +2273,7 @@ const u16 sRogueDexVariant_SINNOH_DP[] =
 	SPECIES_MANAPHY,
 };
 
-const u8 sRogueDexVariantName_SINNOH_PL[] = _("Platinum");
+const u8 sRogueDexVariantName_SINNOH_PL[] = _("{JPN}プラチナ");
 
 const u16 sRogueDexVariant_SINNOH_PL[] = 
 {
@@ -2489,7 +2489,7 @@ const u16 sRogueDexVariant_SINNOH_PL[] =
 	SPECIES_GIRATINA,
 };
 
-const u8 sRogueDexVariantName_UNOVA_BW[] = _("Black/White");
+const u8 sRogueDexVariantName_UNOVA_BW[] = _("{JPN}ブラック・ホワイト");
 
 const u16 sRogueDexVariant_UNOVA_BW[] = 
 {
@@ -2651,7 +2651,7 @@ const u16 sRogueDexVariant_UNOVA_BW[] =
 	SPECIES_GENESECT,
 };
 
-const u8 sRogueDexVariantName_UNOVA_BW2[] = _("Black2/White2");
+const u8 sRogueDexVariantName_UNOVA_BW2[] = _("{JPN}ブラック2・ホワイト2");
 
 const u16 sRogueDexVariant_UNOVA_BW2[] = 
 {
@@ -2958,7 +2958,7 @@ const u16 sRogueDexVariant_UNOVA_BW2[] =
 	SPECIES_GENESECT,
 };
 
-const u8 sRogueDexVariantName_KALOS[] = _("X/Y");
+const u8 sRogueDexVariantName_KALOS[] = _("{JPN}エックス・ワイ");
 
 const u16 sRogueDexVariant_KALOS[] = 
 {
@@ -3418,7 +3418,7 @@ const u16 sRogueDexVariant_KALOS[] =
 	SPECIES_MEWTWO,
 };
 
-const u8 sRogueDexVariantName_ALOLA_SM[] = _("Sun/Moon");
+const u8 sRogueDexVariantName_ALOLA_SM[] = _("{JPN}サン・ムーン");
 
 const u16 sRogueDexVariant_ALOLA_SM[] = 
 {
@@ -3726,7 +3726,7 @@ const u16 sRogueDexVariant_ALOLA_SM[] =
 	SPECIES_MARSHADOW,
 };
 
-const u8 sRogueDexVariantName_ALOLA_USUM[] = _("UltraSun/UltraMoon");
+const u8 sRogueDexVariantName_ALOLA_USUM[] = _("{JPN}ウルトラサン・ウルトラムーン");
 
 const u16 sRogueDexVariant_ALOLA_USUM[] = 
 {
@@ -4135,7 +4135,7 @@ const u16 sRogueDexVariant_ALOLA_USUM[] =
 	SPECIES_ZERAORA,
 };
 
-const u8 sRogueDexVariantName_GALAR_SWSH[] = _("Sword/Shield");
+const u8 sRogueDexVariantName_GALAR_SWSH[] = _("{JPN}ソード・シールド");
 
 const u16 sRogueDexVariant_GALAR_SWSH[] = 
 {
@@ -4541,7 +4541,7 @@ const u16 sRogueDexVariant_GALAR_SWSH[] =
 	SPECIES_ETERNATUS,
 };
 
-const u8 sRogueDexVariantName_GALAR_ISLEOFARMOR[] = _("IsleOfArmor");
+const u8 sRogueDexVariantName_GALAR_ISLEOFARMOR[] = _("{JPN}よろいの こじま");
 
 const u16 sRogueDexVariant_GALAR_ISLEOFARMOR[] = 
 {
@@ -4758,7 +4758,7 @@ const u16 sRogueDexVariant_GALAR_ISLEOFARMOR[] =
 	SPECIES_ZARUDE,
 };
 
-const u8 sRogueDexVariantName_GALAR_CROWNTUNDRA[] = _("CrownTundra");
+const u8 sRogueDexVariantName_GALAR_CROWNTUNDRA[] = _("{JPN}かんむり せつげん");
 
 const u16 sRogueDexVariant_GALAR_CROWNTUNDRA[] = 
 {
@@ -4974,7 +4974,7 @@ const u16 sRogueDexVariant_GALAR_CROWNTUNDRA[] =
 	SPECIES_CALYREX,
 };
 
-const u8 sRogueDexVariantName_GALAR_FULLDLC[] = _("Sword/Shield + DLC");
+const u8 sRogueDexVariantName_GALAR_FULLDLC[] = _("{JPN}ソード・シールド ぜんぶ");
 
 const u16 sRogueDexVariant_GALAR_FULLDLC[] = 
 {
@@ -5564,7 +5564,7 @@ const u16 sRogueDexVariant_GALAR_FULLDLC[] =
 	SPECIES_CALYREX,
 };
 
-const u8 sRogueDexVariantName_PALDEA_SCVI[] = _("Scarlet/Violet");
+const u8 sRogueDexVariantName_PALDEA_SCVI[] = _("{JPN}スカーレット・バイオレット");
 
 const u16 sRogueDexVariant_PALDEA_SCVI[] = 
 {
@@ -5970,7 +5970,7 @@ const u16 sRogueDexVariant_PALDEA_SCVI[] =
 	SPECIES_MIRAIDON,
 };
 
-const u8 sRogueDexVariantName_PALDEA_KITAKAMI[] = _("The Teal Mask");
+const u8 sRogueDexVariantName_PALDEA_KITAKAMI[] = _("{JPN}みどりの かめん");
 
 const u16 sRogueDexVariant_PALDEA_KITAKAMI[] = 
 {
@@ -6176,7 +6176,7 @@ const u16 sRogueDexVariant_PALDEA_KITAKAMI[] =
 	SPECIES_OGERPON,
 };
 
-const u8 sRogueDexVariantName_PALDEA_BLUEBERRY[] = _("Indigo Disk");
+const u8 sRogueDexVariantName_PALDEA_BLUEBERRY[] = _("{JPN}あいの えんばん");
 
 const u16 sRogueDexVariant_PALDEA_BLUEBERRY[] = 
 {
@@ -6427,7 +6427,7 @@ const u16 sRogueDexVariant_PALDEA_BLUEBERRY[] =
 	SPECIES_PECHARUNT,
 };
 
-const u8 sRogueDexVariantName_PALDEA_FULLDLC[] = _("Scarlet/Violet + DLC");
+const u8 sRogueDexVariantName_PALDEA_FULLDLC[] = _("{JPN}スカーレット・バイオレット ぜんぶ");
 
 const u16 sRogueDexVariant_PALDEA_FULLDLC[] = 
 {
@@ -7099,7 +7099,7 @@ const u16 sRogueDexVariant_PALDEA_FULLDLC[] =
 	SPECIES_PECHARUNT,
 };
 
-const u8 sRogueDexVariantName_EXTRAS_CONQUEST[] = _("Conquest");
+const u8 sRogueDexVariantName_EXTRAS_CONQUEST[] = _("{JPN}ポケモン ノブナガの やぼう");
 
 const u16 sRogueDexVariant_EXTRAS_CONQUEST[] = 
 {
@@ -12998,7 +12998,7 @@ const u16 sRogueDexVariant_NATIONAL_GEN9[] =
 	SPECIES_PECHARUNT,
 };
 
-const u8 sRogueDexVariantName_LEGENDS_ZA[] = _("Z-A");
+const u8 sRogueDexVariantName_LEGENDS_ZA[] = _("{JPN}ゼットエー");
 
 const u16 sRogueDexVariant_LEGENDS_ZA[] = 
 {
@@ -13236,7 +13236,7 @@ const u16 sRogueDexVariant_LEGENDS_ZA[] =
 	SPECIES_MEWTWO,
 };
 
-const u8 sRogueDexVariantName_LEGENDS_ZAFULLDLC[] = _("Z-A + DLC");
+const u8 sRogueDexVariantName_LEGENDS_ZAFULLDLC[] = _("{JPN}ゼットエー ぜんぶ");
 
 const u16 sRogueDexVariant_LEGENDS_ZAFULLDLC[] = 
 {
@@ -13606,7 +13606,7 @@ const u16 sRogueDexVariant_LEGENDS_ZAFULLDLC[] =
 	SPECIES_ZERAORA,
 };
 
-const u8 sRogueDexVariantName_EXTRAS_COLOSSEUM[] = _("Colosseum + XD");
+const u8 sRogueDexVariantName_EXTRAS_COLOSSEUM[] = _("{JPN}コロシアム・エックスディー");
 
 const u16 sRogueDexVariant_EXTRAS_COLOSSEUM[] = 
 {
@@ -13917,7 +13917,7 @@ const u16 sRogueDexRegion_PALDEA[] =
 	POKEDEX_VARIANT_PALDEA_FULLDLC,
 };
 
-const u8 sRogueDexRegionName_EXTRAS[] = _("Extras");
+const u8 sRogueDexRegionName_EXTRAS[] = _("{JPN}そのた");
 
 const u16 sRogueDexRegion_EXTRAS[] = 
 {
@@ -13925,7 +13925,7 @@ const u16 sRogueDexRegion_EXTRAS[] =
 	POKEDEX_VARIANT_EXTRAS_COLOSSEUM,
 };
 
-const u8 sRogueDexRegionName_LEGENDS[] = _("Legends");
+const u8 sRogueDexRegionName_LEGENDS[] = _("{JPN}レジェンズ");
 
 const u16 sRogueDexRegion_LEGENDS[] = 
 {
@@ -13934,7 +13934,7 @@ const u16 sRogueDexRegion_LEGENDS[] =
 	POKEDEX_VARIANT_LEGENDS_ZAFULLDLC,
 };
 
-const u8 sRogueDexRegionName_NATIONAL[] = _("National");
+const u8 sRogueDexRegionName_NATIONAL[] = _("{JPN}ぜんこく");
 
 const u16 sRogueDexRegion_NATIONAL[] = 
 {

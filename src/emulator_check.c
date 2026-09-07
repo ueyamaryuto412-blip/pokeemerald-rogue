@@ -120,7 +120,7 @@ static const u8 sText_ErrorMessage[] = _(
     VIABLE_LEMUROID
     VIABLE_PIZZABOY
 );
-static const u8 sText_BottomMessage[] = _("Press START to continue.");
+static const u8 sText_BottomMessage[] = _("{JPN}{START_BUTTON}ボタンで つづける。");
 
 static const u32 sErrorScreen_Gfx[] = INCBIN_U32( "graphics/intro/emulator_check/background.4bpp.lz");
 static const u32 sErrorScreen_Map[] = INCBIN_U32( "graphics/intro/emulator_check/background.bin.lz");

@@ -2350,23 +2350,23 @@ static bool8 ShouldBlockObjectEvent(struct RogueAdvPathRoom* room)
 
 static void BufferTypeAdjective(u8 type)
 {
-    const u8 gText_AdjNormal[] = _("Typical");
-    const u8 gText_AdjFighting[] = _("Mighty");
-    const u8 gText_AdjFlying[] = _("Breezy");
-    const u8 gText_AdjPoison[] = _("Corrosive");
-    const u8 gText_AdjGround[] = _("Coarse");
-    const u8 gText_AdjRock[] = _("Rugged");
-    const u8 gText_AdjBug[] = _("Swarming");
-    const u8 gText_AdjGhost[] = _("Spooky");
-    const u8 gText_AdjSteel[] = _("Sharp");
-    const u8 gText_AdjFire[] = _("Warm");
-    const u8 gText_AdjWater[] = _("Wet");
+    const u8 gText_AdjNormal[] = _("{JPN}ノーマル");
+    const u8 gText_AdjFighting[] = _("{JPN}ごうけつ");
+    const u8 gText_AdjFlying[] = _("{JPN}そよかぜ");
+    const u8 gText_AdjPoison[] = _("{JPN}ゆうどく");
+    const u8 gText_AdjGround[] = _("{JPN}すなぼこり");
+    const u8 gText_AdjRock[] = _("{JPN}いわだらけ");
+    const u8 gText_AdjBug[] = _("{JPN}だいはっせい");
+    const u8 gText_AdjGhost[] = _("{JPN}おばけ");
+    const u8 gText_AdjSteel[] = _("{JPN}こうてつ");
+    const u8 gText_AdjFire[] = _("{JPN}ねっき");
+    const u8 gText_AdjWater[] = _("{JPN}みずびたし");
     const u8 gText_AdjGrass[] = _("{JPN}しんりょく");
-    const u8 gText_AdjElectric[] = _("Energetic");
-    const u8 gText_AdjPsychic[] = _("Confusing");
-    const u8 gText_AdjIce[] = _("Chilly");
-    const u8 gText_AdjDragon[] = _("Fierce");
-    const u8 gText_AdjDark[] = _("Gloomy");
+    const u8 gText_AdjElectric[] = _("{JPN}でんげき");
+    const u8 gText_AdjPsychic[] = _("{JPN}ふしぎ");
+    const u8 gText_AdjIce[] = _("{JPN}れいき");
+    const u8 gText_AdjDragon[] = _("{JPN}きょうぼう");
+    const u8 gText_AdjDark[] = _("{JPN}やみ");
 #ifdef ROGUE_EXPANSION
     const u8 gText_AdjFairy[] = _("{JPN}マジカル");
 #endif

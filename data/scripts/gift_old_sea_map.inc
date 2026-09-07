@@ -35,24 +35,13 @@ OldSeaMap_Obtained:
 	end
 
 sText_MysteryGiftOldSeaMapForYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.\p"
-	.string "Let me confirm--you are {PLAYER}?\p"
-	.string "We received this OLD SEA MAP\n"
-	.string "addressed to you.$"
+	.string "{JPN}ふしぎなおくりものシステムを\nごりよう ありがとう ございます。\pかくにん します あなたは {PLAYER}さん?\pあなたあての ふるいかいずを\nおあずかり して います。$"
 
 sText_MysteryGiftOldSeaMapUseAtPort:
-	.string "It appears to be for use at the\n"
-	.string "LILYCOVE CITY port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "{JPN}ミナモシティの みなとで\nつかう もののようです。\pいちど ためして みては\nいかがでしょうか?$"
 
 sText_MysteryGiftOldSeaMapThankYou:
-	.string "Thank you for using the MYSTERY\n"
-	.string "GIFT System.$"
+	.string "{JPN}ふしぎなおくりものシステムを\nごりよう ありがとう ございます。$"
 
 sText_MysteryGiftOldSeaMapBagFull:
-	.string "Oh, I'm sorry, {PLAYER}.\n"
-	.string "Your BAG's KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
+	.string "{JPN}もうしわけ ありません {PLAYER}さん。\nバッグの だいじなものポケットが いっぱいです。\pパソコンに なにか あずけてから\nまた おこし ください。$"

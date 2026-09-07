@@ -1,6 +1,6 @@
-static const u8 sSturdyDescription_Revised[] = _("Prevents one-hit KOs.");
-static const u8 sThickFatDescription_Revised[] = _("Resists Fire and Ice.");
-static const u8 sBulletproofDescription_Revised[] = _("Blocks balls and bombs.");
+static const u8 sSturdyDescription_Revised[] = _("{JPN}いちげきひっさつわざを ふせぐ");
+static const u8 sThickFatDescription_Revised[] = _("{JPN}ほのおと こおりに つよい");
+static const u8 sBulletproofDescription_Revised[] = _("{JPN}たまや ばくだんを ふせぐ");
 
 const u8 *const gAbilityDescriptionPointers_Revised[ABILITIES_COUNT] =
 {

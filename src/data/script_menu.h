@@ -1059,15 +1059,15 @@ static const MultichoiceList_Callback sMultichoiceCallback[] =
 };
 
 // Text displayed as options.
-static const u8 sText_Example1[] = _("Example 1");
-static const u8 sText_Example2[] = _("Example 2");
-static const u8 sText_Example3[] = _("Example 3");
-static const u8 sText_Example4[] = _("Example 4");
-static const u8 sText_Example5[] = _("Example 5");
-static const u8 sText_Example6[] = _("Example 6");
-static const u8 sText_Example7[] = _("Example 7");
-static const u8 sText_Example8[] = _("Example 8");
-static const u8 sText_Example9[] = _("Example 9");
+static const u8 sText_Example1[] = _("{JPN}れい 1");
+static const u8 sText_Example2[] = _("{JPN}れい 2");
+static const u8 sText_Example3[] = _("{JPN}れい 3");
+static const u8 sText_Example4[] = _("{JPN}れい 4");
+static const u8 sText_Example5[] = _("{JPN}れい 5");
+static const u8 sText_Example6[] = _("{JPN}れい 6");
+static const u8 sText_Example7[] = _("{JPN}れい 7");
+static const u8 sText_Example8[] = _("{JPN}れい 8");
+static const u8 sText_Example9[] = _("{JPN}れい 9");
 
 // Sets of multichoices.
 static const struct ListMenuItem ScrollingMultichoiceList_Test0[] =

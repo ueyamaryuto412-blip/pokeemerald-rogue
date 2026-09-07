@@ -46,7 +46,7 @@ script Rogue_AdventurePaths_InteractRoom
             msgbox(format("{JPN}つよい トレーナーだ!\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_WILD_DEN:
-            msgbox(format("{JPN}{STR_VAR_1}タイプの ポケモンの すみかだ!\nここに はいりますか?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}{STR_VAR_1}の ポケモンの すみかだ!\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_HONEY_TREE:
             msgbox(format("{JPN}あまいミツの きの すみかだ!\nここに はいりますか?"), MSGBOX_YESNO)

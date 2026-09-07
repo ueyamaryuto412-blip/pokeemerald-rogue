@@ -1672,7 +1672,7 @@ const u8* Rogue_ModifyFieldMessage(const u8* str)
 extern const u8* const gBattleStringsTable[];
 extern const u8 sText_Trainer1SentOutPkmn2[];
 
-static const u8 sText_FinalQuestFinalMonSendOut[] = _("Wahey!\nI'm not through yet!");
+static const u8 sText_FinalQuestFinalMonSendOut[] = _("{JPN}うおおっ!\nまだまだ いくぞ!");
 
 const u8* Rogue_ModifyBattleMessage(const u8* str)
 {

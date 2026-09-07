@@ -9,7 +9,7 @@ script Rogue_Area_SafariZone_TalkSign
     begindynamicmultichoice
     appenddynamicmultichoice("{JPN}ポケモンを みる", 0)
     appenddynamicmultichoice("{JPN}ポケモンを かえす", 1)
-    appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
+    appenddynamicmultichoice("{JPN}やめる", MULTI_B_PRESSED)
 
     message(format("{JPN}なにを しますか?"))
     waitmessage

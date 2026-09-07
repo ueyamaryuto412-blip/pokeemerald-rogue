@@ -352,7 +352,7 @@ u8 RogueBox_GetCountInBox(u8 i)
     return sRogueAssistantBoxData->boxData[i].monCount;
 }
 
-static u8 const sText_DefaultBoxName[BOX_NAME_LENGTH + 1] = _("UNNAMED");
+static u8 const sText_DefaultBoxName[BOX_NAME_LENGTH + 1] = _("{JPN}なまえなし");
 
 u8 const* RogueBox_GetName(u8 boxId)
 {

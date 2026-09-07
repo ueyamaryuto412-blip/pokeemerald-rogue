@@ -87,7 +87,7 @@ Debug_BoxFilledMessage::
     goto Debug_MessageEnd
 
 Debug_BoxFilledMessage_Text:
-    .string "Storage boxes filled!$"
+    .string "{JPN}ボックスを うめました!$"
 
 Debug_EventScript_Script_1::
     special Special_ViewDifficultyConfigMenu
@@ -179,10 +179,10 @@ DebugScript_HatchAnEgg_CantForceHatch::
     end
 
 DebugScript_HatchAnEgg_Text_EmptyParty::
-    .string "You have no Pokémon nor Eggs.$"
+    .string "{JPN}ポケモンも タマゴも もって いません。$"
 
 DebugScript_HatchAnEgg_Text_NotAnEgg::
-    .string "That's not a Pokémon Egg.$"
+    .string "{JPN}それは ポケモンの タマゴでは ありません。$"
 
 DebugScript_ZeroDaycareMons::
     msgbox DebugText_DaycareNoPokemon, MSGBOX_DEFAULT
@@ -200,13 +200,13 @@ DebugScript_DaycareMonsNotCompatible::
     end
 
 DebugText_DaycareNoPokemon:
-    .string "You have no Pokémon at Daycare.$"
+    .string "{JPN}そだてやに ポケモンが いません。$"
 
 DebugText_DaycareOnePokemon:
-    .string "You have only one Pokémon at Daycare.$"
+    .string "{JPN}そだてやに ポケモンが 1ぴきしか いません。$"
 
 DebugText_DaycarePokemonNotCompatible:
-    .string "Your Pokémon at Daycare can't\nhave babies together!$"
+    .string "{JPN}そだてやの ポケモンどうしでは\nタマゴが できません!$"
 
 Debug_ShowExpansionVersion::
     callnative BufferExpansionVersion

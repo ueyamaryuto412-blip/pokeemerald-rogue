@@ -364,7 +364,7 @@ static void InitBattleCheckerBg(void)
     SetGpuReg(REG_OFFSET_BLDY, 0);
 }
 
-static u8 const sText_PickExit[] = _("{DPAD_LEFTRIGHT}Pick {B_BUTTON}Exit");
+static u8 const sText_PickExit[] = _("{JPN}{DPAD_LEFTRIGHT}えらぶ {B_BUTTON}もどる");
 static u8 const sText_VS[] = _("    VS ");
 static u8 const sText_Slash[] = _(" / ");
 

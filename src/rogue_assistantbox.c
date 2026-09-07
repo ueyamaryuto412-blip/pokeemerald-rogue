@@ -535,12 +535,12 @@ static void Task_AssitantBoxFadeOut(u8 taskId)
     }
 }
 
-static u8 const sText_Loading[] = _("Loading data…");
-static u8 const sText_Error[] = _("Disconnected…");
-static u8 const sText_BtoExit[] = _("{B_BUTTON} Exit");
+static u8 const sText_Loading[] = _("{JPN}データ よみこみちゅう…");
+static u8 const sText_Error[] = _("{JPN}せつだん されました…");
+static u8 const sText_BtoExit[] = _("{JPN}{B_BUTTON} もどる");
 
-static u8 const sText_PC[] = _("PC - ");
-static u8 const sText_Storage[] = _("Storage - ");
+static u8 const sText_PC[] = _("{JPN}パソコン ");
+static u8 const sText_Storage[] = _("{JPN}そうこ ");
 static u8 const sText_Pkmn[] = _("{PKMN}");
 
 static void DisplayAssitantLoadingText(void)

@@ -55,26 +55,26 @@ void DoSpecialTrainerBattle(void);
 
 static const u8 sTypeNames[NUMBER_OF_MON_TYPES][10] = // alt version of gTypeNames
 {
-    [TYPE_NORMAL] = _("Normal"),
-    [TYPE_FIGHTING] = _("Fighting"),
-    [TYPE_FLYING] = _("Flying"),
-    [TYPE_POISON] = _("Poison"),
-    [TYPE_GROUND] = _("Ground"),
+    [TYPE_NORMAL] = _("{JPN}ノーマル"),
+    [TYPE_FIGHTING] = _("{JPN}かくとう"),
+    [TYPE_FLYING] = _("{JPN}ひこう"),
+    [TYPE_POISON] = _("{JPN}どく"),
+    [TYPE_GROUND] = _("{JPN}じめん"),
     [TYPE_ROCK] = _("{JPN}がんせき"),
-    [TYPE_BUG] = _("Bug"),
-    [TYPE_GHOST] = _("Ghost"),
-    [TYPE_STEEL] = _("Steel"),
+    [TYPE_BUG] = _("{JPN}むし"),
+    [TYPE_GHOST] = _("{JPN}ゴースト"),
+    [TYPE_STEEL] = _("{JPN}はがね"),
     [TYPE_MYSTERY] = _("???"),
-    [TYPE_FIRE] = _("Fire"),
-    [TYPE_WATER] = _("Water"),
-    [TYPE_GRASS] = _("Grass"),
-    [TYPE_ELECTRIC] = _("Electric"),
+    [TYPE_FIRE] = _("{JPN}ほのお"),
+    [TYPE_WATER] = _("{JPN}みず"),
+    [TYPE_GRASS] = _("{JPN}くさ"),
+    [TYPE_ELECTRIC] = _("{JPN}でんき"),
     [TYPE_PSYCHIC] = _("{JPN}サイコキネシス"),
-    [TYPE_ICE] = _("Ice"),
+    [TYPE_ICE] = _("{JPN}こおり"),
     [TYPE_DRAGON] = _("{JPN}ドラゴン"),
     [TYPE_DARK] = _("{JPN}ダーク"),
 #ifdef ROGUE_EXPANSION
-    [TYPE_FAIRY] = _("{JPN}ピッピ"),
+    [TYPE_FAIRY] = _("{JPN}ようせい"),
 #endif
 };
 
@@ -82,14 +82,14 @@ static const u8 sStatNamesTable[NUM_STATS][13] = // a;t versopm pf gStatNamesTab
 {
     [STAT_HP]      = _("{JPN}HP"),
     [STAT_ATK]     = _("{JPN}こうげき"),
-    [STAT_DEF]     = _("Defence"),
+    [STAT_DEF]     = _("{JPN}ぼうぎょ"),
     [STAT_SPEED]   = _("{JPN}すばやさ"),
-    [STAT_SPATK]   = _("Sp. Attack"),
-    [STAT_SPDEF]   = _("Sp. Defence"),
+    [STAT_SPATK]   = _("{JPN}とくこう"),
+    [STAT_SPDEF]   = _("{JPN}とくぼう"),
 };
 
-static u8 const sText_The[] = _(" the ");
-static u8 const sText_TheShiny[] = _(" the shiny ");
+static u8 const sText_The[] = _("{JPN} という ");
+static u8 const sText_TheShiny[] = _("{JPN} という いろちがいの ");
 
 bool8 Rogue_CheckPartyHasRoomForMon(void)
 {
@@ -541,7 +541,7 @@ void Rogue_GetDynamicUniqueMonSpecies()
     }
 }
 
-static u8 const sText_Timer[] = _("{STR_VAR_1}:{STR_VAR_2} hours");
+static u8 const sText_Timer[] = _("{JPN}{STR_VAR_1}じかん{STR_VAR_2}ふん");
 
 void Rogue_BufferDynamicUniqueMonCountDown()
 {

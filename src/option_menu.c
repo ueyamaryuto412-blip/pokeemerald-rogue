@@ -136,11 +136,11 @@ static const u8 sText_HighlightOn[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}");
 static const u8 sText_HighlightOff[] = _("{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}");
 static const u8 sText_HighlightMid[] = _("{SHADOW LIGHT_GREEN}");
 
-static const u8 sText_BattleScene_1x[] = _("{COLOR LIGHT_BLUE}{SHADOW BLUE}1x Speed");
-static const u8 sText_BattleScene_2x[] = _("{SHADOW LIGHT_GREEN}2x Speed");
-static const u8 sText_BattleScene_3x[] = _("{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}3x Speed");
-static const u8 sText_BattleScene_4x[] = _("{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}4x Speed");
-static const u8 sText_BattleScene_Disabled[] = _("{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}Disabled");
+static const u8 sText_BattleScene_1x[] = _("{JPN}{COLOR LIGHT_BLUE}{SHADOW BLUE}1ばいそく");
+static const u8 sText_BattleScene_2x[] = _("{JPN}{SHADOW LIGHT_GREEN}2ばいそく");
+static const u8 sText_BattleScene_3x[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}3ばいそく");
+static const u8 sText_BattleScene_4x[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}4ばいそく");
+static const u8 sText_BattleScene_Disabled[] = _("{JPN}{COLOR LIGHT_RED}{SHADOW LIGHT_GREEN}つかわない");
 
 typedef u8 (*MenuItemInputCallback)(u8, u8);
 typedef void (*MenuItemDrawCallback)(u8, u8);

@@ -1,26 +1,20 @@
 SecretBase_Text_TreeCanBeClimbed:
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.$"
+	.string "{JPN}つるが たれさがれば\nこの きに のぼれそうだ。$"
 
 SecretBase_Text_TreeUseSecretPower:
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.\p"
-	.string "Use the SECRET POWER?$"
+	.string "{JPN}つるが たれさがれば\nこの きに のぼれそうだ。\pひみつのちからを つかいますか?$"
 
 SecretBase_Text_VineDroppedDown:
-	.string "A thick vine dropped down!$"
+	.string "{JPN}ふとい つるが たれさがった!$"
 
 SecretBase_Text_ClumpOfGrass:
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.$"
+	.string "{JPN}この くさむらを どかせば\nなかに はいれるかも しれない。$"
 
 SecretBase_Text_ClumpUseSecretPower:
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.\p"
-	.string "Use the SECRET POWER?$"
+	.string "{JPN}この くさむらを どかせば\nなかに はいれるかも しれない。\pひみつのちからを つかいますか?$"
 
 SecretBase_Text_DiscoveredSmallEntrance:
-	.string "Discovered a small entrance!$"
+	.string "{JPN}ちいさな いりぐちを みつけた!$"
 
 	.include "data/text/secret_base_trainers.inc"
 
@@ -664,66 +658,46 @@ SecretBase_EventScript_CushionInteract::
 	end
 
 SecretBase_Text_AllDecorationsWillBeReturned:
-	.string "All decorations and furniture in your\n"
-	.string "SECRET BASE will be returned to your PC.\p"
-	.string "Is that okay?$"
+	.string "{JPN}ひみつきちの かざりや かぐは\nすべて パソコンに もどります。\pそれでも いいですか?$"
 
 SecretBase_Text_WantToRegisterSecretBase:
-	.string "Do you want to register\n"
-	.string "{STR_VAR_1}'s SECRET BASE?$"
+	.string "{JPN}{STR_VAR_1}の ひみつきちを\nとうろく しますか?$"
 
 SecretBase_Text_AlreadyRegisteredDelete:
-	.string "This data is already registered.\n"
-	.string "Would you like to delete it?$"
+	.string "{JPN}この データは とうろく ずみです。\nけしますか?$"
 
 SecretBase_Text_TooManyBasesDeleteSome:
-	.string "Up to 10 locations can be registered.\p"
-	.string "Delete a location if you want to\n"
-	.string "register another location.$"
+	.string "{JPN}とうろく できるのは 10けんまでです。\pべつの ばしょを とうろく するには\nどれかを けして ください。$"
 
 SecretBase_Text_RegistrationCompleted:
-	.string "Registration completed.$"
+	.string "{JPN}とうろく しました。$"
 
 SecretBase_Text_DataUnregistered:
-	.string "Data has been unregistered.$"
+	.string "{JPN}とうろくを けしました。$"
 
 SecretBase_Text_BootUpPC:
-	.string "{PLAYER} booted up the PC.$"
+	.string "{JPN}{PLAYER}は パソコンを きどうした。$"
 
 SecretBase_Text_WhatWouldYouLikeToDo:
-	.string "What would you like to do?$"
+	.string "{JPN}なにを しますか?$"
 
 SecretBase_Text_RegistryInfo:
-	.string "Once registered, a SECRET BASE will not\n"
-	.string "disappear unless the other TRAINER\l"
-	.string "moves it to a different location.\p"
-	.string "If a SECRET BASE is deleted from the\n"
-	.string "registered list, another one may take\l"
-	.string "its place.\p"
-	.string "Up to ten SECRET BASE locations\n"
-	.string "may be registered.$"
+	.string "{JPN}とうろく した ひみつきちは あいての\nトレーナーが ばしょを かえない かぎり\lきえる ことは ありません。\pとうろくを けすと べつの ひみつきちが\nそこに はいる ことが\lある ようです。\pひみつきちは 10けんまで\nとうろく できます。$"
 
 SecretBase_Text_BattleTowerShield:
-	.string "A shield of {STR_VAR_2} that marks winning\n"
-	.string "{STR_VAR_1} times in a row at the BATTLE TOWER.$"
+	.string "{JPN}バトルタワーで {STR_VAR_1}かい れんぞくで\nかった あかしの {STR_VAR_2}の たて。$"
 
 SecretBase_Text_ToyTV:
-	.string "A realistic toy TV. It could be easily\n"
-	.string "mistaken for the real thing.$"
+	.string "{JPN}ほんものそっくりの おもちゃの テレビ。\nみわけが つかないほどだ。$"
 
 SecretBase_Text_SeedotTV:
-	.string "A toy TV shaped like a SEEDOT.\n"
-	.string "It looks ready to roll away on its own…$"
+	.string "{JPN}タネボー のかたちを した おもちゃの テレビ。\nいまにも ころがりだしそうだ…$"
 
 SecretBase_Text_SkittyTV:
-	.string "A toy TV shaped like a SKITTY.\n"
-	.string "It looks ready to stroll away…$"
+	.string "{JPN}エネコ のかたちを した おもちゃの テレビ。\nいまにも あるきだしそうだ…$"
 
 SecretBase_Text_WouldYouLikeToMoveBases:
-	.string "You may only make one SECRET BASE.\p"
-	.string "Would you like to move from the SECRET\n"
-	.string "BASE near {STR_VAR_1}?$"
+	.string "{JPN}ひみつきちは ひとつしか つくれません。\p{STR_VAR_1}の ちかくの ひみつきちから\nひっこし しますか?$"
 
 SecretBase_Text_MovingCompletedUseSecretPower:
-	.string "Moving completed.\p"
-	.string "Would you like to use the SECRET POWER?$"
+	.string "{JPN}ひっこし かんりょう。\pひみつのちからを つかいますか?$"

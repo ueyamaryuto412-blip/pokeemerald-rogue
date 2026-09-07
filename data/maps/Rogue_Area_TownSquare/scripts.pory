@@ -76,9 +76,9 @@ script Rogue_Area_TownSquare_TalkTownStatue
     switch(var(VAR_RESULT))
     {
         case 3:
-            msgbox(format("{POKEMON_HUB}\nThe land of chaotic tales."))
+            msgbox(format("{JPN}{POKEMON_HUB}\nめちゃくちゃな ものがたりの ち。"))
         default:
-            msgbox(format("{POKEMON_HUB}\nThe land of chaotic beginnings…"))
+            msgbox(format("{JPN}{POKEMON_HUB}\nめちゃくちゃな はじまりの ち…"))
     }
 
     special(Special_ViewWorldMap)
@@ -92,13 +92,13 @@ script Rogue_Area_TownSquare_TalkBackpacker
     lock
     faceplayer
 
-    msgbox(format("Hi there {PLAYER}!"))
+    msgbox(format("{JPN}やあ {PLAYER}!"))
 
     specialvar(VAR_0x8004, Rogue_GetBagCapacityUpgradeLevel)
 
     if(var(VAR_0x8004) == ITEM_BAG_MAX_CAPACITY_UPGRADE)
     {
-        msgbox(format("I hope that bag's working out well for you!"))
+        msgbox(format("{JPN}その バッグは やくに たっているかい!"))
         release
     }
     else
@@ -106,7 +106,7 @@ script Rogue_Area_TownSquare_TalkBackpacker
         special(Rogue_BufferBagUpgradeCost)
 
         showmoneybox(0, 0)
-        msgbox(format("I can upgrade your bag for ¥{STR_VAR_2}, if you'd like?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}のぞむなら {STR_VAR_2}¥で バッグを かいりょうできるよ?"), MSGBOX_YESNO)
 
         if(var(VAR_RESULT) == YES)
         {
@@ -129,14 +129,14 @@ script Rogue_Area_TownSquare_TalkBackpacker
             else
             {
                 hidemoneybox
-                msgbox(format("It doesn't look like you have enough money there bud."))
+                msgbox(format("{JPN}おかねが たりないみたいだね。"))
                 release
             }
         }
         else
         {
             hidemoneybox
-            msgbox(format("Sure! You're busy!\pI get that!"))
+            msgbox(format("{JPN}そうか! いそがしいよね!\pわかるよ!"))
             release
         }
     }
@@ -150,7 +150,7 @@ script Rogue_Area_TownSquare_TalkBuilder
     if(var(VAR_ROGUE_INTRO_STATE) < ROGUE_INTRO_STATE_LEARN_TO_BUILD)
     {
         // blocking connect centre or workbench
-        msgbox(format("I'm almost finished up here.\nCome back and check later."))
+        msgbox(format("{JPN}もう すこしで おわるよ。\nあとで また みにきて。"))
 
         turnobject(OBJ_EVENT_BUILDER, DIR_NORTH)
     }
@@ -160,7 +160,7 @@ script Rogue_Area_TownSquare_TalkBuilder
         clearflag(FLAG_ROGUE_HIDE_WORKBENCHES)
         addvar(VAR_ROGUE_INTRO_STATE, 1)
         
-        msgbox(format("Ah! {PLAYER}!\nJust the person I was waiting for!\pProfessor Elm told me that you were going on Adventures for {POKEMON_HUB} now.\pWhich means you'll now be in charge of collecting Building Supplies for {POKEMON_HUB} expansion.\pHere, let me show you.\pFirstly, you can have this Town Map.\pYou can use it to look at the current layout of {POKEMON_HUB}."))
+        msgbox(format("{JPN}おお! {PLAYER}!\nまってた ひとが きた!\pウツギはかせから きみが {POKEMON_HUB}の ために ぼうけんに でると きいたよ。\pつまり {POKEMON_HUB}を ひろげる ための ざいりょうを あつめるのが きみの しごとだ。\pほら みせてあげよう。\pまず この タウンマップを どうぞ。\pいまの {POKEMON_HUB}の ようすを みられる。"))
         
         giveitem(ITEM_TOWN_MAP)
         waitse
@@ -168,10 +168,10 @@ script Rogue_Area_TownSquare_TalkBuilder
         special(Special_ViewWorldMap)
         waitstate
         
-        msgbox(format("That's the current layout of {POKEMON_HUB}.\pYou can build and upgrade areas with Building Supplies you gather from completing Quests.\pHere's some I had left over."))
+        msgbox(format("{JPN}それが いまの {POKEMON_HUB}の ようすだ。\pクエストで あつめた ざいりょうで エリアを たてたり かいちくしたり できる。\pあまりものが あるから もっていきな。"))
         giveitem(ITEM_BUILDING_SUPPLIES)
     
-        msgbox(format("Now if you interact with Workbenches like this one here, you'll be able to spend the Building Supplies on improving {POKEMON_HUB}.\pGive it a try!"))
+        msgbox(format("{JPN}この さぎょうだいのような ものを しらべれば ざいりょうを つかって {POKEMON_HUB}を よく できる。\pためしてみて!"))
 
         waitse
         closemessage
@@ -198,7 +198,7 @@ script Rogue_Area_TownSquare_TalkBuilder
         special(Rogue_IsMultiplayerClient)
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("You cannot use the Workbench while visiting {POKEMON_HUB}.\pIf you want to use the Workbench, you need to Exit Multiplayer."))
+            msgbox(format("{JPN}よその {POKEMON_HUB}では さぎょうだいを つかえない。\pつかうには マルチプレイを おわる ひつようが ある。"))
         }
         else
         {
@@ -208,7 +208,7 @@ script Rogue_Area_TownSquare_TalkBuilder
     else
     {
         // idle
-        msgbox(format("Just walk up to any of the Workbenches and you should be able to queue up build orders for {POKEMON_HUB}."))
+        msgbox(format("{JPN}どの さぎょうだいでも {POKEMON_HUB}の けんちくを たのめるよ。"))
     }
 
     release
@@ -260,11 +260,11 @@ script Rogue_Area_TownSquare_TalkBallGuy
 
     if(var(VAR_ROGUE_FREE_POKE_BALL) == ITEM_NONE)
     {
-        msgbox(format("Hey there! Thanks for rolling by to have a chat with your mate- the Ball Guy.\pDon't worry.\nNext time, I'll give you yet another Poké Ball!\pYou ain't stopping, so neither am I!"))
+        msgbox(format("{JPN}やあ! ボールガイに はなしかけて くれて ありがとう。\pあんしんして。\nつぎも また ボールを あげるよ!\pきみが やめないなら ぼくも やめない!"))
     }
     else
     {
-        msgbox(format("Hey there! Thanks for rolling by to have a chat with your mate- the Ball Guy.\pI've got the perfect Poké Ball for you!"))
+        msgbox(format("{JPN}やあ! ボールガイに はなしかけて くれて ありがとう。\pきみに ぴったりの ボールが あるよ!"))
     
         checkitemspace(VAR_ROGUE_FREE_POKE_BALL, 1)
 
@@ -275,7 +275,7 @@ script Rogue_Area_TownSquare_TalkBallGuy
         }
         else
         {
-            msgbox(format("Oh, bud.\nYou've got no space in your Bag.\pFree up some space and then I'll be happy to give you a Poké Ball!"))
+            msgbox(format("{JPN}おっと。\nバッグに あきが ないね。\pあきを つくってくれたら よろこんで ボールを あげるよ!"))
         }
     }
 

@@ -19,7 +19,7 @@ script Rogue_Boss_VictoryLap_LoadFrame_0
     
     while(var(VAR_RESULT) == 2)
     {
-        message(format("Would you like do a Victory Lap?"))
+        message(format("{JPN}ウイニングランを しますか?"))
         waitmessage
         multichoice(20, 6, MULTI_YESNOINFO, NO)
 
@@ -33,7 +33,7 @@ script Rogue_Boss_VictoryLap_LoadFrame_0
             //case MULTI_B_PRESSED:
 
             case 2: // Info
-                msgbox(format("Fight Random Gym Leaders, Elite Four members & Champions back to back without being able to adjust your team.\pFor each Victory, you will earn additional Money and Experience for when you return to {POKEMON_HUB}."))
+                msgbox(format("{JPN}てもちを かえられないまま ランダムな ジムリーダー してんのう チャンピオンと れんぞくで たたかう。\pかつたびに {POKEMON_HUB}に もどった ときの おかねと けいけんちが ふえる。"))
         }
     }
 
@@ -71,6 +71,6 @@ script Rogue_Boss_VictoryLap_BattleLoop
     special(Rogue_EndVictoryLap)
 
     buffernumberstring(STR_VAR_1, VAR_TOTAL_VICTORIES)
-    msgbox(format("Victory Lap Badges: {STR_VAR_1}"))
+    msgbox(format("{JPN}ウイニングランの バッジ: {STR_VAR_1}"))
     call(Common_EventScript_ForceSaveGame)
 }

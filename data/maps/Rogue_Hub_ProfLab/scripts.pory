@@ -302,7 +302,7 @@ script Rogue_Hub_ProfLab_IntroRunAwayCommon
     givemon(SPECIES_SUNKERN, 7, ITEM_ORAN_BERRY)
 
     playfanfare(MUS_OBTAIN_ITEM)
-    message(format("{PLAYER} obtained a {STR_VAR_1}."))
+    message(format("{JPN}{PLAYER}は {STR_VAR_1}を てに いれた。"))
     waitmessage
     waitfanfare
 
@@ -430,7 +430,7 @@ script Rogue_Hub_ProfLab_PokeballCommon
         waitmoncry
 
         bufferspeciesname(STR_VAR_1, VAR_0x8001)
-        msgbox(format("BIRCH: You'd like to take {STR_VAR_1}?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}オダマキ: {STR_VAR_1}を つれていくかい?"), MSGBOX_YESNO)
         hidemonpic
 
         if(var(VAR_RESULT) == YES)
@@ -439,7 +439,7 @@ script Rogue_Hub_ProfLab_PokeballCommon
             givemon(VAR_0x8001, 7, ITEM_ORAN_BERRY)
 
             playfanfare(MUS_OBTAIN_ITEM)
-            message(format("{PLAYER} obtained a {STR_VAR_1}."))
+            message(format("{JPN}{PLAYER}は {STR_VAR_1}を てに いれた。"))
             waitmessage
             waitfanfare
 

@@ -27,18 +27,18 @@ script Rogue_Encounter_BattleTower_TalkReward
         {
             setflag(FLAG_HAS_COLLECTED)
 
-            msgbox(format("Oh, my!\nYou've defeated all the Trainers.\pHere let me heal up your team."))
+            msgbox(format("{JPN}あらまあ!\nトレーナーを ぜんいん たおしたのね。\pてもちを かいふくして あげましょう。"))
             
             call(Common_EventScript_OutOfCenterPartyHeal)
 
-            msgbox(format("And, of course, your reward!"))
+            msgbox(format("{JPN}それから もちろん ほうしゅうよ!"))
 
             special(Rogue_BattleTower_GiveReward)
             quest_trigger(QUEST_TRIGGER_MAP_SPECIFIC_EVENT)
         }
         else
         {
-            msgbox(format("If you can defeat all of the Tower Trainers, I'll happily give you a reward!"))
+            msgbox(format("{JPN}タワーの トレーナーを ぜんいん たおしたら よろこんで ほうしゅうを あげるわ!"))
         }
     }
 

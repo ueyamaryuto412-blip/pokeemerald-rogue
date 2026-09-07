@@ -11,10 +11,10 @@ script Rogue_Encounter_RestStop_Heal
 {
     lock
     faceplayer
-    msgbox(format("You look tired.\nLet me patch you up!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}つかれているね。\nかいふくして あげよう!"), MSGBOX_DEFAULT)
     call(Rogue_EventScript_AttemptNurseHeal)
     special(Rogue_OnHealWithNurse)
-    msgbox(format("Take care!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}きを つけてね!"), MSGBOX_DEFAULT)
     release
 }
 
@@ -25,12 +25,12 @@ script Rogue_Encounter_RestStop_RandomMan
     waitmovement(0)
     faceplayer
 
-    msgbox(format("WAHEY!\pYou looking to add a bit of randomness to your life?\pTell you what…"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}いよーう!\pじんせいに すこし ランダムさが ほしい?\pそれなら…"), MSGBOX_DEFAULT)
     
     showmoneybox(0, 0)
-    msgbox(format("For ¥1000 I'll trade you one Pokémon.\nOR!\pI'll trade ALL your Pokémon for free?"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}1000¥で ポケモンを 1ぴき こうかんする。\nそれとも!\pぜんぶの ポケモンを ただで こうかんするか?"), MSGBOX_DEFAULT)
 
-    message(format("What do you say?"))
+    message(format("{JPN}どうする?"))
     waitmessage
 
     multichoice(17, 6, MULTI_RANDOM_SWAP_OPTIONS, NO)
@@ -47,7 +47,7 @@ script Rogue_Encounter_RestStop_RandomMan
 
                 if(var(VAR_0x8004) == PARTY_NOTHING_CHOSEN)
                 {
-                    msgbox(format("Blagh!\nHow boring…"), MSGBOX_DEFAULT)
+                    msgbox(format("{JPN}けっ!\nつまらないな…"), MSGBOX_DEFAULT)
                 }
                 else
                 {
@@ -62,7 +62,7 @@ script Rogue_Encounter_RestStop_RandomMan
                     fadescreen(FADE_FROM_BLACK)
                     call(Rogue_ScriptShowFollower)
 
-                    msgbox(format("Ke ke ke!\pEnjoy!"))
+                    msgbox(format("{JPN}ケケケ!\pたのしんで!"))
                     applymovement(VAR_LAST_TALKED, Rogue_RestStop_RandomMan_RunAway)
                     waitmovement(0)
 
@@ -75,11 +75,11 @@ script Rogue_Encounter_RestStop_RandomMan
             }
             else
             {
-                msgbox(format("Blagh!\nHow boring…\pCome back with some more money."), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}けっ!\nつまらないな…\pもっと おかねを もって おいで。"), MSGBOX_DEFAULT)
             }
 
         case 1: // Trade all
-            msgbox(format("Oh boy! So you wanna trade your whole team?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}おっと! てもち ぜんぶを こうかんしたいのか?"), MSGBOX_YESNO)
 
             if(var(VAR_RESULT) == YES)
             {
@@ -93,7 +93,7 @@ script Rogue_Encounter_RestStop_RandomMan
                 fadescreen(FADE_FROM_BLACK)
                 call(Rogue_ScriptShowFollower)
                 
-                msgbox(format("Ke ke ke!\pEnjoy!"))
+                msgbox(format("{JPN}ケケケ!\pたのしんで!"))
                 applymovement(VAR_LAST_TALKED, Rogue_RestStop_RandomMan_RunAway)
                 waitmovement(0)
 
@@ -104,11 +104,11 @@ script Rogue_Encounter_RestStop_RandomMan
             }
             else
             {
-                msgbox(format("Blagh!\nHow boring…"), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}けっ!\nつまらないな…"), MSGBOX_DEFAULT)
             }
 
         case MULTI_B_PRESSED:
-            msgbox(format("Blagh!\nHow boring…"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}けっ!\nつまらないな…"), MSGBOX_DEFAULT)
 
     }
     release

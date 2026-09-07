@@ -16,7 +16,7 @@ script Rogue_Encounter_HoneyTree_OnLoad
 script Rogue_Encounter_HoneyTree_ScatterPokeblock
 {
     lock
-    msgbox(format("It's a Honey Tree!\pThere are {POKEBLOCK} crumbs among with tracks from all sorts of Pokémon.\pWould you like to scatter some {POKEBLOCK} here?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}あまいミツの きだ!\p{POKEBLOCK}の かけらと いろんな ポケモンの あしあとが ある。\pここに {POKEBLOCK}を まきますか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -35,6 +35,6 @@ script Rogue_Encounter_HoneyTree_ScatterPokeblock
 script Rogue_Encounter_HoneyTree_TrainerTips
 {
     lock
-    msgbox(format("Trainer Tips.\nPokémon often visit Honey Trees, which makes them a prime location to scatter {POKEBLOCK}.\pIt's simple!\nScatter one or more {POKEBLOCK} near the Tree.\pThen, the next time you visit the Honey Tree, you will likely find a Pokémon who enjoys the flavours of {POKEBLOCK} you scattered."), MSGBOX_SIGN)
+    msgbox(format("{JPN}トレーナーの ヒント。\nポケモンは あまいミツの きに よく あつまるので {POKEBLOCK}を まくのに もってこいだ。\pかんたん!\nきの ちかくに {POKEBLOCK}を 1つ いじょう まくだけ。\pつぎに その きを たずねると まいた {POKEBLOCK}の あじを このむ ポケモンが みつかるだろう。"), MSGBOX_SIGN)
     release
 }

@@ -59,7 +59,7 @@ script Rogue_HubTransition_RandomMan
         waitfanfare
         fadescreen(FADE_FROM_BLACK)
         
-        msgbox(format("Ke ke ke!\pEnjoy!"))
+        msgbox(format("{JPN}ケケケ!\pたのしんで!"))
         applymovement(VAR_LAST_TALKED, Rogue_RestStop_RandomMan_RunAway)
         waitmovement(0)
 

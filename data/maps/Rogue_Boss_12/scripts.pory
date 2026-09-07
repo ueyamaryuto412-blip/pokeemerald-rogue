@@ -67,7 +67,7 @@ script Rogue_BattleDefeated_Boss12
     
     msgbox(gPlaceholder_Gym_PostBattleCloser)
     playbgm(MUS_NONE, TRUE)
-    msgbox(format("Oh yes…\nI'm afraid one final battle awaits you, before you may be given the title of Champion.\pGood luck…"))
+    msgbox(format("{JPN}そうそう…\nチャンピオンを なのる まえに さいごの バトルが まっている。\pけんとうを いのる…"))
 
     waitmessage()
     call(Rogue_EventScript_AttemptPostGymHeal)

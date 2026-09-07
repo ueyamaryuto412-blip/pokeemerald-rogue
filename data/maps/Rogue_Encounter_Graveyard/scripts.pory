@@ -25,7 +25,7 @@ script Rogue_Graveyard_EnterTrigger
     applymovement(OBJ_EVENT_ID_CAMERA, Graveyard_CameraInitialFocus)
     waitmovement(0)
 
-    msgbox(format("???: One… choice…"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}???: ひとつ… えらべ…"), MSGBOX_DEFAULT)
 
     applymovement(OBJ_EVENT_ID_CAMERA, Graveyard_CameraInitialUnfocus)
     waitmovement(0)
@@ -41,7 +41,7 @@ script Rogue_Graveyard_SelectOption_Internal {
     copyvar(VAR_0x8004, VAR_ITEM_ID_VAL)
     callnative(ScriptMenu_ShowItemDescription)
 
-    msgbox(format("Choose this Charm?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}この おまもりに しますか?"), MSGBOX_YESNO)
 
     callnative(ScriptMenu_HideItemDescription)
 
@@ -60,7 +60,7 @@ script Rogue_Graveyard_SelectOption_Internal {
         special(DoSealedChamberShakingEffect_Long)
         applymovement(NPC_DEVIL_MAN, Graveyard_Devil_Eyes)
 
-        msgbox(format("???: The price this time shall be…"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}???: こんかいの だいしょうは…"), MSGBOX_DEFAULT)
 
         waitmovement(0)
 
@@ -70,7 +70,7 @@ script Rogue_Graveyard_SelectOption_Internal {
         
         copyvar(VAR_0x8004, VAR_ROGUE_ITEM10)
         callnative(ScriptMenu_ShowItemDescription)
-        msgbox(format("You have been afflicted with a new Curse."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}あたらしい のろいを うけた。"), MSGBOX_DEFAULT)
         closemessage
         callnative(ScriptMenu_HideItemDescription)
 

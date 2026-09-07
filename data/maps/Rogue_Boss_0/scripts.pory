@@ -8,7 +8,7 @@ mapscripts Rogue_Boss_0_MapScripts
 
 script Rogue_Battle_Boss0_ShowHint
 {
-    msgbox(format("A mysterious sign!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}ふしぎな かんばんだ!"), MSGBOX_DEFAULT)
 
     if(flag(FLAG_SHOW_HINT))
     {
@@ -20,7 +20,7 @@ script Rogue_Battle_Boss0_ShowHint
 
     if(var(VAR_RESULT) == YES)
     {
-        msgbox(format("The text is scratched up...\pIt reads...\nDMVBF DE LYF POLLU!!!\p(Whatever that means?)"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}もじが けずれている…\pこう よめる…\nDMVBF DE LYF POLLU!!!\p「どういう いみだ?」"), MSGBOX_DEFAULT)
         setvar(VAR_RESULT, NO)
     }
     // TODO - Fix up statue hint for free if easy
@@ -31,7 +31,7 @@ script Rogue_Battle_Boss0_ShowHint
     //}
     else
     {
-        msgbox(format("It reads…\p'For a cost, I can provide you a glimpse of the future'"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}こう かいてある…\p「だいきんと ひきかえに みらいを ちらりと みせよう」"), MSGBOX_DEFAULT)
 
         showmoneybox(0, 0)
 
@@ -65,7 +65,7 @@ script Rogue_Battle_Boss0_ShowHint
 
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("Do you want to spend ¥{STR_VAR_1}?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}{STR_VAR_1}¥を はらいますか?"), MSGBOX_YESNO)
             if(var(VAR_RESULT) == YES)
             {
                 playse(SE_VEND)
@@ -96,7 +96,7 @@ script Rogue_Battle_Boss0_ShowHint
         }
         else
         {
-            msgbox(format("Oh no!\pIt requires ¥{STR_VAR_1} which is more than what I have!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}しまった!\p{STR_VAR_1}¥ ひつようだが もちあわせが ない!"), MSGBOX_DEFAULT)
         }
 
         hidemoneybox
@@ -135,7 +135,7 @@ script Rogue_Boss_BufferTypeHint
             bufferstring(STR_VAR_1, "Steel")
 
         case TYPE_MYSTERY:
-            bufferstring(STR_VAR_1, "Mystery?")
+            bufferstring(STR_VAR_1, "{JPN}なぞ?")
 
         case TYPE_FIRE:
             bufferstring(STR_VAR_1, "Fire")
@@ -178,12 +178,12 @@ script Rogue_Battle_Boss0_Hint
     {
         if(var(VAR_ROGUE_SPECIAL_ENCOUNTER_DATA1) == TYPE_NONE)
         {
-            msgbox(format("A Gym Leader who specialises in various types awaits…"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}いろんな タイプを つかう ジムリーダーが まっている…"), MSGBOX_DEFAULT)
         }
         else
         {
             call(Rogue_Boss_BufferTypeHint)
-            msgbox(format("A Gym Leader who specialises in {STR_VAR_1} type Pokémon awaits…"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}{STR_VAR_1}タイプを つかう ジムリーダーが まっている…"), MSGBOX_DEFAULT)
         }
     }
 
@@ -226,10 +226,10 @@ script Rogue_BattleDefeated_Boss0
 
     if(flag(FLAG_ROGUE_QUESTS_NEVER_ASK_FOR_RETIRE) == FALSE && flag(FLAG_ROGUE_QUESTS_ASK_FOR_RETIRE))
     {
-        msgbox(format("Looks like you have some Quests to collect!\pYou can either continue this Adventure or Retire and collect them now.\pWould you like to continue this Adventure?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}うけとれる クエストが あるようだ!\pこのまま ぼうけんを つづけるか リタイアして いま うけとるか えらべる。\pぼうけんを つづけますか?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == NO)
         {
-            msgbox(format("Are you sure you'd like to end your Adventure and return to {POKEMON_HUB}?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}ぼうけんを おわりに して {POKEMON_HUB}に もどりますか?"), MSGBOX_YESNO)
         
             if(var(VAR_RESULT) == YES)
             {

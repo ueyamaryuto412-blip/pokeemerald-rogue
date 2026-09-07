@@ -159,7 +159,7 @@ script Rogue_Interior_PokeConnect_TalkNurseBox
         }
     }
 
-    msgbox(format("Take care!"))
+    msgbox(format("{JPN}きを つけてね!"))
     release
 }
 

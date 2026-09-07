@@ -42,11 +42,11 @@ script Rogue_Interior_Restaurant_TalkMainChef
 
     setvar(VAR_0x8004, 0)
     special(BufferMonNickname)
-    msgbox(format("Good day to you!\pWould you like me to bake a Pie for you to share with {STR_VAR_1}?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}ごきげんよう!\p{STR_VAR_1}と わけられる パイを\nやきましょうか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
-        msgbox(format("I will need two types {POKEBLOCK} in order to bake a Pie."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}パイを やくには 2しゅるいの {POKEBLOCK}が ひつようです。"), MSGBOX_DEFAULT)
         
         // Select ingredients
         call(Rogue_Interior_Restaurant_SelectCrustPokeblock)
@@ -65,7 +65,7 @@ script Rogue_Interior_Restaurant_TalkMainChef
                 setvar(VAR_0x8004, 0)
                 special(BufferMonNickname)
 
-                msgbox(format("I don't think {STR_VAR_1} will like this Pie very much.\pAre you sure you'd like to continue?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}{STR_VAR_1}は この パイを あまり\nこのまない かもしれません。\pそれでも つづけますか?"), MSGBOX_YESNO)
             }
         }
 
@@ -74,7 +74,7 @@ script Rogue_Interior_Restaurant_TalkMainChef
         {
             removeitem(VAR_CRUST_ITEM, PIE_CRUST_AMOUNT)
             removeitem(VAR_FILLING_ITEM, VAR_FILLING_AMOUNT)
-            msgbox(format("I'll get started on it right away!\pPlease take a seat."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}すぐに とりかかります!\pおかけに なって おまちください。"), MSGBOX_DEFAULT)
 
             // Walk to chef
             fadescreen(FADE_TO_BLACK)
@@ -101,7 +101,7 @@ script Rogue_Interior_Restaurant_TalkMainChef
 
             showobjectat(NPC_OBJ_PLACED_PIE, MAP_ROGUE_INTERIOR_RESTAURANT)
 
-            msgbox(format("Bon Appétit!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}めしあがれ!"), MSGBOX_DEFAULT)
 
 
             fadescreen(FADE_TO_BLACK)
@@ -132,7 +132,7 @@ script Rogue_Interior_Restaurant_TalkMainChef
 
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("Please let me know, if you change your mind."))
+        msgbox(format("{JPN}きが かわったら おこえを かけて ください。"))
     }
 
     release
@@ -155,7 +155,7 @@ movement Movement_ChefWalkInPlace {
 script Rogue_Interior_Restaurant_SelectCrustPokeblock
 {
     // based on PIE_CRUST_AMOUNT
-    msgbox(format("Firstly, what type {POKEBLOCK} would you like the Crust (Uses x3 {POKEBLOCK}) to be made from?"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}まず きじに つかう {POKEBLOCK}は どれに しますか?「{POKEBLOCK}を 3こ つかいます」"), MSGBOX_DEFAULT)
     fadescreen(FADE_TO_BLACK)
 
     special(Bag_ChoosePokeblock)
@@ -178,13 +178,13 @@ script Rogue_Interior_Restaurant_SelectCrustPokeblock
             }
             else
             {
-                msgbox(format("I'm afraid you don't have enough {POKEBLOCK} for crust."))
+                msgbox(format("{JPN}きじに つかう {POKEBLOCK}が たりないようです。"))
                 setvar(VAR_RESULT, 2)
             }
         }
         else
         {
-            msgbox(format("I'm afraid that {POKEBLOCK} cannot be used for crust"))
+            msgbox(format("{JPN}その {POKEBLOCK}は きじには つかえません"))
             setvar(VAR_RESULT, 2)
         }
     }
@@ -192,7 +192,7 @@ script Rogue_Interior_Restaurant_SelectCrustPokeblock
 
 script Rogue_Interior_Restaurant_SelectFillingPokeblock
 {
-    message(format("Secondly, what size Pie would you like?"))
+    message(format("{JPN}つぎに パイの おおきさは どれに しますか?"))
     waitmessage
     
     multichoice(20, 6, MULTI_SELECT_PIE_FILLING, NO)
@@ -216,7 +216,7 @@ script Rogue_Interior_Restaurant_SelectFillingPokeblock
             return
     }
 
-    msgbox(format("Finally, what {POKEBLOCK} would you like the filling to be made from?"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}さいごに なかみに つかう {POKEBLOCK}は どれに しますか?"), MSGBOX_DEFAULT)
     fadescreen(FADE_TO_BLACK)
 
     special(Bag_ChoosePokeblock)
@@ -239,13 +239,13 @@ script Rogue_Interior_Restaurant_SelectFillingPokeblock
             }
             else
             {
-                msgbox(format("I'm afraid you don't have enough {POKEBLOCK} for that filling."))
+                msgbox(format("{JPN}その なかみに つかう {POKEBLOCK}が たりないようです。"))
                 setvar(VAR_RESULT, 2)
             }
         }
         else
         {
-            msgbox(format("I'm afraid that {POKEBLOCK} cannot be used for filling"))
+            msgbox(format("{JPN}その {POKEBLOCK}は なかみには つかえません"))
             setvar(VAR_RESULT, 2)
         }
     }
@@ -257,7 +257,7 @@ script Rogue_Interior_Restaurant_TalkShinyChef
 
     if(flag(FLAG_ROGUE_MET_SHINY_CHEF) == FALSE)
     {
-        msgbox(format("Sigh…"))
+        msgbox(format("{JPN}はあ…"))
         faceplayer
 
         msgbox(format("I'm trying to bake a Pie using Shiny {POKEBLOCK} as the filling, but it's very difficult…\pEach Pokémon seems to enjoy it prepared in a different way.\pOh, I know!\pI bet I could do it, if I had some Pokédex data on the Pokémon!\pIf you catch a Pokémon in its Shiny form, I'm certain I could bake a Shiny Pie for it!"))
@@ -269,14 +269,14 @@ script Rogue_Interior_Restaurant_TalkShinyChef
 
         setvar(VAR_0x8004, 0)
         special(BufferMonNickname)
-        msgbox(format("Would you like me to bake a Shiny Pie for you to share with {STR_VAR_1}?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}{STR_VAR_1}と わけられる いろちがいパイを\nやきましょうか?"), MSGBOX_YESNO)
 
         if(var(VAR_RESULT) == YES)
         {
             special(Rogue_CanMakeShinyPieFor)
             if(var(VAR_RESULT) == NO)
             {
-                msgbox(format("I'm afraid you haven't got any Shiny Pokédex data for that Pokémon."))
+                msgbox(format("{JPN}その ポケモンの いろちがいの ずかんデータが ないようです。"))
                 setvar(VAR_RESULT, 2)
             }
         }
@@ -293,7 +293,7 @@ script Rogue_Interior_Restaurant_TalkShinyChef
             setvar(VAR_FILLING_AMOUNT, PIE_SMALL_FILLING_AMOUNT)
             setvar(VAR_FILLING_ITEM, ITEM_POKEBLOCK_SHINY)
 
-            msgbox(format("Finally, I will need x3 Shiny {POKEBLOCK} for the filling.")) // based on PIE_SMALL_FILLING_AMOUNT
+            msgbox(format("{JPN}さいごに なかみに いろちがいの {POKEBLOCK}が 3こ ひつようです。")) // based on PIE_SMALL_FILLING_AMOUNT
     
             checkitem(VAR_FILLING_ITEM, VAR_FILLING_AMOUNT)
             if(var(VAR_RESULT) == YES)
@@ -302,7 +302,7 @@ script Rogue_Interior_Restaurant_TalkShinyChef
             }
             else
             {
-                msgbox(format("I'm afraid you don't have enough Shiny {POKEBLOCK} for the filling.")) // based on PIE_SMALL_FILLING_AMOUNT
+                msgbox(format("{JPN}なかみに つかう いろちがいの {POKEBLOCK}が たりないようです。")) // based on PIE_SMALL_FILLING_AMOUNT
                 setvar(VAR_RESULT, 2)
             }
         }
@@ -317,7 +317,7 @@ script Rogue_Interior_Restaurant_TalkShinyChef
                 setvar(VAR_0x8004, 0)
                 special(BufferMonNickname)
 
-                msgbox(format("I don't think {STR_VAR_1} will like this Pie very much.\pAre you sure you'd like to continue?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}{STR_VAR_1}は この パイを あまり\nこのまない かもしれません。\pそれでも つづけますか?"), MSGBOX_YESNO)
             }
         }
 
@@ -326,7 +326,7 @@ script Rogue_Interior_Restaurant_TalkShinyChef
         {
             removeitem(VAR_CRUST_ITEM, PIE_CRUST_AMOUNT)
             removeitem(VAR_FILLING_ITEM, VAR_FILLING_AMOUNT)
-            msgbox(format("I'll get started on it right away!\pPlease take a seat."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}すぐに とりかかります!\pおかけに なって おまちください。"), MSGBOX_DEFAULT)
 
             // Walk to chef
             fadescreen(FADE_TO_BLACK)
@@ -363,7 +363,7 @@ script Rogue_Interior_Restaurant_TalkShinyChef
 
             showobjectat(NPC_OBJ_PLACED_PIE, MAP_ROGUE_INTERIOR_RESTAURANT)
 
-            msgbox(format("Bon Appétit!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}めしあがれ!"), MSGBOX_DEFAULT)
 
 
             fadescreen(FADE_TO_BLACK)
@@ -393,7 +393,7 @@ script Rogue_Interior_Restaurant_TalkShinyChef
 
         if(var(VAR_RESULT) == NO)
         {
-            msgbox(format("Please let me know, if you change your mind."))
+            msgbox(format("{JPN}きが かわったら おこえを かけて ください。"))
         }
     }
 
@@ -426,7 +426,7 @@ script Rogue_Interior_Restaurant_TalkBoy2
 {
     lock
     faceplayer
-    msgbox(format("Pie can be tasty and make you stronger!?\pWho'd've thought!"))
+    msgbox(format("{JPN}パイが おいしくて つよくも なれる!?\pおどろきだね!"))
     release
 }
 
@@ -441,13 +441,13 @@ script Rogue_Interior_Restaurant_TalkWoman
 script Rogue_Interior_Restaurant_TalkEattingMon
 {
     lock
-    msgbox(format("It's engrossed in eating."))
+    msgbox(format("{JPN}むちゅうで たべている。"))
     release
 }
 
 script Rogue_Interior_Restaurant_TalkPie
 {
     lock
-    msgbox(format("It's a delicious smelling Pie!"))
+    msgbox(format("{JPN}おいしそうな においの パイだ!"))
     release
 }

@@ -40,7 +40,7 @@ script Rogue_ConfigRoom_TalkLanette
 {
     lock
     faceplayer
-    msgbox(format("LANETTE: Hi {PLAYER}!\pThis is the CONFIG LAB!\pIn here you can change settings for the next time you go on an adventure.\pJust step onto a switch to adjust the setting."), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}ラネット: やあ {PLAYER}!\pここは せっていラボ!\pつぎの ぼうけんの せっていを\nここで かえられるよ。\pスイッチの うえに のれば\nせっていを かえられる。"), MSGBOX_DEFAULT)
     release
 }
 
@@ -132,32 +132,32 @@ script Rogue_ConfigRoom_Campaign_CampaignDescription
     switch(var(VAR_ROGUE_DESIRED_CAMPAIGN))
     {
         case ROGUE_CAMPAIGN_LOW_BST:
-            msgbox(format("The BST CUP is short for Base Stat Total Cup.\pThe jist of it, is that you want to try and complete a full run using the weakest Pokémon you can find (The Pokémon with the lowest BST).\pEvery Pokémon you have in your party will be considered for the score.\pFor this Campaign, you'll have to enter a Standard Battle Adventure.\pGauntlet and Rainbow mode ain't allowed!\pFinally, this campaign will adjust Config Lab settings and TM TOXIC is banned.\p(Note the score will update when starting a battle, to give you a chance to catch and release mons)"))
-            msgbox(format("You'll know if the Campaign is active; it'll be announced to you at the start of the Adventure and you'll be able to view your current score in the pause menu."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}BSTカップは しゅぞくちごうけいカップの りゃくだ。\pできるだけ よわい ポケモン つまり しゅぞくちごうけいの ひくい ポケモンで クリアを めざす。\pてもちの ポケモン すべてが スコアの たいしょうに なる。\pこの キャンペーンでは ふつうの ぼうけんに でる ひつようが ある。\pガントレットと レインボーは だめだ!\pさらに せっていラボの せっていが かわり わざマシンの どくどくは きんしに なる。\p「スコアは バトルの はじめに こうしんされる。つかまえたり にがしたり する よゆうを もたせる ためだ」"))
+            msgbox(format("{JPN}キャンペーンちゅうかどうかは ぼうけんの はじめに しらせが でるし メニューで いまの スコアも みられる。"), MSGBOX_DEFAULT)
 
         case ROGUE_CAMPAIGN_CLASSIC:
-            msgbox(format("Classic Mode makes the Adventures more similar to how they use to be 'back in the ol' days'.\pThe main feature is that you no longer get any options for encounter.\pYou'll always have to take a specific path.\pThis can be played in any adventure type and doesn't adjust any of the settings in the Config Lab."))
-            msgbox(format("You'll know if the Campaign is active; it'll be announced to you at the start of the Adventure."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}クラシックモードは むかしの ぼうけんに ちかい あそびかたに なる。\pいちばんの ちがいは いく さきを えらべなく なること。\pかならず きまった みちを すすむことに なる。\pどの ぼうけんでも つかえて せっていラボの せっていは かわらない。"))
+            msgbox(format("{JPN}キャンペーンちゅうかどうかは ぼうけんの はじめに しらせが でる。"), MSGBOX_DEFAULT)
 
         case ROGUE_CAMPAIGN_MINIBOSS_BATTLER:
-            msgbox(format("Battle Addict makes the Adventures never create 'Route' encounters.\pInstead you have Strong Trainer encounters.\pThis can be played in any adventure type and doesn't adjust any of the settings in the Config Lab.\pYour score is based on how many Pokémon faint during the run.\pThe aim is to get the lowest score possible."))
-            msgbox(format("You'll know if the Campaign is active; it'll be announced to you at the start of the Adventure and you'll be able to view your current score in the pause menu."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}バトルちゅうどくでは ルートの エンカウントが でなく なる。\pかわりに つよい トレーナーせんが でる。\pどの ぼうけんでも つかえて せっていラボの せっていは かわらない。\pスコアは ぼうけんちゅうに たおれた ポケモンの かずで きまる。\pすくないほど よい。"))
+            msgbox(format("{JPN}キャンペーンちゅうかどうかは ぼうけんの はじめに しらせが でるし メニューで いまの スコアも みられる。"), MSGBOX_DEFAULT)
 
         case ROGUE_CAMPAIGN_AUTO_BATTLER:
-            msgbox(format("Auto Battler makes it so in battles, both you and the opponent will always pick random moves.\pThis can be played in any adventure type and doesn't adjust any of the settings in the Config Lab.\pYour score is based on how many Pokémon faint during the run.\pThe aim is to get the lowest score possible."))
-            msgbox(format("You'll know if the Campaign is active; it'll be announced to you at the start of the Adventure and you'll be able to view your current score in the pause menu."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}オートバトラーでは じぶんも あいても わざを ランダムに えらぶように なる。\pどの ぼうけんでも つかえて せっていラボの せっていは かわらない。\pスコアは ぼうけんちゅうに たおれた ポケモンの かずで きまる。\pすくないほど よい。"))
+            msgbox(format("{JPN}キャンペーンちゅうかどうかは ぼうけんの はじめに しらせが でるし メニューで いまの スコアも みられる。"), MSGBOX_DEFAULT)
 
         case ROGUE_CAMPAIGN_LATERMANNER:
-            msgbox(format("LaterManner Mode was made for the streamer himself!\pIt's..!\pErr...\pWell it is a mode...\pYou gain score if a Pokémon faints...\pAnd well... You'll figure out the rest."))
-            msgbox(format("You'll know if the Campaign is active; it'll be announced to you at the start of the Adventure and you'll be able to view your current score in the pause menu."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}レイターマナーモードは あの はいしんしゃの ための モードだ!\pこれは…!\pえっと…\pまあ モードだ…\pポケモンが たおれると スコアが はいる…\pあとは… じぶんで わかるだろう。"))
+            msgbox(format("{JPN}キャンペーンちゅうかどうかは ぼうけんの はじめに しらせが でるし メニューで いまの スコアも みられる。"), MSGBOX_DEFAULT)
 
         case ROGUE_CAMPAIGN_POKEBALL_LIMIT:
-            msgbox(format("Limited Capture Mode will provide you a limited number of POKé BALLs and your goal is simply to complete an Adventure.\pYou will not be able to purchase or find new POKé BALLs during the Adventure and encounters which give you Pokémon, such as the Pokémon LAB, will no longer appear.\pThis can be played in any adventure type and will force Bag Wipe in Config Lab."))
-            msgbox(format("You'll know if the Campaign is active; it'll be announced to you at the start of the Adventure."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}げんていほかくモードでは ボールの かずが かぎられ ぼうけんを クリアするのが もくひょうに なる。\pぼうけんちゅうは ボールを かうことも みつけることも できず ポケモンラボのような ポケモンを もらえる エンカウントも でなく なる。\pどの ぼうけんでも つかえて せっていラボの バッグリセットが つよせいされる。"))
+            msgbox(format("{JPN}キャンペーンちゅうかどうかは ぼうけんの はじめに しらせが でる。"), MSGBOX_DEFAULT)
 
         case ROGUE_CAMPAIGN_ONE_HP:
-            msgbox(format("One Hit Mode will cause all of your Pokémon to take enough damage to faint from every hit.\pBattles with wild Pokémon will still behave normally.\pDamage over time and status effects, such as poison or hail damage, will act as normal.\pThis can be played in any adventure type and doesn't adjust any of the settings in the Config Lab.\pYour score is based on how many Pokémon faint during the run.\pThe aim is to get the lowest score possible."))
-            msgbox(format("You'll know if the Campaign is active; it'll be announced to you at the start of the Adventure and you'll be able to view your current score in the pause menu."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}いちげきモードでは じぶんの ポケモンは どんな こうげきでも 1かいで たおれる。\pやせいの ポケモンとの バトルは ふつうどおり。\pどくや あられのような じわじわ くる ダメージも ふつうどおり。\pどの ぼうけんでも つかえて せっていラボの せっていは かわらない。\pスコアは たおれた ポケモンの かずで きまる。\pすくないほど よい。"))
+            msgbox(format("{JPN}キャンペーンちゅうかどうかは ぼうけんの はじめに しらせが でるし メニューで いまの スコアも みられる。"), MSGBOX_DEFAULT)
 
         default:
             msgbox(format("???"))
@@ -558,7 +558,7 @@ script Rogue_ConfigRoom_MegaBag
     {
         ROGUE_VERSION_VANILLA
         {
-            msgbox(format("It's an bag with a note attached...\pThanks for player Vanilla Version!\pIn EX Version this room can be used to enable Pokémon from future generations!\pIf that sounds fun, you can start a New Game on EX version and immediately unlock this room by interacting with the window inside the Config Lab."))
+            msgbox(format("{JPN}メモの ついた ふくろだ…\pつうじょうばんを あそんでくれて ありがとう!\pEXばんでは この へやで あとの せだいの ポケモンを つかえるように できる!\pおもしろそうなら EXばんで あたらしく はじめて せっていラボの まどを しらべれば すぐに この へやを つかえるよ。"))
         }
         ROGUE_VERSION_EXPANSION
         {
@@ -596,7 +596,7 @@ script Rogue_ConfigRoom_ZMoveBag
     {
         ROGUE_VERSION_VANILLA
         {
-            msgbox(format("It's an bag with a note attached...\pThanks for player Vanilla Version!\pIn EX Version this room can be used to enable Pokémon from future generations!\pIf that sounds fun, you can start a New Game on EX version and immediately unlock this room by interacting with the window inside the Config Lab."))
+            msgbox(format("{JPN}メモの ついた ふくろだ…\pつうじょうばんを あそんでくれて ありがとう!\pEXばんでは この へやで あとの せだいの ポケモンを つかえるように できる!\pおもしろそうなら EXばんで あたらしく はじめて せっていラボの まどを しらべれば すぐに この へやを つかえるよ。"))
         }
         ROGUE_VERSION_EXPANSION
         {
@@ -634,7 +634,7 @@ script Rogue_ConfigRoom_DynamaxBag
     {
         ROGUE_VERSION_VANILLA
         {
-            msgbox(format("It's an bag with a note attached...\pThanks for player Vanilla Version!\pIn EX Version this room can be used to enable Pokémon from future generations!\pIf that sounds fun, you can start a New Game on EX version and immediately unlock this room by interacting with the window inside the Config Lab."))
+            msgbox(format("{JPN}メモの ついた ふくろだ…\pつうじょうばんを あそんでくれて ありがとう!\pEXばんでは この へやで あとの せだいの ポケモンを つかえるように できる!\pおもしろそうなら EXばんで あたらしく はじめて せっていラボの まどを しらべれば すぐに この へやを つかえるよ。"))
         }
         ROGUE_VERSION_EXPANSION
         {
@@ -784,12 +784,12 @@ script Rogue_ConfigRoom_AdjustWildGens
     else
     {
         call(Rogue_ConfigRoom_BufferRegionName)
-        msgbox(format("You're currently using {STR_VAR_1} REGIONAL mode.\pWould you like to change it?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}いまは {STR_VAR_1}の ちほうモードだ。\pかえますか?"), MSGBOX_YESNO)
     }
 
     if(var(VAR_RESULT) == YES)
     {
-        message(format("Which mode would you like to use?"))
+        message(format("{JPN}どの モードに しますか?"))
         waitmessage
         multichoice(20, 8, MULTI_REGION_OR_NATIONAL, NO)
         
@@ -830,7 +830,7 @@ script Rogue_ConfigRoom_PreButtonInternal
             bufferstring(STR_VAR_2, format("???"))
     }
 
-    message(format("{STR_VAR_1} is currently '{STR_VAR_2}'"))
+    message(format("{JPN}{STR_VAR_1}は いま 「{STR_VAR_2}」"))
     waitmessage
     multichoice(20, 6, MULTI_YESNOINFO_2, NO)
 
@@ -872,7 +872,7 @@ script Rogue_ConfigRoom_PreEAHButtonInternal
             bufferstring(STR_VAR_2, format("???"))
     }
 
-    message(format("{STR_VAR_1} is currently '{STR_VAR_2}'"))
+    message(format("{JPN}{STR_VAR_1}は いま 「{STR_VAR_2}」"))
     waitmessage
     multichoice(20, 4, MULTI_EASY_AVERAGE_HARD_INFO, NO)
 
@@ -1146,7 +1146,7 @@ script Rogue_ConfigRoom_RedrawMap
 
 script Rogue_ConfigRoom_Button_ExpAll
 {
-    bufferstring(STR_VAR_1, format("EXP. ALL"))
+    bufferstring(STR_VAR_1, format("{JPN}がくしゅうそうち"))
 
     if(flag(FLAG_ROGUE_EXP_ALL))
     {
@@ -1170,7 +1170,7 @@ script Rogue_ConfigRoom_Button_ExpAll
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("When enabled all Pokémon in the party will gain EXP.\nIt is heavily recommended that you keep this ON as the game has been balanced around it."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オンに すると てもち ぜんいんが けいけんちを もらえる。\nこれを ぜんていに ちょうせいして あるので オンを つよく すすめる。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1178,7 +1178,7 @@ script Rogue_ConfigRoom_Button_ExpAll
 
 script Rogue_ConfigRoom_Button_CanOverLvl
 {
-    bufferstring(STR_VAR_1, format("ALLOW OVERLEVLING"))
+    bufferstring(STR_VAR_1, format("{JPN}レベルじょうげん なし"))
 
     if(flag(FLAG_ROGUE_CAN_OVERLVL))
     {
@@ -1202,7 +1202,7 @@ script Rogue_ConfigRoom_Button_CanOverLvl
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("When disabled will prevent Pokémon from levelling past the hight level Pokémon of the next GYM LEADER/BOSS."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オフに すると つぎの ジムリーダーや ボスの さいこうレベルを こえて そだてられなく なる。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1210,7 +1210,7 @@ script Rogue_ConfigRoom_Button_CanOverLvl
 
 script Rogue_ConfigRoom_Button_EVGainEnabled
 {
-    bufferstring(STR_VAR_1, format("ENABLE REWARD EVs"))
+    bufferstring(STR_VAR_1, format("{JPN}ほうしゅうの どりょくち"))
 
     if(flag(FLAG_ROGUE_EV_GAIN_ENABLED))
     {
@@ -1234,7 +1234,7 @@ script Rogue_ConfigRoom_Button_EVGainEnabled
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("When enabled, Pokémon will gain EVs at the very end of Trainer battles.\pThese REWARD EVs will be given based on the nature of the Pokémon gaining them.\pThis features is intended to be a reward mechanic for not having Pokémon faint.\pWhen disabled Pokémon will always have 0 EVs.\pThis control will only affect you, the player; trainers will never have EVs, regardless of whether this is enabled or disabled."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オンに すると トレーナーせんの さいごに どりょくちを もらえる。\pもらえる どりょくちは その ポケモンの せいかくに おうじて きまる。\pポケモンを たおされずに すすむための ごほうびの しくみだ。\pオフの ときは どりょくちは つねに 0に なる。\pこの せっていは プレイヤーだけに かかる。トレーナーは どちらでも どりょくちを もたない。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1242,7 +1242,7 @@ script Rogue_ConfigRoom_Button_EVGainEnabled
 
 script Rogue_ConfigRoom_Button_BasicBag
 {
-    bufferstring(STR_VAR_1, format("BAG WIPE"))
+    bufferstring(STR_VAR_1, format("{JPN}バッグ リセット"))
 
     if(flag(FLAG_ROGUE_FORCE_BASIC_BAG))
     {
@@ -1266,7 +1266,7 @@ script Rogue_ConfigRoom_Button_BasicBag
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("If enabled, when embarking on an Adventure the contents of your bag will be wiped and you will be given the starter items instead.\pKey items are the only pocket which will remain untouched."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オンに すると ぼうけんに でる ときに バッグの なかみが きえて さいしょの どうぐが わたされる。\pたいせつなものだけは そのまま のこる。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1274,7 +1274,7 @@ script Rogue_ConfigRoom_Button_BasicBag
 
 script Rogue_ConfigRoom_Button_WildMons
 {
-    bufferstring(STR_VAR_1, format("OVERWORLD WILD SPAWNS"))
+    bufferstring(STR_VAR_1, format("{JPN}フィールドに やせいポケモン"))
 
     if(flag(FLAG_ROGUE_OVERWORLD_WILD_MONS))
     {
@@ -1298,7 +1298,7 @@ script Rogue_ConfigRoom_Button_WildMons
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("If enabled, WILD Pokémon will spawn in the overworld and roam around.\pIf disabled, WILD Pokémon will appear randomly when walking around in tall grass in the same fashion they do in older games.\pIt is recommended to keep this setting enabled."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オンに すると やせいの ポケモンが フィールドに あらわれて あるきまわる。\pオフに すると むかしの さくひんと おなじく くさむらで ランダムに でてくる。\pオンの ままに しておくのを すすめる。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1306,7 +1306,7 @@ script Rogue_ConfigRoom_Button_WildMons
 
 script Rogue_ConfigRoom_Button_TrainerDifficulty
 {
-    bufferstring(STR_VAR_1, format("TRAINER DIFFICULTY"))
+    bufferstring(STR_VAR_1, format("{JPN}トレーナーの なんいど"))
 
     if(flag(FLAG_ROGUE_EASY_TRAINERS))
     {
@@ -1339,7 +1339,7 @@ script Rogue_ConfigRoom_Button_TrainerDifficulty
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("Adjust teams/moves from very casual to very competitive.\pAverage mode will start casual but get more competitive as you progress.\pThe higher this difficulty the more rewards you get when returning from an adventure."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}てもちや わざを ゆるいものから たいせん しようまで ちょうせいする。\pふつうでは はじめは ゆるく すすむほど きびしく なる。\pなんいどが たかいほど ぼうけんから もどった ときの ほうしゅうが ふえる。"), MSGBOX_DEFAULT)
     }
     call(Rogue_ConfigRoom_PostButtonInternal)
 }
@@ -1386,7 +1386,7 @@ script Rogue_ConfigRoom_Button_ItemDifficulty
 
 script Rogue_ConfigRoom_Button_LegendaryDifficulty
 {
-    bufferstring(STR_VAR_1, format("LEGENDARY ENCOUNTERS"))
+    bufferstring(STR_VAR_1, format("{JPN}でんせつの ポケモン"))
 
     if(flag(FLAG_ROGUE_EASY_LEGENDARIES))
     {
@@ -1419,14 +1419,14 @@ script Rogue_ConfigRoom_Button_LegendaryDifficulty
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("Adjust the rate and quality of Legendary encounters may appear.\pEasy makes sure any Legendaries may appear fairly frequently.\pAverage will result in few Legendary encounters and the quality of those Legendaries will get stronger the further into a run you are.\pHard will result in few encounters and stronger Legendaries will not appear."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}でんせつの ポケモンの でやすさと つよさを ちょうせいする。\pやさしいでは どの でんせつも わりと よく あらわれる。\pふつうでは あまり あらわれず すすむほど つよい でんせつが でる。\pむずかしいでは あまり あらわれず つよい でんせつは でない。"), MSGBOX_DEFAULT)
     }
     call(Rogue_ConfigRoom_PostButtonInternal)
 }
 
 script Rogue_ConfigRoom_Button_SeedItems
 {
-    bufferstring(STR_VAR_1, format("SEED ITEMS"))
+    bufferstring(STR_VAR_1, format("{JPN}シード: どうぐ"))
 
     if(flag(FLAG_SET_SEED_ITEMS))
     {
@@ -1450,7 +1450,7 @@ script Rogue_ConfigRoom_Button_SeedItems
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("If disabled items will be completely RANDOM and not linked to the SEED."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オフに すると どうぐは シードと むかんけいに かんぜんランダムに なる。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1458,7 +1458,7 @@ script Rogue_ConfigRoom_Button_SeedItems
 
 script Rogue_ConfigRoom_Button_SeedWildMons
 {
-    bufferstring(STR_VAR_1, format("SEED WILD Pokémon"))
+    bufferstring(STR_VAR_1, format("{JPN}シード: やせいポケモン"))
 
     if(flag(FLAG_SET_SEED_WILDMONS))
     {
@@ -1482,7 +1482,7 @@ script Rogue_ConfigRoom_Button_SeedWildMons
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("If disabled WILD Pokémon encounters will be completely RANDOM and not linked to the SEED.\pNote this does not affect LEGENDARY encounters."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オフに すると やせいの ポケモンは シードと むかんけいに かんぜんランダムに なる。\pでんせつの ポケモンには えいきょうしない。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1490,7 +1490,7 @@ script Rogue_ConfigRoom_Button_SeedWildMons
 
 script Rogue_ConfigRoom_Button_SeedTrainers
 {
-    bufferstring(STR_VAR_1, format("SEED TRAINERS"))
+    bufferstring(STR_VAR_1, format("{JPN}シード: トレーナー"))
 
     if(flag(FLAG_SET_SEED_TRAINERS))
     {
@@ -1514,7 +1514,7 @@ script Rogue_ConfigRoom_Button_SeedTrainers
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("If disabled TRAINER spawns and teams will be completely RANDOM and not linked to the SEED."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オフに すると トレーナーの しゅつげんと てもちは シードと むかんけいに かんぜんランダムに なる。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1522,7 +1522,7 @@ script Rogue_ConfigRoom_Button_SeedTrainers
 
 script Rogue_ConfigRoom_Button_SeedBosses
 {
-    bufferstring(STR_VAR_1, format("SEED BOSSES"))
+    bufferstring(STR_VAR_1, format("{JPN}シード: ボス"))
 
     if(flag(FLAG_SET_SEED_BOSSES))
     {
@@ -1546,7 +1546,7 @@ script Rogue_ConfigRoom_Button_SeedBosses
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("If disabled GYM LEADER teams will be completely RANDOM and not linked to the SEED."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オフに すると ジムリーダーの てもちは シードと むかんけいに かんぜんランダムに なる。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1555,7 +1555,7 @@ script Rogue_ConfigRoom_Button_SeedBosses
 
 script Rogue_ConfigRoom_Button_KantoRoutes
 {
-    bufferstring(STR_VAR_1, format("KANTO ROUTES"))
+    bufferstring(STR_VAR_1, format("{JPN}カントーの ルート"))
 
     if(flag(FLAG_ROGUE_KANTO_ROUTES))
     {
@@ -1579,7 +1579,7 @@ script Rogue_ConfigRoom_Button_KantoRoutes
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("When enabled you may start to encounter routes from the Kanto region during adventures."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オンに すると ぼうけんで カントーちほうの ルートが でるように なる。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1587,7 +1587,7 @@ script Rogue_ConfigRoom_Button_KantoRoutes
 
 script Rogue_ConfigRoom_Button_KantoBosses
 {
-    bufferstring(STR_VAR_1, format("KANTO LEADERS"))
+    bufferstring(STR_VAR_1, format("{JPN}カントーの リーダー"))
 
     if(flag(FLAG_ROGUE_KANTO_BOSSES))
     {
@@ -1611,7 +1611,7 @@ script Rogue_ConfigRoom_Button_KantoBosses
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("When enabled, leaders from the Kanto region may start appearing for Mighty trainer battles.\p(This setting is ignored for Rainbow mode)"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オンに すると さいきょうトレーナーせんに カントーちほうの リーダーが でるように なる。\p「レインボーモードでは むしされる」"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1620,7 +1620,7 @@ script Rogue_ConfigRoom_Button_KantoBosses
 
 script Rogue_ConfigRoom_Button_JohtoRoutes
 {
-    bufferstring(STR_VAR_1, format("JOHTO ROUTES"))
+    bufferstring(STR_VAR_1, format("{JPN}ジョウトの ルート"))
 
     if(flag(FLAG_ROGUE_JOHTO_ROUTES))
     {
@@ -1644,7 +1644,7 @@ script Rogue_ConfigRoom_Button_JohtoRoutes
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("When enabled you may start to encounter routes from the Johto region during adventures."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オンに すると ぼうけんで ジョウトちほうの ルートが でるように なる。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1652,7 +1652,7 @@ script Rogue_ConfigRoom_Button_JohtoRoutes
 
 script Rogue_ConfigRoom_Button_JohtoBosses
 {
-    bufferstring(STR_VAR_1, format("JOHTO LEADERS"))
+    bufferstring(STR_VAR_1, format("{JPN}ジョウトの リーダー"))
 
     if(flag(FLAG_ROGUE_JOHTO_BOSSES))
     {
@@ -1676,7 +1676,7 @@ script Rogue_ConfigRoom_Button_JohtoBosses
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("When enabled, leaders from the Johto region may start appearing for Mighty trainer battles.\p(This setting is ignored for Rainbow mode)"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オンに すると さいきょうトレーナーせんに ジョウトちほうの リーダーが でるように なる。\p「レインボーモードでは むしされる」"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1684,7 +1684,7 @@ script Rogue_ConfigRoom_Button_JohtoBosses
 
 script Rogue_ConfigRoom_Button_HoennRoutes
 {
-    bufferstring(STR_VAR_1, format("HOENN ROUTES"))
+    bufferstring(STR_VAR_1, format("{JPN}ホウエンの ルート"))
 
     if(flag(FLAG_ROGUE_HOENN_ROUTES))
     {
@@ -1708,7 +1708,7 @@ script Rogue_ConfigRoom_Button_HoennRoutes
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("When enabled you may start to encounter routes from the Hoenn region during adventures."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オンに すると ぼうけんで ホウエンちほうの ルートが でるように なる。"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)
@@ -1716,7 +1716,7 @@ script Rogue_ConfigRoom_Button_HoennRoutes
 
 script Rogue_ConfigRoom_Button_HoennBosses
 {
-    bufferstring(STR_VAR_1, format("HOENN LEADERS"))
+    bufferstring(STR_VAR_1, format("{JPN}ホウエンの リーダー"))
 
     if(flag(FLAG_ROGUE_HOENN_BOSSES))
     {
@@ -1740,7 +1740,7 @@ script Rogue_ConfigRoom_Button_HoennBosses
     if(var(VAR_RESULT) == NO)
     {
         // Print Info
-        msgbox(format("When enabled, leaders from the Hoenn region may start appearing for Mighty trainer battles.\p(This setting is ignored for Rainbow mode)"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}オンに すると さいきょうトレーナーせんに ホウエンちほうの リーダーが でるように なる。\p「レインボーモードでは むしされる」"), MSGBOX_DEFAULT)
     }
 
     call(Rogue_ConfigRoom_PostButtonInternal)

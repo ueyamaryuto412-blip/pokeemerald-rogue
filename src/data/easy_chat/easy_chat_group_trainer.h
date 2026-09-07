@@ -1,6 +1,6 @@
 const u8 gEasyChatWord_IChooseYou[] = _("I CHOOSE YOU");
 const u8 gEasyChatWord_Gotcha[] = _("GOTCHA");
-const u8 gEasyChatWord_Trade[] = _("TRADE");
+const u8 gEasyChatWord_Trade[] = _("{JPN}こうかん");
 const u8 gEasyChatWord_Sapphire[] = _("{JPN}サファイア");
 const u8 gEasyChatWord_Evolve[] = _("EVOLVE");
 const u8 gEasyChatWord_Encyclopedia[] = _("ENCYCLOPEDIA");
@@ -12,7 +12,7 @@ const u8 gEasyChatWord_SpAbility[] = _("SP. ABILITY");
 const u8 gEasyChatWord_Trainer[] = _("TRAINER");
 const u8 gEasyChatWord_Version[] = _("VERSION");
 const u8 gEasyChatWord_Pokenav[] = _("POKéNAV");
-const u8 gEasyChatWord_Pokemon[] = _("POKéMON");
+const u8 gEasyChatWord_Pokemon[] = _("{JPN}ポケモン");
 const u8 gEasyChatWord_Get[] = _("GET");
 const u8 gEasyChatWord_Pokedex[] = _("{JPN}ポケモンずかん");
 const u8 gEasyChatWord_Ruby[] = _("{JPN}ルビー");

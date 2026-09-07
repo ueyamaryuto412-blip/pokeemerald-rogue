@@ -20,7 +20,7 @@ script RogueMP_Common_GrabRemoteMon
     copyvar(VAR_0x8004, VAR_REMOTE_MON_SLOT)
     special(Rogue_MultiplayerRequestMon)
 
-    message(format("Waiting for other player…\n… … B Button: Cancel"))
+    message(format("{JPN}あいてを まって います…\n… … Bボタン: やめる"))
     special(Rogue_WaitForRemoteResponse)
     waitstate
     closemessage
@@ -30,30 +30,30 @@ script Rogue_InteractMultiplayerPlayer
 {
     lock
 
-    message(format("Waiting for other player…\n… … B Button: Cancel"))
+    message(format("{JPN}あいてを まって います…\n… … Bボタン: やめる"))
     multiplayerpushstatusawait(MP_PLAYER_STATUS_TALK_TO_PLAYER, TRUE)
     waitstate
 
     if(var(VAR_RESULT) == YES)
     {
-        msgbox(format("{RIVAL}: Hi, I'm {RIVAL}!"))
+        msgbox(format("{JPN}{RIVAL}: やあ ぼくは {RIVAL}!"))
         
-        msgbox(format("Would you like to trade Pokémon?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}ポケモンを こうかんしますか?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == YES)
         {
-            message(format("Waiting for other player…\n… … B Button: Cancel"))
+            message(format("{JPN}あいてを まって います…\n… … Bボタン: やめる"))
             multiplayerpushstatusawait(MP_PLAYER_STATUS_BEGIN_TRADE, TRUE)
             waitstate
             
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("Which Pokémon would you like to trade?"))
+                msgbox(format("{JPN}どの ポケモンを こうかんしますか?"))
                 special(ChoosePartyMon)
                 waitstate
 
                 copyvar(VAR_LOCAL_MON_SLOT, VAR_0x8004)
             
-                message(format("Waiting for other player…\n… … B Button: Cancel"))
+                message(format("{JPN}あいてを まって います…\n… … Bボタン: やめる"))
                 callnative(RogueMP_WaitTradeSlotResponse)
                 waitstate
 
@@ -77,7 +77,7 @@ script Rogue_InteractMultiplayerPlayer
     
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("Maybe some other time."))
+        msgbox(format("{JPN}また こんどに しましょう。"))
     }
 
     multiplayerpushstatus(MP_PLAYER_STATUS_NONE)
@@ -88,20 +88,20 @@ script Rogue_BeginRemoteInteractMultiplayerPlayer
 {
     lock
 
-    message(format("{RIVAL}: Hi, Let's talk!\n… … B Button: Cancel"))
+    message(format("{JPN}{RIVAL}: やあ はなそうよ!\n… … Bボタン: やめる"))
     special(Rogue_WaitForNextPlayerStatusCancellable)
     waitstate
 
     if(var(VAR_RESULT) == YES)
     {
         // TODO - Support alternative interactions
-        msgbox(format("Let's trade Pokémon!\nWhich Pokémon would you like to Trade?"))
+        msgbox(format("{JPN}ポケモンを こうかんしよう!\nどの ポケモンを こうかんする?"))
         special(ChoosePartyMon)
         waitstate
 
         copyvar(VAR_LOCAL_MON_SLOT, VAR_0x8004)
 
-        message(format("Waiting for other player…\n… … B Button: Cancel"))
+        message(format("{JPN}あいてを まって います…\n… … Bボタン: やめる"))
         callnative(RogueMP_WaitTradeSlotResponse)
         waitstate
 
@@ -123,7 +123,7 @@ script Rogue_BeginRemoteInteractMultiplayerPlayer
 
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("{RIVAL}: Bye for now!"))
+        msgbox(format("{JPN}{RIVAL}: それじゃ またね!"))
     }
 
     multiplayerpushstatus(MP_PLAYER_STATUS_NONE)
@@ -163,11 +163,11 @@ script RogueMP_OnClientReloadInHub
 
 script RogueMP_PerformReconnect
 {
-    msgbox(format("Would you like to continue this Adventure in Multiplayer?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}この ぼうけんを つうしんで つづけますか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == FALSE)
     {
-        msgbox(format("Are you sure you would like to continue this Adventure by yourself?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}この ぼうけんを ひとりで つづけて\nほんとうに よろしいですか?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == TRUE)
         {
             setvar(VAR_RESULT, FALSE)
@@ -200,7 +200,7 @@ script RogueMP_PerformReconnect
 
                     if(var(VAR_RESULT) == TRUE)
                     {
-                        msgbox(format("All set!\nHave fun in your Adventure!"))
+                        msgbox(format("{JPN}じゅんび かんりょう!\nぼうけんを たのしんで!"))
                     }
 
                 case 1: // Host
@@ -212,7 +212,7 @@ script RogueMP_PerformReconnect
 
                     if(var(VAR_RESULT) == TRUE)
                     {
-                        msgbox(format("All set!\nA friend should now be able to join you for this Adventure!"))
+                        msgbox(format("{JPN}じゅんび かんりょう!\nこの ぼうけんに ともだちが さんかできます!"))
                     }
 
                 case 2: // Exit
@@ -221,7 +221,7 @@ script RogueMP_PerformReconnect
             
             if(var(VAR_RESULT) == FALSE)
             {
-                msgbox(format("Are you sure you would like to continue this Adventure by yourself?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}この ぼうけんを ひとりで つづけて\nほんとうに よろしいですか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == TRUE)
                 {
                     setvar(VAR_RESULT, FALSE) // stop loop

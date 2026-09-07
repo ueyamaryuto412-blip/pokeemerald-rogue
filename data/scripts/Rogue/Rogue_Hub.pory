@@ -44,7 +44,7 @@ script Rogue_Area_WorkbenchOptions
         
         call(Rogue_Area_PlayBuildSound)
 
-        msgbox(format("{POKEMON_HUB} has been upgraded!"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}{POKEMON_HUB}が はってんした!"), MSGBOX_DEFAULT)
 
         waitfanfare
         special(ReloadWarpSilent)

@@ -42,20 +42,20 @@ text gPlaceholder_Trainer_PostBattleCloser
 
 text gText_PokeblockHasNoEffect
 {
-    format("This {POKEBLOCK} has no effect.{PAUSE_UNTIL_PRESS}")
+    format("{JPN}この {POKEBLOCK}は こうかが ない。{PAUSE_UNTIL_PRESS}")
 }
 
 text gText_PokeblockWouldHaveNoEffect
 {
-    format("{POKEBLOCK} would have no effect, if scatted here.{PAUSE_UNTIL_PRESS}")
+    format("{JPN}ここに まいても {POKEBLOCK}は\nこうかが ないだろう。{PAUSE_UNTIL_PRESS}")
 }
 
 text gText_PokeblockWouldHaveNoEffectHoneyTree
 {
-    format("Only Typed {POKEBLOCK} can be scattered by Honey Trees.{PAUSE_UNTIL_PRESS}")
+    format("{JPN}ハニーツリーで まけるのは\nタイプつきの {POKEBLOCK}だけだ。{PAUSE_UNTIL_PRESS}")
 }
 
 text gText_PokeblockAlreadyScattered
 {
-    format("{POKEBLOCK} has already been scattered here.{PAUSE_UNTIL_PRESS}")
+    format("{JPN}ここには すでに {POKEBLOCK}が\nまかれて いる。{PAUSE_UNTIL_PRESS}")
 }

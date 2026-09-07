@@ -108,7 +108,7 @@ script Rogue_ScriptShowFollower
 script Rogue_Ridemon_PlayerIsTrapped
 {
     lock
-    msgbox(format("Oh no!\nYou seemed to have trapped yourself!"))
+    msgbox(format("{JPN}たいへんだ!\nじぶんで とじこめて しまったようだ!"))
     special(ReloadSafeWarp)
     release
 }

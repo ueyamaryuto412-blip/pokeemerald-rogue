@@ -144,7 +144,7 @@ script Rogue_Interior_SafariCave_BattleSummonMon
     //waitstate
 
     playmoncry(VAR_RESULT, CRY_MODE_ENCOUNTER)
-    msgbox(format("!!!"))
+    msgbox(format("{JPN}!!!"))
 
     waitmoncry
 

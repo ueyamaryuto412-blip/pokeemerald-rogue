@@ -13,12 +13,12 @@ script Rogue_Template_Homes_CommonFormChange
 
     if(var(VAR_RESULT) == YES)
     {
-        msgbox(format("{STR_VAR_1} is reacting!"))
+        msgbox(format("{JPN}{STR_VAR_1}が はんのうして いる!"))
         special(ReloadWarpSilent)
     }
     else
     {
-        msgbox(format("{STR_VAR_1} doesn't seem interested in it."))
+        msgbox(format("{JPN}{STR_VAR_1}は きょうみが ないようだ。"))
     }
 
     release

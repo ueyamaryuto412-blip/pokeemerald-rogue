@@ -6,7 +6,7 @@ script Rogue_Interior_School_ShowSetRecommendation
     lock
     faceplayer
     
-    msgbox(format("Oh hey, you look like a Trainer.\pHere, let me give you my advice on how I would setup your Pokémon, if they were mine."))
+    msgbox(format("{JPN}おや きみは トレーナーだね。\pぼくだったら ポケモンを どう そだてるか\nアドバイスして あげよう。"))
 
     setvar(VAR_0x8004, 0)
 
@@ -17,12 +17,12 @@ script Rogue_Interior_School_ShowSetRecommendation
         playmoncry(VAR_RESULT, CRY_MODE_NORMAL)
 
         callnative(ScriptMenu_DisplayRecommendedMonSet)
-        messageinstant("{DPAD_LEFTRIGHT} Cycle Party Pokémon\n{A_BUTTON} {B_BUTTON} Exit")
+        messageinstant("{JPN}{DPAD_LEFTRIGHT} てもちを きりかえる\n{A_BUTTON} {B_BUTTON} おわる")
         waitstate
         hidemonpic
     }
 
-    msgbox(format("If you need any more help, don't hesitate to ask!"))
+    msgbox(format("{JPN}こまったことが あったら\nいつでも きいてね!"))
 
     release
 }
@@ -52,7 +52,7 @@ script Rogue_Interior_School_TalkRunningStatsHint
     lockall
     faceplayer
 
-    msgbox(format("Arrgghhh!\pIt's so much harder to get my optimal EV spreads now!\pI use to just grind against Wild Pokémon, but now all your Pokémon gain EVs after Trainer battles instead.\pThe EV spread they get is based on their Nature.\pSo it' really important to have a good Nature as early as possible, if you want a good EV spread!\pAt least you can check your EVs & IVs at any time!\pYou can inspect them by pressing {A_BUTTON} on the Pokémon's Stats Summary."))
+    msgbox(format("{JPN}うああ!\pおもいどおりの どりょくちを\nつけるのが むずかしくなったよ!\pまえは やせいの ポケモンと\nたたかって かせいだ ものだけど\pいまは トレーナーとの しょうぶで\nどりょくちが はいるんだ。\pしかも どんな どりょくちが つくかは\nせいかくで きまるんだよ。\pだから いい せいかくを はやめに\nてに いれるのが とても だいじ!\pでも どりょくちも こたいちも\nいつでも かくにんできるよ!\pポケモンの のうりょくがめんで\n{A_BUTTON} を おせば みられるんだ。"))
 
     releaseall
 }
@@ -62,7 +62,7 @@ script Rogue_Interior_School_TalkPokeblock
     lockall
     faceplayer
 
-    msgbox(format("My Pokémon love {POKEBLOCK}!\pDid you know, whenever you're on a Route, you can scatter some {POKEBLOCK} to try and attract new types of Pokémon."))
+    msgbox(format("{JPN}ぼくの ポケモンは {POKEBLOCK}が だいすき!\pしってるかい? ルートに いるときは\n{POKEBLOCK}を まくことが できるんだ。\pすると あたらしい タイプの ポケモンが\nよって くるかも しれないよ。"))
 
     releaseall
 }
@@ -72,7 +72,7 @@ script Rogue_Interior_School_TalkTeacher
     lockall
     faceplayer
 
-    msgbox(format("Ah! Welcome!\pI've been making sure to teach my Students as much as possible about Adventuring!\pI'm sure they would be more than happy to share their knowledge with you, if you ask nicely!"))
+    msgbox(format("{JPN}ああ! ようこそ!\pせいとたちには ぼうけんのことを\nできる かぎり おしえて きたよ。\pていねいに たずねれば きっと\nよろこんで おしえて くれるはずさ!"))
 
     releaseall
 }
@@ -83,38 +83,38 @@ script Rogue_Interior_School_TalkRouteHint
     faceplayer
 
 
-    msgbox(format("I've been studying as much as I can about all the different types of encounters!\pI've still go plenty to learn.\pBut I could tell you what I've learnt so far!"))
+    msgbox(format("{JPN}ぼくは いろんな しゅるいの\nであいに ついて けんきゅうちゅう!\pまだまだ わからないことも おおいけど\pいままで わかったことなら\nおしえて あげられるよ!"))
 
     setvar(VAR_RESULT, 0)
 
     while(var(VAR_RESULT) != MULTI_B_PRESSED)
     {
         begindynamicmultichoice
-        appenddynamicmultichoice("Route Difficulty", 0)
-        appenddynamicmultichoice("Route Types", 1)
-        appenddynamicmultichoice("Trained Pokémon Habitats", 2)
-        appenddynamicmultichoice("Honey Trees", 3)
+        appenddynamicmultichoice("{JPN}ルートの なんいど", 0)
+        appenddynamicmultichoice("{JPN}ルートの タイプ", 1)
+        appenddynamicmultichoice("{JPN}そだった ポケモンの すみか", 2)
+        appenddynamicmultichoice("{JPN}ハニーツリー", 3)
 
-        message(format("Is there anything I can tell you about?"))
+        message(format("{JPN}なにか ききたいことは あるかい?"))
         waitmessage
         enddynamicmultichoice(20, 2, 5, TRUE)
         
         switch(var(VAR_RESULT))
         {
             case 0:
-                msgbox(format("SO!\nThe Routes are always described by 2 hints.\pFirstly, a Difficulty.\nSecondly, a Type.\pThere are 3 different Difficulties: Calm, Average and Tough.\pOn Calm Routes, you'll find more Wild Pokémon but fewer Items and Trainers.\pOn Tough Routes, you'll find few Wild Pokémon but you'll find there are more Items and Trainers.\pThe Items you find on these routes will typically be more valuable too.\pBut in turn, the Trainers who explore these Routes also tend to be way stronger too!\pThe Average Difficulty, is the middle ground between those 2.\pIt's usually a good safe choice, if you're not desparate to catch new Pokémon!"))
+                msgbox(format("{JPN}それでは!\nルートには つねに 2つの ヒントが つくんだ。\pひとつめは なんいど。\nふたつめは タイプだよ。\pなんいどは 3しゅるい。\nおだやか ふつう きびしい だ。\pおだやかな ルートでは やせいの ポケモンが\nおおく どうぐや トレーナーは すくない。\pきびしい ルートでは やせいの ポケモンが\nすくなく どうぐや トレーナーが おおい。\pそういう ルートで みつかる どうぐは\nねうちの あるものが おおいんだ。\pそのかわり そこを あるく トレーナーも\nずっと つよい けいこうに あるよ!\pふつうの なんいどは\nその 2つの ちょうどまんなか。\pあたらしい ポケモンを どうしても\nつかまえたいので なければ ぶなんな せんたくさ!"))
 
             case 1:
-                msgbox(format("SO!\nThe Routes are always described by 2 hints.\pFirstly, a Difficulty.\nSecondly, a Type.\pThe Type hint is quite simple, each hint refers to a specific Pokémon Type. For example, Warm refers to Fire Type Pokémon, Confusing refers to Psychic Type Pokémon etc.\pThe Type Hint means that we know that at least 1 Pokémon of that Type will appear on the Route.\pIt's usually a safe bet that there will be more than 1 Pokémon that matches the Type Hint, in Calm Routes too."))
+                msgbox(format("{JPN}それでは!\nルートには つねに 2つの ヒントが つくんだ。\pひとつめは なんいど。\nふたつめは タイプだよ。\pタイプの ヒントは かんたん。\nそれぞれが ポケモンの タイプを さしている。\pたとえば あたたかいは ほのおタイプ\nふしぎなは エスパータイプ という ぐあいさ。\pタイプの ヒントが あるということは\nその タイプの ポケモンが すくなくとも\n1ぴきは あらわれる ということだよ。\pおだやかな ルートなら ヒントに あう\nポケモンが 2ひき いじょう いることも おおいね。"))
 
             case 2:
-                msgbox(format("SO!\nThe Pokémon that appear at these encounters are very odd!\pIt's almost as if they've already been Trained to battle!\pThey'll usually already have a good nature, ability and moves. They often tend to have at least 1 perfect IV too!\pBecause they're so strong, they prefer to live by themselves though AND there's no knowing what Pokémon it is before entering.\pIt could be a Charizard!\nOr a Magikarp…\pSo it can be a bit of a gamble at times."))
+                msgbox(format("{JPN}それでは!\nこの であいに でてくる ポケモンは とても かわった やつらでね!\pまるで すでに しょうぶの ために\nそだてられて いるかの ようなんだ!\pせいかくも とくせいも わざも たいてい よくて\nこたいちが ひとつは かんぺきなことも おおい!\pとても つよいから ひとりで くらすのを\nこのむし はいるまで なにが いるか わからない。\pリザードンかも しれないし\nコイキングかも しれない…\pだから ときには かけに なるんだよ。"))
 
             case 3:
-                msgbox(format("SO!\nHoney Trees are only really useful to you, if you have some {POKEBLOCK}.\pThey're a location that Wild Pokémon like to go to eat and relax, so you'll usually always find a random Pokémon hanging around near it, but the Honey Tree really becomes useful when you Scatter {POKEBLOCK} by it!\pIt's pretty much a guarantee that the next time you visit the Honey Tree, you'll find a Pokémon chowing down on the {POKEBLOCK} you scattered.\pSo lets say I wanted a Bulbasaur, I could scatter some Grass and Poison {POKEBLOCK} by the Honey Tree and then the next time I visit it, there could be a Bulbasaur there!\pThere could also be an Oddish…\nOr a Bellsprout…\pThe effectiveness really depends on how unique the Pokémon's Type combination is, provided you have the necessary {POKEBLOCK} to hand."))
+                msgbox(format("{JPN}それでは!\nハニーツリーが やくにたつのは {POKEBLOCK}を もっている ときだけさ。\pやせいの ポケモンが たべたり くつろいだり\nしにくる ばしょだから いつでも てきとうな\nポケモンが ちかくに いるものだけど\nそばで {POKEBLOCK}を まくと\nほんとうに やくにたつんだ!\pつぎに ハニーツリーを おとずれた ときには\nまいた {POKEBLOCK}を たべている ポケモンが\nほぼ かならず みつかるよ。\pたとえば フシギダネが ほしいなら\nくさと どくの {POKEBLOCK}を まいておけば\nつぎに きたとき フシギダネが いるかも!\pもちろん ナゾノクサかも しれないし\nマダツボミかも しれないけどね…\pどれだけ うまくいくかは その ポケモンの\nタイプの くみあわせが めずらしいかどうか\nそして あう {POKEBLOCK}を もっているか しだいさ。"))
 
             case MULTI_B_PRESSED:
-                msgbox(format("Oh, OK…\nI've got plenty more to share, if you wanna know!"))
+                msgbox(format("{JPN}ああ そうかい…\nききたく なったら まだまだ はなせるよ!"))
         }
     }
 

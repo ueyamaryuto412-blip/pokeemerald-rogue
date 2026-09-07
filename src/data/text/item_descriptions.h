@@ -4,105 +4,45 @@ static const u8 sDummyDesc[] = _(
 // Poké Balls
 static const u8 sPokeBallDesc[] = _("{JPN}やせいの ポケモンに\nなげて つかまえる ための\nボール。");
 
-static const u8 sGreatBallDesc[] = _(
-    "A good Ball with a\n"
-    "higher catch rate\n"
-    "than a Poké Ball.");
+static const u8 sGreatBallDesc[] = _("{JPN}モンスターボールより\nつかまえやすい\nすこし いい ボール。");
 
-static const u8 sUltraBallDesc[] = _(
-    "A better Ball with\n"
-    "a higher catch rate\n"
-    "than a Great Ball.");
+static const u8 sUltraBallDesc[] = _("{JPN}スーパーボールより\nつかまえやすい\nさらに いい ボール。");
 
-static const u8 sMasterBallDesc[] = _(
-    "The best Ball that\n"
-    "catches a Pokémon\n"
-    "without fail.");
+static const u8 sMasterBallDesc[] = _("{JPN}かならず つかまえる\nことが できる\nさいこうの ボール。");
 
-static const u8 sPremierBallDesc[] = _(
-    "A rare Ball made\n"
-    "in commemoration\n"
-    "of some event.");
+static const u8 sPremierBallDesc[] = _("{JPN}なにかの きねんに\nつくられた\nめずらしい ボール。");
 
-static const u8 sHealBallDesc[] = _(
-    "A remedial Ball\n"
-    "that restores\n"
-    "caught Pokémon.");
+static const u8 sHealBallDesc[] = _("{JPN}つかまえた ポケモンを\nかいふくさせる\nボール。");
 
-static const u8 sNetBallDesc[] = _(
-    "A Ball that works\n"
-    "well on Water- and\n"
-    "Bug-type Pokémon.");
+static const u8 sNetBallDesc[] = _("{JPN}みずタイプと\nむしタイプに\nつかまえやすい ボール。");
 
-static const u8 sNestBallDesc[] = _(
-    "A Ball that works\n"
-    "better on weaker\n"
-    "Pokémon.");
+static const u8 sNestBallDesc[] = _("{JPN}よわい ポケモンほど\nつかまえやすく\nなる ボール。");
 
-static const u8 sDiveBallDesc[] = _(
-    "A Ball that works\n"
-    "better on Pokémon\n"
-    "on the ocean floor.");
+static const u8 sDiveBallDesc[] = _("{JPN}かいていの ポケモンを\nつかまえやすく\nする ボール。");
 
-static const u8 sDuskBallDesc[] = _(
-    "Works well if\n"
-    "used in a\n"
-    "dark place.");
+static const u8 sDuskBallDesc[] = _("{JPN}くらい ばしょで\nつかうと よく\nつかまえられる。");
 
-static const u8 sTimerBallDesc[] = _(
-    "A Ball that gains\n"
-    "power in battles\n"
-    "taking many turns.");
+static const u8 sTimerBallDesc[] = _("{JPN}ターンが かかるほど\nつかまえやすく\nなる ボール。");
 
-static const u8 sQuickBallDesc[] = _(
-    "Works well if\n"
-    "used on the\n"
-    "first turn.");
+static const u8 sQuickBallDesc[] = _("{JPN}さいしょの ターンに\nつかうと よく\nつかまえられる。");
 
-static const u8 sRepeatBallDesc[] = _(
-    "A Ball that works\n"
-    "better on Pokémon\n"
-    "caught before.");
+static const u8 sRepeatBallDesc[] = _("{JPN}つかまえた ことの\nある ポケモンほど\nつかまえやすい ボール。");
 
-static const u8 sLuxuryBallDesc[] = _(
-    "A cozy Ball that\n"
-    "makes Pokémon\n"
-    "more friendly.");
+static const u8 sLuxuryBallDesc[] = _("{JPN}つかまえた ポケモンが\nなつきやすく なる\nやさしい ボール。");
 
-static const u8 sLevelBallDesc[] = _(
-    "A Ball that works\n"
-    "well on lower\n"
-    "level Pokémon.");
+static const u8 sLevelBallDesc[] = _("{JPN}レベルの ひくい\nポケモンを つかまえ\nやすく する ボール。");
 
-static const u8 sLureBallDesc[] = _(
-    "A Ball that works\n"
-    "well on fished\n"
-    "up Pokémon.");
+static const u8 sLureBallDesc[] = _("{JPN}つりで つかまえる\nポケモンに つよい\nボール。");
 
-static const u8 sMoonBallDesc[] = _(
-    "A Ball that works\n"
-    "well on Moon\n"
-    "Stone users.");
+static const u8 sMoonBallDesc[] = _("{JPN}つきのいしで しんかする\nポケモンを つかまえ\nやすく する ボール。");
 
-static const u8 sFriendBallDesc[] = _(
-    "A Ball that makes\n"
-    "a Pokémon friendly\n"
-    "when caught.");
+static const u8 sFriendBallDesc[] = _("{JPN}つかまえた ポケモンが\nなついた じょうたいに\nなる ボール。");
 
-static const u8 sLoveBallDesc[] = _(
-    "Works well on\n"
-    "Pokémon of the\n"
-    "opposite gender.");
+static const u8 sLoveBallDesc[] = _("{JPN}せいべつが ちがう\nポケモンを つかまえ\nやすく する ボール。");
 
-static const u8 sFastBallDesc[] = _(
-    "Works well on\n"
-    "very fast\n"
-    "Pokémon.");
+static const u8 sFastBallDesc[] = _("{JPN}すばやい ポケモンを\nつかまえやすく\nする ボール。");
 
-static const u8 sHeavyBallDesc[] = _(
-    "Works well on\n"
-    "very heavy\n"
-    "Pokémon.");
+static const u8 sHeavyBallDesc[] = _("{JPN}おもい ポケモンを\nつかまえやすく\nする ボール。");
 
 static const u8 sDreamBallDesc[] = _(
 #if B_DREAM_BALL_MODIFIER >= GEN_8
@@ -114,28 +54,15 @@ static const u8 sDreamBallDesc[] = _(
     "the Entree Forest.");
 #endif
 
-static const u8 sSafariBallDesc[] = _(
-    "A special Ball that\n"
-    "is used only in the\n"
-    "Safari Zone.");
+static const u8 sSafariBallDesc[] = _("{JPN}サファリゾーンでのみ\nつかえる とくべつな\nボール。");
 
-static const u8 sSportBallDesc[] = _(
-    "A special Ball used\n"
-    "in the Bug-Catching\n"
-    "Contest.");
+static const u8 sSportBallDesc[] = _("{JPN}むしとり たいかいで\nつかう とくべつな\nボール。");
 
-static const u8 sParkBallDesc[] = _(
-    "A special Ball for\n"
-    "the Pal Park.");
+static const u8 sParkBallDesc[] = _("{JPN}パルパークで つかう\nとくべつな ボール。");
 
-static const u8 sBeastBallDesc[] = _(
-    "A Ball designed to\n"
-    "catch Ultra Beasts.");
+static const u8 sBeastBallDesc[] = _("{JPN}ウルトラビーストを\nつかまえる ための\nボール。");
 
-static const u8 sCherishBallDesc[] = _(
-    "A rare Ball made\n"
-    "in commemoration\n"
-    "of some event.");
+static const u8 sCherishBallDesc[] = _("{JPN}なにかの きねんに\nつくられた\nめずらしい ボール。");
 
 // Medicine
 static const u8 sPotionDesc[] = _("{JPN}ポケモン 1ひきの HPを\n20だけ かいふくする。");
@@ -162,15 +89,9 @@ static const u8 sMaxPotionDesc[] = _("{JPN}ポケモン 1ひきの HPを\nすべ
 
 static const u8 sFullRestoreDesc[] = _("{JPN}ポケモン 1ひきの HPと\nじょうたい いじょうを\nすべて かいふくする。");
 
-static const u8 sReviveDesc[] = _(
-    "Revives a fainted\n"
-    "Pokémon with half\n"
-    "its HP.");
+static const u8 sReviveDesc[] = _("{JPN}ひんしの ポケモンを\nHPの はんぶんで\nいきかえらせる。");
 
-static const u8 sMaxReviveDesc[] = _(
-    "Revives a fainted\n"
-    "Pokémon with all\n"
-    "its HP.");
+static const u8 sMaxReviveDesc[] = _("{JPN}ひんしの ポケモンを\nHPまんたんで\nいきかえらせる。");
 
 static const u8 sFreshWaterDesc[] = _(
     "A mineral water\n"
@@ -245,20 +166,11 @@ static const u8 sMaxElixirDesc[] = _("{JPN}ポケモンが おぼえている\n4
 
 static const u8 sBerryJuiceDesc[] = _("{JPN}ポケモン 1ひきの HPを\n20だけ かいふくする。");
 
-static const u8 sSacredAshDesc[] = _(
-    "Fully revives and\n"
-    "restores all\n"
-    "fainted Pokémon.");
+static const u8 sSacredAshDesc[] = _("{JPN}ひんしの ポケモンを\nすべて まんたんで\nいきかえらせる。");
 
-static const u8 sSweetHeartDesc[] = _(
-    "A sweet chocolate\n"
-    "that restores HP\n"
-    "by 20 points.");
+static const u8 sSweetHeartDesc[] = _("{JPN}あまい チョコレート。\nHPを 20だけ\nかいふくする。");
 
-static const u8 sMaxHoneyDesc[] = _(
-    "Revives a fainted\n"
-    "Pokémon with all\n"
-    "its HP.");
+static const u8 sMaxHoneyDesc[] = _("{JPN}ひんしの ポケモンを\nHPまんたんで\nいきかえらせる。");
 
 static const u8 sPewterCrunchiesDesc[] = _("{JPN}ポケモン 1ひきの\nじょうたいの いじょうを\nすべて かいふくする。");
 
@@ -289,170 +201,75 @@ static const u8 sZincDesc[] = _("{JPN}ポケモン 1ひきの\nとくぼうの �
 
 static const u8 sCarbosDesc[] = _("{JPN}ポケモン 1ひきの\nすばやさの きそポイントを\nあげる。");
 
-static const u8 sPPUpDesc[] = _(
-    "Raises the maximum\n"
-    "PP of a selected\n"
-    "move.");
+static const u8 sPPUpDesc[] = _("{JPN}えらんだ わざの\nPPの さいだいちを\nすこし あげる。");
 
-static const u8 sPPMaxDesc[] = _(
-    "Raises the PP of a\n"
-    "move to its maximum\n"
-    "points.");
+static const u8 sPPMaxDesc[] = _("{JPN}わざの PPの\nさいだいちを\nいちどに あげる。");
 
 // EV Feathers
-static const u8 sHealthFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base HP of\n"
-    "a Pokémon.");
+static const u8 sHealthFeatherDesc[] = _("{JPN}ポケモンの きほんの\nHPを あげる\nどうぐ。");
 
-static const u8 sMuscleFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Attack of\n"
-    "a Pokémon.");
+static const u8 sMuscleFeatherDesc[] = _("{JPN}ポケモンの きほんの\nこうげきを あげる\nどうぐ。");
 
-static const u8 sResistFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Defense\n"
-    "of a Pokémon.");
+static const u8 sResistFeatherDesc[] = _("{JPN}ポケモンの きほんの\nぼうぎょを あげる\nどうぐ。");
 
-static const u8 sGeniusFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Sp. Atk.\n"
-    "of a Pokémon.");
+static const u8 sGeniusFeatherDesc[] = _("{JPN}ポケモンの きほんの\nとくこうを あげる\nどうぐ。");
 
-static const u8 sCleverFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Sp. Def.\n"
-    "of a Pokémon.");
+static const u8 sCleverFeatherDesc[] = _("{JPN}ポケモンの きほんの\nとくぼうを あげる\nどうぐ。");
 
-static const u8 sSwiftFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Speed of\n"
-    "a Pokémon.");
+static const u8 sSwiftFeatherDesc[] = _("{JPN}ポケモンの きほんの\nすばやさを あげる\nどうぐ。");
 
 // Ability Modifiers
-static const u8 sAbilityCapsuleDesc[] = _(
-    "Switches a Poké-\n"
-    "mon's ability.");
+static const u8 sAbilityCapsuleDesc[] = _("{JPN}ポケモンの とくせいを\nきりかえる。");
 
-static const u8 sAbilityPatchDesc[] = _(
-    "Turns the ability\n"
-    "of a Pokémon into\n"
-    "a rare ability.");
+static const u8 sAbilityPatchDesc[] = _("{JPN}ポケモンの とくせいを\nめずらしい ものに\nかえる。");
 
 // Mints
-static const u8 sLonelyMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Attack, but\n"
-    "reduces Defense.");
+static const u8 sLonelyMintDesc[] = _("{JPN}かいだ ポケモンの\nこうげきが あがり\nぼうぎょが さがる。");
 
-static const u8 sAdamantMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Attack, but\n"
-    "reduces Sp. Atk.");
+static const u8 sAdamantMintDesc[] = _("{JPN}かいだ ポケモンの\nこうげきが あがり\nとくこうが さがる。");
 
-static const u8 sNaughtyMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Attack, but\n"
-    "reduces Sp. Def.");
+static const u8 sNaughtyMintDesc[] = _("{JPN}かいだ ポケモンの\nこうげきが あがり\nとくぼうが さがる。");
 
-static const u8 sBraveMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Attack, but\n"
-    "reduces Speed.");
+static const u8 sBraveMintDesc[] = _("{JPN}かいだ ポケモンの\nこうげきが あがり\nすばやさが さがる。");
 
-static const u8 sBoldMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Defense, but\n"
-    "reduces Attack.");
+static const u8 sBoldMintDesc[] = _("{JPN}かいだ ポケモンの\nぼうぎょが あがり\nこうげきが さがる。");
 
-static const u8 sImpishMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Defense, but\n"
-    "reduces Sp. Atk.");
+static const u8 sImpishMintDesc[] = _("{JPN}かいだ ポケモンの\nぼうぎょが あがり\nとくこうが さがる。");
 
-static const u8 sLaxMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Defense, but\n"
-    "reduces Sp. Def.");
+static const u8 sLaxMintDesc[] = _("{JPN}かいだ ポケモンの\nぼうぎょが あがり\nとくぼうが さがる。");
 
-static const u8 sRelaxedMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Defense, but\n"
-    "reduces Speed.");
+static const u8 sRelaxedMintDesc[] = _("{JPN}かいだ ポケモンの\nぼうぎょが あがり\nすばやさが さがる。");
 
-static const u8 sModestMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Sp. Atk, but\n"
-    "reduces Attack.");
+static const u8 sModestMintDesc[] = _("{JPN}かいだ ポケモンの\nとくこうが あがり\nこうげきが さがる。");
 
-static const u8 sMildMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Sp. Atk, but\n"
-    "reduces Defense.");
+static const u8 sMildMintDesc[] = _("{JPN}かいだ ポケモンの\nとくこうが あがり\nぼうぎょが さがる。");
 
-static const u8 sRashMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Sp. Atk, but\n"
-    "reduces Sp. Def.");
+static const u8 sRashMintDesc[] = _("{JPN}かいだ ポケモンの\nとくこうが あがり\nとくぼうが さがる。");
 
-static const u8 sQuietMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Sp. Atk, but\n"
-    "reduces Speed.");
+static const u8 sQuietMintDesc[] = _("{JPN}かいだ ポケモンの\nとくこうが あがり\nすばやさが さがる。");
 
-static const u8 sCalmMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Sp. Def, but\n"
-    "reduces Attack.");
+static const u8 sCalmMintDesc[] = _("{JPN}かいだ ポケモンの\nとくぼうが あがり\nこうげきが さがる。");
 
-static const u8 sGentleMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Sp. Def, but\n"
-    "reduces Defense.");
+static const u8 sGentleMintDesc[] = _("{JPN}かいだ ポケモンの\nとくぼうが あがり\nぼうぎょが さがる。");
 
-static const u8 sCarefulMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Sp. Def, but\n"
-    "reduces Sp. Atk.");
+static const u8 sCarefulMintDesc[] = _("{JPN}かいだ ポケモンの\nとくぼうが あがり\nとくこうが さがる。");
 
-static const u8 sSassyMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Sp. Def, but\n"
-    "reduces Speed.");
+static const u8 sSassyMintDesc[] = _("{JPN}かいだ ポケモンの\nとくぼうが あがり\nすばやさが さがる。");
 
-static const u8 sTimidMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Speed, but\n"
-    "reduces Attack.");
+static const u8 sTimidMintDesc[] = _("{JPN}かいだ ポケモンの\nすばやさが あがり\nこうげきが さがる。");
 
-static const u8 sHastyMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Speed, but\n"
-    "reduces Defense.");
+static const u8 sHastyMintDesc[] = _("{JPN}かいだ ポケモンの\nすばやさが あがり\nぼうぎょが さがる。");
 
-static const u8 sJollyMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Speed, but\n"
-    "reduces Sp. Atk.");
+static const u8 sJollyMintDesc[] = _("{JPN}かいだ ポケモンの\nすばやさが あがり\nとくこうが さがる。");
 
-static const u8 sNaiveMintDesc[] = _(
-    "Can be smelled. It\n"
-    "ups Speed, but\n"
-    "reduces Sp. Def.");
+static const u8 sNaiveMintDesc[] = _("{JPN}かいだ ポケモンの\nすばやさが あがり\nとくぼうが さがる。");
 
-static const u8 sSeriousMintDesc[] = _(
-    "Can be smelled. It\n"
-    "will make all stats\n"
-    "grow equally.");
+static const u8 sSeriousMintDesc[] = _("{JPN}かいだ ポケモンの\nのうりょくが すべて\nおなじだけ のびる。");
 
 // Candy
 static const u8 sRareCandyDesc[] = _("{JPN}あたえると ポケモン\n1ひきの レベルが 1だけ\nあがる。");
 
-static const u8 sExpCandyXSDesc[] = _(
-    "Gives a very small\n"
-    "amount of Exp. to\n"
-    "a single Pokémon.");
+static const u8 sExpCandyXSDesc[] = _("{JPN}ポケモン 1ぴきに\nごく すこしの\nけいけんちを あげる。");
 
 static const u8 sExpCandySDesc[] = _(
     "Gives a small\n"
@@ -3406,35 +3223,17 @@ static const u8 sHearthflameMaskDesc[] = _(
     "wield the Fire-\n"
     "type in battle.");
 
-static const u8 sHealthMochiDesc[] = _(
-    "An item that raises\n"
-    "the base HP of\n"
-    "a Pokémon.");
+static const u8 sHealthMochiDesc[] = _("{JPN}ポケモンの きほんの\nHPを あげる\nどうぐ。");
 
-static const u8 sMuscleMochiDesc[] = _(
-    "An item that raises\n"
-    "the base Attack of\n"
-    "a Pokémon.");
+static const u8 sMuscleMochiDesc[] = _("{JPN}ポケモンの きほんの\nこうげきを あげる\nどうぐ。");
 
-static const u8 sResistMochiDesc[] = _(
-    "An item that raises\n"
-    "the base Defense\n"
-    "of a Pokémon.");
+static const u8 sResistMochiDesc[] = _("{JPN}ポケモンの きほんの\nぼうぎょを あげる\nどうぐ。");
 
-static const u8 sGeniusMochiDesc[] = _(
-    "An item that raises\n"
-    "the base Sp. Atk.\n"
-    "of a Pokémon.");
+static const u8 sGeniusMochiDesc[] = _("{JPN}ポケモンの きほんの\nとくこうを あげる\nどうぐ。");
 
-static const u8 sCleverMochiDesc[] = _(
-    "An item that raises\n"
-    "the base Sp. Def.\n"
-    "of a Pokémon.");
+static const u8 sCleverMochiDesc[] = _("{JPN}ポケモンの きほんの\nとくぼうを あげる\nどうぐ。");
 
-static const u8 sSwiftMochiDesc[] = _(
-    "An item that raises\n"
-    "the base Speed of\n"
-    "a Pokémon.");
+static const u8 sSwiftMochiDesc[] = _("{JPN}ポケモンの きほんの\nすばやさを あげる\nどうぐ。");
 
 static const u8 sFreshStartMochiDesc[] = _(
     "An item that resets\n"

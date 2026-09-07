@@ -72,7 +72,7 @@ script Rogue_Interior_Home_ChangeClothes
         call(Rogue_Common_DisplayPopups)
     }
 
-    message(format("What would you like to do?"))
+    message(format("{JPN}なにを しますか?"))
     waitmessage
 
     multichoice(20, 6, MULTI_CHANGE_CLOTHES, NO)

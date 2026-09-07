@@ -32,7 +32,7 @@ script Rogue_Area_InteractWithWorkbench
 script Rogue_Area_WorkbenchOptions
 {
     lock
-    message("What would you like to build?")
+    message("{JPN}なにを けんちく しますか?")
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_HUB_UPGRADES)

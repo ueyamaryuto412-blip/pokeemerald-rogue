@@ -49,10 +49,10 @@ const u8 gText_MoveShortNotVeryEffective[] = _("{COLOR WHITE}{SHADOW DYNAMIC_COL
 //
 const u8 gText_TrainerName_Default[] = _("{JPN}バルキー");
 
-const u8 gText_TrainerName_Brendan[] = _("BRENDAN");
-const u8 gText_TrainerName_May[] = _("MAY");
-const u8 gText_TrainerName_Red[] = _("RED");
-const u8 gText_TrainerName_Leaf[] = _("LEAF");
+const u8 gText_TrainerName_Brendan[] = _("{JPN}ユウキ");
+const u8 gText_TrainerName_May[] = _("{JPN}ハルカ");
+const u8 gText_TrainerName_Red[] = _("{JPN}レッド");
+const u8 gText_TrainerName_Leaf[] = _("{JPN}リーフ");
 const u8 gText_TrainerName_Ethan[] = _("ETHAN");
 const u8 gText_TrainerName_Lyra[] = _("LYRA");
 
@@ -108,7 +108,7 @@ const u8 gText_DifficultyBagWipe[] = _("Fresh Start");
 const u8 gText_DifficultySwitchMode[] = _("Switch Mode");
 
 const u8 gText_DifficultyTrainers[] = _("Trainers");
-const u8 gText_DifficultyItems[] = _("Items");
+const u8 gText_DifficultyItems[] = _("{JPN}どうぐ");
 const u8 gText_DifficultyLegendaries[] = _("Legendaries");
 
 const u8 gText_DifficultyCustomDesc[] = _(

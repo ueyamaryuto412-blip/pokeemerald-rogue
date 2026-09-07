@@ -89,7 +89,7 @@ script Rogue_Area_Home_InteractWithWorkbench
             appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
 
 
-            message(format("What would you like to do?"))
+            message(format("{JPN}なにを しますか?"))
             waitmessage
             enddynamicmultichoice(1, 0, 6, TRUE)
         
@@ -373,7 +373,7 @@ script Rogue_Area_Home_ChangeClothes
         call(Rogue_Common_DisplayPopups)
     }
 
-    message(format("What would you like to do?"))
+    message(format("{JPN}なにを しますか?"))
     waitmessage
 
     multichoice(20, 6, MULTI_CHANGE_CLOTHES, NO)

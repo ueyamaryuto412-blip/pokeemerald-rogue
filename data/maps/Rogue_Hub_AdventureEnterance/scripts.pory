@@ -420,7 +420,7 @@ script Rogue_StartAdventureCommon
         call(Common_EventScript_SaveGame)
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("Good luck {PLAYER}!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}がんばってね {PLAYER}!"), MSGBOX_DEFAULT)
 
             if(var(VAR_ROGUE_INTRO_STATE) == 5)
             {
@@ -440,7 +440,7 @@ script Rogue_StartAdventureCommon
         }
         else
         {
-            msgbox(format("OK. Come speak to me once you're ready."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}わかった。じゅんびが できたら こえを かけて。"), MSGBOX_DEFAULT)
         }
     }
 }
@@ -450,7 +450,7 @@ script Rogue_ReturnAdventureCommon
     lockall
     turnobject(OBJ_EVENT_ID_PLAYER, DIR_NORTH)
 
-    msgbox(format("Welcome back {PLAYER}!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}おかえり {PLAYER}!"), MSGBOX_DEFAULT)
 
     // Just returned from firstadventure
     if(var(VAR_ROGUE_INTRO_STATE) == 6)
@@ -481,7 +481,7 @@ script Rogue_ReturnAdventureCommon
         {
             buffernumberstring(STR_VAR_1, VAR_0x8000)
 
-            message(format("You received ¥{STR_VAR_1}"))
+            message(format("{JPN}{STR_VAR_1}¥を うけとった"))
             playfanfare(MUS_OBTAIN_ITEM)
             waitmessage
             waitfanfare
@@ -491,12 +491,12 @@ script Rogue_ReturnAdventureCommon
         {
             if(var(VAR_0x8001) == 1)
             {
-                message(format("Party received 1 LVL"))
+                message(format("{JPN}てもちが 1レベル あがった"))
             }
             else
             {
                 buffernumberstring(STR_VAR_1, VAR_0x8001)
-                message(format("Party received {STR_VAR_1} LVLs"))
+                message(format("{JPN}てもちが {STR_VAR_1}レベル あがった"))
             }
 
             playfanfare(FANFARE_LEVEL_UP)
@@ -512,7 +512,7 @@ script Rogue_ReturnAdventureCommon
     }
     else
     {
-        msgbox(format("Looks like there aren't any rewards for this Adventure."))
+        msgbox(format("{JPN}このぼうけんでの ほうしゅうは\nないみたいだ。"))
     }
 
     clearflag(FLAG_ROGUE_LEFT_ON_RUN)

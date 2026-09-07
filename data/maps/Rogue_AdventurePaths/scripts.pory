@@ -39,85 +39,85 @@ script Rogue_AdventurePaths_InteractRoom
     switch(var(VAR_NODE_PARAM0))
     {
         case ADVPATH_ROOM_BOSS:
-            msgbox(format("It's a Mighty Trainer!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}さいきょうの トレーナーだ!"), MSGBOX_DEFAULT)
             setvar(VAR_RESULT, YES)
 
         case ADVPATH_ROOM_MINIBOSS:
-            msgbox(format("It's a Strong Trainer!\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}つよい トレーナーだ!\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_WILD_DEN:
-            msgbox(format("It's a {STR_VAR_1} Habitat of a Trained Pokémon!\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}{STR_VAR_1}タイプの ポケモンの すみかだ!\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_HONEY_TREE:
-            msgbox(format("It's a Honey Tree Habitat!\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}あまいミツの きの すみかだ!\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_GAMESHOW:
-            msgbox(format("It's a… Game Show?\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}…ゲームショー?\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_DARK_DEAL:
-            msgbox(format("It's a Dark Deal…?\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}あやしい とりひき…?\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_LAB:
-            msgbox(format("It's a Pokémon Lab.\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}ポケモンラボだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_SHRINE:
-            msgbox(format("It's a Mysterious Shrine.\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}ふしぎな ほこらだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_CATCHING_CONTEST:
-            msgbox(format("It's a Catching Contest.\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}ポケモンとり コンテストだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_SIGN:
-            msgbox(format("It's a Mysterious Sign.\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}ふしぎな かんばんだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_BATTLE_SIM:
-            msgbox(format("It's a Battle Simulator.\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}バトルシミュレーターだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_BATTLE_TOWER:
-            msgbox(format("It's a Battle Tower.\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}バトルタワーだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_RESTSTOP:
             switch(var(VAR_NODE_PARAM1))
             {
                 case ADVPATH_SUBROOM_RESTSTOP_FULL:
-                    msgbox(format("It's a Full Rest Stop.\nEnter this encounter?"), MSGBOX_YESNO)
+                    msgbox(format("{JPN}せつびの そろった きゅうけいじょだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
                 case ADVPATH_SUBROOM_RESTSTOP_SHOP:
-                    msgbox(format("It's a Mart Rest Stop.\nEnter this encounter?"), MSGBOX_YESNO)
+                    msgbox(format("{JPN}ショップつきの きゅうけいじょだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
                 case ADVPATH_SUBROOM_RESTSTOP_BATTLE:
-                    msgbox(format("It's a Battle Prep. Rest Stop.\nEnter this encounter?"), MSGBOX_YESNO)
+                    msgbox(format("{JPN}バトルじゅんびの きゅうけいじょだ。\nここに はいりますか?"), MSGBOX_YESNO)
                 
                 case ADVPATH_SUBROOM_RESTSTOP_DAYCARE:
-                    msgbox(format("It's a Day Care Rest Stop.\nEnter this encounter?"), MSGBOX_YESNO)
+                    msgbox(format("{JPN}そだてやの きゅうけいじょだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
                 default:
-                    msgbox(format("??\nEnter this encounter?"), MSGBOX_YESNO)
+                    msgbox(format("{JPN}??\nここに はいりますか?"), MSGBOX_YESNO)
             }
             
         case ADVPATH_ROOM_ROUTE:
             switch(var(VAR_NODE_PARAM1))
             {
                 case 0:
-                    msgbox(format("It's a Calm {STR_VAR_1} route.\nEnter this encounter?"), MSGBOX_YESNO)
+                    msgbox(format("{JPN}おだやかな {STR_VAR_1}の ルートだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
                 case 1:
-                    msgbox(format("It's an Average {STR_VAR_1} route.\nEnter this encounter?"), MSGBOX_YESNO)
+                    msgbox(format("{JPN}ふつうの {STR_VAR_1}の ルートだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
                 case 2:
-                    msgbox(format("It's a Tough {STR_VAR_1} route.\nEnter this encounter?"), MSGBOX_YESNO)
+                    msgbox(format("{JPN}きびしい {STR_VAR_1}の ルートだ。\nここに はいりますか?"), MSGBOX_YESNO)
 
                 default:
-                    msgbox(format("??\nEnter this encounter?"), MSGBOX_YESNO)
+                    msgbox(format("{JPN}??\nここに はいりますか?"), MSGBOX_YESNO)
             }
 
         case ADVPATH_ROOM_LEGENDARY:
-            msgbox(format("It's a Pokémon of Legends!\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}でんせつの ポケモンだ!\nここに はいりますか?"), MSGBOX_YESNO)
 
         case ADVPATH_ROOM_TEAM_HIDEOUT:
-            msgbox(format("It's a Team Hideout!\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}わるものの アジトだ!\nここに はいりますか?"), MSGBOX_YESNO)
 
         default:
-            msgbox(format("??\nEnter this encounter?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}??\nここに はいりますか?"), MSGBOX_YESNO)
     }
 
     if(var(VAR_RESULT) == YES)

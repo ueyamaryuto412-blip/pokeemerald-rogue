@@ -50,7 +50,7 @@ script Rogue_ConfigRoom_TalkAssistant
     faceplayer
     if(flag(FLAG_SET_SEED_ENABLED) == FALSE)
     {
-        msgbox(format("ASSISTANT: The settings back here are for SEEDED mode!\pIn SEEDED mode you will always encounter the same ROUTES, TRAINERS and Pokémon.\pI can enabled SEEDED mode for your next adventure, if you'd like?"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}アシスタント: こちらの せっていは\nシードモードのものです!\pシードモードでは いつも おなじ ルート\lトレーナー ポケモンが でてきます。\pつぎの ぼうけんで シードモードを\nつかいますか?"), MSGBOX_DEFAULT)
     }
 
     clearflag(FLAG_SEED_APPLY_MOVEMENT)
@@ -64,7 +64,7 @@ script Rogue_ConfigRoom_SpeakSeedMode
     faceplayer
     if(flag(FLAG_SET_SEED_ENABLED) == FALSE)
     {
-        msgbox(format("ASSISTANT: I can enabled SEEDED mode for your next adventure, if you'd like?"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}アシスタント: つぎの ぼうけんで\nシードモードを つかいますか?"), MSGBOX_DEFAULT)
     }
 
     clearflag(FLAG_SEED_APPLY_MOVEMENT)
@@ -76,10 +76,10 @@ script Rogue_ConfigRoom_TalkAssistantInternal
 {
     if(flag(FLAG_SET_SEED_ENABLED) == TRUE)
     {
-        msgbox(format("ASSISTANT: Do you want to disable SEEDED mode?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}アシスタント: シードモードを\nやめますか?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("ASSISTANT: OK.\nI'll disable SEEDED mode"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}アシスタント: わかりました。\nシードモードを やめます"), MSGBOX_DEFAULT)
             clearflag(FLAG_SET_SEED_ENABLED)
 
             if(flag(FLAG_SEED_APPLY_MOVEMENT))
@@ -92,21 +92,21 @@ script Rogue_ConfigRoom_TalkAssistantInternal
     }
     else
     {
-        msgbox(format("ASSISTANT: Do you want to enable SEEDED mode for your next adventure?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}アシスタント: つぎの ぼうけんで\nシードモードを つかいますか?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("ASSISTANT: Please select the SEED phrases"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}アシスタント: シードの ことばを\nえらんでください"), MSGBOX_DEFAULT)
             setvar(VAR_0x8004, EASY_CHAT_TYPE_ROGUE_SEED)
             call(Common_ShowEasyChatScreen)
 
             if(var(VAR_RESULT) == TRUE)
             {
-                msgbox(format("ASSISTANT: OK.\nI'll enable SEEDED mode using that phrase!"), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}アシスタント: わかりました。\nそのことばで シードモードに します!"), MSGBOX_DEFAULT)
                 setflag(FLAG_SET_SEED_ENABLED)
             }
             else
             {
-                msgbox(format("ASSISTANT: Oh.\nSpeak to me if you ever want to enable SEEDED mode"), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}アシスタント: そうですか。\nシードモードを つかいたく なったら\lこえを かけてください"), MSGBOX_DEFAULT)
                 if(flag(FLAG_SEED_APPLY_MOVEMENT))
                 {
                     applymovement(OBJ_EVENT_ID_PLAYER, ConfigRoom_WalkLeft)
@@ -171,12 +171,12 @@ script Rogue_ConfigRoom_Campaign_Choice
 
     if(var(VAR_RESULT) == 0)
     {
-        message(format("You wanna give the {STR_VAR_1} Campaign a go?"))
+        message(format("{JPN}{STR_VAR_1}キャンペーンを やってみるか?"))
     }
     else
     {
         buffernumberstring(STR_VAR_2, VAR_RESULT)
-        message(format("Play the {STR_VAR_1} Campaign?\n(Best Score: {STR_VAR_2})"))
+        message(format("{JPN}{STR_VAR_1}キャンペーンを あそびますか?\n「さいこうスコア {STR_VAR_2}」"))
     }
 
     waitmessage
@@ -187,7 +187,7 @@ script Rogue_ConfigRoom_Campaign_Choice
         case 0: // Yes
             waitse
             playse(SE_PIN)
-            msgbox(format("Good luck, kid!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}がんばれよ!"), MSGBOX_DEFAULT)
 
         case 2: // Info
             call(Rogue_ConfigRoom_Campaign_CampaignDescription)
@@ -206,12 +206,12 @@ script Rogue_ConfigRoom_Campaign_ReplayChoice
 
     if(var(VAR_RESULT) == 0)
     {
-        message(format("Play the {STR_VAR_1} Campaign?"))
+        message(format("{JPN}{STR_VAR_1}キャンペーンを あそびますか?"))
     }
     else
     {
         buffernumberstring(STR_VAR_2, VAR_RESULT)
-        message(format("Play the {STR_VAR_1} Campaign?\n(Best Score: {STR_VAR_2})"))
+        message(format("{JPN}{STR_VAR_1}キャンペーンを あそびますか?\n「さいこうスコア {STR_VAR_2}」"))
     }
 
     waitmessage
@@ -222,7 +222,7 @@ script Rogue_ConfigRoom_Campaign_ReplayChoice
         case 0: // Yes
             waitse
             playse(SE_PIN)
-            msgbox(format("Good luck, kid!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}がんばれよ!"), MSGBOX_DEFAULT)
 
         case 2: // Info
             call(Rogue_ConfigRoom_Campaign_CampaignDescription)
@@ -236,7 +236,7 @@ script Rogue_ConfigRoom_Campaign_ReplayChoice
 
 script Rogue_ConfigRoom_Campaign_NewPhrase
 {
-    msgbox(format("...\pWhat was that?"))
+    msgbox(format("{JPN}…\pいま なんて?"))
 
     setvar(VAR_0x8004, EASY_CHAT_TYPE_ROGUE_CAMPAIGN)
     call(Common_ShowEasyChatScreen)
@@ -247,23 +247,23 @@ script Rogue_ConfigRoom_Campaign_NewPhrase
         //completequest(QUEST_CampaignTease)
 
         special(Rogue_BufferCampaignName)
-        msgbox(format("Whoa!\pThat there's the secret phrase for the {STR_VAR_1} Campaign!"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}おっと!\pそれは {STR_VAR_1}キャンペーンの\nあいことばじゃないか!"), MSGBOX_DEFAULT)
 
         if(var(VAR_TEMP_F) == YES)
         {
-            msgbox(format("When you take part in a Campaign settings will be changed to give a unique challenge.\pI may swap out your Pokémon and change some of the items in your bag.\pI may also edit your settings in the Config Lab.\pEach Campaign has a specific setup, rules and restrictions."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}キャンペーンに さんかすると\nとくべつな ちょうせんに なるよう\lせっていが かわる。\pてもちの ポケモンや バッグの\nどうぐを いれかえることも ある。\pせっていラボの せっていも\nかえることが ある。\pキャンペーンごとに きまった\nじゅんびと ルールが ある。"), MSGBOX_DEFAULT)
         }
 
         call(Rogue_ConfigRoom_Campaign_Choice)
 
         if(var(VAR_ROGUE_DESIRED_CAMPAIGN) == ROGUE_CAMPAIGN_NONE)
         {
-            msgbox(format("You let me know, if you wanna have a go of it."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}やってみたく なったら こえを かけてくれ。"), MSGBOX_DEFAULT)
         }
     }
     else
     {
-        msgbox(format("Nah...\nThat ain't no mode I know about..."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}いや…\nそんなモードは しらないな…"), MSGBOX_DEFAULT)
     }
 }
 
@@ -306,7 +306,7 @@ script Rogue_ConfigRoom_SelectCampaign_Loop
 
     if(var(VAR_ROGUE_DESIRED_CAMPAIGN) == ROGUE_CAMPAIGN_NONE)
     {
-        msgbox(format("That's all I've got I'm afraid..."))
+        msgbox(format("{JPN}わるいが これで ぜんぶだ…"))
     }
 }
 
@@ -323,7 +323,7 @@ script Rogue_ConfigRoom_Campaign
     else
     {
         faceplayer
-        msgbox(format("Hiya kid!"))
+        msgbox(format("{JPN}よう!"))
 
         // Always mark this as complete as some people are not getting it first time?
         //completequest(QUEST_CampaignTease)
@@ -334,13 +334,13 @@ script Rogue_ConfigRoom_Campaign
 
             if(var(VAR_ROGUE_DESIRED_CAMPAIGN) == ROGUE_CAMPAIGN_NONE)
             {
-                msgbox(format("You let me know, if you wanna give it another go."), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}もういちど やりたく なったら\nこえを かけてくれ。"), MSGBOX_DEFAULT)
             }
         }
         else
         {
             // Additional options
-            message(format("How can I help?"))
+            message(format("{JPN}どうかしたか?"))
             waitmessage
 
             multichoice(20, 6, MULTI_CAMPAIGN_EXT_OPT, NO)
@@ -421,11 +421,11 @@ script Rogue_ConfigRoom_TalkHiddenEnterance
     {
         lock
 
-        msgbox(format("What's this?\pA hidden switch!\pPress the switch?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}なんだこれ?\pかくしスイッチだ!\pスイッチを おしますか?"), MSGBOX_YESNO)
 
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("WARNING!\nPressing this switch will skip ahead and activate post-game content.\pYou're recommended to complete a run normally before pressing this switch.\pPress the switch?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}けいこく!\nこのスイッチを おすと クリアご\lようそが さきに かいほうされる。\pふつうに 1かい クリアしてから\nおすことを おすすめする。\pスイッチを おしますか?"), MSGBOX_YESNO)
 
             if(var(VAR_RESULT) == YES)
             {
@@ -451,30 +451,30 @@ script Rogue_ConfigRoom_MeetPokabbie
 
     if(flag(FLAG_IS_CHAMPION))
     {
-        msgbox(format("POKABBIE: Ah {PLAYER}!\pWelcome to my LAB!\nOr what I like to dub...\pThe EXPANSION ROOM!"))
-        msgbox(format("You can use this ROOM to enable SPECIAL MODES and although there's not too many now, I'll be sure to add more in future!\pFeel free to look around!"))
+        msgbox(format("{JPN}ポカビー: やあ {PLAYER}!\pぼくの ラボへ ようこそ!\nいや じしょうするなら…\pエクスパンションルーム!"))
+        msgbox(format("{JPN}このへやで とくべつモードを\nつかえるように できる。\pいまは すくないけど これからも\nふやしていくよ!\pゆっくり みていってくれ!"))
     }
     else
     {
-        msgbox(format("???: What are you doing here!\pYou discovered my SECRET LAB already!"))
+        msgbox(format("{JPN}???: なんで ここに!\pもう ひみつのラボを\nみつけてしまったのか!"))
 
         applymovement(OBJ_POKABBIE_ID, ConfigRoom_Pokabbie_FaceUp)
         waitmovement(0)
 
-        msgbox(format("I was gonna wait until you had beat the CHAMPION at least..."))
+        msgbox(format("{JPN}せめて チャンピオンを たおすまで\nまつ つもりだったのに…"))
 
         applymovement(OBJ_POKABBIE_ID, ConfigRoom_Pokabbie_FaceDown)
         waitmovement(0)
 
-        msgbox(format("Anyway!\pWhere are my manners!\nAllow me to introduce myself!"))
+        msgbox(format("{JPN}それはさておき!\pしつれいした!\nじこしょうかいを させてくれ!"))
 
         applymovement(OBJ_POKABBIE_ID, ConfigRoom_Pokabbie_Spin)
         waitmovement(0)
 
         msgbox(format("The name's Abbie!\nBut you can call me Pokabbie!"))
 
-        msgbox(format("POKABBIE: I'm the DEV behind EMERALD ROGUE!\pWelcome to my LAB!\nOr what I like to dub...\pThe EXPANSION ROOM!"))
-        msgbox(format("You can use this ROOM to enable SPECIAL MODES and although there's not too many now, I'll be sure to add more in future!\pFeel free to look around!"))
+        msgbox(format("{JPN}ポカビー: エメラルドローグを\nつくっている かいはつしゃだ!\pぼくの ラボへ ようこそ!\nいや じしょうするなら…\pエクスパンションルーム!"))
+        msgbox(format("{JPN}このへやで とくべつモードを\nつかえるように できる。\pいまは すくないけど これからも\nふやしていくよ!\pゆっくり みていってくれ!"))
     }
 
     //completequest(QUEST_MeetPokabbie)
@@ -489,7 +489,7 @@ script Rogue_ConfigRoom_TalkPokabbie
     lockall
 
     faceplayer
-    msgbox(format("POKABBIE: I hope you're enjoying EMERALD ROGUE!\pFeel free to enable any SPECIAL MODES from this room!\pI'll be sure to add some more in future!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}ポカビー: エメラルドローグを\nたのしんでくれてると うれしいな!\pこのへやから とくべつモードを\nじゆうに ためしてくれ!\pこれからも ふやしていくよ!"), MSGBOX_DEFAULT)
 
     applymovement(OBJ_POKABBIE_ID, ConfigRoom_Pokabbie_Spin)
     waitmovement(0)
@@ -502,7 +502,7 @@ script Rogue_ConfigRoom_TalkDitto
     lock
 
     playmoncry(SPECIES_DITTO, CRY_MODE_NORMAL)
-    msgbox(format("A Ditto!\pWhy is it here?"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}メタモンだ!\pなぜ ここに?"), MSGBOX_DEFAULT)
 
     release
 }
@@ -575,10 +575,10 @@ script Rogue_ConfigRoom_MegaBag
             }
             else
             {
-                msgbox(format("Would you like to put back the {STR_VAR_1}?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}{STR_VAR_1}を もどしますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
-                    msgbox(format("The {STR_VAR_1} was placed back into the bag."), MSGBOX_DEFAULT)
+                    msgbox(format("{JPN}{STR_VAR_1}を バッグに もどした。"), MSGBOX_DEFAULT)
                     removeitem(ITEM_MEGA_RING)
                 }
             }
@@ -613,10 +613,10 @@ script Rogue_ConfigRoom_ZMoveBag
             }
             else
             {
-                msgbox(format("Would you like to put back the {STR_VAR_1}?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}{STR_VAR_1}を もどしますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
-                    msgbox(format("The {STR_VAR_1} was placed back into the bag."), MSGBOX_DEFAULT)
+                    msgbox(format("{JPN}{STR_VAR_1}を バッグに もどした。"), MSGBOX_DEFAULT)
                     removeitem(ITEM_Z_POWER_RING)
                 }
             }
@@ -651,10 +651,10 @@ script Rogue_ConfigRoom_DynamaxBag
             }
             else
             {
-                msgbox(format("Would you like to put back the {STR_VAR_1}?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}{STR_VAR_1}を もどしますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
-                    msgbox(format("The {STR_VAR_1} was placed back into the bag."), MSGBOX_DEFAULT)
+                    msgbox(format("{JPN}{STR_VAR_1}を バッグに もどした。"), MSGBOX_DEFAULT)
                     removeitem(ITEM_DYNAMAX_BAND)
                 }
             }
@@ -691,7 +691,7 @@ script Rogue_ConfigRoom_BufferRegionName
 
 script Rogue_ConfigRoom_AdjustWildGens_Regional
 {
-    message(format("Which REGION's DEX would you like to use?"))
+    message(format("{JPN}どのちほうの ずかんに しますか?"))
     waitmessage
 
     if(flag(FLAG_ROGUE_EXPANSION_ACTIVE))
@@ -721,7 +721,7 @@ script Rogue_ConfigRoom_AdjustWildGens_Regional
             copyvar(VAR_ROGUE_ENABLED_GEN_LIMIT, VAR_RESULT) // Use the same gen limit
             
             call(Rogue_ConfigRoom_BufferRegionName)
-            msgbox(format("Now you will encounter Pokémon from the {STR_VAR_1} REGIONAL DEX."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}これから {STR_VAR_1}ちほうの ずかんの\nポケモンが でてくる。"), MSGBOX_DEFAULT)
             setvar(VAR_RESULT, YES)
 
         case MULTI_B_PRESSED: 
@@ -731,7 +731,7 @@ script Rogue_ConfigRoom_AdjustWildGens_Regional
 
 script Rogue_ConfigRoom_AdjustWildGens_National
 {
-    message(format("What generation limit would you like to use?"))
+    message(format("{JPN}どのせだいまでに しますか?"))
     waitmessage
 
     if(flag(FLAG_ROGUE_EXPANSION_ACTIVE))
@@ -761,7 +761,7 @@ script Rogue_ConfigRoom_AdjustWildGens_National
             setvar(VAR_ROGUE_REGION_DEX_LIMIT, 0) // No regional dex
 
             buffernumberstring(STR_VAR_1, VAR_ROGUE_ENABLED_GEN_LIMIT)
-            msgbox(format("Now you will encounter Pokémon upto GENERATION {STR_VAR_1}."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}これから だい{STR_VAR_1}せだいまでの\nポケモンが でてくる。"), MSGBOX_DEFAULT)
             setvar(VAR_RESULT, YES)
 
         case MULTI_B_PRESSED: 
@@ -773,13 +773,13 @@ script Rogue_ConfigRoom_AdjustWildGens
 {
     lock
     faceplayer
-    msgbox(format("Hi there {PLAYER}!\pI can adjust the enabled GENERATIONs if you'd like to expand or shrink the types of Pokémon you'll encounter."), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}やあ {PLAYER}!\pでてくる ポケモンの はんいを\nひろげたり せばめたり できるよ。"), MSGBOX_DEFAULT)
 
     buffernumberstring(STR_VAR_1, VAR_ROGUE_ENABLED_GEN_LIMIT)
     if(var(VAR_ROGUE_REGION_DEX_LIMIT) == 0)
     {
         buffernumberstring(STR_VAR_1, VAR_ROGUE_ENABLED_GEN_LIMIT)
-        msgbox(format("You're currently using NATIONAL mode up to GEN {STR_VAR_1}.\pWould you like to change it?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}いまは ぜんこくモードで\nだい{STR_VAR_1}せだいまでだ。\pかえますか?"), MSGBOX_YESNO)
     }
     else
     {

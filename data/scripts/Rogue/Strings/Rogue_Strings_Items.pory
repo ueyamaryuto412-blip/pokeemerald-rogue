@@ -1,56 +1,56 @@
 text gItemDesc_EvolutionItem
 {
-    format("Makes certain species of Pokémon evolve.")
+    format("{JPN}とくていの ポケモンを しんかさせる。")
 }
 
 text gItemDesc_QuestLog
 {
-    format("A diary log for tracking Quests and Challenges.")
+    format("{JPN}クエストと チャレンジを きろくする てちょう。")
 }
 
 text gItemDesc_BattleChecker
 {
-    format("A diary tracking previous {PKMN} battles.")
+    format("{JPN}これまでの {PKMN}バトルを きろくする てちょう。")
 }
 
 text gItemDesc_HealingFlask
 {
-    format("Rechargable flask capable of healing all {PKMN} in the party.")
+    format("{JPN}てもちの {PKMN}を ぜんかいふくできる つめかえしきの フラスコ。")
 }
 
 text gItemDesc_RidingWhistle
 {
-    format("A whistle used to ride {PKMN} from the party.")
+    format("{JPN}てもちの {PKMN}に のるための ふえ。")
 }
 
 text gItemDesc_GoldRidingWhistle
 {
-    format("A whistle used to ride registered {PKMN}.")
+    format("{JPN}とうろくした {PKMN}に のるための ふえ。")
 }
 
 text gItemDesc_CGear
 {
-    format("A watch which can remotely access the Config Lab.")
+    format("{JPN}はなれた ばしょから せっていラボを つかえる うでどけい。")
 }
 
 text gItemDesc_DaycarePhone
 {
-    format("A Phone which can remotely access the Day Care.")
+    format("{JPN}はなれた ばしょから そだてやを つかえる でんわ。")
 }
 
 text gItemDesc_BuildingSupplies
 {
-    format("Supplies used to create and upgrade buildings.")
+    format("{JPN}たてものの けんちくと かいちくに つかう ざいりょう。")
 }
 
 text gItemDesc_TM
 {
-    format("Reusable machine for teaching {PKMN} one specific move.")
+    format("{JPN}きまった わざを {PKMN}に おしえられる なんども つかえる マシン。")
 }
 
 text gItemDesc_TR
 {
-    format("Single use machine for teaching {PKMN} one specific move.")
+    format("{JPN}きまった わざを {PKMN}に おしえられる 1かいきりの マシン。")
 }
 
 text gItemDesc_MaxMushroom
@@ -60,12 +60,12 @@ text gItemDesc_MaxMushroom
 
 text gItemDesc_SmallCoinCase
 {
-    format("Coin Case provides ¥1000 on start of Adventure.")
+    format("{JPN}ぼうけんの はじめに 1000¥を もらえる コインケース。")
 }
 
 text gItemDesc_LargeCoinCase
 {
-    format("Coin Case provides ¥10000 on start of Adventure.")
+    format("{JPN}ぼうけんの はじめに 10000¥を もらえる コインケース。")
 }
 
 text gItemDesc_GoldenSeed
@@ -75,130 +75,130 @@ text gItemDesc_GoldenSeed
 
 text gItemDesc_NormalPokeblock
 {
-    format("Can be used on Routes to attract Normal type {PKMN}.")
+    format("{JPN}ルートで つかうと ノーマルタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_FightingPokeblock
 {
-    format("Can be used on Routes to attract Fighting type {PKMN}.")
+    format("{JPN}ルートで つかうと かくとうタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_FlyingPokeblock
 {
-    format("Can be used on Routes to attract Flying type {PKMN}.")
+    format("{JPN}ルートで つかうと ひこうタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_PoisonPokeblock
 {
-    format("Can be used on Routes to attract Poison type {PKMN}.")
+    format("{JPN}ルートで つかうと どくタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_GroundPokeblock
 {
-    format("Can be used on Routes to attract Ground type {PKMN}.")
+    format("{JPN}ルートで つかうと じめんタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_RockPokeblock
 {
-    format("Can be used on Routes to attract Rock type {PKMN}.")
+    format("{JPN}ルートで つかうと いわタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_BugPokeblock
 {
-    format("Can be used on Routes to attract Bug type {PKMN}.")
+    format("{JPN}ルートで つかうと むしタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_GhostPokeblock
 {
-    format("Can be used on Routes to attract Ghost type {PKMN}.")
+    format("{JPN}ルートで つかうと ゴーストタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_SteelPokeblock
 {
-    format("Can be used on Routes to attract Steel type {PKMN}.")
+    format("{JPN}ルートで つかうと はがねタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_FirePokeblock
 {
-    format("Can be used on Routes to attract Fire type {PKMN}.")
+    format("{JPN}ルートで つかうと ほのおタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_WaterPokeblock
 {
-    format("Can be used on Routes to attract Water type {PKMN}.")
+    format("{JPN}ルートで つかうと みずタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_GrassPokeblock
 {
-    format("Can be used on Routes to attract Grass type {PKMN}.")
+    format("{JPN}ルートで つかうと くさタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_ElectricPokeblock
 {
-    format("Can be used on Routes to attract Electric type {PKMN}.")
+    format("{JPN}ルートで つかうと でんきタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_PsychicPokeblock
 {
-    format("Can be used on Routes to attract Psychic type {PKMN}.")
+    format("{JPN}ルートで つかうと エスパータイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_IcePokeblock
 {
-    format("Can be used on Routes to attract Ice type {PKMN}.")
+    format("{JPN}ルートで つかうと こおりタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_DragonPokeblock
 {
-    format("Can be used on Routes to attract Dragon type {PKMN}.")
+    format("{JPN}ルートで つかうと ドラゴンタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_DarkPokeblock
 {
-    format("Can be used on Routes to attract Dark type {PKMN}.")
+    format("{JPN}ルートで つかうと あくタイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_FairyPokeblock
 {
-    format("Can be used on Routes to attract Fairy type {PKMN}.")
+    format("{JPN}ルートで つかうと フェアリータイプの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_ShinyPokeblock
 {
-    format("Can be used on Routes to attract Shiny {PKMN}.")
+    format("{JPN}ルートで つかうと いろちがいの {PKMN}を よびよせる。")
 }
 
 text gItemDesc_StatPokeblock
 {
-    format("{POKEBLOCK} used to bake treats for {PKMN}.")
+    format("{JPN}{PKMN}の おかしを つくるのに つかう {POKEBLOCK}。")
 }
 
 
 text gItemDesc_ShopPriceCharm
 {
-    format("Shop prices are reduced by 50%")
+    format("{JPN}ショップの ねだんが はんぶんに なる")
 }
 text gItemDesc_ShopPriceCurse
 {
-    format("Shop prices are increased by 40%")
+    format("{JPN}ショップの ねだんが 4わり あがる")
 }
 
 text gItemDesc_FlinchCharm
 {
-    format("Friendly moves have a 20% chance to flinch.")
+    format("{JPN}みかたの わざが 5かいに 1かい ひるませる。")
 }
 text gItemDesc_FlinchCurse
 {
-    format("Opponent moves have a 10% chance to flinch.")
+    format("{JPN}あいての わざが 10かいに 1かい ひるませる。")
 }
 
 text gItemDesc_CritCharm
 {
-    format("Friendly Pokémon have an increased crit rate.")
+    format("{JPN}みかたの ポケモンの きゅうしょに あたりやすさが あがる。")
 }
 text gItemDesc_CritCurse
 {
-    format("Opponent Pokémon have an increased crit rate.")
+    format("{JPN}あいての ポケモンの きゅうしょに あたりやすさが あがる。")
 }
 
 text gItemDesc_ShedSkinCharm
@@ -212,11 +212,11 @@ text gItemDesc_ShedSkinCurse
 
 text gItemDesc_WildIVCharm
 {
-    format("Caught Pokémon are slightly stronger.")
+    format("{JPN}つかまえた ポケモンが すこし つよくなる。")
 }
 text gItemDesc_WildIVCurse
 {
-    format("Caught Pokémon are slightly weaker.")
+    format("{JPN}つかまえた ポケモンが すこし よわくなる。")
 }
 
 text gItemDesc_CatchingCharm
@@ -239,11 +239,11 @@ text gItemDesc_GraceCurse
 
 text gItemDesc_WildCharm
 {
-    format("Routes contain 2 additional wild Pokémon.")
+    format("{JPN}ルートに でる やせいの ポケモンが 2ひき ふえる。")
 }
 text gItemDesc_WildCurse
 {
-    format("Routes contain 1 less wild Pokémon.")
+    format("{JPN}ルートに でる やせいの ポケモンが 1ぴき へる。")
 }
 
 text gItemDesc_PriorityCharm
@@ -266,20 +266,20 @@ text gItemDesc_EndureCurse
 
 text gItemDesc_TormentCharm
 {
-    format("Opponent {PKMN} cannot use the same move in a row.")
+    format("{JPN}あいての {PKMN}は おなじ わざを つづけて つかえない。")
 }
 text gItemDesc_TormentCurse
 {
-    format("Friendly {PKMN} cannot use the same move in a row.")
+    format("{JPN}みかたの {PKMN}は おなじ わざを つづけて つかえない。")
 }
 
 text gItemDesc_PressureCharm
 {
-    format("Opponent Pokémon consume more PP per move.")
+    format("{JPN}あいての ポケモンの わざの PPが おおく へる。")
 }
 text gItemDesc_PressureCurse
 {
-    format("Friendly Pokémon consume more PP per move.")
+    format("{JPN}みかたの ポケモンの わざの PPが おおく へる。")
 }
 
 text gItemDesc_UnawareCharm
@@ -302,21 +302,21 @@ text gItemDesc_AdaptabilityCurse
 
 text gItemDesc_ExtraLifeCharm
 {
-    format("Permanent Sacred Ash effect.")
+    format("{JPN}せいなるはいの こうかが ずっと つづく。")
 }
 text gItemDesc_AllowSaveScumCharm
 {
-    format("Allow regular Saving / Reloading during Runs.")
+    format("{JPN}ぼうけんの とちゅうでも レポートと よみこみが できる。")
 }
 
 text gItemDesc_PartyCurse
 {
-    format("The maximum number of Pokémon in your party is reduced.")
+    format("{JPN}てもちに いれられる ポケモンの かずが へる。")
 }
 
 text gItemDesc_EverstoneCurse
 {
-    format("All regular Evolutions are disabled.")
+    format("{JPN}ふつうの しんかが すべて できなくなる。")
 }
 
 text gItemDesc_BattleItemCurse
@@ -326,12 +326,12 @@ text gItemDesc_BattleItemCurse
 
 text gItemDesc_SpeciesClauseCurse
 {
-    format("Pokémon can't be caught if species already in party.")
+    format("{JPN}てもちに いる ポケモンと おなじ しゅるいは つかまえられない。")
 }
 
 text gItemDesc_ItemShuffleCurse
 {
-    format("Entering a Battle will shuffle Held Items between {PKMN}.")
+    format("{JPN}バトルに はいるたび {PKMN}の もちものが いれかわる。")
 }
 
 text gItemDesc_SnowballCurse

@@ -64,11 +64,11 @@ script Rogue_Interior_ConfigLab_TalkHiddenDoor
     {
         lock
 
-        msgbox(format("What's this?\pA hidden switch!\pPress the switch?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}なんだこれ?\pかくしスイッチだ!\pスイッチを おしますか?"), MSGBOX_YESNO)
 
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("WARNING!\nPressing this switch will skip ahead and activate post-game content.\pYou're recommended to complete a run normally before pressing this switch.\pPress the switch?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}けいこく!\nこのスイッチを おすと クリアご\lようそが さきに かいほうされる。\pふつうに 1かい クリアしてから\nおすことを おすすめする。\pスイッチを おしますか?"), MSGBOX_YESNO)
 
             if(var(VAR_RESULT) == YES)
             {
@@ -199,7 +199,7 @@ script Rogue_Interior_ConfigLab_TriggerMeetPokabbie
     {
         bufferitemname(STR_VAR_1, ITEM_C_GEAR)
 
-        msgbox(format("What!?\nYou don't even have a {STR_VAR_1} of your own?\pWe can't have that!\nHere!"))
+        msgbox(format("{JPN}なんだって!?\nじぶんの {STR_VAR_1}を もってない?\pそれは いけない!\nこれを どうぞ!"))
         giveitem(ITEM_C_GEAR)
 
         msgbox(format("The {STR_VAR_1} allows you to remotely access the Config Lab from wherever you are!\pYou can change your settings from wherever you are in {POKEMON_HUB}, or you can even check your settings, in the middle of an Adventure.\pAnyhow, I'm getting distracted!\pThat's not actually the thing I upgraded for you…"))

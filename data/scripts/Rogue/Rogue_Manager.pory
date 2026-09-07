@@ -90,13 +90,13 @@ script Rogue_QuickSaveLoad
 
     if(var(VAR_0x8004) == TRUE)
     {
-        msgbox(format("Adventure has been reloaded.\pClearing temporary save entry…"))
+        msgbox(format("{JPN}ぼうけんを よみこみなおした。\pいちじほぞんを けしています…"))
 
         call(Common_EventScript_ForceSaveGame)
     }
     else
     {
-        msgbox(format("This save has already been reloaded.\pRetiring from Adventure…"))
+        msgbox(format("{JPN}このデータは すでに よみこみずみだ。\pぼうけんを おわります…"))
         call(Rogue_ReturnToHub)
     }
 
@@ -128,7 +128,7 @@ script Rogue_QuickSaveVersionUpdateMessage
     }
 
     msgbox(format("Welcome to...\nEmerald Rogue {STR_VAR_2}!\p{STR_VAR_1} {STR_VAR_3}\pAlways remember to download from the official sources:\pPokeCommunity, Hackdex (posted by Pokabbie) or Discord\pFor guides, bug reporting and previews, feel free to join the official Discord:\phttps://rogue.discord.pokabbie.com"), MSGBOX_DEFAULT)
-    msgbox(format("I hope you enjoy Emerald Rogue!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}エメラルドローグを たのしんでね!"), MSGBOX_DEFAULT)
 }
 
 script Rogue_Debug_SetWeather
@@ -154,7 +154,7 @@ script Rogue_Debug_SetWeather
     appenddynamicmultichoice("Under Water Bubbles", WEATHER_UNDERWATER_BUBBLES)
     appenddynamicmultichoice("Shade", WEATHER_SHADE)
 
-    message(format("Which Weather?"))
+    message(format("{JPN}どの てんきに しますか?"))
     waitmessage
     enddynamicmultichoice(1, 0, 6, TRUE)
 
@@ -226,7 +226,7 @@ script Rogue_AskNicknameMon
     lock
 
     bufferspeciesname(STR_VAR_1, VAR_STARTER_SWAP_SPECIES)
-    msgbox(format("Give {STR_VAR_1} a nickname?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}{STR_VAR_1}に ニックネームを つけますか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -240,7 +240,7 @@ script Rogue_AskNicknameMon
 script Rogue_RetireFromRun
 {
     lockall
-    msgbox(format("Are you sure you'd like to abandon the Adventure and return to {POKEMON_HUB}?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}ぼうけんを やめて\n{POKEMON_HUB}に もどりますか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -263,7 +263,7 @@ script Rogue_InteractWithQuestBoard
 
     if(var(VAR_ROGUE_INTRO_STATE) <= ROGUE_INTRO_STATE_COLLECT_QUEST_LOG)
     {
-        msgbox(format("It's a board filled with all sort of requests!"))
+        msgbox(format("{JPN}いろんな いらいが はられた けいじばんだ!"))
     }
     else
     {
@@ -274,7 +274,7 @@ script Rogue_InteractWithQuestBoard
         }
         else
         {
-            msgbox(format("It's the Quest Board!\pShame you can't read the postings from this side…"))
+            msgbox(format("{JPN}クエストボードだ!\pこちらがわからは よみとれない…"))
         }
     }
 
@@ -287,7 +287,7 @@ script Rogue_InteractWithQuestBoardInternal
 
     if(var(VAR_RESULT) == 1)
     {
-        msgbox(format("There's Quest rewards to collect!"))
+        msgbox(format("{JPN}うけとれる クエストほうしゅうが ある!"))
 
         //fadeoutbgm(1)
         //delay(1)
@@ -308,7 +308,7 @@ script Rogue_InteractWithQuestBoardInternal
                     setvar(VAR_0x8004, 1) // flag that we've collected some results
 
                 case 2:
-                    msgbox(format("Unable to collect the remaining rewards."))
+                    msgbox(format("{JPN}のこりの ほうしゅうは うけとれない。"))
             }
         }
 
@@ -323,22 +323,22 @@ script Rogue_InteractWithQuestBoardInternal
         special(Rogue_HasAnyNewQuests)
         if(var(VAR_RESULT) == 1)
         {
-            msgbox(format("New Quests have been posted!"))
+            msgbox(format("{JPN}あたらしい クエストが はられた!"))
             special(Rogue_ShowNewQuests)
             waitstate
         }
         elif (var(VAR_0x8004) == 1)
         {
-            msgbox(format("All rewards have been collected!"))
+            msgbox(format("{JPN}ほうしゅうは すべて うけとった!"))
         }
         else
         {
-            msgbox(format("There are no New Quests or Rewards to collect."))
+            msgbox(format("{JPN}あたらしい クエストも\nうけとれる ほうしゅうも ない。"))
         }
     }
     else
     {
-        msgbox(format("There are no New Quests or Rewards to collect."))
+        msgbox(format("{JPN}あたらしい クエストも\nうけとれる ほうしゅうも ない。"))
     }
 }
 
@@ -354,14 +354,14 @@ script Rogue_InteractWithPC
         else
         {
             lock
-            msgbox(format("It's a PC!\pShame you can't see the screen from this side…"))
+            msgbox(format("{JPN}パソコンだ!\pこちらがわからは がめんが みえない…"))
             release
         }
     }
     else
     {
         lock
-        msgbox(format("It's a PC!\pProbably best not to touch it for now…"))
+        msgbox(format("{JPN}パソコンだ!\pいまは さわらないほうが よさそうだ…"))
         release
     }
 }
@@ -379,7 +379,7 @@ script Rogue_EventScript_ItemUseHealingFlask
 
         if(var(VAR_ROGUE_FLASK_HEALS_USED) < VAR_ROGUE_FLASK_HEALS_MAX)
         {
-            msgbox("The flask has {STR_VAR_1} uses remaining.\nWould you like to heal?", MSGBOX_YESNO)
+            msgbox("{JPN}フラスコは あと {STR_VAR_1}かい つかえる。\nかいふく しますか?", MSGBOX_YESNO)
 
             if(var(VAR_RESULT) == YES)
             {
@@ -392,18 +392,18 @@ script Rogue_EventScript_ItemUseHealingFlask
                 subvar(VAR_0x8004, VAR_ROGUE_FLASK_HEALS_USED)
 
                 buffernumberstring(STR_VAR_1, VAR_0x8004)
-                msgbox("The flask has {STR_VAR_1} uses remaining.", MSGBOX_DEFAULT)
+                msgbox("{JPN}フラスコは あと {STR_VAR_1}かい つかえる。", MSGBOX_DEFAULT)
             }
         }
         else
         {
-            msgbox("The flask has {STR_VAR_1} uses remaining.", MSGBOX_DEFAULT)
+            msgbox("{JPN}フラスコは あと {STR_VAR_1}かい つかえる。", MSGBOX_DEFAULT)
         }
     }
     else
     {
         buffernumberstring(STR_VAR_1, VAR_ROGUE_FLASK_HEALS_MAX)
-        msgbox("The flask has {STR_VAR_1} total uses.", MSGBOX_DEFAULT)
+        msgbox("{JPN}フラスコは ぜんぶで {STR_VAR_1}かい つかえる。", MSGBOX_DEFAULT)
     }
 
     release
@@ -562,7 +562,7 @@ script Rogue_EventScript_UseDayCarePhoneItem_TrySwapMon
         }
         else
         {
-            msgbox(format("Which Pokémon would you like to leave with us?"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}どの ポケモンを あずけますか?"), MSGBOX_DEFAULT)
             fadescreen(FADE_TO_BLACK)
             special(ChooseSendDaycareMon)
             waitstate
@@ -582,7 +582,7 @@ script Rogue_EventScript_UseDayCarePhoneItem_TrySwapMon
                 {
                     call(Rogue_ScriptShowFollower)
                 }
-                msgbox(format("I'll make sure to take good care of them!\pSee you in a moment."), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}だいじに あずかりますね!\pまた あとで。"), MSGBOX_DEFAULT)
 
                 fadescreen(FADE_TO_BLACK)
                 playse(SE_WARP_OUT)
@@ -620,7 +620,7 @@ script Rogue_EventScript_UseDayCarePhoneItem_TrySwapMon
                 {
                     call(Rogue_ScriptShowFollower)
                 }
-                msgbox(format("I'll make sure to take good care of them!\pSee you in a moment."), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}だいじに あずかりますね!\pまた あとで。"), MSGBOX_DEFAULT)
 
                 fadescreen(FADE_TO_BLACK)
                 playse(SE_WARP_OUT)
@@ -632,7 +632,7 @@ script Rogue_EventScript_UseDayCarePhoneItem_TrySwapMon
         }
         else
         {
-            msgbox(format("So you would like to withdraw your Pokémon?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}ポケモンを ひきとりますか?"), MSGBOX_YESNO)
 
             if(var(VAR_RESULT) == YES)
             {
@@ -640,7 +640,7 @@ script Rogue_EventScript_UseDayCarePhoneItem_TrySwapMon
                 setvar(VAR_0x8004, 5)
                 setvar(VAR_0x8006, 0)
                 special(Rogue_SwapDaycareMon)
-                msgbox(format("See you in a moment."), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}また あとで。"), MSGBOX_DEFAULT)
 
                 fadescreen(FADE_TO_BLACK)
                 playse(SE_WARP_OUT)
@@ -674,7 +674,7 @@ script Rogue_EventScript_AttemptSnagBattle
     lock
 
     clearflag(FLAG_ROGUE_IN_SNAG_BATTLE)
-    msgbox(format("Would you like to try to snag the {STR_VAR_1}?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}{STR_VAR_1}を うばいますか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -787,7 +787,7 @@ script Rogue_Shop_Balls
 {    
     lock
     faceplayer
-    message("Welcome to the Poké Ball Shop!")
+    message("{JPN}ボールショップへ ようこそ!")
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_BALLS)
@@ -800,7 +800,7 @@ script Rogue_Shop_Medicine
 {    
     lock
     faceplayer
-    message("Welcome to the General Shop!")
+    message("{JPN}なんでもショップへ ようこそ!")
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_GENERAL)
@@ -813,7 +813,7 @@ script Rogue_Shop_TMs
 {
     lock
     faceplayer
-    message("Welcome to the TM Shop!")
+    message("{JPN}わざマシンショップへ ようこそ!")
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_TMS)
@@ -826,7 +826,7 @@ script Rogue_Shop_BattleEnhancers
 {
     lock
     faceplayer
-    message("Welcome to the Travelling Battle Shop!\nI stock Enhancement Items.")
+    message("{JPN}たびの バトルショップだ!\nつよくする どうぐを あつかってる。")
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_BATTLE_ENHANCERS)
@@ -839,7 +839,7 @@ script Rogue_Shop_HeldItems
 {
     lock
     faceplayer
-    message("Welcome to the Travelling Battle Shop!\nI stock Held Items.")
+    message("{JPN}たびの バトルショップだ!\nもたせる どうぐを あつかってる。")
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_HELD_ITEMS)
@@ -852,7 +852,7 @@ script Rogue_Shop_RareHeldItems
 {
     lock
     faceplayer
-    message("Welcome to the Travelling Battle Shop!\nI stock Special Items.")
+    message("{JPN}たびの バトルショップだ!\nとくべつな どうぐを あつかってる。")
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_RARE_HELD_ITEMS)
@@ -865,7 +865,7 @@ script Rogue_Shop_RarePlates
 {
     lock
     faceplayer
-    message("Welcome to the Travelling Battle Shop!\nI stock Quest Reward Items.")
+    message("{JPN}たびの バトルショップだ!\nクエストほうしゅうを あつかってる。")
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_QUEST_REWARDS)
@@ -881,19 +881,19 @@ script Rogue_Shop_Curses
 
     msgbox(format("Good day, {PLAYER}.\pI can offer you some Curses to add some extra challenge in your future Adventures, if you'd like."), MSGBOX_DEFAULT)
 
-    msgbox(format("Would you like me to remove any active Curses?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}かかっている のろいを はずしますか?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         playse(SE_SHOP)
         special(Rogue_ClearCurses)
     }
 
-    message(format("Which Curses would you like to take with you?"))
+    message(format("{JPN}どの のろいを もっていきますか?"))
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_CURSES)
 
-    msgbox(format("Good luck, child!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}けんとうを いのるよ!"), MSGBOX_DEFAULT)
 
     release
 }
@@ -905,19 +905,19 @@ script Rogue_Shop_Charms
 
     msgbox(format("Greetings, {PLAYER}.\pI can offer you some Charms to customise your Adventures, if you'd like.\pHowever, starting an Adventure with any of these Charms will enter a sort of 'Sandbox' mode.\pAs a result, all Quests will be disabled."), MSGBOX_DEFAULT)
 
-    msgbox(format("Would you like me to remove any active Charms?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}つけている おまもりを はずしますか?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         playse(SE_SHOP)
         special(Rogue_ClearCharms)
     }
 
-    message(format("Which Charms would you like to take with you?"))
+    message(format("{JPN}どの おまもりを もっていきますか?"))
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_CHARMS)
 
-    msgbox(format("Have fun, {PLAYER}!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}たのしんでね {PLAYER}!"), MSGBOX_DEFAULT)
 
     release
 }
@@ -926,13 +926,13 @@ script Rogue_Shop_Berries
 {    
     lock
     faceplayer
-    message("Welcome!\nWould you like to buy some berries?")
+    message("{JPN}いらっしゃい!\nきのみは いかがですか?")
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_BERRIES)
     lock
 
-    msgbox("Please come again!")
+    msgbox("{JPN}また きてくださいね!")
     release
 }
 
@@ -940,12 +940,12 @@ script Rogue_Shop_Treats
 {    
     lock
     faceplayer
-    message("Hi there!\nWould you like to buy some treats?")
+    message("{JPN}やあ!\nおかしは いかがですか?")
     waitmessage
 
     rogue_dynamicpokemart(ROGUE_SHOP_TREATS)
 
-    msgbox("Please come again!")
+    msgbox("{JPN}また きてくださいね!")
     release
 }
 
@@ -1103,7 +1103,7 @@ script Rogue_SpeakDaycareLady_TrySwapMon
         }
         else
         {
-            msgbox(format("Which Pokémon would you like to leave with me?"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}どの ポケモンを あずけますか?"), MSGBOX_DEFAULT)
             fadescreen(FADE_TO_BLACK)
             special(ChooseSendDaycareMon)
             waitstate
@@ -1122,7 +1122,7 @@ script Rogue_SpeakDaycareLady_TrySwapMon
                 {
                     call(Rogue_ScriptShowFollower)
                 }
-                msgbox(format("I'll make sure to take good care of them!\pTake care!"), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}だいじに あずかりますね!\pいってらっしゃい!"), MSGBOX_DEFAULT)
                 setvar(VAR_RESULT, YES)
             }
         }
@@ -1155,20 +1155,20 @@ script Rogue_SpeakDaycareLady_TrySwapMon
                 {
                     call(Rogue_ScriptShowFollower)
                 }
-                msgbox(format("I'll make sure to take good care of them!\pTake care!"), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}だいじに あずかりますね!\pいってらっしゃい!"), MSGBOX_DEFAULT)
                 setvar(VAR_RESULT, YES)
             }
         }
         else
         {
-            msgbox(format("So you would like to withdraw your Pokémon?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}ポケモンを ひきとりますか?"), MSGBOX_YESNO)
 
             if(var(VAR_RESULT) == YES)
             {
                 setvar(VAR_0x8004, 5)
                 setvar(VAR_0x8006, 1)
                 special(Rogue_SwapDaycareMon)
-                msgbox(format("There you are!\pTake care!"), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}はい どうぞ!\pいってらっしゃい!"), MSGBOX_DEFAULT)
             }
         }
     }
@@ -1182,13 +1182,13 @@ script Rogue_Tutor_MoveDeleteNoMoves
 
 script Rogue_Tutor_MoveDeleteEgg
 {
-    msgbox(format("As much as wish I could..\nI can't unteach an EGG."), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}わるいけど…\nタマゴの わざは けせないんだ。"), MSGBOX_DEFAULT)
     release
 }
 
 script Rogue_Tutor_MoveDeleteCancel
 {
-    msgbox(format("Oh.. OK then."), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}そう… わかったよ。"), MSGBOX_DEFAULT)
     release
 }
 
@@ -1214,7 +1214,7 @@ script Rogue_BerryTree_WantToPlant
             if(var(VAR_RESULT) == YES)
             {
                 bufferitemname(STR_VAR_1, VAR_ITEM_ID)
-                msgbox(format("Plant {STR_VAR_1}?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}{STR_VAR_1}を うえますか?"), MSGBOX_YESNO)
                 
                 if(var(VAR_RESULT) == YES)
                 {
@@ -1265,7 +1265,7 @@ script Rogue_Battle_PreBoss
 
     if(flag(FLAG_TEMP_1A))
     {
-        msgbox(format("Good luck with your Adventure!"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}ぼうけん がんばってね!"), MSGBOX_DEFAULT)
     }
     else
     {
@@ -1279,7 +1279,7 @@ script Rogue_Battle_PreBoss
         }
         else
         {
-            msgbox(format("Let me know if you change your mind."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}きが かわったら こえを かけてね。"), MSGBOX_DEFAULT)
         }
     }
 

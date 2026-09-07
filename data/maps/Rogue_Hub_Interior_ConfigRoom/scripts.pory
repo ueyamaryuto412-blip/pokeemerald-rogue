@@ -471,7 +471,7 @@ script Rogue_ConfigRoom_MeetPokabbie
         applymovement(OBJ_POKABBIE_ID, ConfigRoom_Pokabbie_Spin)
         waitmovement(0)
 
-        msgbox(format("The name's Abbie!\nBut you can call me Pokabbie!"))
+        msgbox(format("{JPN}なまえは アビー!\nポカビーと よんでくれ!"))
 
         msgbox(format("{JPN}ポカビー: エメラルドローグを\nつくっている かいはつしゃだ!\pぼくの ラボへ ようこそ!\nいや じしょうするなら…\pエクスパンションルーム!"))
         msgbox(format("{JPN}このへやで とくべつモードを\nつかえるように できる。\pいまは すくないけど これからも\nふやしていくよ!\pゆっくり みていってくれ!"))

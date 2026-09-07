@@ -116,14 +116,14 @@ script Rogue_Interior_ChallengeFrontier_MegaStone
     {
         ROGUE_VERSION_VANILLA
         {
-            msgbox(format("It's a Mega Ring!\pThis item is only avaliable in Emerald Rogue EX version."))
+            msgbox(format("{JPN}メガリングだ!\pこの どうぐは EXバージョンだけの ものだ。"))
         }
         ROGUE_VERSION_EXPANSION
         {
             checkitem(ITEM_MEGA_RING)
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("Would you like to put back the Mega Ring?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}メガリングを もどしますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     removeitem(ITEM_MEGA_RING)
@@ -131,7 +131,7 @@ script Rogue_Interior_ChallengeFrontier_MegaStone
             }
             else
             {
-                message("Would you like to take the Mega Ring?")
+                message("{JPN}メガリングを うけとりますか?")
                 waitmessage
 
                 multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -146,7 +146,7 @@ script Rogue_Interior_ChallengeFrontier_MegaStone
                         setvar(VAR_RESULT, NO)
 
                     case 2: // Info
-                        msgbox(format("Grants you and other Trainer's the ability to Mega Evolve when a Pokémon is holding the correct Mega Stone."), MSGBOX_DEFAULT)
+                        msgbox(format("{JPN}ただしい メガストーンを もたせていれば じぶんも あいても メガシンカ できるように なる。"), MSGBOX_DEFAULT)
 
                     case MULTI_B_PRESSED:
                         setvar(VAR_RESULT, NO)
@@ -167,14 +167,14 @@ script Rogue_Interior_ChallengeFrontier_ZCrystal
     {
         ROGUE_VERSION_VANILLA
         {
-            msgbox(format("It's a Z-Power Ring!\pThis item is only avaliable in Emerald Rogue EX version."))
+            msgbox(format("{JPN}Zパワーリングだ!\pこの どうぐは EXバージョンだけの ものだ。"))
         }
         ROGUE_VERSION_EXPANSION
         {
             checkitem(ITEM_Z_POWER_RING)
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("Would you like to put back the Z-Power Ring?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}Zパワーリングを もどしますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     removeitem(ITEM_Z_POWER_RING)
@@ -182,7 +182,7 @@ script Rogue_Interior_ChallengeFrontier_ZCrystal
             }
             else
             {
-                message("Would you like to take the Z-Power Ring?")
+                message("{JPN}Zパワーリングを うけとりますか?")
                 waitmessage
 
                 multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -197,7 +197,7 @@ script Rogue_Interior_ChallengeFrontier_ZCrystal
                         setvar(VAR_RESULT, NO)
 
                     case 2: // Info
-                        msgbox(format("Grants you and other Trainer's the ability to use Z-Moves when a Pokémon is holding the correct Z-Crystal."), MSGBOX_DEFAULT)
+                        msgbox(format("{JPN}ただしい Zクリスタルを もたせていれば じぶんも あいても Zワザを つかえるように なる。"), MSGBOX_DEFAULT)
 
                     case MULTI_B_PRESSED:
                         setvar(VAR_RESULT, NO)
@@ -241,14 +241,14 @@ script Rogue_Interior_ChallengeFrontier_Dynamax
     {
         ROGUE_VERSION_VANILLA
         {
-            msgbox(format("It's a Dynamax Band!\pThis item is only avaliable in Emerald Rogue EX version."))
+            msgbox(format("{JPN}ダイマックスバンドだ!\pこの どうぐは EXバージョンだけの ものだ。"))
         }
         ROGUE_VERSION_EXPANSION
         {
             checkitem(ITEM_DYNAMAX_BAND)
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("Would you like to put back the Dynamax Band?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}ダイマックスバンドを もどしますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     removeitem(ITEM_DYNAMAX_BAND)
@@ -256,7 +256,7 @@ script Rogue_Interior_ChallengeFrontier_Dynamax
             }
             else
             {
-                message("Would you like to take the Dynamax Band?")
+                message("{JPN}ダイマックスバンドを うけとりますか?")
                 waitmessage
 
                 multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -293,14 +293,14 @@ script Rogue_Interior_ChallengeFrontier_Tera
     {
         ROGUE_VERSION_VANILLA
         {
-            msgbox(format("It's a Tera Orb!\pThis item is only avaliable in Emerald Rogue EX version."))
+            msgbox(format("{JPN}テラスタルオーブだ!\pこの どうぐは EXバージョンだけの ものだ。"))
         }
         ROGUE_VERSION_EXPANSION
         {
             checkitem(ITEM_TERA_ORB)
             if(var(VAR_RESULT) == YES)
             {
-                msgbox(format("Would you like to put back the Tera Orb?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}テラスタルオーブを もどしますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     removeitem(ITEM_TERA_ORB)
@@ -308,7 +308,7 @@ script Rogue_Interior_ChallengeFrontier_Tera
             }
             else
             {
-                message("Would you like to take the Tera Orb?")
+                message("{JPN}テラスタルオーブを うけとりますか?")
                 waitmessage
 
                 multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -344,7 +344,7 @@ script Rogue_Interior_ChallengeFrontier_HealingFlask
     checkitem(ITEM_HEALING_FLASK)
     if(var(VAR_RESULT) == YES)
     {
-        msgbox(format("Would you like to put back the Healing Flask?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}かいふくフラスコを もどしますか?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == YES)
         {
             removeitem(ITEM_HEALING_FLASK)
@@ -352,7 +352,7 @@ script Rogue_Interior_ChallengeFrontier_HealingFlask
     }
     else
     {
-        message("Would you like to take the Healing Flask?")
+        message("{JPN}かいふくフラスコを うけとりますか?")
         waitmessage
 
         multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -383,7 +383,7 @@ script Rogue_Interior_ChallengeFrontier_GiveGimickItemTutorial
     if(!flag(FLAG_ROGUE_GIMICK_TUTORIAL))
     {
         setflag(FLAG_ROGUE_GIMICK_TUTORIAL)
-        msgbox(format("If you later wish to play without using this, simply place it back on this pedestal."))
+        msgbox(format("{JPN}つかわずに あそびたく なったら この だいに もどせばいい。"))
     }
 }
 
@@ -394,11 +394,11 @@ script Rogue_Interior_ChallengeFrontier_TalkScott
 
     if(var(VAR_ROGUE_POST_GAME_TUTORIAL) == 1)
     {
-        msgbox(format("You've still got plenty of things to find around here!\pDon't you worry!"))
+        msgbox(format("{JPN}ここには まだまだ みつけるものが あるぞ!\pあんしんしろ!"))
     }
     else
     {
-        msgbox(format("Well, if it isn't {PLAYER}!\pHope your Questing is going well!"))
+        msgbox(format("{JPN}おや {PLAYER}じゃないか!\pクエストは じゅんちょうかい?"))
     }
 
     //msgbox(format("todo - unlock challenges"))
@@ -417,7 +417,7 @@ script Rogue_Interior_ChallengeFrontier_ScottIntroLeft
     applymovement(NPC_OBJ_SCOTT, PostGameTutorial_Scott0)
     waitmovement(0)
 
-    msgbox(format("Ah!\nYou must be {PLAYER}!"))
+    msgbox(format("{JPN}おお!\nきみが {PLAYER}だな!"))
 
     closemessage
     applymovement(OBJ_EVENT_ID_PLAYER, PostGameTutorial_Player0_Left)
@@ -434,7 +434,7 @@ script Rogue_Interior_ChallengeFrontier_ScottIntroRight
     applymovement(NPC_OBJ_SCOTT, PostGameTutorial_Scott0)
     waitmovement(0)
 
-    msgbox(format("Ah!\nYou must be {PLAYER}!"))
+    msgbox(format("{JPN}おお!\nきみが {PLAYER}だな!"))
 
     closemessage
     applymovement(OBJ_EVENT_ID_PLAYER, PostGameTutorial_Player0_Right)
@@ -451,7 +451,7 @@ script Rogue_Interior_ChallengeFrontier_ScottIntroCentre
     applymovement(NPC_OBJ_SCOTT, PostGameTutorial_Scott0)
     waitmovement(0)
 
-    msgbox(format("Ah!\nYou must be {PLAYER}!"))
+    msgbox(format("{JPN}おお!\nきみが {PLAYER}だな!"))
 
     closemessage
     applymovement(OBJ_EVENT_ID_PLAYER, PostGameTutorial_Player0_Centre)
@@ -465,7 +465,7 @@ script Rogue_Interior_ChallengeFrontier_ScottIntroCommon
 {
     addvar(VAR_ROGUE_POST_GAME_TUTORIAL, 1)
 
-    msgbox(format("SCOTT: The name's Scott!\pPokabbie told me to keep an eye out for a Champion in the making.\pI'm guessing that's you, right?"))
+    msgbox(format("{JPN}スコット: なまえは スコット!\pポカビーに チャンピオンに なりそうな\nやつを みておけと たのまれてね。\pそれが きみ ってわけだ?"))
 
     if(flag(FLAG_IS_CHAMPION))
     {
@@ -559,7 +559,7 @@ script Rogue_Interior_ChallengeFrontier_TalkMasteries
         {
             ROGUE_VERSION_VANILLA
             {
-                msgbox(format("I wish you the best of luck with your Pokémon Masteries, {PLAYER}!"))
+                msgbox(format("{JPN}ポケモンマスタリーの けんとうを いのるよ {PLAYER}!"))
             }
             ROGUE_VERSION_EXPANSION
             {
@@ -569,22 +569,22 @@ script Rogue_Interior_ChallengeFrontier_TalkMasteries
     }
     else
     {
-        msgbox(format("Hello, {PLAYER}."))
+        msgbox(format("{JPN}やあ {PLAYER}。"))
 
         poryswitch(ROGUE_VERSION)
         {
             ROGUE_VERSION_VANILLA
             {
-                msgbox(format("I hope your Pokémon Masteries are going well!"))
+                msgbox(format("{JPN}ポケモンマスタリーは じゅんちょうかい!"))
             }
             ROGUE_VERSION_EXPANSION
             {
-                message(format("Would you like to purchase any Special Item rewards?"))
+                message(format("{JPN}とくべつな どうぐを かいますか?"))
                 waitmessage
 
                 rogue_dynamicpokemart(ROGUE_SHOP_RARE_HELD_ITEMS)
 
-                msgbox(format("Best of luck with you Pokémon Masteries, {PLAYER}."))
+                msgbox(format("{JPN}ポケモンマスタリー がんばって {PLAYER}。"))
             }
         }
     }
@@ -609,7 +609,7 @@ script Rogue_Interior_ChallengeFrontier_TalkChallenges
     }
     else
     {
-        msgbox(format("Hi there, {PLAYER}.\pHow have your Challenges been going?\nWell I hope!"))
+        msgbox(format("{JPN}やあ {PLAYER}。\pチャレンジは どうだい?\nうまく いってると いいけど!"))
     }
 
     release

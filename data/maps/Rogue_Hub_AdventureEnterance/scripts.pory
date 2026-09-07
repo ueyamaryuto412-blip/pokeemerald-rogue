@@ -76,11 +76,11 @@ script Rogue_Adventure_ScottIntro
     applymovement(NPC_INTRO_SCOTT, Rogue_Adventure_ScottIntroMovement0)
     waitmovement(0)
 
-    msgbox(format("SCOTT: Hey {PLAYER}!\pLooks like you got yourself a partner Pokémon, so you're all ready to go on an Adventure!\pBefore you head off you should take this."))
+    msgbox(format("{JPN}スコット: やあ {PLAYER}!\pパートナーの ポケモンも てに いれて\nぼうけんの じゅんびは ばんたんだな!\pでかける まえに これを もっていけ。"))
 
     call(Rogue_Adventure_ScottGiveQuestLog)
 
-    msgbox(format("Looks like you're all good to go now!\pJust go chat to the nurse over there and you can start exploring!"))
+    msgbox(format("{JPN}じゅんびは できたようだな!\pあそこの ナースに はなしかければ\nぼうけんが はじまるぞ!"))
 
     releaseall
 }
@@ -92,11 +92,11 @@ script Rogue_Adventure_ScottOldSaveQuestLog
     applymovement(NPC_INTRO_SCOTT, Rogue_Adventure_ScottIntroMovement0)
     waitmovement(0)
 
-    msgbox(format("SCOTT: Hey {PLAYER}!\pBefore you head off your next Adventure, you should take this."))
+    msgbox(format("{JPN}スコット: やあ {PLAYER}!\pつぎの ぼうけんに でるまえに\nこれを もっていけ。"))
 
     call(Rogue_Adventure_ScottGiveQuestLog)
 
-    msgbox(format("Looks like you're all good to go now!"))
+    msgbox(format("{JPN}じゅんびは できたようだな!"))
 
     releaseall
 }
@@ -110,15 +110,15 @@ script Rogue_Adventure_ScottGift
     waitmovement(0)
 
     // Give extra key items
-    msgbox(format("SCOTT: Oh hey {PLAYER}!\nPOKABBIE has gone and added some extra modes here for you to try!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}スコット: おお {PLAYER}!\nポカビーが あたらしい モードを\lここに ふやして いったぞ!"), MSGBOX_DEFAULT)
 
     checkitem(ITEM_QUEST_LOG)
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("Before you head off your next Adventure, you should also take this."))
+        msgbox(format("{JPN}つぎの ぼうけんに でるまえに これも もっていけ。"))
         call(Rogue_Adventure_ScottGiveQuestLog)
 
-        msgbox(format("Looks like you're all good to go now!"))
+        msgbox(format("{JPN}じゅんびは できたようだな!"))
     }
 
     releaseall
@@ -136,10 +136,10 @@ script Rogue_Adventure_SpeakScott
     checkitem(ITEM_QUEST_LOG)
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("SCOTT: Hey {PLAYER}!\pBefore you head off your next Adventure, you should also take this."))
+        msgbox(format("{JPN}スコット: やあ {PLAYER}!\pつぎの ぼうけんに でるまえに\nこれも もっていけ。"))
         call(Rogue_Adventure_ScottGiveQuestLog)
 
-        msgbox(format("Looks like you're all good to go now!"))
+        msgbox(format("{JPN}じゅんびは できたようだな!"))
     }
     else
     {
@@ -147,7 +147,7 @@ script Rogue_Adventure_SpeakScott
         nextquestreward
         if(var(VAR_RESULT) == TRUE)
         {
-            msgbox(format("SCOTT: Hey {PLAYER}!\pI have some Quest Rewards for you!"))
+            msgbox(format("{JPN}スコット: やあ {PLAYER}!\pクエストの ほうしゅうを わたすぞ!"))
             while(var(VAR_RESULT) == TRUE)
             {
                 //if(var(VAR_0x8000) == QUEST_REWARD_CUSTOM_TEXT)
@@ -173,24 +173,24 @@ script Rogue_Adventure_SpeakScott
                 nextquestreward
             }
 
-            msgbox(format("And that's all for the moment!"))
+            msgbox(format("{JPN}いまは これで ぜんぶだ!"))
 
             // Check if our bag got full
             checkitemspace(ITEM_REVIVE)
             if(var(VAR_RESULT) == NO)
             {
-                msgbox(format("Looks like you have a full bag there.\pBe sure to check your PC as some rewards may turn up there."))
+                msgbox(format("{JPN}バッグが いっぱいの ようだな。\pほうしゅうが パソコンに とどく ことも\nあるから かくにんしておけ。"))
             }
 
-            msgbox(format("Good luck with your next Adventure champ!"))
+            msgbox(format("{JPN}つぎの ぼうけんも がんばれよ!"))
         }
         elif(var(VAR_ROGUE_INTRO_STATE) <= 5)
         {
-            msgbox(format("SCOTT: Hey {PLAYER}!\pJust go chat to the nurse over there and you can start exploring!"))
+            msgbox(format("{JPN}スコット: やあ {PLAYER}!\pあそこの ナースに はなしかければ\nぼうけんが はじまるぞ!"))
         }
         else
         {
-            msgbox(format("SCOTT: Hey {PLAYER}!\pBe sure to come and chat with me once you complete Quests so I can give you your rewards!"))
+            msgbox(format("{JPN}スコット: やあ {PLAYER}!\pクエストを クリアしたら こえを かけろ\nほうしゅうを わたすからな!"))
         }
     }
 
@@ -221,7 +221,7 @@ script Rogue_Adventure_StartStandard
     faceplayer
 
     // Yes No Info
-    msgbox(format("Would you like to go on an adventure?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}ぼうけんに でかけますか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -230,7 +230,7 @@ script Rogue_Adventure_StartStandard
     }
     else
     {
-        msgbox(format("Feel free to speak with me again, if you change your mind."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}きが かわったら いつでも こえを かけてくれ。"), MSGBOX_DEFAULT)
     }
 
     release
@@ -243,7 +243,7 @@ script Rogue_Adventure_StartGauntlet
     lock
     faceplayer
 
-    message(format("Would you like to go on a GAUNTLET adventure?"))
+    message(format("{JPN}ガントレットの ぼうけんに でかけますか?"))
     waitmessage
 
     multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -256,13 +256,13 @@ script Rogue_Adventure_StartGauntlet
             call(Rogue_StartAdventureCommon)
 
         case 1: // No
-            msgbox(format("Feel free to speak with me again, if you change your mind."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}きが かわったら いつでも こえを かけてくれ。"), MSGBOX_DEFAULT)
 
         case 2: // Info
-            msgbox(format("In GAUNTLET adventures, you will get given a few routes to capture Pokémon and collect items.\pAfter that you will fight every BOSS back to back with no chance to get any more Pokémon or items.\pThis is a high stakes mode intended for faster more difficult battles, although almost all Quests are disabled in this mode."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}ガントレットでは さいしょに\nいくつかの ルートで ポケモンと\lどうぐを あつめる。\pそのあとは ポケモンも どうぐも\nてに いれられないまま ボスと\lれんぞくで たたかうことに なる。\pみじかく てごわい バトルの ための\nきびしい モードで クエストは\lほとんど むこうに なる。"), MSGBOX_DEFAULT)
 
         case MULTI_B_PRESSED:
-            msgbox(format("Feel free to speak with me again, if you change your mind."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}きが かわったら いつでも こえを かけてくれ。"), MSGBOX_DEFAULT)
     }
 
     release
@@ -275,7 +275,7 @@ script Rogue_Adventure_StartRainbow
     lock
     faceplayer
 
-    message(format("Would you like to go on a RAINBOW adventure?"))
+    message(format("{JPN}レインボーの ぼうけんに でかけますか?"))
     waitmessage
 
     multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -287,13 +287,13 @@ script Rogue_Adventure_StartRainbow
             call(Rogue_StartAdventureCommon)
 
         case 1: // No
-            msgbox(format("Feel free to speak with me again, if you change your mind."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}きが かわったら いつでも こえを かけてくれ。"), MSGBOX_DEFAULT)
 
         case 2: // Info
             msgbox(format("RAINBOW adventures are very similar to a normal adventure.\pThe main difference is that any and all types can appear for Boss fights.\pFor example Wallace could appear as the first GYM leader or ROXANNE could end up being the CHAMPION!\pYou will even encounter Boss trainers sporting types not usually seen in normal adventures.\pIn this mode trainers from all regions will be enabled.\nIn other words your settings in the Config Lab will be ignored."), MSGBOX_DEFAULT)
 
         case MULTI_B_PRESSED:
-            msgbox(format("Feel free to speak with me again, if you change your mind."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}きが かわったら いつでも こえを かけてくれ。"), MSGBOX_DEFAULT)
     }
 
     release
@@ -311,7 +311,7 @@ script Rogue_StartAdventureCommon
 
     if(var(VAR_RESULT) == TRUE)
     {
-        msgbox(format("Before you head out, I should mention, Scott was looking for you.\pHe mentioned something about having some new Quest ready to unlock?\pDo you still want to continue?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}でかける まえに ひとこと。\nスコットが きみを さがしていたよ。\pあたらしい クエストの じゅんびが\nできたとか いってたけど?\pそれでも つづけますか?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == NO)
         {
             return
@@ -341,7 +341,7 @@ script Rogue_StartAdventureCommon
     {
         if(var(VAR_RESULT) > 1)
         {
-            msgbox(format("Looks like you have too many Pokémon.\pYou can only take in 1 Pokémon into this mode.\nYou should use the PC to deposit some before I can let you on an adventure."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}ポケモンが おおすぎるようだ。\pこのモードには 1ぴきしか\nつれていけない。\lパソコンに あずけてから また きてくれ。"), MSGBOX_DEFAULT)
             setvar(VAR_RESULT, NO)
         }
         else
@@ -394,11 +394,11 @@ script Rogue_StartAdventureCommon
         // Skip ahead based on lvl
         if(var(VAR_ROGUE_SKIP_TO_DIFFICULTY) != 0)
         {
-            msgbox(format("You've leveled up your PARTNER enough to skip ahead!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}パートナーが そだっているので とちゅうから はじめられる!"), MSGBOX_DEFAULT)
 
             buffernumberstring(STR_VAR_1, VAR_ROGUE_SKIP_TO_DIFFICULTY)
             
-            message(format("Would you like to skip ahead and start just after BADGE {STR_VAR_1}?"))
+            message(format("{JPN}バッジ{STR_VAR_1}この あとから はじめますか?"))
             waitmessage
             
             multichoice(20, 8, MULTI_FULL_OR_SKIP, NO)
@@ -455,7 +455,7 @@ script Rogue_ReturnAdventureCommon
     // Just returned from firstadventure
     if(var(VAR_ROGUE_INTRO_STATE) == 6)
     {
-        msgbox(format("Whenever you return from an adventure\nyou earn rewards based on how well you did."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}ぼうけんから もどるたび\nせいせきに おうじた ほうしゅうが もらえる。"), MSGBOX_DEFAULT)
 
         buffernumberstring(STR_VAR_1, VAR_ROGUE_CURRENT_ROOM_IDX)
         //buffernumberstring(STR_VAR_2, VAR_ROGUE_DIFFICULTY)
@@ -475,7 +475,7 @@ script Rogue_ReturnAdventureCommon
 
     if(var(VAR_0x8000) != 0 || var(VAR_0x8001) != 0)
     {
-        msgbox(format("Your rewards for this time are..."))
+        msgbox(format("{JPN}こんかいの ほうしゅうは…"))
 
         if(var(VAR_0x8000) != 0)
         {
@@ -521,23 +521,23 @@ script Rogue_ReturnAdventureCommon
 
     if(flag(FLAG_SET_SEED_ENABLED))
     {
-        msgbox(format("Would you like to keep the same SEED enabled for your next Adventure?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}つぎの ぼうけんでも おなじ シードを つかいますか?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("OK.\nI'll remember the same SEED then."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}わかった。\nおなじ シードを おぼえておく。"), MSGBOX_DEFAULT)
         }
         else
         {
-            msgbox(format("OK.\nThe SEED will be removed for the next Adventure."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}わかった。\nつぎの ぼうけんでは シードを はずす。"), MSGBOX_DEFAULT)
             clearflag(FLAG_SET_SEED_ENABLED)
         }
     }
     
-    msgbox(format("Would you like to SAVE your progress?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}レポートを かきますか?"), MSGBOX_YESNO)
     if(var(VAR_RESULT) == YES)
     {
         call(Common_EventScript_SaveGame)
     }
-    msgbox(format("Come speak to me once you're ready for your next adventure."), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}つぎの ぼうけんの じゅんびが できたら こえを かけてくれ。"), MSGBOX_DEFAULT)
     releaseall
 }

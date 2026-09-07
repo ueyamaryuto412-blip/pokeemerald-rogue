@@ -112,7 +112,7 @@ script Rogue_Area_RideTraining_SpeakDitto
         {
             if(var(VAR_ROGUE_REGISTERED_RIDE_MON) == SPECIES_NONE)
             {
-                msgbox(format("Would you like Ditto to transform into {STR_VAR_1}?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}メタモンを {STR_VAR_1}に へんしんさせますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     special(Rogue_RegisterRideMon)
@@ -127,7 +127,7 @@ script Rogue_Area_RideTraining_SpeakDitto
             }
             else
             {
-                msgbox(format("Would you clear Ditto's transform?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}メタモンの へんしんを もどしますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     setvar(VAR_ROGUE_REGISTERED_RIDE_MON, SPECIES_NONE)
@@ -145,7 +145,7 @@ script Rogue_Area_RideTraining_SpeakDitto
         {
             if(var(VAR_ROGUE_REGISTERED_RIDE_MON) == SPECIES_NONE)
             {
-                msgbox(format("Would you like Zorua to transform into {STR_VAR_1}?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}ゾロアを {STR_VAR_1}に へんしんさせますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     special(Rogue_RegisterRideMon)
@@ -160,7 +160,7 @@ script Rogue_Area_RideTraining_SpeakDitto
             }
             else
             {
-                msgbox(format("Would you clear Zorua's transform?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}ゾロアの へんしんを もどしますか?"), MSGBOX_YESNO)
                 if(var(VAR_RESULT) == YES)
                 {
                     setvar(VAR_ROGUE_REGISTERED_RIDE_MON, SPECIES_NONE)
@@ -190,7 +190,7 @@ script Rogue_Area_RideTraining_SpeakClown
     }
     else
     {
-        msgbox(format("Hi {PLAYER}!\pWere you wanting me to teach you some more?"))
+        msgbox(format("{JPN}やあ {PLAYER}!\pまた なにか おしえて ほしいのかい?"))
         call(Rogue_Area_RideTraining_OfferNextUpgrade)
     }
 
@@ -265,23 +265,23 @@ script Rogue_Area_RideTraining_OfferNextUpgrade
         return
     }
 
-    msgbox(format("I don't have anything more I can teach you at the moment, I'm afraid."))
+    msgbox(format("{JPN}いまは これいじょう おしえられることが ないんだ。"))
 }
 
 script Rogue_Area_RideTraining_GiveFieldMoves
 {
-    msgbox(format("Well hey there {PLAYER}!\pMy Pokémon and I love playing in this park!\nThank you for building it!"))
-    msgbox(format("You know what, as a thanks to you, let me teach you some skills to help you out on your Adventures!"))
+    msgbox(format("{JPN}やあ {PLAYER}!\pぼくと ポケモンは この こうえんで\nあそぶのが だいすきなんだ!\lつくってくれて ありがとう!"))
+    msgbox(format("{JPN}そうだ おれいに ぼうけんで やくだつ\nわざを おしえてあげるよ!"))
 
-    msgbox(format("Hmm…\nHow about we start with teaching you how to perform field moves?"))
+    msgbox(format("{JPN}そうだな…\nまずは ひでんわざの つかいかたから\lはじめようか?"))
 
-    message(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER} learnt how to perform field moves!"))
+    message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は ひでんわざの つかいかたを おぼえた!"))
     waitmessage
     playfanfare(MUS_EVOLVED)
     waitfanfare
 
-    msgbox(format("You see those little trees and rocks at the edge of the path?\pYou should now be able to clear those out of the way, with the help of your Pokémon!"))
-    msgbox(format("I've still got plenty of skills I can teach you!\pIf you're ever wanting to learn some more skills, I'm always happy to help for a little bit of money."))
+    msgbox(format("{JPN}みちばたの ちいさな きや いわが\nみえるだろう?\pこれからは ポケモンの ちからを\nかりて どかせるように なったよ!"))
+    msgbox(format("{JPN}おしえられる わざは まだまだ あるよ!\pもっと ならいたく なったら\nすこしの おかねで いつでも\lちからに なるからね。"))
 
     setflag(FLAG_SYS_FIELD_MOVES_GET)
 }
@@ -290,7 +290,7 @@ script Rogue_Area_RideTraining_GiveBasicWhistle
 {
     showmoneybox(0, 0)
 
-    msgbox(format("I could teach you how to ride your Pokémon for ¥5000?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}ポケモンへの のりかたを 5000¥で おしえようか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -303,29 +303,29 @@ script Rogue_Area_RideTraining_GiveBasicWhistle
             playse(SE_SHOP)
             waitse
 
-            msgbox(format("Thank you very much, {PLAYER}!"))
-            msgbox(format("In order to ride your Pokémon, you'll need to use this."))
+            msgbox(format("{JPN}ありがとう {PLAYER}!"))
+            msgbox(format("{JPN}ポケモンに のるには これを つかうんだ。"))
 
             hidemoneybox
             giveitem(ITEM_BASIC_RIDING_WHISTLE)
 
-            msgbox(format("You'll only be able to ride certain species of Pokémon from your party.\pYou should now be able to check your Pokédex to find out which Pokémon can be riden."))
-            msgbox(format("You know what… here why don't you take Stantler along with you!\pIt's been itching to go on Adventures and you can even ride it too!"))
+            msgbox(format("{JPN}のれるのは てもちの なかでも\nきまった しゅるいの ポケモンだけだ。\pどの ポケモンに のれるかは\nポケモンずかんで しらべられるよ。"))
+            msgbox(format("{JPN}そうだ… この オドシシを\nつれていくと いい!\pぼうけんに いきたくて うずうず\nしてるし のることも できるよ!"))
 
             givemon(SPECIES_STANTLER, 5)
             setflag(FLAG_HIDE_STANTLER)
             removeobject(NPC_OBJ_STANTLER)
 
-            message(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER} learnt how to ride Pokémon!"))
+            message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は ポケモンへの のりかたを おぼえた!"))
             waitmessage
             playfanfare(MUS_EVOLVED)
             waitfanfare
 
-            msgbox(format("All you need to do is use that whistle, whilst you have a ridable Pokémon in your party.\pIf have multiple Pokémon you can ride, you can quickly cycle between them by using {R_BUTTON}."))
+            msgbox(format("{JPN}のれる ポケモンが てもちに いれば\nその ふえを つかうだけでいい。\pのれる ポケモンが なんびきか\nいるときは {R_BUTTON}で\lすばやく きりかえられる。"))
         }
         else
         {
-            msgbox(format("Oh… it doesn't look like you have enough money at the moment."))
+            msgbox(format("{JPN}おや… いまは おかねが たりないようだね。"))
             hidemoneybox
         }
     }
@@ -339,7 +339,7 @@ script Rogue_Area_RideTraining_TeachLedgeJump
 {
     showmoneybox(0, 0)
 
-    msgbox(format("I could teach you how to climb back up ledges for ¥10000?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}だんさを のぼる ほうほうを 10000¥で おしえようか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -352,22 +352,22 @@ script Rogue_Area_RideTraining_TeachLedgeJump
             playse(SE_SHOP)
             waitse
 
-            msgbox(format("Thank you very much, {PLAYER}!"))
-            msgbox(format("Here, let me teach you!"))
+            msgbox(format("{JPN}ありがとう {PLAYER}!"))
+            msgbox(format("{JPN}それじゃあ おしえるよ!"))
 
             hidemoneybox
-            message(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER} learnt how to climb ledges whilst riding Pokémon!"))
+            message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は のったまま だんさを のぼる ほうほうを おぼえた!"))
             waitmessage
             playfanfare(MUS_EVOLVED)
             waitfanfare
 
-            msgbox(format("When riding your Pokémon, some of them will be able to jump back up ledges, allowing you to more easily backtrack.\pYou should now be able to see which Pokémon are able to use this skill in your Pokédex.\pThat Stantler I gave to you previously should be able to help you jump over ledges."))
+            msgbox(format("{JPN}ポケモンに のっていると だんさを\nとびあがれる ものが いて\lひきかえすのが らくに なる。\pどの ポケモンが できるかは\nポケモンずかんで みられるよ。\pまえに あげた オドシシなら\nだんさを とびこえられるはずだ。"))
 
             setflag(FLAG_SYS_RIDING_LEDGE_JUMP)
         }
         else
         {
-            msgbox(format("Oh… it doesn't look like you have enough money at the moment."))
+            msgbox(format("{JPN}おや… いまは おかねが たりないようだね。"))
             hidemoneybox
         }
     }
@@ -381,7 +381,7 @@ script Rogue_Area_RideTraining_TeachSurf
 {
     showmoneybox(0, 0)
 
-    msgbox(format("I could teach you how to swim for ¥20000?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}およぎかたを 20000¥で おしえようか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -394,22 +394,22 @@ script Rogue_Area_RideTraining_TeachSurf
             playse(SE_SHOP)
             waitse
 
-            msgbox(format("Thank you very much, {PLAYER}!"))
-            msgbox(format("Here, let me teach you!"))
+            msgbox(format("{JPN}ありがとう {PLAYER}!"))
+            msgbox(format("{JPN}それじゃあ おしえるよ!"))
 
             hidemoneybox
-            message(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER} learnt how to swim whilst riding Pokémon!"))
+            message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は のったまま およぐ ほうほうを おぼえた!"))
             waitmessage
             playfanfare(MUS_EVOLVED)
             waitfanfare
 
-            msgbox(format("When riding your Pokémon, some of them will be able to now swim in water.\pYou should now be able to see which Pokémon are able to use this skill in your Pokédex."))
+            msgbox(format("{JPN}ポケモンに のっていると みずのうえを\nおよげる ものが いる。\pどの ポケモンが できるかは\nポケモンずかんで みられるよ。"))
 
             setflag(FLAG_SYS_RIDING_SURF)
         }
         else
         {
-            msgbox(format("Oh… it doesn't look like you have enough money at the moment."))
+            msgbox(format("{JPN}おや… いまは おかねが たりないようだね。"))
             hidemoneybox
         }
     }
@@ -423,7 +423,7 @@ script Rogue_Area_RideTraining_TeachFly
 {
     showmoneybox(0, 0)
 
-    msgbox(format("I could teach you how to fly for ¥30000?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}そらの とびかたを 30000¥で おしえようか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -436,11 +436,11 @@ script Rogue_Area_RideTraining_TeachFly
             playse(SE_SHOP)
             waitse
 
-            msgbox(format("Thank you very much, {PLAYER}!"))
-            msgbox(format("Here, let me teach you!"))
+            msgbox(format("{JPN}ありがとう {PLAYER}!"))
+            msgbox(format("{JPN}それじゃあ おしえるよ!"))
 
             hidemoneybox
-            message(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER} learnt how to fly whilst riding Pokémon!"))
+            message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は のったまま そらを とぶ ほうほうを おぼえた!"))
             waitmessage
             playfanfare(MUS_EVOLVED)
             waitfanfare
@@ -451,7 +451,7 @@ script Rogue_Area_RideTraining_TeachFly
         }
         else
         {
-            msgbox(format("Oh… it doesn't look like you have enough money at the moment."))
+            msgbox(format("{JPN}おや… いまは おかねが たりないようだね。"))
             hidemoneybox
         }
     }
@@ -465,7 +465,7 @@ script Rogue_Area_RideTraining_FlyCharge2
 {
     showmoneybox(0, 0)
 
-    msgbox(format("I could teach you how to fly 2 times before exhausting your {PKMN} for ¥50000?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}{PKMN}が つかれるまでに 2かい とべるように 50000¥で おしえようか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -478,11 +478,11 @@ script Rogue_Area_RideTraining_FlyCharge2
             playse(SE_SHOP)
             waitse
 
-            msgbox(format("Thank you very much, {PLAYER}!"))
-            msgbox(format("Here, let me teach you!"))
+            msgbox(format("{JPN}ありがとう {PLAYER}!"))
+            msgbox(format("{JPN}それじゃあ おしえるよ!"))
 
             hidemoneybox
-            message(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER} gained an extra flight charge!"))
+            message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は とべる かいすうが ふえた!"))
             waitmessage
             playfanfare(MUS_EVOLVED)
             waitfanfare
@@ -491,7 +491,7 @@ script Rogue_Area_RideTraining_FlyCharge2
         }
         else
         {
-            msgbox(format("Oh… it doesn't look like you have enough money at the moment."))
+            msgbox(format("{JPN}おや… いまは おかねが たりないようだね。"))
             hidemoneybox
         }
     }
@@ -505,7 +505,7 @@ script Rogue_Area_RideTraining_FlyCharge3
 {
     showmoneybox(0, 0)
 
-    msgbox(format("I could teach you how to fly 3 times before exhausting your {PKMN} for ¥100000?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}{PKMN}が つかれるまでに 3かい とべるように 100000¥で おしえようか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -518,11 +518,11 @@ script Rogue_Area_RideTraining_FlyCharge3
             playse(SE_SHOP)
             waitse
 
-            msgbox(format("Thank you very much, {PLAYER}!"))
-            msgbox(format("Here, let me teach you!"))
+            msgbox(format("{JPN}ありがとう {PLAYER}!"))
+            msgbox(format("{JPN}それじゃあ おしえるよ!"))
 
             hidemoneybox
-            message(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER} gained an extra flight charge!"))
+            message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は とべる かいすうが ふえた!"))
             waitmessage
             playfanfare(MUS_EVOLVED)
             waitfanfare
@@ -531,7 +531,7 @@ script Rogue_Area_RideTraining_FlyCharge3
         }
         else
         {
-            msgbox(format("Oh… it doesn't look like you have enough money at the moment."))
+            msgbox(format("{JPN}おや… いまは おかねが たりないようだね。"))
             hidemoneybox
         }
     }
@@ -545,7 +545,7 @@ script Rogue_Area_RideTraining_FlyChargeInfinite
 {
     showmoneybox(0, 0)
 
-    msgbox(format("I could teach you how to fly an unlimited number of times before exhausting your {PKMN} for ¥500000?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}{PKMN}が つかれずに なんどでも とべるように 500000¥で おしえようか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -558,11 +558,11 @@ script Rogue_Area_RideTraining_FlyChargeInfinite
             playse(SE_SHOP)
             waitse
 
-            msgbox(format("Thank you very much, {PLAYER}!"))
-            msgbox(format("Here, let me teach you!"))
+            msgbox(format("{JPN}ありがとう {PLAYER}!"))
+            msgbox(format("{JPN}それじゃあ おしえるよ!"))
 
             hidemoneybox
-            message(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER} gained unlimited flight charges!"))
+            message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は なんどでも とべるように なった!"))
             waitmessage
             playfanfare(MUS_EVOLVED)
             waitfanfare
@@ -571,7 +571,7 @@ script Rogue_Area_RideTraining_FlyChargeInfinite
         }
         else
         {
-            msgbox(format("Oh… it doesn't look like you have enough money at the moment."))
+            msgbox(format("{JPN}おや… いまは おかねが たりないようだね。"))
             hidemoneybox
         }
     }
@@ -585,7 +585,7 @@ script Rogue_Area_RideTraining_GiveGoldWhistle
 {
     showmoneybox(0, 0)
 
-    msgbox(format("I could give you a Gold Whistle for ¥15000?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}きんの ふえを 15000¥で ゆずろうか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -598,13 +598,13 @@ script Rogue_Area_RideTraining_GiveGoldWhistle
             playse(SE_SHOP)
             waitse
 
-            msgbox(format("Thank you very much, {PLAYER}!"))
-            msgbox(format("Here you go!"))
+            msgbox(format("{JPN}ありがとう {PLAYER}!"))
+            msgbox(format("{JPN}はい どうぞ!"))
 
             hidemoneybox
             giveitem(ITEM_GOLD_RIDING_WHISTLE)
 
-            msgbox(format("Rather than riding on Pokémon in your party, that Gold Whistle is linked my friend.\pCome on out!"))
+            msgbox(format("{JPN}その きんの ふえは てもちの\nポケモンでは なく ぼくの\lともだちと つながっているんだ。\pさあ でておいで!"))
 
             poryswitch(ROGUE_VERSION)
             {
@@ -615,9 +615,9 @@ script Rogue_Area_RideTraining_GiveGoldWhistle
                     playmoncry(SPECIES_DITTO, CRY_MODE_NORMAL)
                     waitmoncry
 
-                    msgbox(format("You can speak with Ditto whenever you want and get it to transform into one of your Pokémon.\pFrom then on, even if you don't have that Pokémon in your party, you will be able to summon it using the Gold Whistle."))
+                    msgbox(format("{JPN}いつでも メタモンに はなしかけて\nてもちの ポケモンに へんしんさせられる。\pそうすれば その ポケモンが\nてもちに いなくても きんの ふえで\lよびだせるように なるんだ。"))
 
-                    message(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER} learnt how to summon Ditto!"))
+                    message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は メタモンの よびかたを おぼえた!"))
                     waitmessage
                     playfanfare(MUS_EVOLVED)
                     waitfanfare
@@ -629,9 +629,9 @@ script Rogue_Area_RideTraining_GiveGoldWhistle
                     playmoncry(SPECIES_ZORUA_HISUIAN, CRY_MODE_NORMAL)
                     waitmoncry
 
-                    msgbox(format("You can speak with Zorua whenever you want and get it to transform into one of your Pokémon.\pFrom then on, even if you don't have that Pokémon in your party, you will be able to summon it using the Gold Whistle."))
+                    msgbox(format("{JPN}いつでも ゾロアに はなしかけて\nてもちの ポケモンに へんしんさせられる。\pそうすれば その ポケモンが\nてもちに いなくても きんの ふえで\lよびだせるように なるんだ。"))
 
-                    message(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER} learnt how to summon Zorua!"))
+                    message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は ゾロアの よびかたを おぼえた!"))
                     waitmessage
                     playfanfare(MUS_EVOLVED)
                     waitfanfare
@@ -640,7 +640,7 @@ script Rogue_Area_RideTraining_GiveGoldWhistle
         }
         else
         {
-            msgbox(format("Oh… it doesn't look like you have enough money at the moment."))
+            msgbox(format("{JPN}おや… いまは おかねが たりないようだね。"))
             hidemoneybox
         }
     }
@@ -654,7 +654,7 @@ script Rogue_Area_RideTraining_CallDaycare
 {
     showmoneybox(0, 0)
 
-    msgbox(format("I could teach you how to call Pokémon from the Day Care for ¥25000?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}そだてやから ポケモンを よぶ ほうほうを 25000¥で おしえようか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == YES)
     {
@@ -667,22 +667,22 @@ script Rogue_Area_RideTraining_CallDaycare
             playse(SE_SHOP)
             waitse
 
-            msgbox(format("Thank you very much, {PLAYER}!"))
-            msgbox(format("Here, let me teach you!"))
+            msgbox(format("{JPN}ありがとう {PLAYER}!"))
+            msgbox(format("{JPN}それじゃあ おしえるよ!"))
 
             hidemoneybox
-            message(format("{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER} learnt how summon Day Care Pokémon!"))
+            message(format("{JPN}{COLOR GREEN}{SHADOW LIGHT_GREEN}{PLAYER}は そだてやの ポケモンの よびかたを おぼえた!"))
             waitmessage
             playfanfare(MUS_EVOLVED)
             waitfanfare
 
-            msgbox(format("When using your Gold Whistle, you can now summon any Pokémon you have stored in the Day Care by pressing the {R_BUTTON}."))
+            msgbox(format("{JPN}きんの ふえを つかうとき {R_BUTTON}を\nおせば そだてやに あずけた\lポケモンを よびだせる。"))
 
             setflag(FLAG_SYS_RIDING_ACCESS_DAYCARE)
         }
         else
         {
-            msgbox(format("Oh… it doesn't look like you have enough money at the moment."))
+            msgbox(format("{JPN}おや… いまは おかねが たりないようだね。"))
             hidemoneybox
         }
     }

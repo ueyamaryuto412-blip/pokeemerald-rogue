@@ -55,7 +55,7 @@ text gItemDesc_TR
 
 text gItemDesc_MaxMushroom
 {
-    format("When used on a {PKMN} they gain access their Gmax form.")
+    format("{JPN}{PKMN}に つかうと キョダイマックスの すがたが つかえるように なる。")
 }
 
 text gItemDesc_SmallCoinCase
@@ -203,11 +203,11 @@ text gItemDesc_CritCurse
 
 text gItemDesc_ShedSkinCharm
 {
-    format("Friendly Pokémon have a 33% chance to cure status.")
+    format("{JPN}みかたの ポケモンが 3かいに 1かい じょうたいいじょうを なおす。")
 }
 text gItemDesc_ShedSkinCurse
 {
-    format("Opponent Pokémon have a 15% chance to cure status.")
+    format("{JPN}あいての ポケモンが ときどき じょうたいいじょうを なおす。")
 }
 
 text gItemDesc_WildIVCharm
@@ -221,20 +221,20 @@ text gItemDesc_WildIVCurse
 
 text gItemDesc_CatchingCharm
 {
-    format("Ball effectiveness is increased by 200%.")
+    format("{JPN}ボールの つかまえやすさが 3ばいに なる。")
 }
 text gItemDesc_CatchingCurse
 {
-    format("Ball effectiveness is decreased by 40%.")
+    format("{JPN}ボールの つかまえやすさが 4わり さがる。")
 }
 
 text gItemDesc_GraceCharm
 {
-    format("Friendly moves have x1.75 to chance for effects.")
+    format("{JPN}みかたの わざの ついかこうかが おきやすく なる。")
 }
 text gItemDesc_GraceCurse
 {
-    format("Opponent moves have x1.5 to chance for effects.")
+    format("{JPN}あいての わざの ついかこうかが おきやすく なる。")
 }
 
 text gItemDesc_WildCharm
@@ -248,20 +248,20 @@ text gItemDesc_WildCurse
 
 text gItemDesc_PriorityCharm
 {
-    format("Friendly moves have 20% chance to apply Quick Claw.")
+    format("{JPN}みかたの わざが 5かいに 1かい せんせいのツメの こうかに なる。")
 }
 text gItemDesc_PriorityCurse
 {
-    format("Opponent moves have 10% chance to apply Quick Claw.")
+    format("{JPN}あいての わざが 10かいに 1かい せんせいのツメの こうかに なる。")
 }
 
 text gItemDesc_EndureCharm
 {
-    format("Friendly Pokémon have a 60% chance to endure OHKOs.")
+    format("{JPN}みかたの ポケモンが よく いちげきを たえる。")
 }
 text gItemDesc_EndureCurse
 {
-    format("Opponent Pokémon have a 20% chance to endure OHKOs.")
+    format("{JPN}あいての ポケモンが ときどき いちげきを たえる。")
 }
 
 text gItemDesc_TormentCharm
@@ -284,20 +284,20 @@ text gItemDesc_PressureCurse
 
 text gItemDesc_UnawareCharm
 {
-    format("Friendly {PKMN} ignore Opponent {PKMN} {UP_ARROW}stat changes.")
+    format("{JPN}みかたの {PKMN}は あいての {PKMN}の {UP_ARROW}のうりょくへんかを むしする。")
 }
 text gItemDesc_UnawareCurse
 {
-    format("Opponent {PKMN} ignore Friendly {PKMN} {UP_ARROW}stat changes.")
+    format("{JPN}あいての {PKMN}は みかたの {PKMN}の {UP_ARROW}のうりょくへんかを むしする。")
 }
 
 text gItemDesc_AdaptabilityCharm
 {
-    format("Friendly Pokémon STAB increased by 50%.")
+    format("{JPN}みかたの ポケモンの タイプいっちボーナスが あがる。")
 }
 text gItemDesc_AdaptabilityCurse
 {
-    format("Opponent Pokémon STAB increased by 30%.")
+    format("{JPN}あいての ポケモンの タイプいっちボーナスが あがる。")
 }
 
 text gItemDesc_ExtraLifeCharm
@@ -321,7 +321,7 @@ text gItemDesc_EverstoneCurse
 
 text gItemDesc_BattleItemCurse
 {
-    format("Items cannot be used in battle. (Except Poké Balls)")
+    format("{JPN}バトルちゅうに どうぐを つかえない。ボールは のぞく。")
 }
 
 text gItemDesc_SpeciesClauseCurse
@@ -336,37 +336,37 @@ text gItemDesc_ItemShuffleCurse
 
 text gItemDesc_SnowballCurse
 {
-    format("For every badge, you gain an extra Random Curse.")
+    format("{JPN}バッジ1つごとに ランダムな のろいが 1つ ふえる。")
 }
 
 text gItemDesc_RandomanRouteSpawnCurse
 {
-    format("Mr. Randoman will occasionally appear on routes.")
+    format("{JPN}ルートに ときどき ランドマンが あらわれる。")
 }
 
 text gItemDesc_RandomanAlwaysSpawnCurse
 {
-    format("Mr. Randoman will always appear when possible.")
+    format("{JPN}ランドマンが でられる ときは かならず あらわれる。")
 }
 
 text gItemDesc_AutoMoveSelectCurse
 {
-    format("Opponent and Friendly {PKMN} pick moves at random.")
+    format("{JPN}みかたも あいての {PKMN}も わざを ランダムに えらぶ。")
 }
 
 text gItemDesc_OneHitCurse
 {
-    format("Friendly {PKMN} will faint in one hit in Trainer Battles.")
+    format("{JPN}トレーナーせんで みかたの {PKMN}は いちげきで たおれる。")
 }
 
 text gItemDesc_SnagCurse
 {
-    format("Can only catch Trainer {PKMN} (After Trainer Battle).")
+    format("{JPN}トレーナーせんの あとの {PKMN}しか つかまえられない。")
 }
 
 text gItemDesc_WildEggSpeciesCurse
 {
-    format("Wild {PKMN} appear as their 1st evolution stage.")
+    format("{JPN}やせいの {PKMN}は しんかまえの すがたで あらわれる。")
 }
 
 // Hub upgrades
@@ -380,67 +380,67 @@ text gHubAreaDesc_Todo
 
 text gHubAreaDesc_ChallengeFrontier
 {
-    format("Access various new Quests and Items…")
+    format("{JPN}あたらしい クエストや どうぐを つかえるように なる…")
 }
 
 text gHubAreaDesc_BerryField
 {
-    format("Grow Berries and craft basic Potions.")
+    format("{JPN}きのみを そだてて かんたんな くすりを つくれる。")
 }
 
 text gHubAreaDesc_Home
 {
-    format("Personal area to Decorate & change Outfits.")
+    format("{JPN}かざりつけと きがえが できる じぶんの ばしょ。")
 }
 
 text gHubAreaDesc_Marts
 {
-    format("Shops for TMs, Poké Balls, Held Items etc.")
+    format("{JPN}わざマシン ボール もちものなどの ショップ。")
 }
 
 text gHubAreaDesc_RideTraining
 {
-    format("Train {PKMN} to help you in the Overworld.")
+    format("{JPN}{PKMN}を そだてて フィールドで てつだって もらう。")
 }
 
 text gHubAreaDesc_DayCare
 {
-    format("Bring extra {PKMN} into Adventures and hatch Eggs.")
+    format("{JPN}ぼうけんに {PKMN}を おおく つれていき タマゴも かえせる。")
 }
 
 text gHubAreaDesc_Market
 {
-    format("Blend {POKEBLOCK} and improve {PKMN} IVs.")
+    format("{JPN}{POKEBLOCK}を つくって {PKMN}の こたいちを のばす。")
 }
 
 text gHubUpgradeDesc_Home_LowerFloor
 {
-    format("An Interior space to decorate in the Home Base.")
+    format("{JPN}きょてんの なかの かざれる へや。")
 }
 
 text gHubUpgradeDesc_Home_UpperFloor
 {
-    format("A 2nd floor with a bed allowing you to rest until a specific time.")
+    format("{JPN}ベッドの ある 2かい。すきな じかんまで やすめる。")
 }
 
 text gHubUpgradeDesc_Home_TownStyle
 {
-    format("Change styles from Home Base e.g. Path")
+    format("{JPN}2つめの ちいさな はたけ。きのみばたけが つかえるように なる。")
 }
 
 text gHubUpgradeDesc_Home_BerryField1
 {
-    format("A small plot to plant berries.")
+    format("{JPN}きのみを うえられる ちいさな はたけ。")
 }
 
 text gHubUpgradeDesc_Home_BerryField2
 {
-    format("A 2nd small plot to plant berries. (Unlocks Berry Fields area)")
+    format("{JPN}2つめの ちいさな はたけ。きのみばたけが つかえるように なる。")
 }
 
 text gHubUpgradeDesc_Home_GrassField
 {
-    format("A small cosmetic garden your caught {PKMN} can roam in.")
+    format("{JPN}つかまえた {PKMN}が あるきまわる ちいさな にわ。")
 }
 
 text gHubUpgradeDesc_Home_FieldShed
@@ -450,183 +450,183 @@ text gHubUpgradeDesc_Home_FieldShed
 
 text gHubUpgradeDesc_Lab_UniqueMonSlots0
 {
-    format("Increase number of Unique {PKMN} that can be tracked.")
+    format("{JPN}きろくできる とくべつな {PKMN}の かずが ふえる。")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonSlots1
 {
-    format("Increase number of Unique {PKMN} that can be tracked.")
+    format("{JPN}きろくできる とくべつな {PKMN}の かずが ふえる。")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonRarity0
 {
-    format("Allows Rare Unique {PKMN} to be tracked. (+Abilities)")
+    format("{JPN}レアな とくべつ {PKMN}を きろくできる。とくせいつき。")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonRarity1
 {
-    format("Allows Epic Unique {PKMN} to be tracked. (+Moves)")
+    format("{JPN}エピックな とくべつ {PKMN}を きろくできる。わざつき。")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonRarity2
 {
-    format("Allows Exotic Unique {PKMN} to be tracked. (+Designed Sets)")
+    format("{JPN}エキゾチックな とくべつ {PKMN}を きろくできる。こうせいつき。")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonRarity3
 {
-    format("Allows Legendary Unique {PKMN} to be tracked.")
+    format("{JPN}でんせつの とくべつ {PKMN}を きろくできる。")
 }
 
 text gHubUpgradeDesc_Lab_UniqueMonTyping
 {
-    format("Unique {PKMN} can have alternative typing.")
+    format("{JPN}とくべつな {PKMN}が ちがう タイプを もつことが ある。")
 }
 
 
 text gHubUpgradeDesc_AdventureEntrance_RandomStarter
 {
-    format("Starter {PKMN} can be randomised when embarking on Runs.")
+    format("{JPN}ぼうけんの さいしょの {PKMN}を ランダムに できる。")
 }
 
 text gHubUpgradeDesc_AdventureEntrance_AdventureReplay
 {
-    format("Adventures can be saved and replayed again.")
+    format("{JPN}ぼうけんを ほぞんして あそびなおせる。")
 }
 
 text gHubUpgradeDesc_BerryField_Brewing
 {
-    format("Brew basic Potions from berries.")
+    format("{JPN}きのみから かんたんな くすりを つくれる。")
 }
 
 text gHubUpgradeDesc_BerryField_ExtraField
 {
-    format("An additional plot to grown berries in.")
+    format("{JPN}きのみを そだてる はたけが ふえる。")
 }
 
 text gHubUpgradeDesc_BerryField_HigherYeild
 {
-    format("Increase berries collected both in and out of Adventures.")
+    format("{JPN}ぼうけんの なかでも そとでも あつまる きのみが ふえる。")
 }
 
 text gHubUpgradeDesc_Mart_GeneralStock
 {
-    format("General Shop has more items for sale.")
+    format("{JPN}なんでもショップの しなぞろえが ふえる。")
 }
 
 text gHubUpgradeDesc_Mart_PokeBalls
 {
-    format("An extra Shop which sells Poké Balls.")
+    format("{JPN}ボールを うる ショップが ふえる。")
 }
 
 text gHubUpgradeDesc_Mart_PokeBallsStock
 {
-    format("Poké Ball Shop has more items for sale.")
+    format("{JPN}ボールショップの しなぞろえが ふえる。")
 }
 
 text gHubUpgradeDesc_Mart_TMs
 {
-    format("An extra Shop which sells TMs.")
+    format("{JPN}わざマシンを うる ショップが ふえる。")
 }
 
 text gHubUpgradeDesc_Mart_TMsStock
 {
-    format("TM Shop has more items for sale.")
+    format("{JPN}わざマシンショップの しなぞろえが ふえる。")
 }
 
 text gHubUpgradeDesc_Mart_TravelerBattleEnhancers
 {
-    format("Battle Shop specializing in Battle Enhancers.")
+    format("{JPN}つよくする どうぐを あつかう バトルショップ。")
 }
 
 text gHubUpgradeDesc_Mart_TravelerHeldItems
 {
-    format("Battle Shop specializing in Held Items.")
+    format("{JPN}もたせる どうぐを あつかう バトルショップ。")
 }
 
 text gHubUpgradeDesc_Mart_Bank
 {
-    format("Increase starting money for Adventures.")
+    format("{JPN}ぼうけんを はじめる ときの おかねが ふえる。")
 }
 
 
 text gHubUpgradeDesc_TownSquare_TrainerSchool
 {
-    format("Building for tips & tricks for Adventures.")
+    format("{JPN}ぼうけんの コツを おしえてくれる たてもの。")
 }
 
 text gHubUpgradeDesc_TownSquare_MoveTutors
 {
-    format("Tutor to teach or remove moves for {PKMN}.")
+    format("{JPN}{PKMN}に わざを おしえたり わすれさせたり する ひと。")
 }
 
 
 text gHubUpgradeDesc_DayCare_DayCareSlots
 {
-    format("Adds an extra Day Care {PKMN} slot.")
+    format("{JPN}そだてやに あずけられる {PKMN}が 1ぴき ふえる。")
 }
 
 text gHubUpgradeDesc_DayCare_Breeder
 {
-    format("Use data from Pokédex to find {PKMN} Eggs.")
+    format("{JPN}ポケモンずかんの データから {PKMN}の タマゴを さがせる。")
 }
 
 text gHubUpgradeDesc_DayCare_BreederSeenDex
 {
-    format("Only need Seen Pokédex entry to find {PKMN} Eggs.")
+    format("{JPN}みた ことが あるだけで {PKMN}の タマゴを さがせる。")
 }
 
 text gHubUpgradeDesc_DayCare_Phone
 {
-    format("Remotely access Day Care in and out of Adventures.")
+    format("{JPN}ぼうけんの なかでも そとでも そだてやを つかえる。")
 }
 
 text gHubUpgradeDesc_DayCare_Phone1
 {
-    format("Increases charges for remote Day Care access.")
+    format("{JPN}はなれて そだてやを つかえる かいすうが ふえる。")
 }
 
 text gHubUpgradeDesc_DayCare_Bakery
 {
-    format("Bake {POKEBLOCK} into snacks used to improve IVs.")
+    format("{JPN}{POKEBLOCK}を やいて こたいちを のばす おかしに する。")
 }
 
 text gHubUpgradeDesc_DayCare_PokeblockBlenders
 {
-    format("Create more {POKEBLOCK} at once.")
+    format("{JPN}いちどに つくれる {POKEBLOCK}が ふえる。")
 }
 
 text gHubUpgradeDesc_DayCare_TreatShop_Vanilla
 {
-    format("Shop for {POKEBLOCK}.")
+    format("{JPN}{POKEBLOCK}の ショップ。")
 }
 
 text gHubUpgradeDesc_DayCare_TreatShop
 {
-    format("Shop for Mints to change {PKMN} natures.")
+    format("{JPN}{PKMN}の せいかくを かえる ミントの ショップ。")
 }
 
 text gHubUpgradeDesc_DayCare_TreatShopStock
 {
-    format("Treat Shop will now also sell {POKEBLOCK}.")
+    format("{JPN}おかしショップで {POKEBLOCK}も うるように なる。")
 }
 
 text gHubUpgradeDesc_DayCare_TeaShop
 {
-    format("Tea used for changing the gender of {PKMN}.")
+    format("{JPN}{PKMN}の せいべつを かえる おちゃ。")
 }
 
 text gHubUpgradeDesc_DayCare_ExpShare0
 {
-    format("Day Care {PKMN} gain 25% of the {LV}s the Partner does.")
+    format("{JPN}そだてやの {PKMN}が パートナーの {LV}の 4ぶんの1 ぶん あがる。")
 }
 
 text gHubUpgradeDesc_DayCare_ExpShare1
 {
-    format("Day Care {PKMN} gain 50% of the {LV}s the Partner does.")
+    format("{JPN}そだてやの {PKMN}が パートナーの {LV}の はんぶん あがる。")
 }
 
 text gHubUpgradeDesc_DayCare_ExpShare2
 {
-    format("Day Care {PKMN} gain 100% of the {LV}s the Partner does.")
+    format("{JPN}そだてやの {PKMN}が パートナーと おなじだけ {LV}が あがる。")
 }

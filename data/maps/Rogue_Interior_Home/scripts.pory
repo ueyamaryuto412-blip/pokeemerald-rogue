@@ -100,7 +100,7 @@ script Rogue_Interior_Home_EnterBed
 {
     lockall
 
-    message(format("What time would you like to wake up?"))
+    message(format("{JPN}なんじに おきますか?"))
     waitmessage
 
     multichoice(21, 4, MULTI_SELECT_TIME, NO)
@@ -111,7 +111,7 @@ script Rogue_Interior_Home_EnterBed
 
     if(var(VAR_RESULT) != MULTI_B_PRESSED)
     {
-        message(format("Which season would you like to wake up in?"))
+        message(format("{JPN}どの きせつに おきますか?"))
         waitmessage
 
         multichoice(21, 4, MULTI_SELECT_SEASON, NO)

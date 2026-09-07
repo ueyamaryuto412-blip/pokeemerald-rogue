@@ -253,7 +253,7 @@ script RogueHub_Intro0
         applymovement(OBJ_EVENT_ID_PLAYER, RogueHub_Intro_PlayerGreetAtTruck)
         waitmovement(0)
 
-        msgbox(format("SCOTT: Well we're here!\pThe Pokémon HUB!\pSorry again for making you sit in the back with all the supplies.\pI'm sure you're raring to go, but first you should go speak the PROF."))
+        msgbox(format("{JPN}スコット: さあ ついたぞ!\pポケモンきょてんだ!\pにもつと いっしょに うしろに\nすわらせて わるかったな。\pさっそく いきたいだろうが\nまずは はかせに あいにいこう。"))
 
         applymovement(NPC_INTRO_SCOTT, RogueHub_Intro_ScottWalkToPost)
         waitmovement(0)
@@ -321,11 +321,11 @@ script RogueHub_SpeakScott
 
     if(var(VAR_ROGUE_INTRO_STATE) <= 3)
     {
-        msgbox(format("SCOTT: You should go and speak to find the PROF. first"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}スコット: まずは はかせを\nさがして はなしかけよう"), MSGBOX_DEFAULT)
     }
     else
     {
-        msgbox(format("SCOTT: Uh oh!\pI'm not suppose to be standing here...\pYou probably loaded this SAVE from an old game version.\pTry entering a house and checking if I'm still here."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}スコット: おっと!\pここに いるはずが ないんだが…\pふるい バージョンの データを\nよみこんだのかもしれない。\pどこか いえに はいってから\nまだ ここに いるか みてくれ。"), MSGBOX_DEFAULT)
     }
 
     release
@@ -346,13 +346,13 @@ script RogueHub_IntroPokabbie
         applymovement(NPC_POKABBIE, RogueHub_Pokabbie_Enter)
         waitmovement(0)
 
-        msgbox(format("???: Congratulations {PLAYER}!\nI can't believe you managed to defeat the CHAMPION!\pOh of course.\nWhere are my manners!\nAllow me to introduce myself!"), MSGBOX_NPC)
+        msgbox(format("{JPN}???: おめでとう {PLAYER}!\nチャンピオンを たおすなんて!\pおっと しつれい。\nじこしょうかいが\nまだだったね!"), MSGBOX_NPC)
     
         applymovement(NPC_POKABBIE, RogueHub_Pokabbie_Spin)
         waitmovement(0)
 
-        msgbox(format("The name's Abbie!\nBut you can call me Pokabbie!"), MSGBOX_NPC)
-        msgbox(format("POKABBIE: I'm the DEV behind EMERALD ROGUE!\pAs a reward for beating the CHAMPION I would like to welcome you to my LAB!\pI've uncovered the secret entrance inside the CONFIG LAB, so feel free to come take a look at some point."), MSGBOX_NPC)
+        msgbox(format("{JPN}なまえは アビー!\nポカビーと よんでくれ!"), MSGBOX_NPC)
+        msgbox(format("{JPN}ポカビー: エメラルドローグを\nつくっている かいはつしゃだ!\pチャンピオンを たおした ごほうびに\nぼくの ラボへ しょうたいしよう!\pせっていラボの なかに\nひみつの いりぐちを あけておいた。\pいつでも みにきてくれ。"), MSGBOX_NPC)
     
         applymovement(NPC_POKABBIE, RogueHub_Pokabbie_Spin)
         waitmovement(0)
@@ -424,18 +424,18 @@ script RogueHub_SpeakBikeShop
         if(var(VAR_0x8000) == NO)
         {
             bufferitemname(STR_VAR_1, ITEM_ACRO_BIKE)
-            msgbox(format("Whoa {PLAYER}!\pYou're looking much faster now, so here take the {STR_VAR_1}!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}おお {PLAYER}!\pずいぶん はやく なったな\nこの {STR_VAR_1}を もっていけ!"), MSGBOX_DEFAULT)
             giveitem(ITEM_ACRO_BIKE)
         }
         elif(var(VAR_0x8001) == NO)
         {
             bufferitemname(STR_VAR_1, ITEM_MACH_BIKE)
-            msgbox(format("Whoa {PLAYER}!\pYou're looking much faster now, so here take the {STR_VAR_1}!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}おお {PLAYER}!\pずいぶん はやく なったな\nこの {STR_VAR_1}を もっていけ!"), MSGBOX_DEFAULT)
             giveitem(ITEM_MACH_BIKE)
         }
         else
         {
-            msgbox(format("Hey {PLAYER}!\pKeep up the quick pace!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}やあ {PLAYER}!\pそのちょうしで とばしていけ!"), MSGBOX_DEFAULT)
         }
     }
     else
@@ -443,7 +443,7 @@ script RogueHub_SpeakBikeShop
         if(var(VAR_0x8000) == YES) // Has ACRO bike
         {
             bufferitemname(STR_VAR_1, ITEM_MACH_BIKE)
-            msgbox(format("Do you want to swap to the {STR_VAR_1}?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}{STR_VAR_1}に とりかえますか?"), MSGBOX_YESNO)
 
             if(var(VAR_RESULT) == YES)
             {
@@ -454,7 +454,7 @@ script RogueHub_SpeakBikeShop
         elif(var(VAR_0x8001) == YES) // Has MACH bike
         {
             bufferitemname(STR_VAR_1, ITEM_ACRO_BIKE)
-            msgbox(format("Do you want to swap to the {STR_VAR_1}?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}{STR_VAR_1}に とりかえますか?"), MSGBOX_YESNO)
 
             if(var(VAR_RESULT) == YES)
             {
@@ -464,11 +464,11 @@ script RogueHub_SpeakBikeShop
         }
         else
         {
-            msgbox(format("Finally!\pYou must be this {PLAYER} I've been told about.\pYou seem a bit slower than I expected...\pI know!\nI have a couple old BIKEs I've been looking to get rid of.\pYou can have them!"))
+            msgbox(format("{JPN}やっとか!\pうわさの {PLAYER}だな。\pおもったより おそいな…\pそうだ!\nしょぶんに こまってた\lふるい じてんしゃが あるんだ。\pもっていっていいぞ!"))
 
             giveitem(ITEM_ACRO_BIKE)
 
-            msgbox(format("On second thought...\nYou look like you're struggling to carry that much.\pTell you what. You take that one and if you ever want to swap it out for the other one, let me know"))
+            msgbox(format("{JPN}いや まてよ…\nそんなに もてそうに ないな。\pそっちを もっていけ。\nとりかえたく なったら\lこえを かけてくれ"))
         }
     }
 
@@ -480,7 +480,7 @@ script RogueHub_SpeakSafariWelcome
     lock
     faceplayer
 
-    msgbox(format("Welcome to the SAFARI ZONE!\pWe use the data from your POKéDEX to breed Pokémon and let them roam freely!\pAs a thanks for providing the Pokémon data for us, we'll allow you to enter and capture a few Pokémon of your choosing which you may then use as a PARTNER in future adventures!"), MSGBOX_NPC)
+    msgbox(format("{JPN}サファリゾーンへ ようこそ!\pここでは ポケモンずかんの データを\nつかって ポケモンを そだて\lじゆうに はなしています!\pデータを ていきょうして くれた\nおれいに すきな ポケモンを\lつかまえて いってください。\pつぎの ぼうけんで パートナーに\nできますよ!"), MSGBOX_NPC)
 
     release
 }
@@ -493,10 +493,10 @@ script RogueHub_SpeakBank
     if(var(VAR_ROGUE_ADVENTURE_MONEY) == 0)
     {
         // Tutorial
-        msgbox(format("Why hello!\nYou must be {PLAYER} if I'm not mistaken?\pWonderful!\nYou see I'm rather useful when it comes to managing money and I was hoping to setup an ADVENTURE FUND for yourself."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}これは これは!\nもしや {PLAYER}さんですね?\pすばらしい!\nわたくし おかねの かんりが\lとくいでして\pあなたの ぼうけんしきんを\nつくって さしあげたいのです。"), MSGBOX_DEFAULT)
         msgbox(format("What's an ADVENTURE FUND?\nIn essence, if you donate your HUB MONEY to myself, I will invest it on your behalf and then every time you head out on another adventure, I will give you some extra money to start with.\pSo rather than having to start with ¥0, by donating money to myself, you can start with ¥1000, ¥2000, ¥10000!\pThe sky is the limit really!\nOr rather I guess the limit would be your HUB MONEY."), MSGBOX_DEFAULT)
 
-        msgbox(format("Here, let me get you started with a gift.\pI shall add ¥500 to your ADVENTURE FUND out of my own pocket!"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}では てはじめに おくりものを。\pわたくしの ポケットマネーから\n500¥を ぼうけんしきんに\lくわえておきましょう!"), MSGBOX_DEFAULT)
         setvar(VAR_ROGUE_ADVENTURE_MONEY, 500)
         playse(SE_SHOP)
         waitse
@@ -507,11 +507,11 @@ script RogueHub_SpeakBank
     buffernumberstring(STR_VAR_2, VAR_ROGUE_ADVENTURE_MONEY)
     if(var(VAR_ROGUE_ADVENTURE_MONEY) >= 25000)
     {
-        msgbox(format("Your fund currently has ¥{STR_VAR_2}.\pI'm afraid you can't donate any more money at the moment."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}いまの しきんは {STR_VAR_2}¥です。\pこれいじょうは あずけられません。"), MSGBOX_DEFAULT)
     }
     else
     {
-        message("Your fund currently has ¥{STR_VAR_2}.\nWould you like to deposit another ¥500?")
+        message("{JPN}いまの しきんは {STR_VAR_2}¥です。\nさらに 500¥を あずけますか?")
         waitmessage
 
         multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -523,7 +523,7 @@ script RogueHub_SpeakBank
 
             case 1: // No
                 setvar(VAR_RESULT, NO)
-                msgbox(format("I see...\nYou know where I am, if you change your mind."), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}さようですか…\nきが かわったら いつでも どうぞ。"), MSGBOX_DEFAULT)
 
             case 2: // Info
                 setvar(VAR_RESULT, NO)
@@ -531,7 +531,7 @@ script RogueHub_SpeakBank
 
             case MULTI_B_PRESSED:
                 setvar(VAR_RESULT, NO)
-                msgbox(format("I see...\nYou know where I am, if you change your mind."), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}さようですか…\nきが かわったら いつでも どうぞ。"), MSGBOX_DEFAULT)
         }
 
         if(var(VAR_RESULT) == YES)
@@ -539,7 +539,7 @@ script RogueHub_SpeakBank
             checkmoney(500)
             if(var(VAR_RESULT) == NO)
             {
-                msgbox(format("I'm afraid you seem to be lacking the required funds currently."), MSGBOX_YESNO)
+                msgbox(format("{JPN}いまは おかねが たりないようです。"), MSGBOX_YESNO)
             }
             else
             {
@@ -552,7 +552,7 @@ script RogueHub_SpeakBank
                 playse(SE_SHOP)
                 waitse
                 
-                msgbox(format("Thankyou very much!\nYour fund now contains ¥{STR_VAR_2}."), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}ありがとうございます!\nしきんは {STR_VAR_2}¥に なりました。"), MSGBOX_DEFAULT)
             }
         }
     }
@@ -567,25 +567,25 @@ script RogueHub_SpeakBerryMerchant
 
     if(flag(FLAG_ROGUE_MET_BERRY_MERCHANT) == FALSE)
     {
-        msgbox(format("Oh hello {PLAYER}!\nI hope you don't mind, but I've setup some berry patches.\pYou may be given berries as rewards for completing quest that you're welcome to plant in this field!"))
+        msgbox(format("{JPN}あら {PLAYER}!\nかってに きのみばたけを\lつくらせて もらったわ。\pクエストの ほうしゅうで もらった\nきのみを ここに うえていいのよ!"))
 
         //msgbox(format("Here's a little care package to get you started"))
         //giveitem(ITEM_ORAN_BERRY, 1)
         //giveitem(ITEM_PECHA_BERRY, 1)
         //giveitem(ITEM_RAWST_BERRY, 1)
         
-        msgbox(format("If you ever run out of berries or if you'd like to buy some rather than grow them, then please do come and speak with me."))
+        msgbox(format("{JPN}きのみが なくなったり そだてずに\nかいたいときは こえを かけてね。"))
 
         setflag(FLAG_ROGUE_MET_BERRY_MERCHANT)
     }
     else
     {
-        message("Hi {PLAYER}!\nWould you like to buy some berries?")
+        message("{JPN}やあ {PLAYER}!\nきのみは いかがですか?")
         waitmessage
 
         rogue_dynamicpokemart(ROGUE_SHOP_BERRIES)
 
-        msgbox("Glad to be of help!")
+        msgbox("{JPN}おやくに たてて うれしいわ!")
     }
 
     release
@@ -594,52 +594,52 @@ script RogueHub_SpeakBerryMerchant
 script RogueHub_Sign_AdventureSign
 {
     buffernumberstring(STR_VAR_1, VAR_ROGUE_FURTHEST_DIFFICULTY)
-    msgbox(format("Adventures await beyond this point..."), MSGBOX_SIGN)
+    msgbox(format("{JPN}このさきに ぼうけんが まっている…"), MSGBOX_SIGN)
 }
 
 script RogueHub_Sign_ProfLab
 {
-    msgbox(format("PROF. BIRCH's LAB"), MSGBOX_SIGN)
+    msgbox(format("{JPN}オダマキはかせの ラボ"), MSGBOX_SIGN)
 }
 
 script RogueHub_Sign_ConfigLab
 {
-    msgbox(format("CONFIG LAB"), MSGBOX_SIGN)
+    msgbox(format("{JPN}せっていラボ"), MSGBOX_SIGN)
 }
 
 script RogueHub_Sign_Safari
 {
-    msgbox(format("SAFARI ZONE"), MSGBOX_SIGN)
+    msgbox(format("{JPN}サファリゾーン"), MSGBOX_SIGN)
 }
 
 script RogueHub_Sign_Shop
 {
-    msgbox(format("OUTDOOR MART"), MSGBOX_SIGN)
+    msgbox(format("{JPN}やがいショップ"), MSGBOX_SIGN)
 }
 
 script RogueHub_Sign_BikeShop
 {
-    msgbox(format("BIKE SHOP"), MSGBOX_SIGN)
+    msgbox(format("{JPN}じてんしゃや"), MSGBOX_SIGN)
 }
 
 script RogueHub_Sign_PokeConnect
 {
-    msgbox(format("POKéCONNECT CENTRE"), MSGBOX_SIGN)
+    msgbox(format("{JPN}ポケコネクトセンター"), MSGBOX_SIGN)
 }
 
 script RogueHub_Sign_Bank
 {
-    msgbox(format("BANK"), MSGBOX_SIGN)
+    msgbox(format("{JPN}ぎんこう"), MSGBOX_SIGN)
 }
 
 script RogueHub_Sign_ClothesShop
 {
-    msgbox(format("CLOTHES SHOP"), MSGBOX_SIGN)
+    msgbox(format("{JPN}ふくやさん"), MSGBOX_SIGN)
 }
 
 script RogueHub_Sign_Bakery
 {
-    msgbox(format("BAKERY"), MSGBOX_SIGN)
+    msgbox(format("{JPN}パンやさん"), MSGBOX_SIGN)
 }
 
 script RogueHub_EnterSafari
@@ -649,7 +649,7 @@ script RogueHub_EnterSafari
     waitmovement(0)
 
     showmoneybox(0, 0)
-    msgbox(format("Welcome to the SAFARI ZONE!\nWould like to enter?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}サファリゾーンへ ようこそ!\nはいりますか?"), MSGBOX_YESNO)
 
     setvar(VAR_0x8000, 0)
     setvar(VAR_0x8001, 0)
@@ -659,11 +659,11 @@ script RogueHub_EnterSafari
         //questcollected(QUEST_Collector2)
         if(var(VAR_RESULT) == YES)
         {
-            msgbox(format("You can choose to either have Pokémon from every GENERATION appear or select a specific GENERATION to catch from.\pWould you like to limit to a single GENERATION?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}すべての せだいの ポケモンを\nだすことも できますし\lせだいを ひとつ えらぶことも\lできます。\pひとつの せだいに しぼりますか?"), MSGBOX_YESNO)
 
             if(var(VAR_RESULT) == YES)
             {
-                message(format("Which GENERATION would you like to enable?"))
+                message(format("{JPN}どの せだいに しますか?"))
                 waitmessage
                 
                 if(flag(FLAG_ROGUE_EXPANSION_ACTIVE) && flag(FLAG_ROGUE_MET_POKABBIE))
@@ -692,7 +692,7 @@ script RogueHub_EnterSafari
         }
 
         bufferitemname(STR_VAR_1, ITEM_SAFARI_BALL)
-        message(format("How many {STR_VAR_1}s would you like?"))
+        message(format("{JPN}{STR_VAR_1}を いくつに しますか?"))
         waitmessage
         
         multichoice(20, 6, MULTI_MECHADOLL1_Q1, NO)
@@ -721,7 +721,7 @@ script RogueHub_EnterSafari
     
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("Please Come again another time."))
+        msgbox(format("{JPN}また いつでも どうぞ。"))
         
         closemessage
         hidemoneybox
@@ -739,18 +739,18 @@ script RogueHub_EnterSafari1
 
     if(var(VAR_RESULT) == NO)
     {
-        msgbox(format("That will cost ¥{STR_VAR_1}."))
-        msgbox(format("Oh..\nYou don't appear to have enough money right now."))
+        msgbox(format("{JPN}{STR_VAR_1}¥に なります。"))
+        msgbox(format("{JPN}おや…\nいまは おかねが たりないようです。"))
     }
     else
     {
-        msgbox(format("That will cost ¥{STR_VAR_1}.\nWould you like to enter?"), MSGBOX_YESNO)
+        msgbox(format("{JPN}{STR_VAR_1}¥に なります。\nはいりますか?"), MSGBOX_YESNO)
         if(var(VAR_RESULT) == YES)
         {
             playse(SE_SHOP)
             removemoney(VAR_0x8001)
             updatemoneybox
-            msgbox(format("Have fun!"))
+            msgbox(format("{JPN}たのしんでね!"))
 
             closemessage
             hidemoneybox
@@ -770,7 +770,7 @@ script RogueHub_HintSafariShinies
     lock
     faceplayer
 
-    msgbox(format("The Safari Zone have some very dedicated staff!\pThey even keep track of the last few shiny Pokémon you've caught whilst on an Adventure!\pSo if you catch a shiny whilst on an Adventure you'll be able to find it in the Safari Zone super easy!\pIf you've forgotten what those shinies are, go check the list behind me.\pWhat dedicated staff!"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}サファリゾーンの スタッフは\nとても ねっしんだ!\pぼうけんで つかまえた いろちがいを\nきろくして いてくれる!\pだから ぼうけんで いろちがいを\nつかまえたら サファリゾーンで\lかんたんに みつけられる!\pなにを つかまえたか わすれたら\nうしろの リストを みてくれ。\pなんて ねっしんな スタッフだ!"), MSGBOX_DEFAULT)
 
     release
 }
@@ -780,7 +780,7 @@ script RogueHub_ListSafariShinies
     lock
 
     setvar(VAR_0x8004, 0)
-    msgbox(format("It reads...\pShiny Breeding Programme:"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}かいてある…\pいろちがい はんしょくプログラム:"), MSGBOX_DEFAULT)
 
     msgbox(format("THIS FEATURE IS CURRENTLY BEING REWORKED\pIf you see this text, Abbie has been a dumb dumb and forgotten to fully rework it (doh!)"), MSGBOX_DEFAULT)
 

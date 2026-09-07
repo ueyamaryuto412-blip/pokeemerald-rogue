@@ -44,4 +44,6 @@ InsideOfTruck_EventScript_MovingBox::
 	end
 
 InsideOfTruck_Text_BoxPrintedWithMonLogo:
-	.string "{JPN}はこに ポケモンの ロゴが\nいんさつされている。\p".string "{JPN}ポケモンブランドの ひっこしと\n".string "{JPN}はいそうサービスだ。$"`
+	.string "{JPN}はこに ポケモンの ロゴが\nいんさつされている。\p"
+	.string "{JPN}ポケモンブランドの ひっこしと\n"
+	.string "{JPN}はいそうサービスだ。$"`

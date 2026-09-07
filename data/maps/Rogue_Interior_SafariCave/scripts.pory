@@ -11,18 +11,18 @@ script Rogue_Interior_SafariCave_InteractLegendSummon
 {
     lock
 
-    msgbox(format("It's an odd statue…"))
+    msgbox(format("{JPN}ふしぎな ぞうだ…"))
 
     special(Rogue_AnyLegendsInSafari)
 
     if(var(VAR_RESULT) == YES)
     {
         // ROGUE_SAFARI_LEGENDS_POKEBLOCK_COST
-        msgbox(format("Powerful Pokémon cries echo throughout the cave.\p10 {POKEBLOCK} can be offered in order to encounter one of these Pokemon."))
+        msgbox(format("{JPN}つよい ポケモンの なきごえが どうくつに ひびいている。\p{POKEBLOCK}を 10こ ささげると その ポケモンに であえる。"))
 
 
         begindynamicmultichoice
-        appenddynamicmultichoice("Make Offering", 0)
+        appenddynamicmultichoice("{JPN}ささげる", 0)
         appenddynamicmultichoice("{JPN}ポケモンを かえす", 1)
         appenddynamicmultichoice("Exit", MULTI_B_PRESSED)
 
@@ -42,7 +42,7 @@ script Rogue_Interior_SafariCave_InteractLegendSummon
                     copyvar(VAR_SAFARI_INDEX, VAR_RESULT)
 
                     special(Rogue_BufferSafariMonInfo)
-                    msgbox(format("What would you like to offer to {STR_VAR_1}?"), MSGBOX_DEFAULT)
+                    msgbox(format("{JPN}{STR_VAR_1}に なにを ささげますか?"), MSGBOX_DEFAULT)
 
                     special(Bag_ChoosePokeblock)
                     waitstate
@@ -57,7 +57,7 @@ script Rogue_Interior_SafariCave_InteractLegendSummon
 
                             if(var(VAR_RESULT) == YES)
                             {
-                                msgbox(format("{STR_VAR_2} were scattered near the statue…"))
+                                msgbox(format("{JPN}ぞうの ちかくに {STR_VAR_2}を まいた…"))
                                 removeitem(VAR_ITEM_ID, ROGUE_SAFARI_LEGENDS_POKEBLOCK_COST)
 
                                 closemessage
@@ -66,19 +66,19 @@ script Rogue_Interior_SafariCave_InteractLegendSummon
                             }
                             else
                             {
-                                msgbox(format("That is not enough {POKEBLOCK}.\p{STR_VAR_2} are needed in order to make an offering."))
+                                msgbox(format("{JPN}{POKEBLOCK}が たりない。\pささげるには {STR_VAR_2}が ひつようだ。"))
                             }
                         }
                         else
                         {
                             special(Rogue_BufferSafariMonInfo)
-                            msgbox(format("{STR_VAR_1} won't like that type of {POKEBLOCK}."))
+                            msgbox(format("{JPN}{STR_VAR_1}は その {POKEBLOCK}を このまない。"))
                         }
                     }
                 }
 
             case 1:
-                msgbox(format("Are you sure you want to Dismiss all the Pokémon currently in the Cave?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}どうくつの ポケモンを ぜんぶ かえしますか?"), MSGBOX_YESNO)
 
                 if(var(VAR_RESULT) == YES)
                 {
@@ -89,7 +89,7 @@ script Rogue_Interior_SafariCave_InteractLegendSummon
     }
     else
     {
-        msgbox(format("The cave is silent…"))
+        msgbox(format("{JPN}どうくつは しずかだ…"))
     }
 
     release

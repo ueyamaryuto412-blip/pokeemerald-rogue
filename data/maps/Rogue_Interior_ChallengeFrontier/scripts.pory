@@ -599,13 +599,13 @@ script Rogue_Interior_ChallengeFrontier_TalkChallenges
 
     if(!flag(FLAG_SYS_CHALLENGES_UNLOCKED))
     {
-        msgbox(format("What's that?\pThat little Quest Book you have there?\pSo you're trying to complete Quests, huh?\pWell, have I got just the thing for you!\pChallenges!\pChallenges are a special type of Quest that can be way more in depth!\pHere, take a look."))
+        msgbox(format("{JPN}それは なんだ?\pその ちいさな クエストブックか?\pクエストを クリアしようと しているんだな?\pなら ぴったりの ものが あるぞ!\pチャレンジだ!\pチャレンジは もっと おくの ふかい とくべつな クエストだ!\pほら みてくれ。"))
         
         special(Rogue_UnlockChallengeQuests)
         special(Rogue_ShowNewQuests)
         waitstate
         
-        msgbox(format("Challenges are different from regular Quests, as they track which Difficulty you last completed them on.\pThere's even some exclusive Rewards for completing them on higher difficulties too!\pIf you want to retry a Challenge on a harder difficulty, just head on over to the Config Lab and keep an eye on the Reward Difficulty.\pSounds exciting, right?\pShow me what you can do, {PLAYER}!"))
+        msgbox(format("{JPN}チャレンジは ふつうの クエストと ちがい さいごに クリアした なんいどを きろくする。\pたかい なんいどで クリアすると そこでしか もらえない ほうしゅうも ある!\pもっと きびしい なんいどで やりなおしたいなら せっていラボへ いって ほうしゅうの なんいどを みておけ。\pわくわくするだろう?\pうでまえを みせてくれ {PLAYER}!"))
     }
     else
     {

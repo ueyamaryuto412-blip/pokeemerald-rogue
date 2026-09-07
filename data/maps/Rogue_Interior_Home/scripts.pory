@@ -15,7 +15,7 @@ script Rogue_Interior_Home_TurnOnPC
     special(DoPCTurnOnEffect)
 
     playse(SE_PC_ON)
-    msgbox(format("{PLAYER} booted up the PC."), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}{PLAYER}は パソコンを きどうした。"), MSGBOX_DEFAULT)
     special(BedroomPC)
     waitstate
     
@@ -38,7 +38,7 @@ script Rogue_Interior_Home_TurnOnPCLowerFloor
         special(DoPCTurnOnEffect)
 
         playse(SE_PC_ON)
-        msgbox(format("{PLAYER} booted up the PC."), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}{PLAYER}は パソコンを きどうした。"), MSGBOX_DEFAULT)
         special(BedroomPC)
         waitstate
         
@@ -56,7 +56,7 @@ script Rogue_Interior_Home_NoteBook
 {
     lockall
 
-    msgbox(format("It's a notebook!\pIt has a bunch of incoherent scribblings from…\psomeone called…\pTate?\pWhy's it here?"), MSGBOX_DEFAULT)
+    msgbox(format("{JPN}ノートだ!\pよく わからない かきなぐりが たくさん…\pかいたのは…\pランかな?\pなぜ ここに?"), MSGBOX_DEFAULT)
 
     releaseall
 }

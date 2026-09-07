@@ -260,7 +260,7 @@ script Rogue_Interior_Restaurant_TalkShinyChef
         msgbox(format("{JPN}はあ…"))
         faceplayer
 
-        msgbox(format("I'm trying to bake a Pie using Shiny {POKEBLOCK} as the filling, but it's very difficult…\pEach Pokémon seems to enjoy it prepared in a different way.\pOh, I know!\pI bet I could do it, if I had some Pokédex data on the Pokémon!\pIf you catch a Pokémon in its Shiny form, I'm certain I could bake a Shiny Pie for it!"))
+        msgbox(format("{JPN}いろちがいの {POKEBLOCK}を なかみに して パイを やこうと しているけど とても むずかしい…\pポケモンごとに このむ つくりかたが ちがうみたい。\pそうだ!\pその ポケモンの ずかんデータが あれば できるはず!\pいろちがいの すがたで つかまえて くれれば その ポケモンのための いろちがいパイが やけるわ!"))
         setflag(FLAG_ROGUE_MET_SHINY_CHEF)
     }
     else
@@ -418,7 +418,7 @@ script Rogue_Interior_Restaurant_TalkBoy1
 {
     lock
     faceplayer
-    msgbox(format("The Chef won't let me use Grass {POKEBLOCK} as filling…\pI'm pretty sure he wants me to use Atk {POKEBLOCK} or something like that…\pBut I think Grass {POKEBLOCK} filling could taste nice too!"))
+    msgbox(format("{JPN}シェフが くさの {POKEBLOCK}を なかみに つかわせて くれないの…\pこうげきの {POKEBLOCK}を つかえと いいたいみたい…\pでも くさの {POKEBLOCK}の なかみも おいしいと おもうのに!"))
     release
 }
 
@@ -434,7 +434,7 @@ script Rogue_Interior_Restaurant_TalkWoman
 {
     lock
     faceplayer
-    msgbox(format("I asked the Chef to make a Pie for my Chinchou using Water {POKEBLOCK} for the Crust and Speed {POKEBLOCK} for the filling.\pChinchou seems to get faster with every bite it takes!"))
+    msgbox(format("{JPN}うちの チョンチーの ために きじに みずの {POKEBLOCK} なかみに すばやさの {POKEBLOCK}を つかった パイを たのんだの。\pチョンチーは ひとくち たべるたび はやく なっているみたい!"))
     release
 }
 

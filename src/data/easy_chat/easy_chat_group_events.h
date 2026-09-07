@@ -1,5 +1,5 @@
 const u8 gEasyChatWord_Appeal[] = _("APPEAL");
-const u8 gEasyChatWord_Events[] = _("EVENTS");
+const u8 gEasyChatWord_Events[] = _("{JPN}できごと");
 const u8 gEasyChatWord_StayAtHome[] = _("STAY-AT-HOME");
 const u8 gEasyChatWord_Berry[] = _("BERRY");
 const u8 gEasyChatWord_Contest[] = _("CONTEST");

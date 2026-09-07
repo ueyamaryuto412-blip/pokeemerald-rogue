@@ -80,10 +80,10 @@ static const u8 sTypeNames[NUMBER_OF_MON_TYPES][10] = // alt version of gTypeNam
 
 static const u8 sStatNamesTable[NUM_STATS][13] = // a;t versopm pf gStatNamesTable
 {
-    [STAT_HP]      = _("HP"),
-    [STAT_ATK]     = _("Attack"),
+    [STAT_HP]      = _("{JPN}HP"),
+    [STAT_ATK]     = _("{JPN}こうげき"),
     [STAT_DEF]     = _("Defence"),
-    [STAT_SPEED]   = _("Speed"),
+    [STAT_SPEED]   = _("{JPN}すばやさ"),
     [STAT_SPATK]   = _("Sp. Attack"),
     [STAT_SPDEF]   = _("Sp. Defence"),
 };

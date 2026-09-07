@@ -365,7 +365,7 @@ script Rogue_Encounter_GameShow_TeamTrivia
         switch(var(VAR_RESULT))
         {
             case 0:
-                message(format("So, what would you like to wager?"))
+                message(format("{JPN}それで なにを かける?"))
 
             default:
                 message(format("???"))

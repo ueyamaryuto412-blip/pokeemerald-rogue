@@ -24,29 +24,29 @@ script Rogue_Interior_PokeConnect_TalkMultiplayer
     special(Rogue_IsMultiplayerActive)
     if(var(VAR_RESULT) == TRUE)
     {
-        msgbox(format("Hello {PLAYER}!\pI hope you've been enjoying your Multiplayer Adventure!"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}やあ {PLAYER}!\pマルチプレイの ぼうけんを\nたのしめているかな!"), MSGBOX_DEFAULT)
     
         special(Rogue_IsMultiplayerHost)
         if(var(VAR_RESULT) == TRUE)
         {
-            msgbox(format("Would you like to stop Hosting?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}ホストを やめますか?"), MSGBOX_YESNO)
         }
         else
         {
-            msgbox(format("Would you like to Disconnect and return to home?"), MSGBOX_YESNO)
+            msgbox(format("{JPN}せつぞくを きって もどりますか?"), MSGBOX_YESNO)
         }
 
         if(var(VAR_RESULT) == TRUE)
         {
             special(Rogue_CloseMultiplayer)
-            msgbox(format("There you are!\pI hope you enjoyed your Multiplayer Adventures!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}おかえり!\pマルチプレイの ぼうけんは\nたのしめたかな!"), MSGBOX_DEFAULT)
         }
     }
     else
     {
-        msgbox(format("Hello {PLAYER}!\pI can help you to setup Multiplayer Adventures for you and a friend!"), MSGBOX_DEFAULT)
+        msgbox(format("{JPN}やあ {PLAYER}!\pともだちと マルチプレイの ぼうけんを\nはじめる てつだいを するよ!"), MSGBOX_DEFAULT)
 
-        msgbox(format("{COLOR RED}WARNING!\n{COLOR DARK_GRAY}This feature is still in Alpha.\pIt is still in active development, as a result, some features may not work correctly/be missing.\pPlease regularly save your game and make save backups, while using this feature."))
+        msgbox(format("{JPN}{COLOR RED}けいこく!\n{COLOR DARK_GRAY}この きのうは まだ アルファばんです。\pかいはつちゅうの ため ただしく\nうごかない ぶぶんが あります。\pつかう あいだは こまめに レポートを\nかいて バックアップも とって ください。"))
 
         call(Rogue_Common_WaitForRogueAssistant)
 
@@ -55,7 +55,7 @@ script Rogue_Interior_PokeConnect_TalkMultiplayer
             call(Common_EventScript_SaveGame)
             if(var(VAR_RESULT) == YES)
             {
-                message(format("Please decide which of you will become the Group Host.\pThe other players must then choose Join Group."))
+                message(format("{JPN}どちらが ホストに なるか きめてね。\pもう ひとりは グループに さんかを\nえらんで ください。"))
                 waitmessage
 
                 multichoice(16, 6, MULTI_LINK_HOST_JOIN, FALSE)
@@ -63,7 +63,7 @@ script Rogue_Interior_PokeConnect_TalkMultiplayer
                 switch(var(VAR_RESULT))
                 {
                     case 0: // Join
-                        message(format("Please setup in Rogue Assistant now\n… … B Button: Cancel"))
+                        message(format("{JPN}ローグアシスタントで せっていして ください\n… … Bボタン: やめる"))
                         waitmessage
 
                         special(Rogue_JoinMultiplayer)
@@ -71,11 +71,11 @@ script Rogue_Interior_PokeConnect_TalkMultiplayer
 
                         if(var(VAR_RESULT) == TRUE)
                         {
-                            msgbox(format("All set!\nHave fun on your Adventures!"))
+                            msgbox(format("{JPN}じゅんび かんりょう!\nぼうけんを たのしんでね!"))
                         }
 
                     case 1: // Host
-                        message(format("Please setup in Rogue Assistant now\n… … B Button: Cancel"))
+                        message(format("{JPN}ローグアシスタントで せっていして ください\n… … Bボタン: やめる"))
                         waitmessage
 
                         special(Rogue_HostMultiplayer)
@@ -83,7 +83,7 @@ script Rogue_Interior_PokeConnect_TalkMultiplayer
 
                         if(var(VAR_RESULT) == TRUE)
                         {
-                            msgbox(format("All set!\nA friend should now be able to join you for Adventures!"))
+                            msgbox(format("{JPN}じゅんび かんりょう!\nともだちが ぼうけんに さんかできるよ!"))
                         }
 
                     case 2: // Exit
@@ -104,22 +104,22 @@ script Rogue_Interior_PokeConnect_TalkMultiplayer
                     {
                         ROGUE_VERSION_VANILLA
                         {
-                            msgbox(format("I'm sorry.\nI can't connect you to that Player as they are not on Vanilla version."))
+                            msgbox(format("{JPN}ごめんね。\nあいてが つうじょうばんでは ないので\lつなげられないんだ。"))
                         }
                         ROGUE_VERSION_EXPANSION
                         {
-                            msgbox(format("I'm sorry.\nI can't connect you to that Player as they are not on EX version."))
+                            msgbox(format("{JPN}ごめんね。\nあいてが EXばんでは ないので\lつなげられないんだ。"))
                         }
                     }
 
                 case 2: // CONN_ERR_WRONG_SAVE_VERSION
-                    msgbox(format("I'm sorry.\nI can't connect you to that Player as they are not on the same Update Version."))
+                    msgbox(format("{JPN}ごめんね。\nあいてと バージョンが ちがうので\lつなげられないんだ。"))
 
                 case 3: // CONN_ERR_WRONG_REVISED_MODE
-                    msgbox(format("I'm sorry.\nI can't connect you to that Player as you both have incompatible settings for Revision Mode in the Config Lab."))
+                    msgbox(format("{JPN}ごめんね。\nせっていラボの リビジョンモードが\lあわないので つなげられないんだ。"))
 
                 default: // CONN_ERR_NONE
-                    msgbox(format("If you change your mind, please feel free to speak with me again."))
+                    msgbox(format("{JPN}きが かわったら また こえを かけてね。"))
 
             }
         }
@@ -132,13 +132,13 @@ script Rogue_Interior_PokeConnect_TalkNurseBox
 {
     lock
 
-    msgbox(format("Hello {PLAYER}!"))
+    msgbox(format("{JPN}やあ {PLAYER}!"))
 
     setvar(VAR_RESULT, 1)
 
     while(var(VAR_RESULT) == 1)
     {
-        message(format("Would you like to access the Extended Pokémon Storage?"))
+        message(format("{JPN}かくちょう ポケモンボックスを つかいますか?"))
         waitmessage
 
         multichoice(20, 6, MULTI_YESNOINFO, NO)
@@ -154,7 +154,7 @@ script Rogue_Interior_PokeConnect_TalkNurseBox
                 setvar(VAR_RESULT, 0)
 
             case 2: // Info
-                msgbox(format("By connecting to RogueAssistant, you may access an extended Pokémon Storage similar to Pokémon Home, allowing you to store many more Pokémon!"), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}ローグアシスタントに つなぐと\nポケモンホームのような かくちょう\lボックスが つかえて もっと たくさんの\lポケモンを あずけられるよ!"), MSGBOX_DEFAULT)
                 setvar(VAR_RESULT, 1)
         }
     }
@@ -186,6 +186,6 @@ script Rogue_Interior_PokeConnect_Tutorial
     setvar(VAR_STOP_TUTORIAL, 1)
 
     lock
-    msgbox(format("This building grants access to external features such as Extended Storage and Multiplayer.\pCurrently, these features are only supported when playing using mGBA on Windows PC.\pIn order to make use of these features, you will need to download a helper program called Rogue Assistant and connect it to your emulator.\pDownloaded from:\n{COLOR BLUE}https://rogue.assist.pokabbie.com\p{COLOR RED}Never download from other links, otherwise you may open yourself up to installing viruses!"))
+    msgbox(format("{JPN}この たてものでは かくちょうボックスや\nマルチプレイが つかえる。\pいまのところ Windowsの mGBAでのみ\nたいおうして いる。\pつかうには ローグアシスタントという\nプログラムを ダウンロードして\lエミュレータに つなぐ ひつようが ある。\pダウンロードは:\n{COLOR BLUE}{ENG}https://rogue.assist.pokabbie.com{JPN}\p{COLOR RED}ほかの リンクからは ぜったいに\nダウンロードしないこと! ウイルスの\lきけんが あります!"))
     release
 }

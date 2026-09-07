@@ -669,21 +669,21 @@ script Rogue_ConfigRoom_BufferRegionName
     switch(var(VAR_ROGUE_REGION_DEX_LIMIT))
     {
         case 1:
-            bufferstring(STR_VAR_1, "KANTO")
+            bufferstring(STR_VAR_1, "{JPN}カントー")
         case 2:
-            bufferstring(STR_VAR_1, "JOHTO")
+            bufferstring(STR_VAR_1, "{JPN}ジョウト")
         case 3:
-            bufferstring(STR_VAR_1, "HOENN")
+            bufferstring(STR_VAR_1, "{JPN}ホウエン")
         case 4:
-            bufferstring(STR_VAR_1, "SINNOH")
+            bufferstring(STR_VAR_1, "{JPN}シンオウ")
         case 5:
-            bufferstring(STR_VAR_1, "UNOVA")
+            bufferstring(STR_VAR_1, "{JPN}イッシュ")
         case 6:
-            bufferstring(STR_VAR_1, "KALOS")
+            bufferstring(STR_VAR_1, "{JPN}カロス")
         case 7:
-            bufferstring(STR_VAR_1, "ALOLA")
+            bufferstring(STR_VAR_1, "{JPN}アローラ")
         case 8:
-            bufferstring(STR_VAR_1, "GALAR")
+            bufferstring(STR_VAR_1, "{JPN}ガラル")
         default:
             bufferstring(STR_VAR_1, "???")
     }

@@ -21,9 +21,9 @@ const u8 gEasyChatWord_Red[] = _("{JPN}レッド");
 const u8 gEasyChatWord_Green[] = _("{JPN}みどり");
 const u8 gEasyChatWord_Bag[] = _("BAG");
 const u8 gEasyChatWord_Flame[] = _("FLAME");
-const u8 gEasyChatWord_Gold[] = _("GOLD");
+const u8 gEasyChatWord_Gold[] = _("{JPN}きん");
 const u8 gEasyChatWord_Leaf[] = _("{JPN}リーフ");
-const u8 gEasyChatWord_Silver[] = _("SILVER");
+const u8 gEasyChatWord_Silver[] = _("{JPN}ぎん");
 const u8 gEasyChatWord_Emerald[] = _("{JPN}エメラルド");
 
 const struct EasyChatWordInfo gEasyChatGroup_Trainer[] = {

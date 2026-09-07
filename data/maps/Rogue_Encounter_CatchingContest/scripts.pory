@@ -33,7 +33,7 @@ script Rogue_Encounter_CatchingContest_TalkHost
             call(Rogue_Encounter_CatchingContest_EndContest)
 
         default:
-            msgbox(format("That's all for now.\pGood luck on your adventure!"))
+            msgbox(format("{JPN}きょうは ここまで。\pぼうけん がんばってね!"))
 
     }
 
@@ -43,12 +43,12 @@ script Rogue_Encounter_CatchingContest_TalkHost
 script Rogue_Encounter_CatchingContest_StartContest 
 {
     special(Rogue_BufferContestMode)
-    msgbox(format("Today we're running a {STR_VAR_1} catching contest."))
+    msgbox(format("{JPN}きょうは {STR_VAR_1}の\nポケモンとり コンテストです。"))
 
     setvar(VAR_RESULT, 2)
     while(var(VAR_RESULT) == 2)
     {
-        message(format("Would you like to enter?"))
+        message(format("{JPN}さんか しますか?"))
         waitmessage
         multichoice(20, 6, MULTI_YESNOINFO, NO)
 
@@ -63,7 +63,7 @@ script Rogue_Encounter_CatchingContest_StartContest
                 setvar(VAR_RESULT, NO)
 
             case 2: // Info
-                msgbox(format("You will be provided with 3 Safari Balls and will be tasked to catch the Pokémon with the highest in a specific Base Stat.\pIf you are correct, you will win a cash prize.\pWhether you win or not, you will be able to keep the Pokémon you exit with.\pPokémon will only appear for a limited amount of time, so don't wait too long to catch something!"))
+                msgbox(format("{JPN}サファリボールを 3こ おわたしします。\nきまった しゅぞくちが いちばん たかい\lポケモンを つかまえて ください。\pあたっていれば しょうきんが もらえます。\pかっても まけても つかまえた\nポケモンは もちかえれます。\pポケモンが でている じかんは\nかぎられているので ごちゅういを!"))
         }
     }
 
@@ -73,7 +73,7 @@ script Rogue_Encounter_CatchingContest_StartContest
         checkitemspace(ITEM_CATCHING_CONTEST_POKEBALL, 3)
         if(var(VAR_RESULT) == NO)
         {
-            msgbox(format("Oh, it looks like your Bag is full.\pYou need to free up some space, in order to take part, I'm afraid."))
+            msgbox(format("{JPN}あら バッグが いっぱいのようです。\pさんかするには あきを つくって ください。"))
         }
         else
         {
@@ -88,10 +88,10 @@ script Rogue_Encounter_CatchingContest_StartContest
             setobjectmovementtype(NPC_OBJ_HOST, MOVEMENT_TYPE_FACE_UP)
             turnobject(NPC_OBJ_HOST, DIR_NORTH)
 
-            msgbox(format("If you can catch the Pokémon with the highest Base {STR_VAR_2}, you will win a special reward!\pHere are some Poké Balls for you."), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}しゅぞくちの {STR_VAR_2}が いちばん たかい\nポケモンを つかまえたら\lとくべつな ほうしゅうが もらえます!\pボールを どうぞ。"), MSGBOX_DEFAULT)
             giveitem(ITEM_CATCHING_CONTEST_POKEBALL, 3)
 
-            msgbox(format("Good luck!"), MSGBOX_DEFAULT)
+            msgbox(format("{JPN}がんばって!"), MSGBOX_DEFAULT)
             playbgm(MUS_HG_BUG_CATCHING_CONTEST, TRUE)
 
             addvar(VAR_CONTEST_STATE, 1)
@@ -114,12 +114,12 @@ movement Movement_Player_Enter {
 
 script Rogue_Encounter_CatchingContest_EndContest 
 {
-    msgbox(format("Are you ready to end your Contest attempt?"), MSGBOX_YESNO)
+    msgbox(format("{JPN}コンテストを おわりに しますか?"), MSGBOX_YESNO)
 
     if(var(VAR_RESULT) == NO)
     {
         special(Rogue_BufferContestMode)
-        msgbox(format("Remember, if you can catch the Pokémon with the highest Base {STR_VAR_2}, you will win a special reward!"))
+        msgbox(format("{JPN}しゅぞくちの {STR_VAR_2}が いちばん たかい\nポケモンを つかまえたら とくべつな\lほうしゅうが もらえますよ!"))
     }
     else
     {
@@ -137,37 +137,37 @@ script Rogue_Encounter_CatchingContest_EndContest
         special(Rogue_CatchingContestEnd)
 
         fadeoutbgm(1)
-        msgbox(format("Now for the result{PAUSE 15}…{PAUSE 15} …{PAUSE 15} …"))
+        msgbox(format("{JPN}けっかは{PAUSE 15}…{PAUSE 15} …{PAUSE 15} …"))
         addvar(VAR_CONTEST_STATE, 1)
 
         if(var(VAR_RESULT) == TRUE)
         {
-            message(format("You won!"))
+            message(format("{JPN}あなたの かちです!"))
             playfanfare(MUS_HG_BUG_CONTEST_1ST_PLACE)
             waitfanfare
             waitmessage
 
             quest_trigger(QUEST_TRIGGER_MAP_SPECIFIC_EVENT)
 
-            msgbox(format("As for your special prize…"))
+            msgbox(format("{JPN}とくべつな しょうひんは…"))
 
             if(var(VAR_ROGUE_DIFFICULTY) >= ROGUE_ELITE_START_DIFFICULTY)
             {
                 addmoney(15000)
                 playfanfare(MUS_OBTAIN_TMHM)
-                message(format("Received ¥15000!"))
+                message(format("{JPN}15000¥を うけとった!"))
             }
             elif(var(VAR_ROGUE_DIFFICULTY) >= ROGUE_GYM_MID_DIFFICULTY)
             {
                 addmoney(10000)
                 playfanfare(MUS_OBTAIN_TMHM)
-                message(format("Received ¥10000!"))
+                message(format("{JPN}10000¥を うけとった!"))
             }
             else
             {
                 addmoney(5000)
                 playfanfare(MUS_OBTAIN_TMHM)
-                message(format("Received ¥5000!"))
+                message(format("{JPN}5000¥を うけとった!"))
             }
 
             waitfanfare
@@ -175,12 +175,12 @@ script Rogue_Encounter_CatchingContest_EndContest
         }
         else
         {
-            message(format("Oh no.\nYou didn't win this time round."))
+            message(format("{JPN}ざんねん。\nこんかいは はずれです。"))
             playfanfare(MUS_TOO_BAD)
             waitfanfare
             waitmessage
 
-            msgbox(format("The highest scorer today was {STR_VAR_2}."))
+            msgbox(format("{JPN}きょう いちばん たかかったのは\n{STR_VAR_2}でした。"))
         }
 
         // Check if we actually caught a mon and attempt to add it to team
@@ -191,7 +191,7 @@ script Rogue_Encounter_CatchingContest_EndContest
 
             if(var(VAR_TEMP_8) >= VAR_TEMP_9)
             {
-                msgbox(format("You will have to release a Pokémon in order to take {STR_VAR_1} with you.\pWould you like to release a Pokémon?"), MSGBOX_YESNO)
+                msgbox(format("{JPN}{STR_VAR_1}を つれていくには ポケモンを\n1ぴき にがす ひつようが あります。\pにがしますか?"), MSGBOX_YESNO)
                 
                 if(var(VAR_RESULT) == YES)
                 {
@@ -211,13 +211,13 @@ script Rogue_Encounter_CatchingContest_EndContest
             }
             else
             {
-                msgbox(format("Please take good care of {STR_VAR_1}!"), MSGBOX_DEFAULT)
+                msgbox(format("{JPN}{STR_VAR_1}を だいじに してくださいね!"), MSGBOX_DEFAULT)
                 setvar(VAR_0x8004, 6)
             }
 
             if(var(VAR_0x8004) == PARTY_NOTHING_CHOSEN)
             {
-                msgbox(format("I will release it back into the park, in that case."))
+                msgbox(format("{JPN}それでは パークに にがしておきます。"))
             }
             else
             {
@@ -225,7 +225,7 @@ script Rogue_Encounter_CatchingContest_EndContest
             }
         }
 
-        msgbox(format("Good luck on your adventure!"))
+        msgbox(format("{JPN}ぼうけん がんばって!"))
         playbgm(MUS_HG_NATIONAL_PARK, TRUE)
 
         call(Rogue_ScriptShowFollower)

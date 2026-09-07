@@ -51,7 +51,7 @@ static const u8 sText_Summary2[] = _("SUMMARY");
 static const u8 sText_Trade2[] = _("TRADE");
 static const u8 sText_CommunicationStandby[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Communication standby…\nPlease wait.");
 static const u8 sText_TheTradeHasBeenCanceled[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}The trade has\nbeen canceled.");
-static const u8 sText_OnlyPkmnForBattle[] = _("That's your only\nPOKéMON for battle.");
+static const u8 sText_OnlyPkmnForBattle[] = _("{JPN}それは たたかえる\nさいごの ポケモンだ。");
 static const u8 sText_WaitingForYourFriend[] = _("{COLOR DARK_GRAY}{HIGHLIGHT WHITE}{SHADOW LIGHT_GRAY}Waiting for your friend\nto finish…");
 static const u8 sText_YourFriendWantsToTrade[] = _("Your friend wants\nto trade POKéMON.");
 

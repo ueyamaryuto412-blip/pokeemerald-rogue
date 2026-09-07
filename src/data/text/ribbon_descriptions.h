@@ -1,10 +1,10 @@
 const u8 gRibbonDescriptionPart1_Champion[] = _("CHAMPION-beating, HALL");
 const u8 gRibbonDescriptionPart2_Champion[] = _("OF FAME Member RIBBON");
-const u8 gRibbonDescriptionPart1_CoolContest[] = _("COOL CONTEST");
+const u8 gRibbonDescriptionPart1_CoolContest[] = _("{JPN}かっこよさコンテスト");
 const u8 gRibbonDescriptionPart1_BeautyContest[] = _("{JPN}うつくしさ コンテスト");
-const u8 gRibbonDescriptionPart1_CuteContest[] = _("CUTE CONTEST");
-const u8 gRibbonDescriptionPart1_SmartContest[] = _("SMART CONTEST");
-const u8 gRibbonDescriptionPart1_ToughContest[] = _("TOUGH CONTEST");
+const u8 gRibbonDescriptionPart1_CuteContest[] = _("{JPN}かわいさコンテスト");
+const u8 gRibbonDescriptionPart1_SmartContest[] = _("{JPN}かしこさコンテスト");
+const u8 gRibbonDescriptionPart1_ToughContest[] = _("{JPN}たくましさコンテスト");
 const u8 gRibbonDescriptionPart2_NormalRank[] = _("Normal Rank winner!");
 const u8 gRibbonDescriptionPart2_SuperRank[] = _("Super Rank winner!");
 const u8 gRibbonDescriptionPart2_HyperRank[] = _("Hyper Rank winner!");

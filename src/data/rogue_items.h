@@ -82,9 +82,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_LINK_CABLE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Link Cable"),
+        .name = _("{JPN}つうしんケーブル"),
 #else
-        .name = _("LINK CABLE"),
+        .name = _("{JPN}つうしんケーブル"),
 #endif
         .itemId = ITEM_LINK_CABLE,
         .price = 2100,
@@ -97,9 +97,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_QUEST_LOG - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Quest Book"),
+        .name = _("{JPN}クエストブック"),
 #else
-        .name = _("QUEST BOOK"),
+        .name = _("{JPN}クエストブック"),
 #endif
         .itemId = ITEM_QUEST_LOG,
         .price = 0,
@@ -115,9 +115,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_BATTLE_CHECKER - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Battle Checker"),
+        .name = _("{JPN}バトルチェッカー"),
 #else
-        .name = _("BATTLE CHECKER"),
+        .name = _("{JPN}バトルチェッカー"),
 #endif
         .itemId = ITEM_BATTLE_CHECKER,
         .price = 0,
@@ -133,9 +133,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_HEALING_FLASK - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Healing Flask"),
+        .name = _("{JPN}かいふくの ビン"),
 #else
-        .name = _("HEALING FLASK"),
+        .name = _("{JPN}かいふくの ビン"),
 #endif
         .itemId = ITEM_HEALING_FLASK,
         .price = 0,
@@ -151,9 +151,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_BASIC_RIDING_WHISTLE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Poké Whistle"),
+        .name = _("{JPN}ポケのふえ"),
 #else
-        .name = _("POKé WHISTLE"),
+        .name = _("{JPN}ポケのふえ"),
 #endif
         .itemId = ITEM_BASIC_RIDING_WHISTLE, 
         .price = 0,
@@ -170,9 +170,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_GOLD_RIDING_WHISTLE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Gold Whistle"),
+        .name = _("{JPN}きんのふえ"),
 #else
-        .name = _("GOLD WHISTLE"),
+        .name = _("{JPN}きんのふえ"),
 #endif
         .itemId = ITEM_GOLD_RIDING_WHISTLE,
         .price = 0,
@@ -189,9 +189,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_C_GEAR - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("C-Gear"),
+        .name = _("{JPN}Cギア"),
 #else
-        .name = _("C-GEAR"),
+        .name = _("{JPN}Cギア"),
 #endif
         .itemId = ITEM_C_GEAR,
         .price = 0,
@@ -210,7 +210,7 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
 #ifdef ROGUE_EXPANSION
         .name = _("Pokégear"),
 #else
-        .name = _("POKéGEAR"),
+        .name = _("{JPN}ポケギア"),
 #endif
         .itemId = ITEM_DAYCARE_PHONE,
         .price = 0,
@@ -227,9 +227,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_BUILDING_SUPPLIES - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Build Parts"),
+        .name = _("{JPN}けんちくざい"),
 #else
-        .name = _("BUILD PARTS"),
+        .name = _("{JPN}けんちくざい"),
 #endif
         .itemId = ITEM_BUILDING_SUPPLIES,
         .price = 0,
@@ -247,7 +247,7 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
 #ifdef ROGUE_EXPANSION
     [ITEM_ALOLA_STONE - ITEM_ROGUE_ITEM_FIRST] =
     {
-        .name = _("Alola Artefact"),
+        .name = _("{JPN}アローラのいせき"),
         .itemId = ITEM_ALOLA_STONE,
         .price = 2100,
         .description = gItemDesc_EvolutionItem,
@@ -257,7 +257,7 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     },
     [ITEM_GALAR_STONE - ITEM_ROGUE_ITEM_FIRST] =
     {
-        .name = _("Galar Artefact"),
+        .name = _("{JPN}ガラルのいせき"),
         .itemId = ITEM_GALAR_STONE,
         .price = 2100,
         .description = gItemDesc_EvolutionItem,
@@ -267,7 +267,7 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     },
     [ITEM_HISUI_STONE - ITEM_ROGUE_ITEM_FIRST] =
     {
-        .name = _("Hisui Artefact"),
+        .name = _("{JPN}ヒスイのいせき"),
         .itemId = ITEM_HISUI_STONE,
         .price = 2100,
         .description = gItemDesc_EvolutionItem,
@@ -279,9 +279,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_SMALL_COIN_CASE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Small Coin Case"),
+        .name = _("{JPN}ちいさなコインケース"),
 #else
-        .name = _("SMALL COIN CASE"),
+        .name = _("{JPN}ちいさなコインケース"),
 #endif
         .itemId = ITEM_SMALL_COIN_CASE,
         .price = 1300,
@@ -295,9 +295,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_LARGE_COIN_CASE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Large Coin Case"),
+        .name = _("{JPN}おおきなコインケース"),
 #else
-        .name = _("LARGE COIN CASE"),
+        .name = _("{JPN}おおきなコインケース"),
 #endif
         .itemId = ITEM_LARGE_COIN_CASE,
         .price = 12500,
@@ -312,9 +312,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_GOLDEN_SEED - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Golden Seed"),
+        .name = _("{JPN}きんのタネ"),
 #else
-        .name = _("GOLDEN SEED"),
+        .name = _("{JPN}きんのタネ"),
 #endif
         .itemId = ITEM_GOLDEN_SEED,
         .price = 0,
@@ -331,9 +331,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_NORMAL - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Normal {POKEBLOCK}"),
+        .name = _("{JPN}ノーマル{POKEBLOCK}"),
 #else
-        .name = _("NORMAL {POKEBLOCK}"),
+        .name = _("{JPN}ノーマル{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_NORMAL,
         .secondaryId = TYPE_NORMAL,
@@ -349,9 +349,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_FIGHTING - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Fight. {POKEBLOCK}"),
+        .name = _("{JPN}かくとう{POKEBLOCK}"),
 #else
-        .name = _("FIGHT. {POKEBLOCK}"),
+        .name = _("{JPN}かくとう{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_FIGHTING,
         .secondaryId = TYPE_FIGHTING,
@@ -367,9 +367,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_FLYING - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Flying {POKEBLOCK}"),
+        .name = _("{JPN}ひこう{POKEBLOCK}"),
 #else
-        .name = _("FLYING {POKEBLOCK}"),
+        .name = _("{JPN}ひこう{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_FLYING,
         .secondaryId = TYPE_FLYING,
@@ -385,9 +385,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_POISON - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Poison {POKEBLOCK}"),
+        .name = _("{JPN}どく{POKEBLOCK}"),
 #else
-        .name = _("POISON {POKEBLOCK}"),
+        .name = _("{JPN}どく{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_POISON,
         .secondaryId = TYPE_POISON,
@@ -403,9 +403,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_GROUND - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Ground {POKEBLOCK}"),
+        .name = _("{JPN}じめん{POKEBLOCK}"),
 #else
-        .name = _("GROUND {POKEBLOCK}"),
+        .name = _("{JPN}じめん{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_GROUND,
         .secondaryId = TYPE_GROUND,
@@ -421,9 +421,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_ROCK - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Rock {POKEBLOCK}"),
+        .name = _("{JPN}いわ{POKEBLOCK}"),
 #else
-        .name = _("ROCK {POKEBLOCK}"),
+        .name = _("{JPN}いわ{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_ROCK,
         .secondaryId = TYPE_ROCK,
@@ -439,9 +439,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_BUG - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Bug {POKEBLOCK}"),
+        .name = _("{JPN}むし{POKEBLOCK}"),
 #else
-        .name = _("BUG {POKEBLOCK}"),
+        .name = _("{JPN}むし{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_BUG,
         .secondaryId = TYPE_BUG,
@@ -457,9 +457,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_GHOST - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Ghost {POKEBLOCK}"),
+        .name = _("{JPN}ゴースト{POKEBLOCK}"),
 #else
-        .name = _("GHOST {POKEBLOCK}"),
+        .name = _("{JPN}ゴースト{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_GHOST,
         .secondaryId = TYPE_GHOST,
@@ -475,9 +475,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_STEEL - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Steel {POKEBLOCK}"),
+        .name = _("{JPN}はがね{POKEBLOCK}"),
 #else
-        .name = _("STEEL {POKEBLOCK}"),
+        .name = _("{JPN}はがね{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_STEEL,
         .secondaryId = TYPE_STEEL,
@@ -493,9 +493,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_FIRE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Fire {POKEBLOCK}"),
+        .name = _("{JPN}ほのお{POKEBLOCK}"),
 #else
-        .name = _("FIRE {POKEBLOCK}"),
+        .name = _("{JPN}ほのお{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_FIRE,
         .secondaryId = TYPE_FIRE,
@@ -511,9 +511,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_WATER - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Water {POKEBLOCK}"),
+        .name = _("{JPN}みず{POKEBLOCK}"),
 #else
-        .name = _("WATER {POKEBLOCK}"),
+        .name = _("{JPN}みず{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_WATER,
         .secondaryId = TYPE_WATER,
@@ -529,9 +529,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_GRASS - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Grass {POKEBLOCK}"),
+        .name = _("{JPN}くさ{POKEBLOCK}"),
 #else
-        .name = _("GRASS {POKEBLOCK}"),
+        .name = _("{JPN}くさ{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_GRASS,
         .secondaryId = TYPE_GRASS,
@@ -547,9 +547,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_ELECTRIC - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Elec. {POKEBLOCK}"),
+        .name = _("{JPN}でんき{POKEBLOCK}"),
 #else
-        .name = _("ELEC. {POKEBLOCK}"),
+        .name = _("{JPN}でんき{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_ELECTRIC,
         .secondaryId = TYPE_ELECTRIC,
@@ -565,9 +565,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_PSYCHIC - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Psychic {POKEBLOCK}"),
+        .name = _("{JPN}エスパー{POKEBLOCK}"),
 #else
-        .name = _("PSYCHIC {POKEBLOCK}"),
+        .name = _("{JPN}エスパー{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_PSYCHIC,
         .secondaryId = TYPE_PSYCHIC,
@@ -583,9 +583,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_ICE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Ice {POKEBLOCK}"),
+        .name = _("{JPN}こおり{POKEBLOCK}"),
 #else
-        .name = _("ICE {POKEBLOCK}"),
+        .name = _("{JPN}こおり{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_ICE,
         .secondaryId = TYPE_ICE,
@@ -601,9 +601,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_DRAGON - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Dragon {POKEBLOCK}"),
+        .name = _("{JPN}ドラゴン{POKEBLOCK}"),
 #else
-        .name = _("DRAGON {POKEBLOCK}"),
+        .name = _("{JPN}ドラゴン{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_DRAGON,
         .secondaryId = TYPE_DRAGON,
@@ -619,9 +619,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_DARK - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Dark {POKEBLOCK}"),
+        .name = _("{JPN}あく{POKEBLOCK}"),
 #else
-        .name = _("DARK {POKEBLOCK}"),
+        .name = _("{JPN}あく{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_DARK,
         .secondaryId = TYPE_DARK,
@@ -637,7 +637,7 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
 #ifdef ROGUE_EXPANSION
     [ITEM_POKEBLOCK_FAIRY - ITEM_ROGUE_ITEM_FIRST] =
     {
-        .name = _("Fairy {POKEBLOCK}"),
+        .name = _("{JPN}フェアリー{POKEBLOCK}"),
         .itemId = ITEM_POKEBLOCK_FAIRY,
         .secondaryId = TYPE_FAIRY,
         .price = 0,
@@ -653,9 +653,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_SHINY - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Shiny {POKEBLOCK}"),
+        .name = _("{JPN}キラキラ{POKEBLOCK}"),
 #else
-        .name = _("SHINY {POKEBLOCK}"),
+        .name = _("{JPN}キラキラ{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_SHINY,
         .secondaryId = TYPE_MYSTERY, // just fill in with a placeholder
@@ -670,7 +670,7 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     },
     [ITEM_POKEBLOCK_HP - ITEM_ROGUE_ITEM_FIRST] =
     {
-        .name = _("HP {POKEBLOCK}"),
+        .name = _("{JPN}HP{POKEBLOCK}"),
         .itemId = ITEM_POKEBLOCK_HP,
         .secondaryId = TYPE_NONE,
         .price = 0,
@@ -685,9 +685,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_ATK - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Atk {POKEBLOCK}"),
+        .name = _("{JPN}こうげき{POKEBLOCK}"),
 #else
-        .name = _("ATK {POKEBLOCK}"),
+        .name = _("{JPN}こうげき{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_ATK,
         .secondaryId = TYPE_NONE,
@@ -703,9 +703,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_DEF - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Def {POKEBLOCK}"),
+        .name = _("{JPN}ぼうぎょ{POKEBLOCK}"),
 #else
-        .name = _("DEF {POKEBLOCK}"),
+        .name = _("{JPN}ぼうぎょ{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_DEF,
         .secondaryId = TYPE_NONE,
@@ -721,9 +721,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_SPEED - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Speed {POKEBLOCK}"),
+        .name = _("{JPN}すばやさ{POKEBLOCK}"),
 #else
-        .name = _("SPEED {POKEBLOCK}"),
+        .name = _("{JPN}すばやさ{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_SPEED,
         .secondaryId = TYPE_NONE,
@@ -739,9 +739,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_SPATK - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Sp.Atk {POKEBLOCK}"),
+        .name = _("{JPN}とくこう{POKEBLOCK}"),
 #else
-        .name = _("SP.ATK {POKEBLOCK}"),
+        .name = _("{JPN}とくこう{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_SPATK,
         .secondaryId = TYPE_NONE,
@@ -757,9 +757,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_POKEBLOCK_SPDEF - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Sp.Def {POKEBLOCK}"),
+        .name = _("{JPN}とくぼう{POKEBLOCK}"),
 #else
-        .name = _("SP.DEF {POKEBLOCK}"),
+        .name = _("{JPN}とくぼう{POKEBLOCK}"),
 #endif
         .itemId = ITEM_POKEBLOCK_SPDEF,
         .secondaryId = TYPE_NONE,
@@ -779,9 +779,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_SHOP_PRICE_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Discount Charm"),
+        .name = _("{JPN}わりびきの おふだ"),
 #else
-        .name = _("DISCOUNT CHARM"),
+        .name = _("{JPN}わりびきの おふだ"),
 #endif
         .itemId = ITEM_SHOP_PRICE_CHARM,
         .price = 0,
@@ -797,9 +797,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_FLINCH_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Flinch Charm"),
+        .name = _("{JPN}ひるみの おふだ"),
 #else
-        .name = _("FLINCH CHARM"),
+        .name = _("{JPN}ひるみの おふだ"),
 #endif
         .itemId = ITEM_FLINCH_CHARM,
         .price = 0,
@@ -815,9 +815,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_CRIT_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Crit Charm"),
+        .name = _("{JPN}きゅうしょの おふだ"),
 #else
-        .name = _("CRIT CHARM"),
+        .name = _("{JPN}きゅうしょの おふだ"),
 #endif
         .itemId = ITEM_CRIT_CHARM,
         .price = 0,
@@ -833,9 +833,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_SHED_SKIN_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Shed Skin Charm"),
+        .name = _("{JPN}だっぴの おふだ"),
 #else
-        .name = _("SHED SKIN CHARM"),
+        .name = _("{JPN}だっぴの おふだ"),
 #endif
         .itemId = ITEM_SHED_SKIN_CHARM,
         .price = 0,
@@ -851,9 +851,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_WILD_IV_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Strength Charm"),
+        .name = _("{JPN}ちからの おふだ"),
 #else
-        .name = _("STRENGTH CHARM"),
+        .name = _("{JPN}ちからの おふだ"),
 #endif
         .itemId = ITEM_WILD_IV_CHARM,
         .price = 0,
@@ -869,9 +869,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_CATCHING_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Catching Charm"),
+        .name = _("{JPN}ほかくの おふだ"),
 #else
-        .name = _("CATCHING CHARM"),
+        .name = _("{JPN}ほかくの おふだ"),
 #endif
         .itemId = ITEM_CATCHING_CHARM,
         .price = 0,
@@ -887,9 +887,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_GRACE_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Grace Charm"),
+        .name = _("{JPN}めぐみの おふだ"),
 #else
-        .name = _("GRACE CHARM"),
+        .name = _("{JPN}めぐみの おふだ"),
 #endif
         .itemId = ITEM_GRACE_CHARM,
         .price = 0,
@@ -905,9 +905,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_WILD_ENCOUNTER_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Wild Charm"),
+        .name = _("{JPN}やせいの おふだ"),
 #else
-        .name = _("WILD CHARM"),
+        .name = _("{JPN}やせいの おふだ"),
 #endif
         .itemId = ITEM_WILD_ENCOUNTER_CHARM,
         .price = 0,
@@ -923,9 +923,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_MOVE_PRIORITY_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Priority Charm"),
+        .name = _("{JPN}せんせいの おふだ"),
 #else
-        .name = _("PRIORITY CHARM"),
+        .name = _("{JPN}せんせいの おふだ"),
 #endif
         .itemId = ITEM_MOVE_PRIORITY_CHARM,
         .price = 0,
@@ -941,9 +941,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_ENDURE_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Endure Charm"),
+        .name = _("{JPN}こらえるの おふだ"),
 #else
-        .name = _("ENDURE CHARM"),
+        .name = _("{JPN}こらえるの おふだ"),
 #endif
         .itemId = ITEM_ENDURE_CHARM,
         .price = 0,
@@ -959,9 +959,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_TORMENT_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Torment Charm"),
+        .name = _("{JPN}いちゃもんの おふだ"),
 #else
-        .name = _("TORMENT CHARM"),
+        .name = _("{JPN}いちゃもんの おふだ"),
 #endif
         .itemId = ITEM_TORMENT_CHARM,
         .price = 0,
@@ -977,9 +977,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_PRESSURE_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Pressure Charm"),
+        .name = _("{JPN}プレッシャーおふだ"),
 #else
-        .name = _("PRESSURE CHARM"),
+        .name = _("{JPN}プレッシャーおふだ"),
 #endif
         .itemId = ITEM_PRESSURE_CHARM,
         .price = 0,
@@ -995,9 +995,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_UNAWARE_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Unaware Charm"),
+        .name = _("{JPN}てんねんの おふだ"),
 #else
-        .name = _("UNAWARE CHARM"),
+        .name = _("{JPN}てんねんの おふだ"),
 #endif
         .itemId = ITEM_UNAWARE_CHARM,
         .price = 0,
@@ -1013,9 +1013,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_ADAPTABILITY_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("AdaptbltyCharm"),
+        .name = _("{JPN}てきおうの おふだ"),
 #else
-        .name = _("ADAPTBLTYCHARM"),
+        .name = _("{JPN}てきおうの おふだ"),
 #endif
         .itemId = ITEM_ADAPTABILITY_CHARM,
         .price = 0,
@@ -1031,9 +1031,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_INFINITE_EXTRA_LIFE_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Retry Charm"),
+        .name = _("{JPN}やりなおしおふだ"),
 #else
-        .name = _("RETRY CHARM"),
+        .name = _("{JPN}やりなおしおふだ"),
 #endif
         .itemId = ITEM_INFINITE_EXTRA_LIFE_CHARM,
         .price = 0,
@@ -1049,9 +1049,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_ALLOW_SAVE_SCUM_CHARM - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Save Charm"),
+        .name = _("{JPN}セーブの おふだ"),
 #else
-        .name = _("SAVE CHARM"),
+        .name = _("{JPN}セーブの おふだ"),
 #endif
         .itemId = ITEM_ALLOW_SAVE_SCUM_CHARM,
         .price = 0,
@@ -1067,9 +1067,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_SHOP_PRICE_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Discount Curse"),
+        .name = _("{JPN}わりびきの のろい"),
 #else
-        .name = _("DISCOUND CURSE"),
+        .name = _("{JPN}わりびきの のろい"),
 #endif
         .itemId = ITEM_SHOP_PRICE_CURSE,
         .price = 0,
@@ -1085,9 +1085,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_FLINCH_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Flinch Curse"),
+        .name = _("{JPN}ひるみの のろい"),
 #else
-        .name = _("FLINCH CURSE"),
+        .name = _("{JPN}ひるみの のろい"),
 #endif
         .itemId = ITEM_FLINCH_CURSE,
         .price = 0,
@@ -1103,9 +1103,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_CRIT_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Crit Curse"),
+        .name = _("{JPN}きゅうしょの のろい"),
 #else
-        .name = _("CRIT CURSE"),
+        .name = _("{JPN}きゅうしょの のろい"),
 #endif
         .itemId = ITEM_CRIT_CURSE,
         .price = 0,
@@ -1121,9 +1121,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_SHED_SKIN_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Shed Skin Curse"),
+        .name = _("{JPN}だっぴの のろい"),
 #else
-        .name = _("SHED SKIN CURSE"),
+        .name = _("{JPN}だっぴの のろい"),
 #endif
         .itemId = ITEM_SHED_SKIN_CURSE,
         .price = 0,
@@ -1139,9 +1139,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_WILD_IV_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Strength Curse"),
+        .name = _("{JPN}ちからの のろい"),
 #else
-        .name = _("STRENGTH CURSE"),
+        .name = _("{JPN}ちからの のろい"),
 #endif
         .itemId = ITEM_WILD_IV_CURSE,
         .price = 0,
@@ -1157,9 +1157,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_CATCHING_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Catching Curse"),
+        .name = _("{JPN}ほかくの のろい"),
 #else
-        .name = _("CATCHING CURSE"),
+        .name = _("{JPN}ほかくの のろい"),
 #endif
         .itemId = ITEM_CATCHING_CURSE,
         .price = 0,
@@ -1175,9 +1175,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_GRACE_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Grace Curse"),
+        .name = _("{JPN}めぐみの のろい"),
 #else
-        .name = _("GRACE CURSE"),
+        .name = _("{JPN}めぐみの のろい"),
 #endif
         .itemId = ITEM_GRACE_CURSE,
         .price = 0,
@@ -1193,9 +1193,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_WILD_ENCOUNTER_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Wild Curse"),
+        .name = _("{JPN}やせいの のろい"),
 #else
-        .name = _("WILD CURSE"),
+        .name = _("{JPN}やせいの のろい"),
 #endif
         .itemId = ITEM_WILD_ENCOUNTER_CURSE,
         .price = 0,
@@ -1211,9 +1211,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_PARTY_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Capacity Curse"),
+        .name = _("{JPN}ようりょうの のろい"),
 #else
-        .name = _("CAPACITY CURSE"),
+        .name = _("{JPN}ようりょうの のろい"),
 #endif
         .itemId = ITEM_PARTY_CURSE,
         .price = 0,
@@ -1229,9 +1229,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_EVERSTONE_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Everstone Curse"),
+        .name = _("{JPN}かわらずの のろい"),
 #else
-        .name = _("EVERSTONE CURSE"),
+        .name = _("{JPN}かわらずの のろい"),
 #endif
         .itemId = ITEM_EVERSTONE_CURSE,
         .price = 0,
@@ -1247,9 +1247,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_BATTLE_ITEM_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Embargo Curse"),
+        .name = _("{JPN}さしおさえの のろい"),
 #else
-        .name = _("EMBARGO CURSE"),
+        .name = _("{JPN}さしおさえの のろい"),
 #endif
         .itemId = ITEM_BATTLE_ITEM_CURSE,
         .price = 0,
@@ -1265,9 +1265,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_SPECIES_CLAUSE_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Species Curse"),
+        .name = _("{JPN}すがたの のろい"),
 #else
-        .name = _("SPECIES CURSE"),
+        .name = _("{JPN}すがたの のろい"),
 #endif
         .itemId = ITEM_SPECIES_CLAUSE_CURSE,
         .price = 0,
@@ -1283,9 +1283,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_SHUFFLE_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Shuffle Curse"),
+        .name = _("{JPN}シャッフルの のろい"),
 #else
-        .name = _("SHUFFLE CURSE"),
+        .name = _("{JPN}シャッフルの のろい"),
 #endif
         .itemId = ITEM_SHUFFLE_CURSE,
         .price = 0,
@@ -1301,9 +1301,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_SNOWBALL_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Snowball Curse"),
+        .name = _("{JPN}ゆきだるまのろい"),
 #else
-        .name = _("SNOWBALL CURSE"),
+        .name = _("{JPN}ゆきだるまのろい"),
 #endif
         .itemId = ITEM_SNOWBALL_CURSE,
         .price = 0,
@@ -1319,9 +1319,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_RANDOMAN_ROUTE_SPAWN_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Wahey Curse"),
+        .name = _("{JPN}ワーイの のろい"),
 #else
-        .name = _("WAHEY CURSE"),
+        .name = _("{JPN}ワーイの のろい"),
 #endif
         .itemId = ITEM_RANDOMAN_ROUTE_SPAWN_CURSE,
         .price = 0,
@@ -1337,9 +1337,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_RANDOMAN_ALWAYS_SPAWN_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Wahey+ Curse"),
+        .name = _("{JPN}ワーイ{PLUS}の のろい"),
 #else
-        .name = _("WAHEY+ CURSE"),
+        .name = _("{JPN}ワーイ{PLUS}の のろい"),
 #endif
         .itemId = ITEM_RANDOMAN_ALWAYS_SPAWN_CURSE,
         .price = 0,
@@ -1355,9 +1355,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_AUTO_MOVE_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Auto Move Curse"),
+        .name = _("{JPN}じどうわざの のろい"),
 #else
-        .name = _("AUTO MOVE CURSE"),
+        .name = _("{JPN}じどうわざの のろい"),
 #endif
         .itemId = ITEM_AUTO_MOVE_CURSE,
         .price = 0,
@@ -1373,9 +1373,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_ONE_HIT_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("OHKO Curse"),
+        .name = _("{JPN}いちげきの のろい"),
 #else
-        .name = _("OHKO CURSE"),
+        .name = _("{JPN}いちげきの のろい"),
 #endif
         .itemId = ITEM_ONE_HIT_CURSE,
         .price = 0,
@@ -1391,9 +1391,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_SNAG_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Snag Curse"),
+        .name = _("{JPN}スナッチの のろい"),
 #else
-        .name = _("SNAG CURSE"),
+        .name = _("{JPN}スナッチの のろい"),
 #endif
         .itemId = ITEM_SNAG_CURSE,
         .price = 0,
@@ -1409,9 +1409,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_WILD_EGG_SPECIES_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Baby Curse"),
+        .name = _("{JPN}ベイビィの のろい"),
 #else
-        .name = _("BABY CURSE"),
+        .name = _("{JPN}ベイビィの のろい"),
 #endif
         .itemId = ITEM_WILD_EGG_SPECIES_CURSE,
         .price = 0,
@@ -1427,9 +1427,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_MOVE_PRIORITY_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Priority Curse"),
+        .name = _("{JPN}せんせいの のろい"),
 #else
-        .name = _("PRIORITY CURSE"),
+        .name = _("{JPN}せんせいの のろい"),
 #endif
         .itemId = ITEM_MOVE_PRIORITY_CURSE,
         .price = 0,
@@ -1445,9 +1445,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_ENDURE_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Endure Curse"),
+        .name = _("{JPN}こらえるの のろい"),
 #else
-        .name = _("ENDURE CURSE"),
+        .name = _("{JPN}こらえるの のろい"),
 #endif
         .itemId = ITEM_ENDURE_CURSE,
         .price = 0,
@@ -1463,9 +1463,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_TORMENT_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Torment Curse"),
+        .name = _("{JPN}いちゃもんの のろい"),
 #else
-        .name = _("TORMENT CURSE"),
+        .name = _("{JPN}いちゃもんの のろい"),
 #endif
         .itemId = ITEM_TORMENT_CURSE,
         .price = 0,
@@ -1481,9 +1481,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_PRESSURE_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Pressure Curse"),
+        .name = _("{JPN}プレッシャーのろい"),
 #else
-        .name = _("PRESSURE CURSE"),
+        .name = _("{JPN}プレッシャーのろい"),
 #endif
         .itemId = ITEM_PRESSURE_CURSE,
         .price = 0,
@@ -1499,9 +1499,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_UNAWARE_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("Unaware Curse"),
+        .name = _("{JPN}てんねんの のろい"),
 #else
-        .name = _("UNAWARE CURSE"),
+        .name = _("{JPN}てんねんの のろい"),
 #endif
         .itemId = ITEM_UNAWARE_CURSE,
         .price = 0,
@@ -1517,9 +1517,9 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     [ITEM_ADAPTABILITY_CURSE - ITEM_ROGUE_ITEM_FIRST] =
     {
 #ifdef ROGUE_EXPANSION
-        .name = _("AdaptbltyCurse"),
+        .name = _("{JPN}てきおうの のろい"),
 #else
-        .name = _("ADAPTBLTYCURSE"),
+        .name = _("{JPN}てきおうの のろい"),
 #endif
         .itemId = ITEM_ADAPTABILITY_CURSE,
         .price = 0,
@@ -1534,7 +1534,7 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     
     [ITEM_TR01 - ITEM_ROGUE_ITEM_FIRST] =
     {
-        .name = _("TR"),
+        .name = _("{JPN}わざレコード"),
         .itemId = ITEM_TR01,
         .price = 1000,
         .description = gText_DexEmptyString,
@@ -1547,7 +1547,7 @@ const struct RogueItem gRogueItems[ITEM_ROGUE_ITEM_COUNT] =
     },
     [ITEM_TR50 - ITEM_ROGUE_ITEM_FIRST] =
     {
-        .name = _("TR"),
+        .name = _("{JPN}わざレコード"),
         .itemId = ITEM_TR50,
         .price = 1000,
         .description = gText_DexEmptyString,
